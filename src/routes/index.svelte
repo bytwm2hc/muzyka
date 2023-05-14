@@ -1,6 +1,7 @@
 <script>
-	import { formatDuration } from './../helpers/format.js';
-	import { onMount } from 'svelte';
+    'use strict';
+	import { onMount, onDestroy } from 'svelte';
+	import { formatDuration } from '../helpers/format.js';
 	import {
 		source,
 		title,
@@ -26,9 +27,65 @@
 		slider,
 		duration,
 		audio,
+		audioContext,
+		sourceNode,
+		isPause,
+		startTime,
+		convolverNode,
+		volumeNode,
+		lowShelf,
+		buffer,
+		seekTime,
 		playModeIcon = 'repeat';
 
 	onMount(() => {
+		'use strict';
+		const AudioContext = window.AudioContext || window.webkitAudioContext;
+		audioContext = new AudioContext();
+
+		convolverNode = audioContext.createConvolver();
+		volumeNode = audioContext.createGain();
+        const gainDryNode = audioContext.createGain();
+        const gainWetNode = audioContext.createGain();
+        gainDryNode.connect(volumeNode);
+        gainWetNode.connect(volumeNode);
+        volumeNode.connect(audioContext.destination);
+        convolverNode.connect(gainWetNode);
+        const iOS = /iPad|iPhone|iPod/.test(navigator.platform) || (navigator.platform.indexOf('Mac') !== -1 && "ontouchend" in document);
+        const safariMac = navigator.platform.indexOf('Mac') !== -1 && navigator.userAgent.indexOf('Safari') !== -1;
+        if (iOS || safariMac) {
+            gainDryNode.gain.value = 0.8125;
+            gainWetNode.gain.value = 0.3125;
+        } else {
+            gainDryNode.gain.value = 0.875;
+            gainWetNode.gain.value = 0.1875;
+        }
+        fetch("6 Spaces 09 Arena Quad.wav").then(function (response) {
+            'use strict';
+            response.arrayBuffer().then(function (ab) {
+                'use strict';
+                try {
+                    audioContext.decodeAudioData(ab).then(function (data) {
+                        'use strict';
+                        convolverNode.buffer = data;
+                    });
+                }
+                catch (error) {
+                    audioContext.decodeAudioData(ab, function (data) {
+                        'use strict';
+                        convolverNode.buffer = data;
+                    });
+                }
+            });
+        });
+
+    lowShelf = audioContext.createBiquadFilter();
+    lowShelf.type = "lowshelf";
+    lowShelf.frequency.value = 121.43;
+    lowShelf.gain.value = 3.97941;
+
+    lowShelf.connect(gainDryNode);
+
 		audio.onended = async () => {
 			isPlay.set(false);
 			time = 0;
@@ -53,25 +110,123 @@
 		};
 	});
 
-	const playAudio = () => {
+	const playAudio = (toPause = true) => {
 		if ($source) {
-			audio.paused ? audio.play() : audio.pause();
-			audio.paused ? isPlay.set(false) : isPlay.set(true);
+			//audio.paused ? audio.play() : audio.pause();
+			//audio.paused ? isPlay.set(false) : isPlay.set(true);
+			const u = 'https://cdn.bytwm2hc.xyz/tmp/01t.caf?raw';
+		if (audioContext.state === 'suspended') {
+			audioContext.resume();
+		}
+
+		// Detect if we're in playing and need a pause
+		if (sourceNode) {
+			if (toPause) {
+				seekTime = audioContext.currentTime - startTime;
+			}
+			sourceNode.stop();
+			sourceNode = false;
+			isPause = true;
+			isPlay.set(false);
+			return;
+		}
+		sourceNode = audioContext.createBufferSource();
+		
+		// Resume playing
+		if (isPause) {
+			sourceNode.buffer = buffer;
+			sourceNode.connect(convolverNode);
+			sourceNode.connect(lowShelf);
+			try {
+				if (sourceNode.start) {
+					sourceNode.start(0, seekTime);
+				} else if (sourceNode.noteOn) {
+					sourceNode.noteOn(0, seekTime);
+				}
+				startTime = audioContext.currentTime - seekTime;
+				updateTime(false);
+				isPause = false;
+				isPlay.set(true);
+			} catch (error) {
+				return;
+			}
+			return; // End!
+		}
+
+		let fileFormat = '';
+		const safariMac = navigator.platform.indexOf('Mac') !== -1 && navigator.userAgent.indexOf('Safari') !== -1;
+		const isCAFSupported = new Audio().canPlayType('audio/x-caf; codecs=opus') === 'probably' || safariMac;
+        const isOGGSupported = new Audio().canPlayType('audio/ogg; codecs=opus') === 'probably';
+        isCAFSupported ? (fileFormat = '.caf?proxied') : (isOGGSupported ? (fileFormat = '.opus?raw&proxied') : true);
+        fetch(u).then(function (response) {
+            'use strict';
+            response.arrayBuffer().then(function (arrayBuffer) {
+                'use strict';
+                try {
+                    audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
+                        'use strict';
+                        sourceNode.connect(convolverNode);
+                        sourceNode.connect(lowShelf);
+
+                        try {
+                            sourceNode.buffer = audioData;
+                            buffer = audioData;
+                            duration = sourceNode.buffer.duration;
+                        } catch (ignored) {}
+                        try {
+                            if (sourceNode.start) {
+                                sourceNode.start(0);
+                                startTime = audioContext.currentTime;
+                                updateTime(false);
+                                isPlay.set(true);
+                            } else if (sourceNode.noteOn) {
+                                sourceNode.noteOn(0);
+                                startTime = audioContext.currentTime;
+                                updateTime(false);
+                                isPlay.set(true);
+                            }
+                        } catch (error) {
+                            return;
+                        }
+                    });
+                } catch (ignored) {}
+            });
+        });
 		} else {
 			showError();
 		}
 	};
 
-	const seek = () => (time = slider.value);
-	const seekVolume = () => (audio.volume = volumeSlider.value);
+	const seek = () => {
+		sourceNode.stop();
+		sourceNode = audioContext.createBufferSource();
+		sourceNode.buffer = buffer;
+		sourceNode.connect(convolverNode);
+		sourceNode.connect(lowShelf);
+		try {
+			if (sourceNode.start) {
+				sourceNode.start(0, slider.value);
+				startTime = audioContext.currentTime - slider.value;
+				updateTime(false);
+			} else if (sourceNode.noteOn) {
+				sourceNode.noteOn(0, slider.value);
+				startTime = audioContext.currentTime - slider.value;
+				updateTime(false);
+			}
+		} catch (error) {
+			return;
+		}
+	};
+	const seekVolume = () => (volumeNode.gain.value = volumeSlider.value);
 	const muteVolume = () => {
 		muted = !muted;
 		if (muted) {
 			currentVolume = volumeSlider.value;
-			volume = 0;
+			volumeNode.gain.value = 0;
 			volumeSlider.value = 0;
 		} else {
 			volumeSlider.value = currentVolume;
+			volumeNode.gain.value = currentVolume;
 		}
 	};
 
@@ -125,6 +280,20 @@
 		}
 	};
 
+    const updateTime = (isBeaconing) => {
+    'use strict';
+    if (isBeaconing) {
+        return;
+    }
+    if (!sourceNode || sourceNode.buffer === null) {
+        return;
+    }
+    if (audioContext.currentTime - startTime <= sourceNode.buffer.duration) {
+        time = audioContext.currentTime - startTime;
+        // next run
+        setTimeout(updateTime.bind(null, false), 100);
+    }};
+
 	let isLyricsPanel = false;
 </script>
 
@@ -137,11 +306,7 @@
 		<h1 class="card__title">{$title}</h1>
 		<p class="card__artist">{$artist}</p>
 		<img class="card__album" draggable="false" src="/img/{$albumCover}" alt={$album} />
-		<button
-			type="button"
-			on:click={() => ($source ? (isLyricsPanel = !isLyricsPanel) : showError())}
-			class="card__lyrics-playlist-btn">See {isLyricsPanel ? 'Playlist' : 'Lyrics'}</button
-		>
+		<button type="button" on:click={() => isLyricsPanel = !isLyricsPanel} class="card__lyrics-playlist-btn">See {isLyricsPanel ? 'Playlist' : 'Lyrics'}</button>
 		<input
 			type="range"
 			on:input={seek}
@@ -161,15 +326,11 @@
 		</div>
 		<div class="card__actions">
 			<button type="button" on:click={prevSong}><i class="fas fa-fw fa-backward" /></button>
-			<button type="button" on:click={playAudio} class="play"
-				><i class="fas fa-fw fa-{!$isPlay || ended ? 'play' : 'pause'}" /></button
-			>
+			<button type="button" on:click={playAudio} class="play"><i class="fas fa-fw fa-{!$isPlay || ended ? 'play' : 'pause'}" /></button>
 			<button type="button" on:click={nextSong}><i class="fas fa-fw fa-forward" /></button>
 		</div>
 		<div class="card__actions--volume">
-			<button type="button" on:click={muteVolume}
-				><i class="fas fa-fw fa-volume-{muted ? 'mute' : 'up'}" /></button
-			>
+			<button type="button" on:click={muteVolume}><i class="fas fa-fw fa-volume-{muted ? 'mute' : 'up'}" /></button>
 			<input
 				type="range"
 				class="card__slider card__slider--volume"
@@ -181,27 +342,20 @@
 				step=".001"
 			/>
 		</div>
-		<p class="card__copyright">
-			&copy; 2022 by <a href="https://m-adithya.my.id" target="_blank">Mohamad Adithya</a>
-		</p>
+		<p class="card__copyright">&copy; 2022 by <a href="https://m-adithya.my.id" target="_blank">Mohamad Adithya</a></p>
 	</div>
 	<!-- Playlist Panel -->
 	<div class="card-playlist" style="height: 556px;">
 		<div class="card-playlist__header">
-			{#if isLyricsPanel}
+			{#if isLyricsPanel }
 				<h1 class="lyrics">Lyrics</h1>
 			{:else}
 				<h1>My Playlist</h1>
 				<p>{songs.length} {songs.length === 1 ? 'song' : 'songs'}</p>
 			{/if}
 		</div>
-		<div
-			class="card-playlist__container"
-			style="padding-bottom: {songs.length > 5 ? '1em' : 0}; {!isLyricsPanel
-				? 'padding: 0 0.3em 0.9em 0.3em;'
-				: ''}"
-		>
-			{#if isLyricsPanel}
+		<div class="card-playlist__container" style="padding-bottom: {songs.length > 5 ? '1em' : 0}; {!isLyricsPanel ? 'padding: 0 0.3em 0.9em 0.3em;' : ''}">
+			{#if isLyricsPanel }
 				<p>{@html $lyrics}</p>
 			{:else}
 				{#each songs as song, i}
@@ -247,10 +401,10 @@
 	}
 
 	.card .card__lyrics-playlist-btn {
-		margin-bottom: 0.5em;
+		margin-bottom: .5em;
 		font-family: 'Poppins', sans-serif;
 		text-transform: uppercase;
-		letter-spacing: 0.2em;
+		letter-spacing: .2em;
 	}
 
 	.card .card__title {
@@ -345,7 +499,7 @@
 		position: sticky;
 		top: 0;
 		width: 100%;
-		background-color: white;
+		/* background-color: white; */
 	}
 
 	.card-playlist .card-playlist__header > h1 {
@@ -356,7 +510,7 @@
 	}
 
 	.card-playlist .card-playlist__header > h1:is(.lyrics) {
-		margin-bottom: 0.8em;
+		margin-bottom: .8em;
 	}
 
 	.card-playlist .card-playlist__header > p {
