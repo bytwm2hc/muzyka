@@ -68,8 +68,8 @@
             gainDryNode.gain.value = 0.8125;
             gainWetNode.gain.value = 0.3125;
         } else {
-            gainDryNode.gain.value = 0.875;
-            gainWetNode.gain.value = 0.1875;
+            gainDryNode.gain.value = 0.8125;
+            gainWetNode.gain.value = 0.3125;
         }
         fetch("6 Spaces 09 Arena Quad.wav").then(function (response) {
             'use strict';
@@ -126,7 +126,7 @@
             //audio.paused ? audio.play() : audio.pause();
             //audio.paused ? isPlay.set(false) : isPlay.set(true);
             const u = 'https://cdn.bytwm2hc.xyz/tmp/01t.caf?raw';
-            if (audioContext.state === 'suspended') {
+            if (audioContext.state === "suspended" || audioContext.state === "interrupted") {
                 audioContext.resume();
             }
 
@@ -248,14 +248,25 @@
     const changeSong = async ({
         song
     }, i) => {
-        index.set(i);
-        title.set(song.title);
-        artist.set(song.artist);
-        album.set(song.album.name);
-        albumCover.set(song.album.cover);
-        lyrics.set(song.lyrics);
-        await source.set(song.filename);
-        playAudio(true);
+        $: if (song.title == $title || i == 0) {
+            index.set(i);
+            title.set(song.title);
+            artist.set(song.artist);
+            album.set(song.album.name);
+            albumCover.set(song.album.cover);
+            lyrics.set(song.lyrics);
+            await source.set(song.filename);
+            playAudio(true);
+        } else {
+            index.set(i);
+            title.set(song.title);
+            artist.set(song.artist);
+            album.set(song.album.name);
+            albumCover.set(song.album.cover);
+            lyrics.set(song.lyrics);
+            await source.set(song.filename);
+            playAudio(false);
+        }
     };
 
     const lastSong = songs.length - 1;
