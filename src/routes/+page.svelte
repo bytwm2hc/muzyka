@@ -213,6 +213,8 @@
                 response.arrayBuffer().then(function (arrayBuffer) {
                     'use strict';
                     try {
+                        let dst = new ArrayBuffer(arrayBuffer.byteLength);
+                        new Uint8Array(dst).set(new Uint8Array(arrayBuffer));
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
                             sourceNode.connect(convolverNode);
@@ -240,7 +242,7 @@
                                 return;
                             }
                         }, async function (error) {
-                        var array = new Uint8Array(arrayBuffer);
+                        var array = new Uint8Array(dst);
 
                         let filename = "input.wv";
                         let stream = FS.open(filename, "w+");
