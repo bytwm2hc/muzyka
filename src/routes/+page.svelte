@@ -310,6 +310,7 @@
                         //messengerWorkletNode.connect(context.destination);
                         messengerWorkletNode.connect(convolverNode);
                         messengerWorkletNode.connect(lowShelf);
+                        isPlay.set(true);
                     });
                     } catch (ignored) {}
                 });
