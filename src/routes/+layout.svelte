@@ -18,6 +18,8 @@
 </svelte:head>
 
 <main>
+<script src="MessengerWorkletNode.js"></script>
+<script src="wavpack.js"></script>
 <slot />
 </main>
 

@@ -47,7 +47,8 @@
         lowShelf,
         buffer,
         seekTime,
-        playModeIcon = 'repeat';
+        playModeIcon = 'repeat',
+        onended;
 
     onMount(() => {
         'use strict';
@@ -119,13 +120,48 @@
         	}
         }; */
     });
+    
+    onended = async() => {
+        isPlay.set(false);
+        time = 0;
+        duration = 0;
+        let lastSong = songs.length - 1;
+        if ($playMode === PLAY_MODE[0]) {
+        	let nextSong = $index + 1;
+        	index.set(nextSong);
+        	if ($index > lastSong) {
+        		nextSong = 0;
+    		}
+    		index.set(nextSong);
+    		title.set(songs[nextSong].title);
+            artist.set(songs[nextSong].artist);
+            album.set(songs[nextSong].album.name);
+            albumCover.set(songs[nextSong].album.cover);
+            lyrics.set(songs[nextSong].lyrics);
+            await source.set(songs[nextSong].filename);
+            playAudio();
+    	} else if ($playMode === PLAY_MODE[1]) {
+        	const randomSong = songs[Math.floor(Math.random() * songs.length)];
+        	const randomIndex = songs.indexOf(randomSong);
+        	index.set(randomIndex);
+        	title.set(songs[randomIndex].title);
+            artist.set(songs[randomIndex].artist);
+            album.set(songs[randomIndex].album.name);
+            albumCover.set(songs[randomIndex].album.cover);
+            lyrics.set(songs[randomIndex].lyrics);
+            await source.set(songs[randomIndex].filename);
+            playAudio();
+        } else {
+        	playAudio();
+        }
+    };
 
     const playAudio = (toPause) => {
     	'use strict';
         if ($source) {
             //audio.paused ? audio.play() : audio.pause();
             //audio.paused ? isPlay.set(false) : isPlay.set(true);
-            const u = 'https://cdn.bytwm2hc.xyz/tmp/01t.caf?raw';
+            const u = 'https://cdn.bytwm2hc.xyz/01. ハッピーシンセサイザ.wv?raw';
             if (audioContext.state === "suspended" || audioContext.state === "interrupted") {
                 audioContext.resume();
             }
@@ -135,11 +171,14 @@
                 if (toPause) {
                     seekTime = audioContext.currentTime - startTime;
                 }
+                sourceNode.onended = null;
                 sourceNode.stop();
                 sourceNode = false;
-                isPause = true;
-                isPlay.set(false);
-                return;
+                if (toPause) {
+                    isPause = true;
+                    isPlay.set(false);
+                    return;
+                }
             }
             sourceNode = audioContext.createBufferSource();
 
@@ -178,8 +217,7 @@
                             'use strict';
                             sourceNode.connect(convolverNode);
                             sourceNode.connect(lowShelf);
-                            // To remove (for temp)
-                            sourceNode.loop = true;
+                            sourceNode.onended = onended;
 
                             try {
                                 sourceNode.buffer = audioData;
@@ -201,7 +239,70 @@
                             } catch (error) {
                                 return;
                             }
+                        }, async function (error) {
+                        var array = new Uint8Array(arrayBuffer);
+
+                        let filename = "input.wv";
+                        let stream = FS.open(filename, "w+");
+                        FS.write(stream, array, 0, array.length, 0);
+                        FS.close(stream);
+
+                        playbackStatus = 0;
+                        decodedsamples = 0;
+
+                        const bytes_per_element = Module.HEAP32.BYTES_PER_ELEMENT;
+
+                        if (typeof arrayPointer == "undefined") {
+                            arrayPointer = Module._malloc(4096 * bytes_per_element);
+                        }
+
+                        let musicdata = new Int32Array(4096).fill(0);
+                        Module.HEAP32.set(musicdata, arrayPointer / bytes_per_element);
+
+                        // lets initialise the WavPack file so we know its sample rate,
+                        // number of channels, bytes per sample etc.
+
+                        Module.ccall("initialiseWavPack", null, ["string"], [filename]);
+
+                        sample_rate = Module.ccall("GetSampleRate", null, [], []);
+                        // sample_rate = 44100;
+                        window.console.log("sample_rate is ", sample_rate);
+
+                        numChannels = Module.ccall("GetNumChannels", null, [], []);
+                        window.console.log("(reduced) number of channels is ", numChannels);
+
+                        var totalNumSamples = Module.ccall("GetNumSamples", null, [], []);
+                        window.console.log("Number of samples is ", totalNumSamples);
+
+                        min_sample_size = min_sample_duration * sample_rate;
+
+                        bps = Module.ccall("GetBytesPerSample", null, [], []);
+                        window.console.log("bytes per sample is ", bps);
+
+                        floatDivisor = Math.pow(2, bps * 8 - 1);
+
+                        context = new AudioContext({
+                            latencyHint: "interactive",
+                            sampleRate: sample_rate,
                         });
+                        context.resume();
+
+                        // oninput = handleVolumeEvents;
+                        // var aw = await context.audioWorklet.addModule("./messenger-processor.js");
+
+                        await fetch("messenger-processor.js").then((response) => response.text()).then((text) => {
+                            'use strict';
+                            const blob = new Blob([text], { type: 'application/javascript; charset=utf-8' });
+                            const objectUrl = URL.createObjectURL(blob);
+
+                            
+                            return context.audioWorklet.addModule(objectUrl).finally(() => URL.revokeObjectURL(objectUrl));
+                        });
+
+                        var awopt = { outputChannelCount: [numChannels] }; // so we can get stereo output, this is our AudioWorkletNodeOptions
+                        messengerWorkletNode = new MessengerWorkletNode(context, awopt);
+                        messengerWorkletNode.connect(context.destination);
+                    });
                     } catch (ignored) {}
                 });
             });
@@ -212,11 +313,13 @@
 
     const seek = () => {
     	'use strict';
+    	sourceNode.onended = null;
         sourceNode.stop();
         sourceNode = audioContext.createBufferSource();
         sourceNode.buffer = buffer;
         sourceNode.connect(convolverNode);
         sourceNode.connect(lowShelf);
+        sourceNode.onended = onended;
         try {
             if (sourceNode.start) {
                 sourceNode.start(0, slider.value);
@@ -248,7 +351,7 @@
     const changeSong = async ({
         song
     }, i) => {
-        $: if (song.title == $title || i == 0) {
+        if (song.title == $title) {
             index.set(i);
             title.set(song.title);
             artist.set(song.artist);
