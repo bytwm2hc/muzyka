@@ -304,7 +304,9 @@
 
                         var awopt = { outputChannelCount: [numChannels] }; // so we can get stereo output, this is our AudioWorkletNodeOptions
                         messengerWorkletNode = new MessengerWorkletNode(context, awopt);
-                        messengerWorkletNode.connect(context.destination);
+                        //messengerWorkletNode.connect(context.destination);
+                        messengerWorkletNode.connect(convolverNode);
+                        messengerWorkletNode.connect(lowShelf);
                     });
                     } catch (ignored) {}
                 });
