@@ -283,11 +283,12 @@
 
                         floatDivisor = Math.pow(2, bps * 8 - 1);
 
-                        context = new AudioContext({
-                            latencyHint: "interactive",
-                            sampleRate: sample_rate,
-                        });
-                        context.resume();
+                        //context = new AudioContext({
+                        //    latencyHint: "interactive",
+                        //    sampleRate: sample_rate,
+                        //});
+                        //context.resume();
+                        context = audioContext;
 
                         // oninput = handleVolumeEvents;
                         // var aw = await context.audioWorklet.addModule("./messenger-processor.js");
