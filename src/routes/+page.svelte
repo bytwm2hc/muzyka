@@ -172,7 +172,10 @@
                     seekTime = audioContext.currentTime - startTime;
                 }
                 sourceNode.onended = null;
-                sourceNode.stop();
+                try {
+                    sourceNode.stop();
+                }
+                catch (ignored) {}
                 sourceNode = false;
                 if (toPause) {
                     isPause = true;

@@ -14,10 +14,6 @@ let bps = 2;
 
 let playbackStatus = 0; // 0 = normal play, 1 ran out of data, 2 requested to stop
 
-const butOpenFile = document.getElementById("fileloader");
-const butStop = document.getElementById("stopplay");
-const playbackvolume = document.getElementById("volume");
-
 let messengerWorkletNode;
 
 var arrayPointer;
