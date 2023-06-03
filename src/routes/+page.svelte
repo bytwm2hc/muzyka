@@ -161,7 +161,7 @@
         if ($source) {
             //audio.paused ? audio.play() : audio.pause();
             //audio.paused ? isPlay.set(false) : isPlay.set(true);
-            const u = 'https://cdn.bytwm2hc.xyz/01. ハッピーシンセサイザ.wv?raw';
+            const u = 'https://cdn.bytwm2hc.xyz/a2.caf?raw';
             if (audioContext.state === "suspended" || audioContext.state === "interrupted") {
                 audioContext.resume();
             }
