@@ -31,13 +31,6 @@
 
     const min_sample_duration = 2, // sec
           fetching_interval = 5; // ms
-    var sample_rate = 44100,
-        numChannels = 2,
-        bps = 2,
-        decodedamount = 1,
-        arrayPointer,
-        fetched_data_left = new Float32Array(0),
-        fetched_data_right = new Float32Array(0);
     let audio, // bind <audio> element
         time = 0, // song played time
         slider, // bind song seek time UI <input type="range"> element
@@ -59,6 +52,13 @@
         playModeIcon = 'repeat',
         isLyricsPanel = false,
         // Wavpack
+        sample_rate = 44100,
+        numChannels = 2,
+        bps = 2,
+        decodedamount = 1,
+        arrayPointer,
+        fetched_data_left = new Float32Array(0),
+        fetched_data_right = new Float32Array(0),
         min_sample_size = 100,
         end_of_song_reached = false,
         stopped = false,
@@ -244,6 +244,8 @@
                 'use strict';
                 response.arrayBuffer().then(function (arrayBuffer) {
                     'use strict';
+                    let wvData = new ArrayBuffer(arrayBuffer.byteLength);
+                    new Uint8Array(wvData).set(new Uint8Array(arrayBuffer));
                     try {
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
@@ -274,7 +276,7 @@
                             fetched_data_left = new Float32Array(0);
                             fetched_data_right = new Float32Array(0);
                             const bytes_per_element = Module.HEAP32.BYTES_PER_ELEMENT,
-                                  data = new Uint8Array(arrayBuffer),
+                                  data = new Uint8Array(wvData),
                                   filename = 'input.wv',
                                   stream = FS.open(filename, 'w+');
                             FS.write(stream, data, 0, data.length, 0);
