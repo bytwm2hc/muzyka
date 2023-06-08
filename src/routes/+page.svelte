@@ -39,12 +39,12 @@
         duration,
         audio,
         audioContext,
-        sourceNode,
         isPause,
         startTime,
         convolverNode,
         volumeNode,
         lowShelf,
+        sourceNode,
         buffer,
         seekTime,
         playModeIcon = 'repeat',
@@ -94,9 +94,10 @@
         lowShelf.type = "lowshelf";
         lowShelf.frequency.value = 121.43;
         lowShelf.gain.value = 3.97941;
-
         lowShelf.connect(gainDryNode);
 
+        window.onEnded = onended;
+        
         /* audio.onended = async () => {
         	isPlay.set(false);
         	time = 0;
@@ -161,7 +162,7 @@
         if ($source) {
             //audio.paused ? audio.play() : audio.pause();
             //audio.paused ? isPlay.set(false) : isPlay.set(true);
-            const u = 'https://cdn.bytwm2hc.xyz/a2.caf?raw';
+            const u = 'https://cdn.bytwm2hc.xyz/o';
             if (audioContext.state === "suspended" || audioContext.state === "interrupted") {
                 audioContext.resume();
             }
@@ -206,12 +207,23 @@
                 return; // End!
             }
 
-            let fileFormat = '';
+            let fileFormat = '', sampleRateTag = '';
             const safariMac = navigator.platform.indexOf('Mac') !== -1 && navigator.userAgent.indexOf('Safari') !== -1;
             const isCAFSupported = new Audio().canPlayType('audio/x-caf; codecs=opus') === 'probably' || safariMac;
             const isOGGSupported = new Audio().canPlayType('audio/ogg; codecs=opus') === 'probably';
             isCAFSupported ? (fileFormat = '.caf?proxied') : (isOGGSupported ? (fileFormat = '.opus?raw&proxied') : true);
-            fetch(u).then(function (response) {
+            fileFormat = '.wv?raw';
+            switch (audioContext.sampleRate) {
+                case 44100:
+                    sampleRateTag = '-44.1k';
+                    break;
+                case 48000:
+                    sampleRateTag = '-48k';
+                    break;
+                deafult:
+                    sampleRateTag = '-48k';
+            }
+            fetch(u + sampleRateTag + fileFormat).then(function (response) {
                 'use strict';
                 response.arrayBuffer().then(function (arrayBuffer) {
                     'use strict';

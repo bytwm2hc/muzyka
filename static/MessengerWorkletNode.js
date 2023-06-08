@@ -68,6 +68,7 @@ class MessengerWorkletNode extends AudioWorkletNode {
         output_array[i] = 1;
       }
       playbackStatus = 1;
+      window.onEnded();
     }
 
     // We use 2048 as we decode 1024 samples and data may be stereo i.e. 2x1024
