@@ -29,7 +29,7 @@
         showError
     } from '../helpers/song';
 
-    const min_sample_duration = 90, // sec
+    const min_sample_duration = 2, // sec
           fetching_interval = 5; // ms
     let audio, // bind <audio> element
         time = 0, // song played time
@@ -505,6 +505,9 @@
             is_reading = false;
             return;
         }
+        if (end_of_song_reached) {
+            onEnded();
+        }
         addBufferToAudioContext();
     };
 
@@ -534,27 +537,12 @@
         fetched_data_right = new Float32Array(0);
   
         // the actual player
-        sourceNode.connect(convolverNode);
-        sourceNode.connect(lowShelf);
-        sourceNode.onended = onended;
-
-        try {
-            sourceNode.buffer = aud_buf;
-            buffer = aud_buf;
-            duration = sourceNode.buffer.duration;
-
-            if (sourceNode.start) {
-                sourceNode.start(0);
-                startTime = audioContext.currentTime;
-                updateTime(false);
-                isPlay.set(true);
-            } else if (sourceNode.noteOn) {
-                sourceNode.noteOn(0);
-                startTime = audioContext.currentTime;
-                updateTime(false);
-                isPlay.set(true);
-            }
-        } catch (ignored) {}
+        const active_node = audioContext.createBufferSource();
+        active_node.buffer = aud_buf;
+        active_node.onended = readingLoop; // callback to readingLoop
+        active_node.connect(convolverNode);
+        active_node.connect(lowShelf);
+        active_node.start(0);
 
         pcm_buffer_in_use = false;
     };
