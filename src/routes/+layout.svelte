@@ -4,21 +4,13 @@
 
 <svelte:head>
 	<title>Muzyka</title>
-	<link
-		href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css"
-		rel="stylesheet"
-		type="text/css"
-	/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link
-		href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap"
-		rel="stylesheet"
-	/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" />
 </svelte:head>
 
 <main>
-<script src="MessengerWorkletNode.js"></script>
 <script src="wavpack.js"></script>
 <slot />
 </main>
