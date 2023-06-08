@@ -29,7 +29,7 @@
         showError
     } from '../helpers/song';
 
-    const min_sample_duration = 2, // sec
+    const min_sample_duration = 90, // sec
           fetching_interval = 5; // ms
     let audio, // bind <audio> element
         time = 0, // song played time
