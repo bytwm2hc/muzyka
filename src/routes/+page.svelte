@@ -73,8 +73,10 @@
         audioContext.onstatechange = () => {
             'use strict';
             //console.log(audioContext.state);
-            if (audioContext.state === "interrupted") {
-                audioContext.resume();
+            if (audioContext.state !== "running") {
+                try {
+                    audioContext.resume();
+                } catch (ignored) {}
             }
         };
 
