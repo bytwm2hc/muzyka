@@ -501,11 +501,11 @@
 
     const readingLoop = () => {
         'use strict';
-        if(stopped  || fetched_data_left.length < min_sample_size) {
+        if (stopped  || fetched_data_left.length < min_sample_size) {
             is_reading = false;
             return;
         }
-        setTimeout(addBufferToAudioContext, 0);
+        addBufferToAudioContext();
     };
 
 
