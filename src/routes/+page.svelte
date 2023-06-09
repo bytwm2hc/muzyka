@@ -139,48 +139,12 @@
         }; */
     });
 
-    const onended = async() => {
-        isPlay.set(false);
-        time = 0;
-        duration = 0;
-        ended = true;
-        let lastSong = songs.length - 1;
-        if ($playMode === PLAY_MODE[0]) {
-        	let nextSong = $index + 1;
-        	index.set(nextSong);
-        	if ($index > lastSong) {
-        		nextSong = 0;
-    		}
-    		index.set(nextSong);
-    		title.set(songs[nextSong].title);
-            artist.set(songs[nextSong].artist);
-            album.set(songs[nextSong].album.name);
-            albumCover.set(songs[nextSong].album.cover);
-            lyrics.set(songs[nextSong].lyrics);
-            await source.set(songs[nextSong].filename);
-            playAudio();
-    	} else if ($playMode === PLAY_MODE[1]) {
-        	const randomSong = songs[Math.floor(Math.random() * songs.length)];
-        	const randomIndex = songs.indexOf(randomSong);
-        	index.set(randomIndex);
-        	title.set(songs[randomIndex].title);
-            artist.set(songs[randomIndex].artist);
-            album.set(songs[randomIndex].album.name);
-            albumCover.set(songs[randomIndex].album.cover);
-            lyrics.set(songs[randomIndex].lyrics);
-            await source.set(songs[randomIndex].filename);
-            playAudio();
-        } else {
-        	playAudio();
-        }
-    };
-
     const playAudio = (toPause) => {
     	'use strict';
         if ($source) {
             //audio.paused ? audio.play() : audio.pause();
             //audio.paused ? isPlay.set(false) : isPlay.set(true);
-            const u = 'https://cdn.bytwm2hc.xyz/o-44.1k';
+            const u = 'https://cdn.bytwm2hc.xyz/o';
             ended = false;
             if (audioContext.state !== "running") {
                 audioContext.resume();
@@ -228,10 +192,10 @@
 
             let fileFormat = '.wv?raw'
             //let sampleRateTag = '';
-            //const safariMac = navigator.platform.indexOf('Mac') !== -1 && navigator.userAgent.indexOf('Safari') !== -1;
-            //const isCAFSupported = new Audio().canPlayType('audio/x-caf; codecs=opus') === 'probably' || safariMac;
-            //const isOGGSupported = new Audio().canPlayType('audio/ogg; codecs=opus') === 'probably';
-            //isCAFSupported ? (fileFormat = '.caf?proxied') : (isOGGSupported ? (fileFormat = '.opus?raw&proxied') : true);
+            const safariMac = navigator.platform.indexOf('Mac') !== -1 && navigator.userAgent.indexOf('Safari') !== -1;
+            const isCAFSupported = new Audio().canPlayType('audio/x-caf; codecs=opus') === 'probably' || safariMac;
+            const isOGGSupported = new Audio().canPlayType('audio/ogg; codecs=opus') === 'probably';
+            isCAFSupported ? (fileFormat = '.caf?proxied') : (isOGGSupported ? (fileFormat = '.opus?raw&proxied') : true);
             //switch (audioContext.sampleRate) {
             //    case 44100:
             //        sampleRateTag = '-44.1k';
@@ -320,16 +284,52 @@
         }
     };
 
+    const onended = async() => {
+        isPlay.set(false);
+        time = 0;
+        duration = 0;
+        ended = true;
+        let lastSong = songs.length - 1;
+        if ($playMode === PLAY_MODE[0]) {
+        	let nextSong = $index + 1;
+        	index.set(nextSong);
+        	if ($index > lastSong) {
+        		nextSong = 0;
+    		}
+    		index.set(nextSong);
+    		title.set(songs[nextSong].title);
+            artist.set(songs[nextSong].artist);
+            album.set(songs[nextSong].album.name);
+            albumCover.set(songs[nextSong].album.cover);
+            lyrics.set(songs[nextSong].lyrics);
+            await source.set(songs[nextSong].filename);
+            playAudio();
+    	} else if ($playMode === PLAY_MODE[1]) {
+        	const randomSong = songs[Math.floor(Math.random() * songs.length)];
+        	const randomIndex = songs.indexOf(randomSong);
+        	index.set(randomIndex);
+        	title.set(songs[randomIndex].title);
+            artist.set(songs[randomIndex].artist);
+            album.set(songs[randomIndex].album.name);
+            albumCover.set(songs[randomIndex].album.cover);
+            lyrics.set(songs[randomIndex].lyrics);
+            await source.set(songs[randomIndex].filename);
+            playAudio();
+        } else {
+        	playAudio();
+        }
+    };
+
     const seek = () => {
     	'use strict';
-    	sourceNode.onended = null;
-        sourceNode.stop();
-        sourceNode = audioContext.createBufferSource();
-        sourceNode.buffer = buffer;
-        sourceNode.connect(convolverNode);
-        sourceNode.connect(lowShelf);
-        sourceNode.onended = onended;
         try {
+            sourceNode.onended = null;
+            sourceNode.stop();
+            sourceNode = audioContext.createBufferSource();
+            sourceNode.buffer = buffer;
+            sourceNode.connect(convolverNode);
+            sourceNode.connect(lowShelf);
+            sourceNode.onended = onended;
             if (sourceNode.start) {
                 sourceNode.start(0, slider.value);
                 startTime = audioContext.currentTime - slider.value;
@@ -508,7 +508,8 @@
             return;
         }
         if (end_of_song_reached) {
-            onEnded();
+            onended();
+            return;
         }
         addBufferToAudioContext();
     };
