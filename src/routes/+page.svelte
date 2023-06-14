@@ -57,6 +57,11 @@
 
     onMount(() => {
         'use strict';
+        document.getElementById('overlay').addEventListener('click', async function () {
+            document.getElementById('overlay').style.display = "none";
+            await audio.play();
+        });
+        
         const AudioContext = window.AudioContext || window.webkitAudioContext;
         audioContext = new AudioContext();
         audioContext.onstatechange = async () => {
@@ -135,9 +140,11 @@
             slider.disabled = null;
 
             if (audio.paused) {
-                await audio.play().then(function () {
-                    audioContext.resume();
-                });
+                await audio.play();
+            }
+            
+            if (audioContext.state !== 'running') {
+                await audioContext.resume();
             }
 
             // Detect if we're in playing and need a pause
@@ -498,6 +505,10 @@
     <title>{$source ? `${$title} - ${$artist} | Muzyka` : 'Muzyka'}</title>
 </svelte:head>
 
+<div id="overlay">
+  <div id="text">Start</div>
+</div>
+
 <div class="container">
     <div class="card">
         <h1 class="card__title">{$title}</h1>
@@ -570,6 +581,30 @@
 </audio>
 
 <style>
+    #overlay {
+        position: fixed; /* Sit on top of the page content */
+        display: block; /* Hidden by default */
+        width: 100%; /* Full width (cover the whole page) */
+        height: 100%; /* Full height (cover the whole page) */
+        top: 0; 
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+        z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+        cursor: pointer; /* Add a pointer on hover */
+    }
+
+    #text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 50px;
+        color: white;
+        transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+    }
+
 	.container {
 		display: block;
 	}
