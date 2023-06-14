@@ -126,7 +126,7 @@
         }; */
     });
 
-    const playAudio = (toPause) => {
+    const playAudio = async (toPause) => {
     	'use strict';
         if ($source) {
             //audio.paused ? audio.play() : audio.pause();
@@ -135,10 +135,11 @@
             slider.disabled = null;
 
             if (navigator.platform.indexOf('iPhone') !== -1 || navigator.platform.indexOf('iPad') !== -1) {
-                audio.play();
+                audio.load();
+                await audio.play();
             }
             if (audioContext.state !== "running") {
-                audioContext.resume();
+                await audioContext.resume();
             }
 
             // Detect if we're in playing and need a pause
