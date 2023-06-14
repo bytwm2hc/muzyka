@@ -135,8 +135,8 @@
             slider.disabled = null;
 
             if (audio.paused) {
-                await audio.play().then(function () {
-                    audioContext.resume();
+                await audio.play().then(async function () {
+                    await audioContext.resume();
                 });
             }
 
