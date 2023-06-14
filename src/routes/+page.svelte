@@ -15,6 +15,7 @@
         albumCover,
         album,
         isLoaded,
+        btnDisabled,
         index,
         playMode,
         lyrics
@@ -29,8 +30,6 @@
         showError
     } from '../helpers/song';
 
-    const min_sample_duration = 2, // sec
-          fetching_interval = 5; // ms
     let audio, // bind <audio> element
         time = 0, // song played time
         slider, // bind song seek time UI <input type="range"> element
@@ -50,21 +49,11 @@
         startTime,
         seekTime,
         playModeIcon = 'repeat',
-        isLyricsPanel = false,
-        // Wavpack
-        sample_rate = 44100,
-        numChannels = 2,
-        bps = 2,
-        decodedamount = 1,
-        arrayPointer,
-        fetched_data_left = new Float32Array(0),
-        fetched_data_right = new Float32Array(0),
-        min_sample_size = 100,
-        end_of_song_reached = false,
-        stopped = false,
-        floatDivisor = 1.0,
-        is_reading = false,
-        pcm_buffer_in_use = false;
+        isLyricsPanel = false;
+    let worker,
+        //bypasser,
+        bsn,
+        sr;
 
     onMount(() => {
         'use strict';
@@ -144,8 +133,12 @@
         if ($source) {
             //audio.paused ? audio.play() : audio.pause();
             //audio.paused ? isPlay.set(false) : isPlay.set(true);
-            const u = 'https://cdn.bytwm2hc.xyz/o';
             ended = false;
+            slider.disabled = null;
+
+            if (navigator.platform.indexOf('iPhone') !== -1 || navigator.platform.indexOf('iPad') !== -1) {
+                audio.play();
+            }
             if (audioContext.state !== "running") {
                 audioContext.resume();
             }
@@ -158,6 +151,7 @@
                 sourceNode.onended = null;
                 try {
                     sourceNode.stop();
+                    sourceNode.disconnect();
                 }
                 catch (ignored) {}
                 sourceNode = false;
@@ -189,24 +183,27 @@
                 }
                 return; // End!
             }
+            
+            // Wavpack
+            if (worker || bsn) {
+                try {
+                    worker.terminate();
+                    worker = null;
+                    bsn.onended = null;
+                    bsn.stop();
+                    bsn.disconnect();
+                    bsn = null;
+                }
+                catch (ignored) {}
+            }
 
-            let fileFormat = '.wv?raw'
-            //let sampleRateTag = '';
+            let fileFormat = '';
             const safariMac = navigator.platform.indexOf('Mac') !== -1 && navigator.userAgent.indexOf('Safari') !== -1;
             const isCAFSupported = new Audio().canPlayType('audio/x-caf; codecs=opus') === 'probably' || safariMac;
             const isOGGSupported = new Audio().canPlayType('audio/ogg; codecs=opus') === 'probably';
-            isCAFSupported ? (fileFormat = '.caf?proxied') : (isOGGSupported ? (fileFormat = '.opus?raw&proxied') : true);
-            //switch (audioContext.sampleRate) {
-            //    case 44100:
-            //        sampleRateTag = '-44.1k';
-            //        break;
-            //    case 48000:
-            //        sampleRateTag = '-48k';
-            //        break;
-            //    deafult:
-            //        sampleRateTag = '-48k';
-            //}
-            fetch(u + fileFormat).then(function (response) {
+            isCAFSupported ? (fileFormat = '.caf?raw&proxied') : (isOGGSupported ? (fileFormat = '.opus?raw&proxied') : true);
+            songs[$index].isWavPack ? (fileFormat = '.wv?raw&proxied') : true;
+            fetch(songs[$index].filename + fileFormat).then(function (response) {
                 'use strict';
                 response.arrayBuffer().then(function (arrayBuffer) {
                     'use strict';
@@ -237,42 +234,63 @@
                                 }
                             } catch (ignored) {}
                         }, function (error) {
-                            end_of_song_reached = false;
-                            stopped = false;
-                            fetched_data_left = new Float32Array(0);
-                            fetched_data_right = new Float32Array(0);
-                            const bytes_per_element = Module.HEAP32.BYTES_PER_ELEMENT,
-                                  data = new Uint8Array(wvData),
-                                  filename = 'input.wv',
-                                  stream = FS.open(filename, 'w+');
-                            FS.write(stream, data, 0, data.length, 0);
-                            FS.close(stream);
+                            'use strict';
+                            //audioContext.audioWorklet.addModule('bypass-processor.js').then(function () {
+                            //    bypasser = new AudioWorkletNode(audioContext, 'bypass-processor', {outputChannelCount: [2]});
+                            //    bypasser.connect(audioContext.destination);
+                            //});
 
-                            if (typeof arrayPointer === 'undefined') {
-                                arrayPointer = Module._malloc(4096 * bytes_per_element);
-                            }
+                            worker = new Worker('wavpack-worker.js');
+                            worker.onmessage = function (event) {
+                                if (event.data === null) {
+                                    bsn.onended = onended;
+                                    return;
+                                }
+                                if (typeof event.data.BYTES_PER_ELEMENT !== 'undefined') {
+                                    if (event.data.BYTES_PER_ELEMENT > 0) {
+                                        worker.postMessage(wvData, [wvData]);
+                                    } else {
+                                        setTimeout(function () {
+                                            'use strict';
+                                            worker.postMessage('BYTES_PER_ELEMENT');
+                                        }, 1);
+                                    }
+                                    return;
+                                }
+                                if (typeof event.data.sampleRate !== 'undefined') {
+                                    sr = event.data.sampleRate;
+                                    return;
+                                }
+                                if (typeof event.data.numSamples !== 'undefined') {
+                                    duration = event.data.numSamples / sr * (440 / 432);
+                                    startTime = audioContext.currentTime;
+                                    setTimeout(updateTime.bind(null, false), 400);
+                                    return;
+                                }
 
-                            let musicdata = new Int32Array(4096).fill(0);
-                            Module.HEAP32.set(musicdata, arrayPointer / bytes_per_element);
+                                bsn = audioContext.createBufferSource();
+                                bsn.connect(convolverNode);
+                                bsn.connect(lowShelf);
+                                bsn.onended = function () {
+                                    worker.postMessage("onended");
+                                };
+                                const aud_buf = audioContext.createBuffer(2, event.data.L.length, sr);
+                                aud_buf.copyToChannel(event.data.L, 0);
+                                aud_buf.copyToChannel(event.data.R, 1);
+                                bsn.buffer = aud_buf;
+                                bsn.detune.value = 432/440;
+                                bsn.playbackRate.value = 432/440;
+                                bsn.start(0);
+                            };
+                            setTimeout(function () {
+                                'use strict';
+                                worker.postMessage('BYTES_PER_ELEMENT');
+                            }, 1);
 
-                            // lets initialise the WavPack file so we know its sample rate, number of channels, bytes per sample etc.
-                            Module.ccall('initialiseWavPack', null, ['string'], [filename]);
-
-                            sample_rate = Module.ccall('GetSampleRate', null, [], []);
-                            console.log("Sample rate is ", sample_rate);
-
-                            numChannels = Module.ccall('GetNumChannels', null, [], []);
-                            console.log("(Reduced) number of channels is ", numChannels);
-
-                            min_sample_size = min_sample_duration * sample_rate;
-
-                            bps = Module.ccall('GetBytesPerSample', null, [], []);
-                            console.log("Bytes per sample is ", bps);
-
-                            floatDivisor = Math.pow(2, bps * 8 - 1);
-
-                            periodicFetch();
+                            sourceNode.buffer = audioContext.createBuffer(2, 1, audioContext.sampleRate);
                             isPlay.set(true);
+                            slider.disabled = 'disabled';
+                            $btnDisabled = 'disabled';
                         });
                     } catch (error) {
                         //TODO: decodeAudioData(..., function());
@@ -285,11 +303,22 @@
     };
 
     const onended = async() => {
+        'use strict';
         isPlay.set(false);
         time = 0;
         duration = 0;
         ended = true;
+        $btnDisabled = '';
         let lastSong = songs.length - 1;
+        try {
+            sourceNode.onended = null;
+            sourceNode.stop();
+            sourceNode.disconnect();
+            sourceNode = null;
+
+            worker.terminate();
+        }
+        catch (ignored) {}
         if ($playMode === PLAY_MODE[0]) {
         	let nextSong = $index + 1;
         	index.set(nextSong);
@@ -357,6 +386,7 @@
     };
 
     const changeSong = async ({song}, i) => {
+        $btnDisabled = '';
         if (song.title == $title) {
             index.set(i);
             title.set(song.title);
@@ -367,6 +397,17 @@
             await source.set(song.filename);
             playAudio(true);
         } else {
+            try {
+                sourceNode.onended = null;
+                sourceNode.stop();
+                sourceNode.disconnect();
+                sourceNode = null;
+                buffer = null;
+
+                worker.terminate();
+            }
+            catch (ignored) {}
+
             index.set(i);
             title.set(song.title);
             artist.set(song.artist);
@@ -383,11 +424,11 @@
     const prevSong = () => {
         'use strict';
         if ($source) {
-            index.set($index - 1);
-            if ($index < 0) {
-                index.set(lastSong);
+            index.set($index - 2);
+            if ($index < -1) {
+                index.set(lastSong - 1);
             }
-            onEndedSong($index, audio);
+            onended();
         } else {
             showError();
         }
@@ -396,11 +437,12 @@
     const nextSong = () => {
         'use strict';
         if ($source) {
-            index.set($index + 1);
-            if ($index > lastSong) {
-                index.set(0);
-            }
-            onEndedSong($index, audio);
+            //index.set($index + 1);
+            //if ($index > lastSong) {
+            //    index.set(0);
+            //}
+            //onEndedSong($index, audio);
+            onended();
         } else {
             showError();
         }
@@ -428,141 +470,31 @@
         if (!sourceNode || sourceNode.buffer === null) {
             return;
         }
-        if (audioContext.currentTime - startTime <= sourceNode.buffer.duration) {
+        //if (audioContext.currentTime - startTime <= sourceNode.buffer.duration) {
+        if (audioContext.currentTime - startTime <= duration) {
             time = audioContext.currentTime - startTime;
             // next run
-            setTimeout(updateTime.bind(null, false), 100);
+            setTimeout(updateTime.bind(null, false), 400);
         }
     };
-
-    const periodicFetch = () => {
+    
+    /*
+     * Appends two ArrayBuffers into a new one.
+     * 
+     * @param {ArrayBuffer} buffer1 The first buffer.
+     * @param {ArrayBuffer} buffer2 The second buffer.
+    */
+    const appendBuffer = (buffer1, buffer2) => {
         'use strict';
-        decodedamount = Module.ccall('DecodeWavPackBlock','number',['number','number','number'],[2,2,arrayPointer]);
-
-        while (pcm_buffer_in_use) {
-            // wait - this shouldn't be called but have as a sanity check, if we are currently adding PCM (decoded) music data to the AudioBuffer context we don't want to overwrite it
-            //console.log("~");
+        const numberOfChannels = Math.min(buffer1.numberOfChannels, buffer2.numberOfChannels);
+        const tmp = audioContext.createBuffer(numberOfChannels, (buffer1.length + buffer2.length), buffer1.sampleRate);
+        for (let i = 0; i < numberOfChannels; ++i) {
+            const channel = tmp.getChannelData(i);
+            channel.set(buffer1.getChannelData(i), 0);
+            channel.set(buffer2.getChannelData(i), buffer1.length);
         }
-
-        pcm_buffer_in_use = true;
-
-        if (decodedamount != 0) {
-            let output_array = new Int32Array(Module.HEAP32.buffer, arrayPointer, 4096);
-
-            let floatsLeft = new Float32Array(1024);
-            let floatsRight = new Float32Array(1024);
-
-            if (numChannels == 2) {
-                for (let i = 2047; i >= 0; i--) {
-                    if (i % 2 == 0) {
-                        floatsLeft[i/2] = output_array[i] / floatDivisor;
-                    } else {
-                        floatsRight[(i-1)/2] = output_array[i] / floatDivisor;
-                    }
-                }
-            } else {
-                // mono music (1 channel)
-                for (var i = 1023; i >= 0; i--) {
-                    floatsLeft[i] = output_array[i] / floatDivisor;
-                }
-            }
-
-            fetched_data_left = concatFloat32Arrays(fetched_data_left, floatsLeft);
-            if (numChannels == 2) {
-                fetched_data_right = concatFloat32Arrays(fetched_data_right, floatsRight);
-            }
-        } else {
-            // we decoded zero bytes, so end of song reached
-            // we fill our decoded music buffer (PCM) with zeroes (silence)
-            end_of_song_reached = true;
-            let buffergap = min_sample_size - fetched_data_left.length;
-            let emptyArray = new Float32Array();
-
-            for (let i = 0; i < buffergap; i++) {
-                emptyArray[i] = 0.0;
-            }
-
-            fetched_data_left = concatFloat32Arrays(fetched_data_left, emptyArray);
-            if (numChannels == 2) {
-                fetched_data_right = concatFloat32Arrays(fetched_data_right, emptyArray);
-            }
-        }
-
-        pcm_buffer_in_use = false;
-
-        if (!stopped && !end_of_song_reached) {
-            // lets load more data (decode more audio from the WavPack file)
-            setTimeout(periodicFetch , fetching_interval);
-        }
-
-        // if we are not actively reading and have fetched enough
-        if (!is_reading && fetched_data_left.length >= min_sample_size) {
-            readingLoop(); // start reading
-        }
-    };
-
-    const readingLoop = () => {
-        'use strict';
-        if (stopped  || fetched_data_left.length < min_sample_size) {
-            is_reading = false;
-            return;
-        }
-        if (end_of_song_reached) {
-            onended();
-            return;
-        }
-        addBufferToAudioContext();
-    };
-
-
-    const addBufferToAudioContext = () => {
-        'use strict';
-        // let the world know we are actively reading
-        is_reading = true;
-
-        while (pcm_buffer_in_use) {
-            // wait, this shouldn't be called, but if we're adding more data to the PCM buffer, don't want to overwrite it
-            //console.log("-");
-        }
-
-        pcm_buffer_in_use = true;
-
-        // create a new AudioBuffer
-        const aud_buf = audioContext.createBuffer(numChannels, fetched_data_left.length, sample_rate);
-        // copy our fetched data to its first channel
-        aud_buf.copyToChannel(fetched_data_left, 0);
-        if (numChannels == 2) {
-            aud_buf.copyToChannel(fetched_data_right, 1);
-        }
-
-        // clear the buffered data
-        fetched_data_left = new Float32Array(0);
-        fetched_data_right = new Float32Array(0);
-  
-        // the actual player
-        const active_node = audioContext.createBufferSource();
-        active_node.buffer = aud_buf;
-        active_node.onended = readingLoop; // callback to readingLoop
-        active_node.connect(convolverNode);
-        active_node.connect(lowShelf);
-        active_node.start(0);
-
-        pcm_buffer_in_use = false;
-    };
-
-    const concatFloat32Arrays = (arr1, arr2) => {
-        'use strict';
-        if (!arr1 || !arr1.length) {
-            return arr2 && arr2.slice();
-        }
-        if (!arr2 || !arr2.length) {
-            return arr1 && arr1.slice();
-        }
-        const out = new Float32Array(arr1.length + arr2.length);
-        out.set(arr1);
-        out.set(arr2, arr1.length);
-        return out;
-    };
+        return tmp;
+    }
 </script>
 
 <svelte:head>
@@ -573,7 +505,7 @@
     <div class="card">
         <h1 class="card__title">{$title}</h1>
         <p class="card__artist">{$artist}</p>
-        <img class="card__album" draggable="false" src="/img/{$albumCover}" alt={$album} />
+        <img class="card__album" draggable="false" src="{$albumCover}" alt={$album} />
         <button type="button" on:click={()=> isLyricsPanel = !isLyricsPanel} class="card__lyrics-playlist-btn">See {isLyricsPanel ? 'Playlist' : 'Lyrics'}</button>
         <input type="range" on:input={seek} bind:this={slider} value={ended ? 0 : time} max={duration} class="card__slider card__slider--duration" />
         <div class="card__minutes">
@@ -587,7 +519,7 @@
 		</div>
 		<div class="card__actions">
 			<button type="button" on:click={prevSong}><i class="fas fa-fw fa-backward" /></button>
-			<button type="button" on:click={() => playAudio(true)} class="play"><i class="fas fa-fw fa-{!$isPlay || ended ? 'play' : 'pause'}" /></button>
+			<button type="button" on:click={() => playAudio(true)} disabled={$btnDisabled} class="play"><i class="fas fa-fw fa-{!$isPlay || ended ? 'play' : 'pause'}" /></button>
 			<button type="button" on:click={nextSong}><i class="fas fa-fw fa-forward" /></button>
 		</div>
 		<div class="card__actions--volume">
@@ -603,7 +535,7 @@
 				step=".001"
 			/>
 		</div>
-		<p class="card__copyright">&copy; 2022 by <a href="https://m-adithya.my.id" target="_blank">Mohamad Adithya</a></p>
+		<p class="card__copyright">&copy; 2023 Original by <a href="https://m-adithya.my.id/" target="_blank">Mohamad Adithya</a></p>
 	</div>
 	<!-- Playlist Panel -->
 	<div class="card-playlist" style="height: 556px;">
@@ -636,11 +568,9 @@
 	on:loadeddata={() => isLoaded.set(true)}
 	src={$source}
 />-->
-<audio
-	bind:this={audio}
-	muted
-	on:loadeddata={() => isLoaded.set(true)}
-/>
+<audio bind:this={audio} on:loadeddata={() => isLoaded.set(true)} loop>
+    <source src="//48khz.emocdn.workers.dev/" type="audio/x-wav" />
+</audio>
 
 <style>
 	.container {

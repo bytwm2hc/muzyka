@@ -1,27 +1,32 @@
 <script>
-	import { isPlay, isLoaded, title } from '../stores/song';
+	import { isPlay, isLoaded, btnDisabled, title } from '../stores/song';
 
 	export let song;
 	let icon = 'play';
+	let disabled = '';
 
 	$: if ($isPlay && song.title == $title) {
 		icon = 'pause';
+		if ($btnDisabled == 'disabled') {
+			disabled = 'disabled';
+		}
 	} else {
 		icon = 'play';
+		disabled = '';
 	}
 
-	$: console.log(song.title);
+	// $: console.log(song.title);
 </script>
 
 <div class="card">
 	<div class="card__info">
-		<img src="/img/{song.album.cover}" alt={song.album.name} />
+		<img src="{song.album.cover}" alt={song.album.name} />
 		<div class="card__info--details">
 			<h5>{song.title}</h5>
 			<p>{song.artist}</p>
 		</div>
 	</div>
-	<button type="button" on:click>
+	<button type="button" on:click disabled={disabled}>
 		<i class="fas fa-fw fa-{icon}" />
 	</button>
 </div>
