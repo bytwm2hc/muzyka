@@ -135,7 +135,6 @@
             slider.disabled = null;
 
             if (audio.paused) {
-                audio.load();
                 await audio.play();
             }
             if (audioContext.state !== "running") {
