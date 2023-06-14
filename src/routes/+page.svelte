@@ -134,7 +134,7 @@
             ended = false;
             slider.disabled = null;
 
-            if (navigator.platform.indexOf('iPhone') !== -1 || navigator.platform.indexOf('iPad') !== -1) {
+            if (audio.paused) {
                 audio.load();
                 await audio.play();
             }
