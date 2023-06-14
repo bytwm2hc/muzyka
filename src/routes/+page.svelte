@@ -135,10 +135,9 @@
             slider.disabled = null;
 
             if (audio.paused) {
-                await audio.play();
-            }
-            if (audioContext.state !== "running") {
-                await audioContext.resume();
+                await audio.play().then(function () {
+                    audioContext.resume();
+                });
             }
 
             // Detect if we're in playing and need a pause
