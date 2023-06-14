@@ -59,13 +59,11 @@
         'use strict';
         const AudioContext = window.AudioContext || window.webkitAudioContext;
         audioContext = new AudioContext();
-        audioContext.onstatechange = () => {
+        audioContext.onstatechange = async () => {
             'use strict';
             //console.log(audioContext.state);
             if (audioContext.state !== "running") {
-                try {
-                    audioContext.resume();
-                } catch (ignored) {}
+                await audioContext.resume();
             }
         };
 
