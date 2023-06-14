@@ -34,7 +34,7 @@
         time = 0, // song played time
         slider, // bind song seek time UI <input type="range"> element
         duration,
-        paused, 
+        paused = false, 
         ended,
         muted = false,
         volume = 1,
