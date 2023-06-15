@@ -327,6 +327,10 @@
             sourceNode = null;
 
             worker.terminate();
+            bsn.onended = null;
+            bsn.stop();
+            bsn.disconnect();
+            bsn = null;
         }
         catch (ignored) {}
         if ($playMode === PLAY_MODE[0]) {
