@@ -11,20 +11,13 @@
 </svelte:head>
 
 <main>
-<script src="wavpack.js"></script>
 <slot />
 </main>
 
 <style>
 	main {
-		padding: 1.4em;
-		max-width: 800px;
+		padding: 0;
+		max-width: 812.796875px;
 		margin: 0 auto;
-	}
-
-	@media (min-width: 768px) {
-		main {
-			padding: 2em;
-		}
 	}
 </style>
