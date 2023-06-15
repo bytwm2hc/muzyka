@@ -57,11 +57,15 @@
 
     onMount(() => {
         'use strict';
-        document.getElementById('overlay').addEventListener('click', async function () {
+        if (iOS()) {
+            document.getElementById('overlay').addEventListener('click', async function () {
+                document.getElementById('overlay').style.display = "none";
+                await audio.play();
+            });
+        } else {
             document.getElementById('overlay').style.display = "none";
-            await audio.play();
-        });
-        
+        }
+                
         const AudioContext = window.AudioContext || window.webkitAudioContext;
         audioContext = new AudioContext();
         audioContext.onstatechange = async () => {
@@ -139,7 +143,7 @@
             ended = false;
             slider.disabled = null;
 
-            if (audio.paused) {
+            if (iOS() && audio.paused) {
                 await audio.play();
             }
             
@@ -498,7 +502,13 @@
             channel.set(buffer2.getChannelData(i), buffer1.length);
         }
         return tmp;
-    }
+    };
+
+    const iOS = () => {
+        return ['iPad Simulator', 'iPhone Simulator', 'iPod Simulator', 'iPad', 'iPhone', 'iPod'].includes(navigator.platform)
+        // iPad on iOS 13 detection
+        || (navigator.userAgent.includes('Mac') && 'ontouchend' in document);
+    };
 </script>
 
 <svelte:head>
