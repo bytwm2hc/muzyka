@@ -277,14 +277,16 @@
                                 }
 
                                 bsn = audioContext.createBufferSource();
+                                const aud_buf = audioContext.createBuffer(2, event.data.L.length, sr);
+                                aud_buf.copyToChannel(event.data.L, 0);
+                                event.data.L = new Float32Array(0);
+                                aud_buf.copyToChannel(event.data.R, 1);
+                                event.data.R = new Float32Array(0);
                                 bsn.connect(convolverNode);
                                 bsn.connect(lowShelf);
                                 bsn.onended = function () {
                                     worker.postMessage("onended");
                                 };
-                                const aud_buf = audioContext.createBuffer(2, event.data.L.length, sr);
-                                aud_buf.copyToChannel(event.data.L, 0);
-                                aud_buf.copyToChannel(event.data.R, 1);
                                 bsn.buffer = aud_buf;
                                 bsn.detune.value = 432/440;
                                 bsn.playbackRate.value = 432/440;
