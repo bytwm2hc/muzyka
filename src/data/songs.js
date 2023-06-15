@@ -19,6 +19,46 @@ export const songs = [
             cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
+        title: "ニア",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/04 ニア`
+    },{
+        artist: "MORE MORE JUMP!",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
+        },
+        title: "恋愛裁判",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/07 恋愛裁判`
+    },{
+        artist: "MORE MORE JUMP!",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
+        },
+        title: "どりーみんチュチュ",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/09 どりーみんチュチュ`
+    },{
+        artist: "MORE MORE JUMP!",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
+        },
+        title: "マシュマリー",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/12 マシュマリー`
+    },{
+        artist: "MORE MORE JUMP!",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
+        },
         title: "ツギハギスタッカート",
         isWavPack: true,
         filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/02 ツギハギスタッカート`
