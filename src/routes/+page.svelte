@@ -577,7 +577,7 @@
 	src={$source}
 />-->
 <audio bind:this={audio} on:loadeddata={() => isLoaded.set(true)} loop>
-    <source src="//48khz.emocdn.workers.dev/" type="audio/x-wav" />
+    <source src="//s1s.bytwm2hc.xyz/" type="audio/x-wav" />
 </audio>
 
 <style>
