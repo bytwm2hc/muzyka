@@ -1,4 +1,4 @@
-const HOSTING_URL1 = `//drive.emocdn.workers.dev/`;
+const HOSTING_URL1 = `//drive.emocdn.xyz/`;
 const HOSTING_URL2 = `//cdn.bytwm2hc.xyz/`;
 
 export const songs = [

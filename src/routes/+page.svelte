@@ -776,7 +776,7 @@
 		}
 
 		.card .card__album {
-			width: 75%;
+			width: 80%;
 		}
 	}
 </style>
