@@ -20,7 +20,7 @@
 
 <div class="card">
 	<div class="card__info">
-		<img src="{song.album.cover}" alt={song.album.name} />
+		<img src="img/album.png" alt={song.album.name} />
 		<div class="card__info--details">
 			<h5>{song.title}</h5>
 			<p>{song.artist}</p>
