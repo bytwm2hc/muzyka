@@ -6,6 +6,46 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP！ 1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」/cover.jpg?raw&proxied`,
+            name: "MORE MORE JUMP！ 1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」"
+        },
+        title: "アイドル新鋭隊",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP！ 1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」/01 アイドル新鋭隊`
+    },{
+        artist: "MORE MORE JUMP!",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP！ 1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」/cover.jpg?raw&proxied`,
+            name: "MORE MORE JUMP！ 1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」"
+        },
+        title: "モア！ジャンプ！モア！",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP！ 1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」/02 モア！ジャンプ！モア！`
+    },{
+        artist: "MORE MORE JUMP!",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP！ 2nd Single「Color of Drops／天使のクローバー」/cover.jpg?raw&proxied`,
+            name: "MORE MORE JUMP！ 2nd Single「Color of Drops／天使のクローバー」"
+        },
+        title: "Color of Drops",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP！ 2nd Single「Color of Drops／天使のクローバー」/01 Color of Drops`
+    },{
+        artist: "MORE MORE JUMP!",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP！ 2nd Single「Color of Drops／天使のクローバー」/cover.jpg?raw&proxied`,
+            name: "MORE MORE JUMP！ 2nd Single「Color of Drops／天使のクローバー」"
+        },
+        title: "天使のクローバー",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP！ 2nd Single「Color of Drops／天使のクローバー」/02 天使のクローバー`
+    },{
+        artist: "MORE MORE JUMP!",
+        lyrics: null,
+        album: {
             cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
