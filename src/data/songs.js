@@ -773,7 +773,8 @@ export const songs = [
         lyrics: null,
         album: { cover: `${HOSTING_URL1}Liyuu - ルルカワイマ.jpg?raw&proxied` },
         title: "ルルカワイマ",
-        filename: `${HOSTING_URL1}Liyuu - ルルカワイマ`
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/02 ルルカワイマ`
     },{
         artist: "松谷祐子",
         lyrics: `${HOSTING_URL1}松谷祐子 - 愛はブーメラン.lrc?proxied`,
