@@ -42,6 +42,8 @@
         volumeSlider, // bind volume control UI <input type="range"> element
         audioContext,
         convolverNode,
+        gainDryNode,
+        gainWetNode,
         volumeNode,
         lowShelf,
         sourceNode,
@@ -78,8 +80,8 @@
         };
 
         convolverNode = audioContext.createConvolver();
-        const gainDryNode = audioContext.createGain();
-        const gainWetNode = audioContext.createGain();
+        gainDryNode = audioContext.createGain();
+        gainWetNode = audioContext.createGain();
         volumeNode = audioContext.createGain();
         gainDryNode.connect(volumeNode);
         gainWetNode.connect(volumeNode);
