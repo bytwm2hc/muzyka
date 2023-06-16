@@ -86,8 +86,8 @@
         volumeNode.connect(audioContext.destination);
         convolverNode.connect(gainWetNode);
 
-        gainDryNode.gain.value = 0.75;
-        gainWetNode.gain.value = 0.25;
+        gainDryNode.gain.value = 0.825;
+        gainWetNode.gain.value = 0.275;
         fetch("6 Spaces 09 Arena Quad.wav").then(function (response) {
             'use strict';
             response.arrayBuffer().then(function (ab) {
@@ -229,6 +229,8 @@
                     try {
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
+                            gainDryNode.gain.value = 0.825;
+                            gainWetNode.gain.value = 0.275;
                             sourceNode.connect(convolverNode);
                             sourceNode.connect(lowShelf);
                             sourceNode.onended = onended;
@@ -314,6 +316,8 @@
                                 'use strict';
                                 worker.postMessage('BYTES_PER_ELEMENT');
                             }, 0);
+                            gainDryNode.gain.value = 0.7;
+                            gainWetNode.gain.value = 0.2;
 
                             sourceNode.buffer = audioContext.createBuffer(2, 1, audioContext.sampleRate);
                             isPlay.set(true);
