@@ -1,6 +1,6 @@
 "use strict";
 importScripts("wavpack.js");
-const min_sample_duration = 10; // sec
+const min_sample_duration = 5.5; // sec
 const fetching_interval = 10; // ms (Immediately if available, default: 5)
 var sample_rate = 44100;
 var numChannels = 1;
@@ -23,12 +23,18 @@ const play = (wvData) => {
     is_reading = false;
     fetched_data_left = new Float32Array(0);
     fetched_data_right = new Float32Array(0);
-    const bytes_per_element = Module.HEAP32.BYTES_PER_ELEMENT,
-        data = new Uint8Array(wvData),
-        filename = "input.wv",
-        stream = FS.open(filename, "w+");
+    const bytes_per_element = Module.HEAP32.BYTES_PER_ELEMENT;
+    let data, filename, stream;
+    data = new Uint8Array(wvData);
+    filename = makeId(5);
+    stream = FS.open(filename, "w+");
     FS.write(stream, data, 0, data.length, 0);
     FS.close(stream);
+    //postMessage({
+    //    wvData: wvData
+    //}, [wvData]);
+    wvData = undefined;
+    data = undefined;
 
     if (typeof arrayPointer === "undefined") {
         arrayPointer = Module._malloc(4096 * bytes_per_element);
@@ -225,6 +231,18 @@ const concatFloat32Arrays = (arr1, arr2) => {
     return out;
 };
 
+const makeId = (length) => {
+    let result = '';
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    const charactersLength = characters.length;
+    let counter = 0;
+    while (counter < length) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+      counter += 1;
+    }
+    return result;
+}
+
 self.onmessage = function (event) {
     "use strict";
     if (event.data === "onended") {
@@ -242,5 +260,6 @@ self.onmessage = function (event) {
         return;
     }
 
+    arrayPointer = undefined;
     play(event.data);
 };

@@ -50,7 +50,8 @@
         seekTime,
         playModeIcon = 'repeat',
         isLyricsPanel = false;
-    let worker,
+    let wvData,
+        worker,
         //bypasser,
         bsn,
         sr;
@@ -140,6 +141,7 @@
         if ($source) {
             //audio.paused ? audio.play() : audio.pause();
             //audio.paused ? isPlay.set(false) : isPlay.set(true);
+            $btnDisabled = '';
             ended = false;
             slider.disabled = null;
 
@@ -159,16 +161,18 @@
                 sourceNode.onended = null;
                 try {
                     sourceNode.stop();
-                    sourceNode.disconnect();
                 }
                 catch (ignored) {}
-                sourceNode = false;
+                sourceNode.disconnect();
+                sourceNode.buffer = null;
+                sourceNode = undefined;
                 if (toPause) {
                     paused = true;
                     isPlay.set(false);
                     return;
                 }
             }
+
             sourceNode = audioContext.createBufferSource();
 
             // Resume playing
@@ -192,15 +196,17 @@
                 return; // End!
             }
             
-            // Wavpack
-            if (worker || bsn) {
+            // Wavpack related
+            //if (worker || bsn) {
+            if (bsn) {
                 try {
-                    worker.terminate();
-                    worker = null;
+                    //worker.terminate();
+                    //worker = null;
                     bsn.onended = null;
                     bsn.stop();
                     bsn.disconnect();
-                    bsn = null;
+                    bsn.buffer = null;
+                    bsn = undefined;
                 }
                 catch (ignored) {}
             }
@@ -211,12 +217,15 @@
             const isOGGSupported = new Audio().canPlayType('audio/ogg; codecs=opus') === 'probably';
             isCAFSupported ? (fileFormat = '.caf?raw&proxied') : (isOGGSupported ? (fileFormat = '.opus?raw&proxied') : true);
             songs[$index].isWavPack ? (fileFormat = '.wv?raw&proxied') : true;
+            if (worker && !songs[$index].isWavPack) {
+                worker.terminate();
+                worker = undefined;
+            }
             fetch(songs[$index].filename + fileFormat).then(function (response) {
                 'use strict';
                 response.arrayBuffer().then(function (arrayBuffer) {
                     'use strict';
-                    let wvData = new ArrayBuffer(arrayBuffer.byteLength);
-                    new Uint8Array(wvData).set(new Uint8Array(arrayBuffer));
+                    wvData = arrayBuffer.slice();
                     try {
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
@@ -248,54 +257,63 @@
                             //    bypasser.connect(audioContext.destination);
                             //});
 
-                            worker = new Worker('wavpack-worker.js');
-                            worker.onmessage = function (event) {
-                                if (event.data === null) {
-                                    bsn.onended = onended;
-                                    return;
-                                }
-                                if (typeof event.data.BYTES_PER_ELEMENT !== 'undefined') {
-                                    if (event.data.BYTES_PER_ELEMENT > 0) {
-                                        worker.postMessage(wvData, [wvData]);
-                                    } else {
-                                        setTimeout(function () {
-                                            'use strict';
-                                            worker.postMessage('BYTES_PER_ELEMENT');
-                                        }, 1);
-                                    }
-                                    return;
-                                }
-                                if (typeof event.data.sampleRate !== 'undefined') {
-                                    sr = event.data.sampleRate;
-                                    return;
-                                }
-                                if (typeof event.data.numSamples !== 'undefined') {
-                                    duration = event.data.numSamples / sr * (440 / 432);
-                                    startTime = audioContext.currentTime;
-                                    setTimeout(updateTime.bind(null, false), 400);
-                                    return;
-                                }
+                            if (typeof worker === 'undefined') {
+                                worker = new Worker('wavpack-worker.js');
 
-                                bsn = audioContext.createBufferSource();
-                                const aud_buf = audioContext.createBuffer(2, event.data.L.length, sr);
-                                aud_buf.copyToChannel(event.data.L, 0);
-                                event.data.L = new Float32Array(0);
-                                aud_buf.copyToChannel(event.data.R, 1);
-                                event.data.R = new Float32Array(0);
-                                bsn.connect(convolverNode);
-                                bsn.connect(lowShelf);
-                                bsn.onended = function () {
-                                    worker.postMessage("onended");
+                                worker.onmessage = function (event) {
+                                    if (event.data === null) {
+                                        bsn.onended = onended;
+                                        return;
+                                    }
+                                    if (typeof event.data.BYTES_PER_ELEMENT !== 'undefined') {
+                                        if (event.data.BYTES_PER_ELEMENT > 0) {
+                                            worker.postMessage(wvData);
+                                        } else {
+                                            setTimeout(function () {
+                                                'use strict';
+                                                worker.postMessage('BYTES_PER_ELEMENT');
+                                            }, 1);
+                                        }
+                                        return;
+                                    }
+                                    if (typeof event.data.sampleRate !== 'undefined') {
+                                        sr = event.data.sampleRate;
+                                        return;
+                                    }
+                                    if (typeof event.data.numSamples !== 'undefined') {
+                                        duration = event.data.numSamples / sr * (440 / 432);
+                                        startTime = audioContext.currentTime;
+                                        setTimeout(updateTime.bind(null, false), 400);
+                                        return;
+                                    }
+                                    if (typeof event.data.wvData !== 'undefined') {
+                                        wvData = event.data.wvData;
+                                        wvData = undefined;
+                                        console.log("getTransferable");
+                                        return;
+                                    }
+
+                                    bsn = audioContext.createBufferSource();
+                                    const aud_buf = audioContext.createBuffer(2, event.data.L.length, sr);
+                                    aud_buf.copyToChannel(event.data.L, 0);
+                                    event.data.L = undefined;
+                                    aud_buf.copyToChannel(event.data.R, 1);
+                                    event.data.R = undefined;
+                                    bsn.connect(convolverNode);
+                                    bsn.connect(lowShelf);
+                                    bsn.onended = function () {
+                                        worker.postMessage("onended");
+                                    };
+                                    bsn.buffer = aud_buf;
+                                    bsn.detune.value = 432/440;
+                                    bsn.playbackRate.value = 432/440;
+                                    bsn.start(0);
                                 };
-                                bsn.buffer = aud_buf;
-                                bsn.detune.value = 432/440;
-                                bsn.playbackRate.value = 432/440;
-                                bsn.start(0);
-                            };
+                            }
                             setTimeout(function () {
                                 'use strict';
                                 worker.postMessage('BYTES_PER_ELEMENT');
-                            }, 1);
+                            }, 0);
 
                             sourceNode.buffer = audioContext.createBuffer(2, 1, audioContext.sampleRate);
                             isPlay.set(true);
@@ -318,21 +336,25 @@
         time = 0;
         duration = 0;
         ended = true;
-        $btnDisabled = '';
         let lastSong = songs.length - 1;
+        buffer = undefined;
+        wvData = undefined;
         try {
             sourceNode.onended = null;
             sourceNode.stop();
             sourceNode.disconnect();
-            sourceNode = null;
-
-            worker.terminate();
+            sourceNode.buffer = null;
+        }
+        catch (ignored) {}
+        try {
             bsn.onended = null;
             bsn.stop();
             bsn.disconnect();
-            bsn = null;
+            bsn.buffer = null;
         }
         catch (ignored) {}
+        sourceNode = undefined;
+        bsn = undefined;
         if ($playMode === PLAY_MODE[0]) {
         	let nextSong = $index + 1;
         	index.set(nextSong);
@@ -411,16 +433,24 @@
             await source.set(song.filename);
             playAudio(true);
         } else {
+            buffer = undefined;
+            wvData = undefined;
             try {
                 sourceNode.onended = null;
                 sourceNode.stop();
                 sourceNode.disconnect();
-                sourceNode = null;
-                buffer = null;
-
-                worker.terminate();
+                sourceNode.buffer = null;
             }
             catch (ignored) {}
+            try {
+                bsn.onended = null;
+                bsn.stop();
+                bsn.disconnect();
+                bsn.buffer = null;
+            }
+            catch (ignored) {}
+            sourceNode = undefined;
+            bsn = undefined;
 
             index.set(i);
             title.set(song.title);
