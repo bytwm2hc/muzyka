@@ -109,7 +109,7 @@
         lowShelf = audioContext.createBiquadFilter();
         lowShelf.type = 'lowshelf';
         lowShelf.frequency.value = 108;
-        lowShelf.gain.value = 3.01;
+        lowShelf.gain.value = 1.76;
         lowShelf.connect(gainDryNode);
 
         /* audio.onended = async () => {
@@ -229,8 +229,8 @@
                     try {
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
-                            gainDryNode.gain.value = 1;
-                            gainWetNode.gain.value = 0.25;
+                            gainDryNode.gain.value = 1.125;
+                            gainWetNode.gain.value = 0.3515625;
                             sourceNode.connect(convolverNode);
                             sourceNode.connect(lowShelf);
                             sourceNode.onended = onended;
@@ -316,8 +316,8 @@
                                 'use strict';
                                 worker.postMessage('BYTES_PER_ELEMENT');
                             }, 0);
-                            gainDryNode.gain.value = 0.7;
-                            gainWetNode.gain.value = 0.175;
+                            gainDryNode.gain.value = 0.75;
+                            gainWetNode.gain.value = 0.234375;
 
                             sourceNode.buffer = audioContext.createBuffer(2, 1, audioContext.sampleRate);
                             isPlay.set(true);
