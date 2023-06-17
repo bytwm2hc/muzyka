@@ -109,7 +109,7 @@
         lowShelf = audioContext.createBiquadFilter();
         lowShelf.type = 'lowshelf';
         lowShelf.frequency.value = 108;
-        lowShelf.gain.value = 3.98;
+        lowShelf.gain.value = 3.01;
         lowShelf.connect(gainDryNode);
 
         /* audio.onended = async () => {
