@@ -45,7 +45,7 @@
         gainDryNode,
         gainWetNode,
         volumeNode,
-        lowShelf,
+        //lowShelf,
         sourceNode,
         buffer,
         startTime,
@@ -106,11 +106,11 @@
             });
         });
 
-        lowShelf = audioContext.createBiquadFilter();
-        lowShelf.type = 'lowshelf';
-        lowShelf.frequency.value = 108;
-        lowShelf.gain.value = 1.76;
-        lowShelf.connect(gainDryNode);
+        //lowShelf = audioContext.createBiquadFilter();
+        //lowShelf.type = 'lowshelf';
+        //lowShelf.frequency.value = 108;
+        //lowShelf.gain.value = 1.76;
+        //lowShelf.connect(gainDryNode);
 
         /* audio.onended = async () => {
         	isPlay.set(false);
@@ -179,7 +179,7 @@
             if (paused) {
                 sourceNode.buffer = buffer;
                 sourceNode.connect(convolverNode);
-                sourceNode.connect(lowShelf);
+                sourceNode.connect(gainDryNode);
                 try {
                     if (sourceNode.start) {
                         sourceNode.start(0, seekTime);
@@ -230,9 +230,9 @@
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
                             gainDryNode.gain.value = 1.125;
-                            gainWetNode.gain.value = 0.3515625;
+                            gainWetNode.gain.value = 0.375;
                             sourceNode.connect(convolverNode);
-                            sourceNode.connect(lowShelf);
+                            sourceNode.connect(gainDryNode);
                             sourceNode.onended = onended;
 
                             try {
@@ -302,7 +302,7 @@
                                     aud_buf.copyToChannel(event.data.R, 1);
                                     event.data.R = undefined;
                                     bsn.connect(convolverNode);
-                                    bsn.connect(lowShelf);
+                                    bsn.connect(gainDryNode);
                                     bsn.onended = function () {
                                         worker.postMessage("onended");
                                     };
@@ -317,7 +317,7 @@
                                 worker.postMessage('BYTES_PER_ELEMENT');
                             }, 0);
                             gainDryNode.gain.value = 0.75;
-                            gainWetNode.gain.value = 0.234375;
+                            gainWetNode.gain.value = 0.25;
 
                             sourceNode.buffer = audioContext.createBuffer(2, 1, audioContext.sampleRate);
                             isPlay.set(true);
@@ -397,7 +397,7 @@
             sourceNode = audioContext.createBufferSource();
             sourceNode.buffer = buffer;
             sourceNode.connect(convolverNode);
-            sourceNode.connect(lowShelf);
+            sourceNode.connect(gainDryNode);
             sourceNode.onended = onended;
             if (sourceNode.start) {
                 sourceNode.start(0, slider.value);
