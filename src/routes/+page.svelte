@@ -230,7 +230,7 @@
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
                             gainDryNode.gain.value = 1.125;
-                            gainWetNode.gain.value = 0.375;
+                            gainWetNode.gain.value = 0.28125;
                             sourceNode.connect(convolverNode);
                             sourceNode.connect(gainDryNode);
                             sourceNode.onended = onended;
@@ -317,7 +317,7 @@
                                 worker.postMessage('BYTES_PER_ELEMENT');
                             }, 0);
                             gainDryNode.gain.value = 0.75;
-                            gainWetNode.gain.value = 0.25;
+                            gainWetNode.gain.value = 0.1875;
 
                             sourceNode.buffer = audioContext.createBuffer(2, 1, audioContext.sampleRate);
                             isPlay.set(true);
