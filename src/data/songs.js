@@ -6,42 +6,42 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP！ 1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」/cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」/Cover.jpg?raw&proxied`,
             name: "MORE MORE JUMP！ 1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」"
         },
         title: "アイドル新鋭隊",
         isWavPack: true,
-        filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP！ 1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」/01 アイドル新鋭隊`
+        filename: `${HOSTING_URL2}MORE MORE JUMP!/1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」/01 アイドル新鋭隊`
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP！ 1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」/cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」/Cover.jpg?raw&proxied`,
             name: "MORE MORE JUMP！ 1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」"
         },
         title: "モア！ジャンプ！モア！",
         isWavPack: true,
-        filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP！ 1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」/02 モア！ジャンプ！モア！`
+        filename: `${HOSTING_URL2}MORE MORE JUMP!/1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」/02 モア！ジャンプ！モア！`
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP！ 2nd Single「Color of Drops／天使のクローバー」/cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/2nd Single「Color of Drops／天使のクローバー」/Cover.jpg?raw&proxied`,
             name: "MORE MORE JUMP！ 2nd Single「Color of Drops／天使のクローバー」"
         },
         title: "Color of Drops",
         isWavPack: true,
-        filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP！ 2nd Single「Color of Drops／天使のクローバー」/01 Color of Drops`
+        filename: `${HOSTING_URL2}MORE MORE JUMP!/2nd Single「Color of Drops／天使のクローバー」/01 Color of Drops`
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP！ 2nd Single「Color of Drops／天使のクローバー」/cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/2nd Single「Color of Drops／天使のクローバー」/Cover.jpg?raw&proxied`,
             name: "MORE MORE JUMP！ 2nd Single「Color of Drops／天使のクローバー」"
         },
         title: "天使のクローバー",
         isWavPack: true,
-        filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP！ 2nd Single「Color of Drops／天使のクローバー」/02 天使のクローバー`
+        filename: `${HOSTING_URL2}MORE MORE JUMP!/2nd Single「Color of Drops／天使のクローバー」/02 天使のクローバー`
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
@@ -102,6 +102,114 @@ export const songs = [
         title: "マシュマリー",
         isWavPack: true,
         filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/12 マシュマリー`
+    },{
+        artist: "25時、ナイトコードで。",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」/Cover.jpg?raw&proxied`,
+            name: "1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」"
+        },
+        title: "悔やむと書いてミライ",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}25時、ナイトコードで。/1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」/01 悔やむと書いてミライ`
+    },{
+        artist: "25時、ナイトコードで。",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」/Cover.jpg?raw&proxied`,
+            name: "1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」"
+        },
+        title: "携帯恋話",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}25時、ナイトコードで。/1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」/02 携帯恋話`
+    },{
+        artist: "25時、ナイトコードで。",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」/Cover.jpg?raw&proxied`,
+            name: "1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」"
+        },
+        title: "ジャックポットサッドガール",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}25時、ナイトコードで。/1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」/03 ジャックポットサッドガール`
+    },{
+        artist: "25時、ナイトコードで。",
+        lyrics: `才能なんてないからここで一生泣いているんだろ
+目に映った景色の青さが羨ましく思っていた
+路肩に転がる人生アスファルトの温度下がってる
+真夜中を照らす灯りを求めつなぐ電波セカイへと
+Rainy, rainy 求めるものだけ描いた
+心閉まって待って！本当は叫びたいのよ
+Rainy, rainy 強くありたいと願った
+声は無情に散って孤独を奏る
+指先から伝わっていく虚しさの色
+認めてはくれないの？
+燻んでしまったの灰色に
+こんな才能なんて借り物
+まだ人生終わっていないから
+諦めんなって誰かの声
+見失ってしまったのアイロニー
+気付けなくて今も抗ってる
+この感情奪って去ってよ
+ドロドロになってしまう前に
+私だけみて愛を伝えて
+(Wow wow) こんなセカイとバイバイバイバイ
+(Wow wow) 滲む想いなぞって描いた
+(Wow wow) 夢の形に泣いちゃった
+(Hey!)
+いつかはできると思ってただけど現実は残酷だろ
+焦りと不安の渦の間に黒くなって浮かんでいる
+退廃的なセンスと曖昧な表現なんかじゃ
+奇を衒った奴らの芸術アルスに
+飲み込まれて消えていく
+Rainy, rainy 雨と流れていく徒労感
+肩を濡らして残った冷たい記憶の体温
+Rainy, rainy 雲の隙間から覗いた
+光当たって届いて身体を軽くしたんだ
+美学とかプライドとか語る前に
+やれることやっていけ
+閉ざしてしまったの退路に
+焼けた才能を一つ置いてけ
+ただやったもん勝ちなんでしょ？
+固唾飲んでる場合じゃないでしょ！
+目を開いても変わらぬアイロニー
+気付いたってどーしようもないから
+それを虎視眈々と狙ってる
+ペルソナになんて越されんなよ
+私だけみて愛を伝えて
+(Wow wow) こんなセカイとバイバイバイバイ
+(Wow wow) 滲む想いなぞって描いた
+(Wow wow) 言の葉の意味飲み込んで
+(Hey!)
+燻んでしまったの灰色に
+こんな才能なんて借り物
+まだ人生終わっていないから
+諦めんなって誰かの声
+見失ってしまったのアイロニー
+気付けなくて今も抗ってる
+この感情奪って去ってよ
+ドロドロになってしまう前に
+私だけみて愛を伝えて
+(Wow wow) こんなセカイとバイバイバイバイ
+(Wow wow) 滲む想いなぞって描いた
+(Wow wow) 夢の形笑っていた`,
+        album: {
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/2nd Single「限りなく灰色へ／アイディスマイル」/Cover.jpg?raw&proxied`,
+            name: "2nd Single「限りなく灰色へ／アイディスマイル」"
+        },
+        title: "限りなく灰色へ",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}25時、ナイトコードで。/2nd Single「限りなく灰色へ／アイディスマイル」/01 限りなく灰色へ`
+    },{
+        artist: "25時、ナイトコードで。",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/2nd Single「限りなく灰色へ／アイディスマイル」/Cover.jpg?raw&proxied`,
+            name: "2nd Single「限りなく灰色へ／アイディスマイル」"
+        },
+        title: "アイディスマイル",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}25時、ナイトコードで。/2nd Single「限りなく灰色へ／アイディスマイル」/02 アイディスマイル`
     },{
         artist: "8/pLanet!!",
         lyrics: null,

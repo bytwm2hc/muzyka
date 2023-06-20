@@ -88,7 +88,7 @@
         volumeNode.connect(audioContext.destination);
         convolverNode.connect(gainWetNode);
 
-        fetch("6 Spaces 09 Arena Quad.wav").then(function (response) {
+        fetch("arena.wav").then(function (response) {
             'use strict';
             response.arrayBuffer().then(function (ab) {
                 'use strict';
