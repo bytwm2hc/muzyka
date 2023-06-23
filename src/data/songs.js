@@ -3,6 +3,96 @@ const HOSTING_URL2 = `//cdn.bytwm2hc.xyz/`;
 
 export const songs = [
     {
+        artist: "Alstroemeria Records",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Alstroemeria Records/Bad Apple!! feat.nomico 10th Anniversary/Cover.jpg?raw&proxied`,
+            name: "Bad Apple!! feat.nomico 10th Anniversary"
+        },
+        title: "Bad Apple!! feat.nomico(from Lovelight)",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Alstroemeria Records/Bad Apple!! feat.nomico 10th Anniversary/01 Bad Apple!! feat.nomico(from Lovelight)`
+    },{
+        artist: "Alstroemeria Records",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Alstroemeria Records/Bad Apple!! feat.nomico 10th Anniversary/Cover.jpg?raw&proxied`,
+            name: "Bad Apple!! feat.nomico 10th Anniversary"
+        },
+        title: "Bad Apple!! feat.nomico(Instrumental)",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Alstroemeria Records/Bad Apple!! feat.nomico 10th Anniversary/05 Bad Apple!! feat.nomico(Instrumental)`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "Magic Words",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/01 Magic Words`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "ルルカワイマ",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/02 ルルカワイマ`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "Endless Vacation",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/03 Endless Vacation`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "めたもるふぉーぜ",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/04 めたもるふぉーぜ`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "花鳥風月",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/05 花鳥風月`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "BLUE ROSE",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/06 BLUE ROSE`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "Ambition",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/07 Ambition`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "カラフルホライズン",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/08 カラフルホライズン`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "カルペ・ディエム",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/09 カルペ・ディエム`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "Reply",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/10 Reply`
+    },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
@@ -152,6 +242,76 @@ export const songs = [
         title: "アイディスマイル",
         isWavPack: true,
         filename: `${HOSTING_URL2}25時、ナイトコードで。/2nd Single「限りなく灰色へ／アイディスマイル」/02 アイディスマイル`
+    },{
+        artist: "蕭秉治",
+        lyrics: null,
+        album: { name: "狂人" },
+        title: "逃",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}蕭秉治/狂人/01 逃`
+    },{
+        artist: "蕭秉治",
+        lyrics: null,
+        album: { name: "狂人" },
+        title: "毒藥",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}蕭秉治/狂人/02 毒藥`
+    },{
+        artist: "蕭秉治",
+        lyrics: null,
+        album: { name: "狂人" },
+        title: "都是我的錯",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}蕭秉治/狂人/03 都是我的錯`
+    },{
+        artist: "蕭秉治",
+        lyrics: null,
+        album: { name: "狂人" },
+        title: "WILD",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}蕭秉治/狂人/04 WILD`
+    },{
+        artist: "蕭秉治",
+        lyrics: null,
+        album: { name: "狂人" },
+        title: "天生廢",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}蕭秉治/狂人/05 天生廢`
+    },{
+        artist: "蕭秉治",
+        lyrics: null,
+        album: { name: "狂人" },
+        title: "On me",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}蕭秉治/狂人/06 On me`
+    },{
+        artist: "蕭秉治",
+        lyrics: null,
+        album: { name: "狂人" },
+        title: "Sugar daddy",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}蕭秉治/狂人/07 Sugar daddy`
+    },{
+        artist: "蕭秉治",
+        lyrics: null,
+        album: { name: "狂人" },
+        title: "絕殺",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}蕭秉治/狂人/08 絕殺`
+    },{
+        artist: "蕭秉治",
+        lyrics: null,
+        album: { name: "狂人" },
+        title: "Savior",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}蕭秉治/狂人/09 Savior`
+    },{
+        artist: "蕭秉治",
+        lyrics: null,
+        album: { name: "狂人" },
+        title: "不留活口",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}蕭秉治/狂人/10 不留活口`
     },{
         artist: "8/pLanet!!",
         lyrics: null,
@@ -818,13 +978,6 @@ export const songs = [
         album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg?raw&proxied` },
         title: "HOPE",
         filename: `${HOSTING_URL1}Seven Billion Dots/HOPE/11 HOPE`
-    },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liyuu - ルルカワイマ.jpg?raw&proxied` },
-        title: "ルルカワイマ",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/02 ルルカワイマ`
     },{
         artist: "松谷祐子",
         lyrics: `${HOSTING_URL1}松谷祐子 - 愛はブーメラン.lrc?proxied`,

@@ -357,6 +357,9 @@
             bsn.buffer = null;
         }
         catch (ignored) {}
+        if (worker) {
+            worker.postMessage('free');
+        }
         sourceNode = undefined;
         bsn = undefined;
         if ($playMode === PLAY_MODE[0]) {

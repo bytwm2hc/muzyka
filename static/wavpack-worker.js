@@ -260,6 +260,16 @@ self.onmessage = function (event) {
         return;
     }
 
+    if (event.data === "free") {
+        if (arrayPointer) {
+            Module._free(arrayPointer);
+        }
+        return;
+    }
+
+    if (arrayPointer) {
+        Module._free(arrayPointer);
+    }
     arrayPointer = undefined;
     play(event.data);
 };
