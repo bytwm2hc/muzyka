@@ -243,6 +243,266 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}25時、ナイトコードで。/2nd Single「限りなく灰色へ／アイディスマイル」/02 アイディスマイル`
     },{
+        artist: "25時、ナイトコードで。",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
+        },
+        title: "自傷無色",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/01 自傷無色`
+    },{
+        artist: "25時、ナイトコードで。",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
+        },
+        title: "シャルル",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/02 シャルル`
+    },{
+        artist: "25時、ナイトコードで。",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
+        },
+        title: "ハロ／ハワユ",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/03 ハロ／ハワユ`
+    },{
+        artist: "25時、ナイトコードで。",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
+        },
+        title: "命に嫌われている",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/04 命に嫌われている`
+    },{
+        artist: "25時、ナイトコードで。",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
+        },
+        title: "乙女解剖",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/05 乙女解剖`
+    },{
+        artist: "25時、ナイトコードで。",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
+        },
+        title: "独りんぼエンヴィー",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/06 独りんぼエンヴィー`
+    },{
+        artist: "25時、ナイトコードで。",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
+        },
+        title: "とても痛い痛がりたい",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/07 とても痛い痛がりたい`
+    },{
+        artist: "25時、ナイトコードで。",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
+        },
+        title: "ボッカデラベリタ",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/08 ボッカデラベリタ`
+    },{
+        artist: "25時、ナイトコードで。",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
+        },
+        title: "夜に駆ける",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/09 夜に駆ける`
+    },{
+        artist: "25時、ナイトコードで。",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
+        },
+        title: "ビターチョコデコレーション",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/10 ビターチョコデコレーション`
+    },{
+        artist: "25時、ナイトコードで。",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
+        },
+        title: "カトラリー",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/11 カトラリー`
+    },{
+        artist: "25時、ナイトコードで。",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
+        },
+        title: "ベノム",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/12 ベノム`
+    },{
+        artist: "G.E.M.鄧紫棋",
+        lyrics: null,
+        album: {
+            cover: "img/album.png",
+            name: "啓示錄 REVELATION"
+        },
+        title: "YOUNG MAN & SEA",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}G.E.M.鄧紫棋/啓示錄 REVELATION/01 YOUNG MAN & SEA`
+    },{
+        artist: "G.E.M.鄧紫棋",
+        lyrics: null,
+        album: {
+            cover: "img/album.png",
+            name: "啓示錄 REVELATION"
+        },
+        title: "HELL",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}G.E.M.鄧紫棋/啓示錄 REVELATION/02 HELL`
+    },{
+        artist: "G.E.M.鄧紫棋",
+        lyrics: null,
+        album: {
+            cover: "img/album.png",
+            name: "啓示錄 REVELATION"
+        },
+        title: "ME & YOU",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}G.E.M.鄧紫棋/啓示錄 REVELATION/03 ME & YOU`
+    },{
+        artist: "G.E.M.鄧紫棋",
+        lyrics: null,
+        album: {
+            cover: "img/album.png",
+            name: "啓示錄 REVELATION"
+        },
+        title: "MAN WHO LAUGHS",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}G.E.M.鄧紫棋/啓示錄 REVELATION/04 MAN WHO LAUGHS`
+    },{
+        artist: "G.E.M.鄧紫棋",
+        lyrics: null,
+        album: {
+            cover: "img/album.png",
+            name: "啓示錄 REVELATION"
+        },
+        title: "SOLITUDE",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}G.E.M.鄧紫棋/啓示錄 REVELATION/05 SOLITUDE`
+    },{
+        artist: "G.E.M.鄧紫棋",
+        lyrics: null,
+        album: {
+            cover: "img/album.png",
+            name: "啓示錄 REVELATION"
+        },
+        title: "ICE AGE",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}G.E.M.鄧紫棋/啓示錄 REVELATION/06 ICE AGE`
+    },{
+        artist: "G.E.M.鄧紫棋",
+        lyrics: null,
+        album: {
+            cover: "img/album.png",
+            name: "啓示錄 REVELATION"
+        },
+        title: "PASSION",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}G.E.M.鄧紫棋/啓示錄 REVELATION/07 PASSION`
+    },{
+        artist: "G.E.M.鄧紫棋",
+        lyrics: null,
+        album: {
+            cover: "img/album.png",
+            name: "啓示錄 REVELATION"
+        },
+        title: "GLORIA",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}G.E.M.鄧紫棋/啓示錄 REVELATION/08 GLORIA`
+    },{
+        artist: "G.E.M.鄧紫棋",
+        lyrics: null,
+        album: {
+            cover: "img/album.png",
+            name: "啓示錄 REVELATION"
+        },
+        title: "OLD MAN & SEA",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}G.E.M.鄧紫棋/啓示錄 REVELATION/09 OLD MAN & SEA`
+    },{
+        artist: "G.E.M.鄧紫棋",
+        lyrics: null,
+        album: {
+            cover: "img/album.png",
+            name: "啓示錄 REVELATION"
+        },
+        title: "FIND YOU",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}G.E.M.鄧紫棋/啓示錄 REVELATION/10 FIND YOU`
+    },{
+        artist: "G.E.M.鄧紫棋",
+        lyrics: null,
+        album: {
+            cover: "img/album.png",
+            name: "啓示錄 REVELATION"
+        },
+        title: "F=mw²r",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}G.E.M.鄧紫棋/啓示錄 REVELATION/11 F=mw²r`
+    },{
+        artist: "G.E.M.鄧紫棋",
+        lyrics: null,
+        album: {
+            cover: "img/album.png",
+            name: "啓示錄 REVELATION"
+        },
+        title: "ONE MINUTE",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}G.E.M.鄧紫棋/啓示錄 REVELATION/12 ONE MINUTE`
+    },{
+        artist: "G.E.M.鄧紫棋",
+        lyrics: null,
+        album: {
+            cover: "img/album.png",
+            name: "啓示錄 REVELATION"
+        },
+        title: "THE END OF NIGHT",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}G.E.M.鄧紫棋/啓示錄 REVELATION/13 THE END OF NIGHT`
+    },{
+        artist: "G.E.M.鄧紫棋",
+        lyrics: null,
+        album: {
+            cover: "img/album.png",
+            name: "啓示錄 REVELATION"
+        },
+        title: "THE SKY",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}G.E.M.鄧紫棋/啓示錄 REVELATION/14 THE SKY`
+    },{
         artist: "蕭秉治",
         lyrics: null,
         album: { name: "狂人" },

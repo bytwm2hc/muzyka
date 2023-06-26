@@ -45,7 +45,7 @@
         gainDryNode,
         gainWetNode,
         volumeNode,
-        //lowShelf,
+        lowShelf,
         sourceNode,
         buffer,
         startTime,
@@ -106,11 +106,11 @@
             });
         });
 
-        //lowShelf = audioContext.createBiquadFilter();
-        //lowShelf.type = 'lowshelf';
-        //lowShelf.frequency.value = 108;
-        //lowShelf.gain.value = 1.76;
-        //lowShelf.connect(gainDryNode);
+        lowShelf = audioContext.createBiquadFilter();
+        lowShelf.type = 'lowshelf';
+        lowShelf.frequency.value = 108;
+        lowShelf.gain.value = 1.5;
+        lowShelf.connect(gainDryNode);
 
         /* audio.onended = async () => {
         	isPlay.set(false);
@@ -179,7 +179,7 @@
             if (paused) {
                 sourceNode.buffer = buffer;
                 sourceNode.connect(convolverNode);
-                sourceNode.connect(gainDryNode);
+                sourceNode.connect(lowShelf);
                 try {
                     if (sourceNode.start) {
                         sourceNode.start(0, seekTime);
@@ -229,10 +229,10 @@
                     try {
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
-                            gainDryNode.gain.value = 1.125;
-                            gainWetNode.gain.value = 0.28125;
+                            gainDryNode.gain.value = 1;
+                            gainWetNode.gain.value = 0.2;
                             sourceNode.connect(convolverNode);
-                            sourceNode.connect(gainDryNode);
+                            sourceNode.connect(lowShelf);
                             sourceNode.onended = onended;
 
                             try {
@@ -302,7 +302,7 @@
                                     aud_buf.copyToChannel(event.data.R, 1);
                                     event.data.R = undefined;
                                     bsn.connect(convolverNode);
-                                    bsn.connect(gainDryNode);
+                                    bsn.connect(lowShelf);
                                     bsn.onended = function () {
                                         worker.postMessage("onended");
                                     };
@@ -316,8 +316,8 @@
                                 'use strict';
                                 worker.postMessage('BYTES_PER_ELEMENT');
                             }, 0);
-                            gainDryNode.gain.value = 0.75;
-                            gainWetNode.gain.value = 0.1875;
+                            gainDryNode.gain.value = 0.64;
+                            gainWetNode.gain.value = 0.128;
 
                             sourceNode.buffer = audioContext.createBuffer(2, 1, audioContext.sampleRate);
                             isPlay.set(true);
@@ -359,6 +359,8 @@
         catch (ignored) {}
         if (worker) {
             worker.postMessage('free');
+            worker.terminate();
+            worker = undefined;
         }
         sourceNode = undefined;
         bsn = undefined;
@@ -400,7 +402,7 @@
             sourceNode = audioContext.createBufferSource();
             sourceNode.buffer = buffer;
             sourceNode.connect(convolverNode);
-            sourceNode.connect(gainDryNode);
+            sourceNode.connect(lowShelf);
             sourceNode.onended = onended;
             if (sourceNode.start) {
                 sourceNode.start(0, slider.value);
@@ -456,6 +458,11 @@
                 bsn.buffer = null;
             }
             catch (ignored) {}
+            if (worker) {
+                worker.postMessage('free');
+                worker.terminate();
+                worker = undefined;
+            }
             sourceNode = undefined;
             bsn = undefined;
 

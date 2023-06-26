@@ -1,7 +1,7 @@
 "use strict";
 importScripts("wavpack.js");
-const min_sample_duration = 2; // sec
-const fetching_interval = 8; // ms (Immediately if available, default: 5)
+const min_sample_duration = 4; // sec
+const fetching_interval = 5; // ms (Immediately if available, default: 5)
 var sample_rate = 44100;
 var numChannels = 1;
 var bps = 2;
@@ -71,13 +71,14 @@ const play = (wvData) => {
 
 const periodicFetch = () => {
     "use strict";
-    decodedamount = Module.ccall("DecodeWavPackBlock", "number", ["number", "number", "number"], [2, 2, arrayPointer]);
-
-    while (pcm_buffer_in_use) {
+    if (pcm_buffer_in_use) {
         // wait - this shouldn't be called but have as a sanity check, if we are currently adding PCM (decoded) music data to the AudioBuffer context we don't want to overwrite it
         //console.log("~");
+        setTimeout(periodicFetch, fetching_interval * 3);
+        return;
     }
 
+    decodedamount = Module.ccall("DecodeWavPackBlock", "number", ["number", "number", "number"], [2, 2, arrayPointer]);
     pcm_buffer_in_use = true;
 
     if (decodedamount != 0) {
