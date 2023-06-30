@@ -270,7 +270,7 @@
                                     if (typeof event.data.BYTES_PER_ELEMENT !== 'undefined') {
                                         if (event.data.BYTES_PER_ELEMENT > 0) {
                                             worker.postMessage(wvData, [wvData]);
-                                            console.log(wvData);
+                                            //console.log(wvData);
                                             wvData = undefined;
                                         } else {
                                             setTimeout(function () {
@@ -292,8 +292,8 @@
                                     }
                                     if (typeof event.data.wvData !== 'undefined') {
                                         wvData = event.data.wvData;
-                                        console.log("getTransferable!");
-                                        console.log(wvData);
+                                        //console.log("getTransferable!");
+                                        //console.log(wvData);
                                         wvData = undefined;
                                         return;
                                     }
