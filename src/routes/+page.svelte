@@ -269,7 +269,9 @@
                                     }
                                     if (typeof event.data.BYTES_PER_ELEMENT !== 'undefined') {
                                         if (event.data.BYTES_PER_ELEMENT > 0) {
-                                            worker.postMessage(wvData);
+                                            worker.postMessage(wvData, [wvData]);
+                                            console.log(wvData);
+                                            wvData = undefined;
                                         } else {
                                             setTimeout(function () {
                                                 'use strict';
@@ -290,8 +292,9 @@
                                     }
                                     if (typeof event.data.wvData !== 'undefined') {
                                         wvData = event.data.wvData;
+                                        console.log("getTransferable!");
+                                        console.log(wvData);
                                         wvData = undefined;
-                                        console.log("getTransferable");
                                         return;
                                     }
 

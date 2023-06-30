@@ -30,9 +30,9 @@ const play = (wvData) => {
     stream = FS.open(filename, "w+");
     FS.write(stream, data, 0, data.length, 0);
     FS.close(stream);
-    //postMessage({
-    //    wvData: wvData
-    //}, [wvData]);
+    postMessage({
+        wvData: wvData
+    }, [wvData]);
     wvData = undefined;
     data = undefined;
 
