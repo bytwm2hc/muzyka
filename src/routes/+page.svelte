@@ -218,8 +218,8 @@
             isCAFSupported ? (fileFormat = '.caf?raw&proxied') : (isOGGSupported ? (fileFormat = '.opus?raw&proxied') : true);
             songs[$index].isWavPack ? (fileFormat = '.wv?raw&proxied') : true;
             if (worker && !songs[$index].isWavPack) {
-                worker.terminate();
-                worker = undefined;
+                //worker.terminate();
+                //worker = undefined;
             }
             fetch(songs[$index].filename + fileFormat).then(function (response) {
                 'use strict';
@@ -270,8 +270,8 @@
                                     if (typeof event.data.BYTES_PER_ELEMENT !== 'undefined') {
                                         if (event.data.BYTES_PER_ELEMENT > 0) {
                                             worker.postMessage(wvData, [wvData]);
-                                            //console.log(wvData);
                                             wvData = undefined;
+                                            arrayBuffer = undefined;
                                         } else {
                                             setTimeout(function () {
                                                 'use strict';
@@ -291,10 +291,7 @@
                                         return;
                                     }
                                     if (typeof event.data.wvData !== 'undefined') {
-                                        wvData = event.data.wvData;
-                                        //console.log("getTransferable!");
-                                        //console.log(wvData);
-                                        wvData = undefined;
+                                        event.data.wvData = undefined;
                                         return;
                                     }
 
@@ -345,7 +342,7 @@
         ended = true;
         let lastSong = songs.length - 1;
         buffer = undefined;
-        wvData = undefined;
+        //wvData = undefined;
         try {
             sourceNode.onended = null;
             sourceNode.stop();
@@ -361,9 +358,9 @@
         }
         catch (ignored) {}
         if (worker) {
-            worker.postMessage('free');
-            worker.terminate();
-            worker = undefined;
+            //worker.postMessage('free');
+            //worker.terminate();
+            //worker = undefined;
         }
         sourceNode = undefined;
         bsn = undefined;
@@ -446,7 +443,7 @@
             playAudio(true);
         } else {
             buffer = undefined;
-            wvData = undefined;
+            //wvData = undefined;
             try {
                 sourceNode.onended = null;
                 sourceNode.stop();
@@ -462,9 +459,9 @@
             }
             catch (ignored) {}
             if (worker) {
-                worker.postMessage('free');
-                worker.terminate();
-                worker = undefined;
+                //worker.postMessage('free');
+                //worker.terminate();
+                //worker = undefined;
             }
             sourceNode = undefined;
             bsn = undefined;

@@ -263,14 +263,14 @@ self.onmessage = function (event) {
 
     if (event.data === "free") {
         if (arrayPointer) {
-            Module._free(arrayPointer);
+            //Module._free(arrayPointer);
         }
         return;
     }
 
     if (arrayPointer) {
-        Module._free(arrayPointer);
+        //Module._free(arrayPointer);
     }
-    arrayPointer = undefined;
+    //arrayPointer = undefined;
     play(event.data);
 };
