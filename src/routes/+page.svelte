@@ -52,7 +52,7 @@
         seekTime,
         playModeIcon = 'repeat',
         isLyricsPanel = false;
-    let wvData,
+    let //wvData,
         worker,
         //bypasser,
         bsn,
@@ -136,7 +136,7 @@
         }; */
     });
 
-    const playAudio = async (toPause) => {
+    async function playAudio(toPause) {
     	'use strict';
         if ($source) {
             //audio.paused ? audio.play() : audio.pause();
@@ -225,7 +225,10 @@
                 'use strict';
                 response.arrayBuffer().then(function (arrayBuffer) {
                     'use strict';
-                    wvData = arrayBuffer.slice();
+                    if (songs[$index].isWavPack) {
+                        WavPackPlay(arrayBuffer);
+                        return;
+                    }
                     try {
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
@@ -252,77 +255,6 @@
                                     isPlay.set(true);
                                 }
                             } catch (ignored) {}
-                        }, function (error) {
-                            'use strict';
-                            //audioContext.audioWorklet.addModule('bypass-processor.js').then(function () {
-                            //    bypasser = new AudioWorkletNode(audioContext, 'bypass-processor', {outputChannelCount: [2]});
-                            //    bypasser.connect(audioContext.destination);
-                            //});
-
-                            if (typeof worker === 'undefined') {
-                                worker = new Worker('wavpack-worker.js');
-
-                                worker.onmessage = function (event) {
-                                    if (event.data === null) {
-                                        bsn.onended = onended;
-                                        return;
-                                    }
-                                    if (typeof event.data.BYTES_PER_ELEMENT !== 'undefined') {
-                                        if (event.data.BYTES_PER_ELEMENT > 0) {
-                                            worker.postMessage(wvData, [wvData]);
-                                            wvData = undefined;
-                                            arrayBuffer = undefined;
-                                        } else {
-                                            setTimeout(function () {
-                                                'use strict';
-                                                worker.postMessage('BYTES_PER_ELEMENT');
-                                            }, 1);
-                                        }
-                                        return;
-                                    }
-                                    if (typeof event.data.sampleRate !== 'undefined') {
-                                        sr = event.data.sampleRate;
-                                        return;
-                                    }
-                                    if (typeof event.data.numSamples !== 'undefined') {
-                                        duration = event.data.numSamples / sr * (440 / 432);
-                                        startTime = audioContext.currentTime;
-                                        setTimeout(updateTime.bind(null, false), 400);
-                                        return;
-                                    }
-                                    if (typeof event.data.wvData !== 'undefined') {
-                                        event.data.wvData = undefined;
-                                        return;
-                                    }
-
-                                    bsn = audioContext.createBufferSource();
-                                    const aud_buf = audioContext.createBuffer(2, event.data.L.length, sr);
-                                    aud_buf.copyToChannel(event.data.L, 0);
-                                    event.data.L = undefined;
-                                    aud_buf.copyToChannel(event.data.R, 1);
-                                    event.data.R = undefined;
-                                    bsn.connect(convolverNode);
-                                    bsn.connect(lowShelf);
-                                    bsn.onended = function () {
-                                        worker.postMessage("onended");
-                                    };
-                                    bsn.buffer = aud_buf;
-                                    bsn.detune.value = 432/440;
-                                    bsn.playbackRate.value = 432/440;
-                                    bsn.start(0);
-                                };
-                            }
-                            setTimeout(function () {
-                                'use strict';
-                                worker.postMessage('BYTES_PER_ELEMENT');
-                            }, 0);
-                            gainDryNode.gain.value = 0.64;
-                            gainWetNode.gain.value = 0.128;
-
-                            sourceNode.buffer = audioContext.createBuffer(2, 1, audioContext.sampleRate);
-                            isPlay.set(true);
-                            slider.disabled = 'disabled';
-                            $btnDisabled = 'disabled';
                         });
                     } catch (error) {
                         //TODO: decodeAudioData(..., function());
@@ -332,7 +264,7 @@
         } else {
             showError();
         }
-    };
+    }
 
     const onended = async() => {
         'use strict';
@@ -358,9 +290,9 @@
         }
         catch (ignored) {}
         if (worker) {
-            //worker.postMessage('free');
-            //worker.terminate();
-            //worker = undefined;
+            worker.postMessage('free');
+            worker.terminate();
+            worker = undefined;
         }
         sourceNode = undefined;
         bsn = undefined;
@@ -459,9 +391,9 @@
             }
             catch (ignored) {}
             if (worker) {
-                //worker.postMessage('free');
-                //worker.terminate();
-                //worker = undefined;
+                worker.postMessage('free');
+                worker.terminate();
+                worker = undefined;
             }
             sourceNode = undefined;
             bsn = undefined;
@@ -535,7 +467,79 @@
             setTimeout(updateTime.bind(null, false), 400);
         }
     };
-    
+
+    function WavPackPlay(wvData) {
+        'use strict';
+        //audioContext.audioWorklet.addModule('bypass-processor.js').then(function () {
+        //    bypasser = new AudioWorkletNode(audioContext, 'bypass-processor', {outputChannelCount: [2]});
+        //    bypasser.connect(audioContext.destination);
+        //});
+
+        if (typeof worker === 'undefined') {
+            worker = new Worker('wavpack-worker');
+        }
+
+            worker.onmessage = function (event) {
+                if (event.data === null) {
+                    bsn.onended = onended;
+                    return;
+                }
+                if (typeof event.data.BYTES_PER_ELEMENT !== 'undefined') {
+                    if (event.data.BYTES_PER_ELEMENT > 0) {
+                        worker.postMessage(wvData, [wvData]);
+                    } else {
+                        setTimeout(function () {
+                            'use strict';
+                            worker.postMessage('BYTES_PER_ELEMENT');
+                        }, 1);
+                    }
+                    return;
+                }
+                if (typeof event.data.sampleRate !== 'undefined') {
+                    sr = event.data.sampleRate;
+                    return;
+                }
+                if (typeof event.data.numSamples !== 'undefined') {
+                    duration = event.data.numSamples / sr * (440 / 432);
+                    startTime = audioContext.currentTime;
+                    setTimeout(updateTime.bind(null, false), 400);
+                    return;
+                }
+                if (typeof event.data.wvData !== 'undefined') {
+                    event.data.wvData = undefined;
+                    return;
+                }
+
+                bsn = audioContext.createBufferSource();
+                const aud_buf = audioContext.createBuffer(2, event.data.L.length, sr);
+                aud_buf.copyToChannel(event.data.L, 0);
+                event.data.L = undefined;
+                aud_buf.copyToChannel(event.data.R, 1);
+                event.data.R = undefined;
+                bsn.connect(convolverNode);
+                bsn.connect(lowShelf);
+                bsn.onended = function () {
+                    worker.postMessage("onended");
+                };
+                bsn.buffer = aud_buf;
+                bsn.detune.value = 432/440;
+                bsn.playbackRate.value = 432/440;
+                bsn.start(0);
+            };
+
+        setTimeout(function () {
+            'use strict';
+            worker.postMessage('BYTES_PER_ELEMENT');
+        }, 0);
+        gainDryNode.gain.value = 0.64;
+        gainWetNode.gain.value = 0.128;
+
+        sourceNode.buffer = audioContext.createBuffer(2, 1, audioContext.sampleRate);
+        isPlay.set(true);
+        slider.disabled = 'disabled';
+        $btnDisabled = 'disabled';
+    }
+
     /*
      * Appends two ArrayBuffers into a new one.
      * 
@@ -573,7 +577,7 @@
     <div class="card">
         <h1 class="card__title">{$title}</h1>
         <p class="card__artist">{$artist}</p>
-        <img class="card__album" draggable="false" src="{$albumCover}" alt={$album} />
+        <img class="card__album" draggable="false" src="{$albumCover}" alt={$album} crossorigin />
         <button type="button" on:click={()=> isLyricsPanel = !isLyricsPanel} class="card__lyrics-playlist-btn">See {isLyricsPanel ? 'Playlist' : 'Lyrics'}</button>
         <input type="range" on:input={seek} bind:this={slider} value={ended ? 0 : time} max={duration} class="card__slider card__slider--duration" />
         <div class="card__minutes">
@@ -636,7 +640,7 @@
 	on:loadeddata={() => isLoaded.set(true)}
 	src={$source}
 />-->
-<audio bind:this={audio} on:loadeddata={() => isLoaded.set(true)} loop>
+<audio bind:this={audio} on:loadeddata={() => isLoaded.set(true)} crossorigin loop>
     <source src="//s1s.bytwm2hc.xyz/" type="audio/x-wav" />
 </audio>
 

@@ -1,7 +1,8 @@
 "use strict";
+//var Module = {'wasmMemory': new WebAssembly.Memory({initial: 16 * 1024 / 64, maximum: 16 * 1024 / 64})};
 importScripts("wavpack.js");
-const min_sample_duration = 3; // sec
-const fetching_interval = 5; // ms (Immediately if available, default: 5)
+const min_sample_duration = 10; // sec
+const fetching_interval = 15; // ms (Immediately if available, default: 5)
 var sample_rate = 44100;
 var numChannels = 1;
 var bps = 2;
@@ -16,7 +17,7 @@ var stopped = false;
 var is_reading = false;
 var pcm_buffer_in_use = false;
 
-const play = (wvData) => {
+function play (wvData) {
     "use strict";
     end_of_song_reached = false;
     stopped = false;
@@ -26,7 +27,8 @@ const play = (wvData) => {
     const bytes_per_element = Module.HEAP32.BYTES_PER_ELEMENT;
     let data, filename, stream;
     data = new Uint8Array(wvData);
-    filename = makeId(5);
+    //filename = makeId(5);
+    filename = "wavpack.wv";
     stream = FS.open(filename, "w+");
     FS.write(stream, data, 0, data.length, 0);
     FS.close(stream);
@@ -37,7 +39,9 @@ const play = (wvData) => {
     data = undefined;
 
     if (typeof arrayPointer === "undefined") {
-        arrayPointer = Module._malloc(4096 * bytes_per_element);
+        //let result = Module.onRuntimeInitialized = () => {
+            arrayPointer = Module._malloc(4096 * bytes_per_element);
+        //};
     }
 
     let musicdata = new Int32Array(4096).fill(0);
@@ -67,9 +71,9 @@ const play = (wvData) => {
     floatDivisor = Math.pow(2, bps * 8 - 1);
 
     setTimeout(periodicFetch, 0);
-};
+}
 
-const periodicFetch = () => {
+function periodicFetch () {
     "use strict";
     if (pcm_buffer_in_use) {
         // wait - this shouldn't be called but have as a sanity check, if we are currently adding PCM (decoded) music data to the AudioBuffer context we don't want to overwrite it
@@ -79,6 +83,7 @@ const periodicFetch = () => {
     }
 
     decodedamount = Module.ccall("DecodeWavPackBlock", "number", ["number", "number", "number"], [2, 2, arrayPointer]);
+
     pcm_buffer_in_use = true;
 
     if (decodedamount != 0) {
@@ -157,7 +162,7 @@ const periodicFetch = () => {
     //    }
     //    catch (ignored) {}
     //}
-};
+}
 
 const readingLoop = () => {
     "use strict";
@@ -177,6 +182,7 @@ const addBufferToAudioContext = () => {
     while (pcm_buffer_in_use) {
         // wait, this shouldn't be called, but if we're adding more data to the PCM buffer, don't want to overwrite it
         //console.log("-");
+        return;
     }
 
     pcm_buffer_in_use = true;
@@ -189,17 +195,17 @@ const addBufferToAudioContext = () => {
     //    aud_buf.copyToChannel(fetched_data_right, 1);
     //}
     // the actual player
-    try {
+    //try {
         postMessage({
             L: fetched_data_left,
             R: fetched_data_right
         }, [fetched_data_left.buffer, fetched_data_right.buffer]);
-    } catch (e) {
-        postMessage({
-            L: fetched_data_left.slice(),
-            R: fetched_data_right.slice()
-        });
-    }
+    //} catch (e) {
+    //    postMessage({
+    //        L: fetched_data_left.slice(),
+    //        R: fetched_data_right.slice()
+    //    });
+    //}
     // clear the buffered data
     fetched_data_left = new Float32Array(0);
     fetched_data_right = new Float32Array(0);
@@ -218,7 +224,7 @@ const addBufferToAudioContext = () => {
     }
 };
 
-const concatFloat32Arrays = (arr1, arr2) => {
+function concatFloat32Arrays (arr1, arr2) {
     "use strict";
     if (!arr1 || !arr1.length) {
         return arr2 && arr2.slice();
@@ -226,11 +232,13 @@ const concatFloat32Arrays = (arr1, arr2) => {
     if (!arr2 || !arr2.length) {
         return arr1 && arr1.slice();
     }
-    const out = new Float32Array(arr1.length + arr2.length);
+    let out = new Float32Array(arr1.length + arr2.length);
     out.set(arr1);
     out.set(arr2, arr1.length);
+    //arr1 = new Float32Array(0);
+    //arr2 = new Float32Array(0);
     return out;
-};
+}
 
 const makeId = (length) => {
     let result = '';
@@ -263,8 +271,9 @@ self.onmessage = function (event) {
 
     if (event.data === "free") {
         if (arrayPointer) {
-            //Module._free(arrayPointer);
+            Module._free(arrayPointer);
         }
+        FS.unlink("wavpack.wv");
         return;
     }
 

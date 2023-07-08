@@ -1218,7 +1218,7 @@ export const songs = [
         artist: "Seven Billion Dots",
         lyrics: null,
         album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg?raw&proxied` },
-        title: "08 What Was That!?",
+        title: "What Was That!?",
         filename: `${HOSTING_URL1}Seven Billion Dots/HOPE/08 What Was That！？`
     },{
         artist: "Seven Billion Dots",
