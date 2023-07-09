@@ -502,7 +502,7 @@
                 if (typeof event.data.numSamples !== 'undefined') {
                     duration = event.data.numSamples / sr * (440 / 432);
                     startTime = audioContext.currentTime;
-                    setTimeout(updateTime.bind(null, false), 400);
+                    setTimeout(updateTime.bind(null, false), 500);
                     return;
                 }
                 if (typeof event.data.wvData !== 'undefined') {
@@ -511,7 +511,7 @@
                 }
 
                 bsn = audioContext.createBufferSource();
-                const aud_buf = audioContext.createBuffer(2, event.data.L.length, sr);
+                let aud_buf = audioContext.createBuffer(2, event.data.L.length, sr);
                 aud_buf.copyToChannel(event.data.L, 0);
                 event.data.L = undefined;
                 aud_buf.copyToChannel(event.data.R, 1);
