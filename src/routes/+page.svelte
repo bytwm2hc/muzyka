@@ -112,6 +112,39 @@
         lowShelf.gain.value = 1.5;
         lowShelf.connect(gainDryNode);
 
+        window.addEventListener('message', (event) => {
+            console.log(event.data);
+            if (event.data === null) {
+                bsn.onended = onended;
+                return;
+            }
+            if (typeof event.data.sampleRate !== 'undefined') {
+                sr = event.data.sampleRate;
+                return;
+            }
+            if (typeof event.data.numSamples !== 'undefined') {
+                duration = event.data.numSamples / sr * (440 / 432);
+                startTime = audioContext.currentTime;
+                setTimeout(updateTime.bind(null, false), 500);
+                return;
+            }
+            bsn = audioContext.createBufferSource();
+            let aud_buf = audioContext.createBuffer(2, event.data.L.length, sr);
+            aud_buf.copyToChannel(event.data.L, 0);
+            event.data.L = undefined;
+            aud_buf.copyToChannel(event.data.R, 1);
+            event.data.R = undefined;
+            bsn.connect(convolverNode);
+            bsn.connect(lowShelf);
+            bsn.onended = function () {
+                window.frames['aa'].contentWindow.postMessage('onended', '*');
+            };
+            bsn.buffer = aud_buf;
+            bsn.detune.value = 432/440;
+            bsn.playbackRate.value = 432/440;
+            bsn.start(0);
+        });
+
         /* audio.onended = async () => {
         	isPlay.set(false);
         	time = 0;
@@ -207,6 +240,7 @@
                     bsn.disconnect();
                     bsn.buffer = null;
                     bsn = undefined;
+                    window.frames['aa'].contentWindow.location.reload();
                 }
                 catch (ignored) {}
             }
@@ -287,6 +321,11 @@
             bsn.stop();
             bsn.disconnect();
             bsn.buffer = null;
+            window.frames['aa'].contentWindow.location.reload();
+        }
+        catch (ignored) {}
+        try {
+            window.frames['aa'].contentWindow.location.reload();
         }
         catch (ignored) {}
         if (worker) {
@@ -475,62 +514,7 @@
         //    bypasser.connect(audioContext.destination);
         //});
 
-        if (typeof worker === 'undefined') {
-            worker = new Worker('wavpack-worker');
-        }
-
-            worker.onmessage = function (event) {
-                if (event.data === null) {
-                    bsn.onended = onended;
-                    return;
-                }
-                if (typeof event.data.BYTES_PER_ELEMENT !== 'undefined') {
-                    if (event.data.BYTES_PER_ELEMENT > 0) {
-                        worker.postMessage(wvData, [wvData]);
-                    } else {
-                        setTimeout(function () {
-                            'use strict';
-                            worker.postMessage('BYTES_PER_ELEMENT');
-                        }, 1);
-                    }
-                    return;
-                }
-                if (typeof event.data.sampleRate !== 'undefined') {
-                    sr = event.data.sampleRate;
-                    return;
-                }
-                if (typeof event.data.numSamples !== 'undefined') {
-                    duration = event.data.numSamples / sr * (440 / 432);
-                    startTime = audioContext.currentTime;
-                    setTimeout(updateTime.bind(null, false), 500);
-                    return;
-                }
-                if (typeof event.data.wvData !== 'undefined') {
-                    event.data.wvData = undefined;
-                    return;
-                }
-
-                bsn = audioContext.createBufferSource();
-                let aud_buf = audioContext.createBuffer(2, event.data.L.length, sr);
-                aud_buf.copyToChannel(event.data.L, 0);
-                event.data.L = undefined;
-                aud_buf.copyToChannel(event.data.R, 1);
-                event.data.R = undefined;
-                bsn.connect(convolverNode);
-                bsn.connect(lowShelf);
-                bsn.onended = function () {
-                    worker.postMessage("onended");
-                };
-                bsn.buffer = aud_buf;
-                bsn.detune.value = 432/440;
-                bsn.playbackRate.value = 432/440;
-                bsn.start(0);
-            };
-
-        setTimeout(function () {
-            'use strict';
-            worker.postMessage('BYTES_PER_ELEMENT');
-        }, 0);
+        window.frames['aa'].contentWindow.postMessage({wvData: wvData}, '*', [wvData]);
         gainDryNode.gain.value = 0.64;
         gainWetNode.gain.value = 0.128;
 
