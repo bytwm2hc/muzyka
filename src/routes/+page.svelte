@@ -281,6 +281,7 @@
 
     const onended = async() => {
         'use strict';
+        //console.log('onended!');
         isPlay.set(false);
         time = 0;
         duration = 0;
