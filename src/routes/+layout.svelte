@@ -12,7 +12,7 @@
 
 <main>
 <slot />
-<iframe src="https://wavpack-wrapper-3ade.pages.dev/" hidden id="aa" />
+<iframe hidden id="wavpackWrapper" title="" />
 </main>
 
 <style>
