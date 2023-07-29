@@ -113,7 +113,12 @@
         window.addEventListener('message', (event) => {
             //console.log(event.data);
             if (event.data === null) {
-                bsn.onended = onended;
+                if (bsn) {
+                    bsn.onended = onended;
+                }
+                else {
+                    onended();
+                }
                 return;
             }
             if (typeof event.data.sampleRate !== 'undefined') {
@@ -137,6 +142,7 @@
             //console.log(aud_buf); /* */
             bsn.onended = function () {
                 wavpackWrapper.contentWindow.postMessage('onended', '*');
+                bsn = undefined;
             };
             bsn.buffer = aud_buf;
             bsn.detune.value = 432/440;
@@ -168,7 +174,7 @@
         }; */
     });
 
-    async function playAudio(toPause) {
+    const playAudio = async (toPause) => {
     	'use strict';
         if ($source) {
             //audio.paused ? audio.play() : audio.pause();
@@ -473,7 +479,7 @@
         }
     };
 
-    function WavPackPlay(wvData) {
+    const WavPackPlay = (wvData) => {
         'use strict';
         //audioContext.audioWorklet.addModule('bypass-processor.js').then(function () {
         //    bypasser = new AudioWorkletNode(audioContext, 'bypass-processor', {outputChannelCount: [2]});
