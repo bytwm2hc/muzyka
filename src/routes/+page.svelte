@@ -111,7 +111,9 @@
 
         wavpackWrapper = document.getElementById('wavpackWrapper');
         window.addEventListener('message', (event) => {
-            //console.log(event.data);
+            //if (event.data === null || !event.data.L) {
+            //    console.log(event.data);
+            //}
             if (event.data === null) {
                 if (bsn) {
                     bsn.onended = onended;
@@ -297,20 +299,20 @@
         try {
             sourceNode.onended = null;
             sourceNode.stop();
-            sourceNode.disconnect();
             sourceNode.buffer = null;
+            sourceNode.disconnect();
         }
         catch (ignored) {}
         sourceNode = undefined;
         try {
             bsn.onended = null;
+            bsn.buffer = null;
             bsn.stop();
             bsn.disconnect();
-            bsn.buffer = null;
-            wavpackWrapper.src = 'about:blank';
         }
         catch (ignored) {}
         bsn = undefined;
+        wavpackWrapper.src = 'about:blank';
 
         if ($playMode === PLAY_MODE[0]) {
         	let nextSong = $index + 1;
@@ -393,21 +395,21 @@
             buffer = undefined;
             try {
                 sourceNode.onended = null;
+                sourceNode.buffer = null;
                 sourceNode.stop();
                 sourceNode.disconnect();
-                sourceNode.buffer = null;
             }
             catch (ignored) {}
             sourceNode = undefined;
             try {
                 bsn.onended = null;
+                bsn.buffer = null;
                 bsn.stop();
                 bsn.disconnect();
-                bsn.buffer = null;
-                wavpackWrapper.src = 'about:blank';
             }
             catch (ignored) {}
             bsn = undefined;
+            wavpackWrapper.src = 'about:blank';
 
             index.set(i);
             title.set(song.title);
@@ -502,7 +504,7 @@
      * @param {ArrayBuffer} buffer1 The first buffer.
      * @param {ArrayBuffer} buffer2 The second buffer.
     */
-    const appendBuffer = (buffer1, buffer2) => {
+    /* const appendBuffer = (buffer1, buffer2) => {
         'use strict';
         const numberOfChannels = Math.min(buffer1.numberOfChannels, buffer2.numberOfChannels);
         const tmp = audioContext.createBuffer(numberOfChannels, (buffer1.length + buffer2.length), buffer1.sampleRate);
@@ -512,12 +514,11 @@
             channel.set(buffer2.getChannelData(i), buffer1.length);
         }
         return tmp;
-    };
+    }; */
 
     const iOS = () => {
-        return ['iPad Simulator', 'iPhone Simulator', 'iPod Simulator', 'iPad', 'iPhone', 'iPod'].includes(navigator.platform)
-        // iPad on iOS 13 detection
-        || (navigator.userAgent.includes('Mac') && 'ontouchend' in document);
+        'use strict';
+        return ['iPad Simulator', 'iPhone Simulator', 'iPod Simulator', 'iPad', 'iPhone', 'iPod'].includes(navigator.platform) || (navigator.userAgent.includes('Mac') && 'ontouchend' in document);
     };
 </script>
 

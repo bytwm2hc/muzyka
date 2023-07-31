@@ -4,7 +4,7 @@ const HOSTING_URL2 = `//cdn.bytwm2hc.xyz/`;
 export const songs = [
     {
         artist: "Alstroemeria Records",
-        lyrics: null,
+        lyrics: `流れてく 時の中ででも 気だるさが ほらグルグル廻って<br />私から 離れる心も 見えないわ そう知らない？<br />自分から 動くこともなく 時の隙間に 流され続けて<br />知らないわ 周りのことなど 私は私 それだけ<br />夢見てる？ なにも見てない？ 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />こんな自分に 未来はあるの？ こんな世界に 私はいるの？<br />今切ないの？ 今悲しいの？ 自分の事も わからないまま<br />歩むことさえ 疲れるだけよ 人のことなど 知りもしないわ<br />こんな私も 変われるのなら もし変われるのなら 白になる？<br />流れてく 時の中ででも 気だるさがほら グルグル廻って<br />私から 離れる心も 見えないわそう 知らない？<br />自分から 動くこともなく 時の隙間に 流され続けて<br />知らないわ 周りのことなど 私は私 それだけ？<br />夢見てる？ なにも見てない 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />無駄な時間に 未来はあるの？ こんな所に 私は居るの？<br />私のことを 言いたいならば 言葉にするのなら 「ろくでなし」<br />こんな所に 私はいるの？ こんな時間に 私はいるの？<br />こんな私も 変われるのなら もし変われるのなら 白になる？<br />今夢見てる？ なにも見てない？ 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />動くのならば 動くのならば すべて壊すわ すべて壊すわ<br />悲しむならば 悲しむならば 私の心 白く変われる？<br />貴方の事も 私のことも 全ての事も まだ知らないの<br />重い目蓋を 開けたのならば すべて壊すのなら 黒になれ!!!`,
         album: {
             cover: `${HOSTING_URL2}Alstroemeria Records/Bad Apple!! feat.nomico 10th Anniversary/Cover.jpg?raw&proxied`,
             name: "Bad Apple!! feat.nomico 10th Anniversary"
@@ -23,75 +23,47 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}Alstroemeria Records/Bad Apple!! feat.nomico 10th Anniversary/05 Bad Apple!! feat.nomico(Instrumental)`
     },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
-        title: "Magic Words",
+        artist: "飛鳥空 starring 櫻井智",
+        lyrics: `えんぴつの先 指で確かめ<br />どんな絵になるの? まだ見えないけど<br /><br />目を閉じると浮かび上がるから<br />心の奥にある想い カタチにしてみて<br /><br />綺麗な絵の具たちを並べてみていると<br />心ときめいてくるの<br /><br />そう 初めての色<br /><br />ふたりで選んだパステルたち<br />あと少しだから お願い気付いて<br /><br />そわそわしてるの バレちゃうかな?<br />目逸らしてるの わざとだよ<br />素直になれない<br /><br />あなたのこと想うと胸が高鳴るから<br />伝えたい この気持ちを<br />そう 風にのせて<br /><br />広い空のキャンパスに筆を走らせて<br />どこまでも自由だから<br />届けたい笑顔を<br /><br />未来描いて`,
+        album: { cover: `${HOSTING_URL2}神のみキャラCD.くれよん 飛鳥空 starring 櫻井智/Cover.jpg?raw&proxied`, name: "神のみキャラCD.くれよん 飛鳥空 starring 櫻井智" },
+        title: "初めての色",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/01 Magic Words`
+        filename: `${HOSTING_URL2}神のみキャラCD.くれよん 飛鳥空 starring 櫻井智/01 初めての色`
     },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
-        title: "ルルカワイマ",
+        artist: "飛鳥空 starring 櫻井智",
+        lyrics: `煌く星を見上げて 想う あの日の事<br />届けたい 胸の奥にある この気持ち きっと<br /><br />あなたの笑顔を 見つけたい<br />たった一度の奇跡 そう 夢見ている<br /><br />広い荒野に立ちすくんでも<br />勇気持てれば そう 歩き出せるわ<br /><br />出会えたことは 偶然じゃない<br />お願い 明日伝えて<br /><br />小さな あの約束を 忘れはしないから<br />腕の中残る 暖かい優しさが ずっと<br /><br />あなたの言葉を聴きたくて<br />何度も繰り返す そう 魔法みたい<br /><br />ひとりぼっちのせつない夜を<br />終わらせたいの そう 涙拭って<br /><br />ふたつの心 ひとつ重ねて<br />見つめ合えれば そう 願い叶えて<br /><br />白く輝く翼広げて<br />舞い上がれ永遠の空へ`,
+        album: { cover: `${HOSTING_URL2}神のみキャラCD.くれよん 飛鳥空 starring 櫻井智/Cover.jpg?raw&proxied`, name: "神のみキャラCD.くれよん 飛鳥空 starring 櫻井智" },
+        title: "たった一度の奇跡",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/02 ルルカワイマ`
+        filename: `${HOSTING_URL2}神のみキャラCD.くれよん 飛鳥空 starring 櫻井智/02 たった一度の奇跡`
     },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
-        title: "Endless Vacation",
+        artist: "中川かのん starring 東山奈央",
+        lyrics: `短い髪を なびかせて<br />リボン革命 起こしちゃう<br />レボレボな 未来<br /><br />みんなの声が 聞きたいの<br />みんなに届け 愛の歌<br />メロメロな メロディ<br /><br />明日も会えるかな きっと会えるよね<br />胸のときめきを 伝えたいな<br /><br />I MY ME アイドル WA TA SHI アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />みんなのハート狙い撃ちよ もう 離さない<br /><br />スカートひらり なびかせて<br />魅惑のダンス サプライズ<br />ドキドキを あげる<br /><br />みんなが辛い 時にはね<br />夜空きらめく 星になる<br />キラキラリ 光る<br /><br />誰にも止められない 準備万端だよね？<br />ローラーコースター ついてきてね<br /><br />I MY ME アイドル I MY ME アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />みんなのハート狙い撃ちよ もう 離さない<br /><br />あなたに 伝えたい<br /><br />I MY ME アイドル WA TA SHI アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />あなたのハート狙い撃ちよ ずっと 離さない`,
+        album: { cover: `${HOSTING_URL2}中川かのん 1stアルバム「Birth」／中川かのん starring 東山奈央/Cover.jpg?raw&proxied`, name: "中川かのん 1stアルバム「Birth」／中川かのん starring 東山奈央" },
+        title: "LOVE KANON",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/03 Endless Vacation`
+        filename: `${HOSTING_URL2}中川かのん 1stアルバム「Birth」／中川かのん starring 東山奈央/02 LOVE KANON`
     },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
-        title: "めたもるふぉーぜ",
+        artist: "中川かのん starring 東山奈央",
+        lyrics: `ALL 4 YOU 白い砂に ALL 4 YOU 裸足の愛<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 触れる素肌 ALL 4 YOU 渚の愛<br />君と走りぬけたい 常夏色の恋 叶えたいよ<br /><br />太陽 スマイル 炎天下ドライブ<br />なんて 綺麗な エメラルド絨毯<br />恋の プロローグ 寄せては返す<br />この想い 伝えたい<br /><br />サンダルが青空 飛んでいく<br />鼓動をつないだ シルエット<br /><br />ALL 4 YOU 白い砂に ALL 4 YOU 裸足の恋<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 風が走る ALL 4 YOU 渚の恋<br />君と走りぬけたい 常夏色の愛 届けたいよ<br /><br />太陽 アクビで 地平線へダイブ<br />なんて 綺麗な 星空の絨毯<br />ちょっと 勇気出して 距離縮める<br />この想い 気づいてよ<br /><br />波音のシンフォニー 鳴り響く<br />二人はひとつの シルエット<br /><br />ALL 4 YOU 一人占めよ ALL 4 YOU わたしの愛<br />照れた横顔 目が離せないよ<br />ALL 4 YOU 触れた素肌 ALL 4 YOU 渚のキス<br />君と一緒にいたい 来年再来年 その先も<br /><br />ALL 4 YOU 白い砂に ALL 4 YOU 裸足の恋<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 風が走る ALL 4 YOU 渚の恋<br />君と走りぬけたい 常夏色の愛 届けたいよ`,
+        album: { cover: `${HOSTING_URL2}中川かのん 1stアルバム「Birth」／中川かのん starring 東山奈央/Cover.jpg?raw&proxied`, name: "中川かのん 1stアルバム「Birth」／中川かのん starring 東山奈央" },
+        title: "ALL 4 YOU",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/04 めたもるふぉーぜ`
+        filename: `${HOSTING_URL2}中川かのん 1stアルバム「Birth」／中川かのん starring 東山奈央/04 ALL 4 YOU`
     },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
-        title: "花鳥風月",
+        artist: "中川かのん starring 東山奈央",
+        lyrics: `黒板 そっちのけで チラリ 見つめる先は<br />甘い横顔 ファンタジー<br /><br />突然 校舎の裏 相談 恋愛モード<br />やっぱ私にじゃない<br /><br />だけどあなたの 為に頑張る<br />いつの日にか 振り 向かせてみせるわ<br />鈍感過ぎな ロミオさん<br /><br />ハピハピハッピークレセント<br />あなたにハッピープレゼント<br />わかって欲しいの この気持ち あなただけよ 永遠ロマンス<br />ハピハピハッピークレセント<br />あなたに全部ささげるI love you<br />いつか終わるの？ ねぇ抱きしめて欲しい 片想い<br /><br />窓辺 溜め息色 ふいに 見つめる先に<br />暗い横顔 ミステリー<br /><br />走る 渡り廊下 背中 失恋モード<br />もしかしてフラれたの？<br /><br />元気だしてよ わたしがいるよ<br />告白だよ？ でも 気付いてない顔<br />鈍感過ぎよ ロミオさん<br /><br />トキメキハッピークレセント<br />ドキドキもっとプレゼント<br />気付いて欲しいの 胸の鼓動 奏でてるよ 恋のメロディ<br />トキメキハッピークレセント<br />あなたに全部ささげるI want you<br />いつになるだろ？ ねぇ終わらせたいよ 片想い<br /><br />ハピハピハッピークレセント<br />あなたにハッピープレゼント<br />わかって欲しいの この気持ち あなただけよ 永遠ロマンス<br />ハピハピハッピークレセント<br />あなたに全部ささげるI love you<br />いつか終わるの？ ねぇ抱きしめて欲しい 片想い`,
+        album: { cover: `${HOSTING_URL2}中川かのん 1stアルバム「Birth」／中川かのん starring 東山奈央/Cover.jpg?raw&proxied`, name: "中川かのん 1stアルバム「Birth」／中川かのん starring 東山奈央" },
+        title: "ハッピークレセント",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/05 花鳥風月`
+        filename: `${HOSTING_URL2}中川かのん 1stアルバム「Birth」／中川かのん starring 東山奈央/06 ハッピークレセント`
     },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
-        title: "BLUE ROSE",
+        artist: "中川かのん starring 東山奈央",
+        lyrics: `何もみえない<br />暗闇のなかで<br />見つけたんだ 小さな光を<br /><br />私は歩いてく<br />もう迷わない<br />まっすぐに届け<br /><br />何も聞こえない<br />喧騒のなかで<br />見つけたんだ 小さな声を<br /><br />私は歌う<br />メロディが空へ一杯に<br />広がれ<br /><br />心は あなたに続いてる<br />いますぐ会いたい<br />感じたい ぬくもりを<br />世界が満たされる 光で<br />どこにいても 感じるよ 声を<br /><br />わたしの<br />らぶこーる<br /><br />あなたに<br /><br />涙があふれる<br />孤独な心に<br />見つけたんだ 小さな愛を<br /><br />私は想う<br />歌声が どこまでも響く<br />I love you<br /><br />たとえ つまずいて 疲れ切っても<br />地図のない道に<br />ゴールは見えなくても<br />進むよ 目の前を見つめて<br /><br />たどりつくよ<br />あなたの<br />ところへ<br /><br />心は あなたに続いてる<br />いつでも会いたい<br />感じたい ぬくもりを<br />世界が満たされる 光で<br />どこにいても 感じるよ 愛を<br /><br />わたしの<br />らぶこーる<br /><br />あなたに`,
+        album: { cover: `${HOSTING_URL2}中川かのん 1stアルバム「Birth」／中川かのん starring 東山奈央/Cover.jpg?raw&proxied`, name: "中川かのん 1stアルバム「Birth」／中川かのん starring 東山奈央" },
+        title: "らぶこーる",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/06 BLUE ROSE`
-    },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
-        title: "Ambition",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/07 Ambition`
-    },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
-        title: "カラフルホライズン",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/08 カラフルホライズン`
-    },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
-        title: "カルペ・ディエム",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/09 カルペ・ディエム`
-    },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
-        title: "Reply",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/10 Reply`
+        filename: `${HOSTING_URL2}中川かのん 1stアルバム「Birth」／中川かのん starring 東山奈央/08 らぶこーる`
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
@@ -505,70 +477,70 @@ export const songs = [
     },{
         artist: "蕭秉治",
         lyrics: null,
-        album: { name: "狂人" },
+        album: { cover: "img/album.png", name: "狂人" },
         title: "逃",
         isWavPack: true,
         filename: `${HOSTING_URL2}蕭秉治/狂人/01 逃`
     },{
         artist: "蕭秉治",
         lyrics: null,
-        album: { name: "狂人" },
+        album: { cover: "img/album.png", name: "狂人" },
         title: "毒藥",
         isWavPack: true,
         filename: `${HOSTING_URL2}蕭秉治/狂人/02 毒藥`
     },{
         artist: "蕭秉治",
         lyrics: null,
-        album: { name: "狂人" },
+        album: { cover: "img/album.png", name: "狂人" },
         title: "都是我的錯",
         isWavPack: true,
         filename: `${HOSTING_URL2}蕭秉治/狂人/03 都是我的錯`
     },{
         artist: "蕭秉治",
         lyrics: null,
-        album: { name: "狂人" },
+        album: { cover: "img/album.png", name: "狂人" },
         title: "WILD",
         isWavPack: true,
         filename: `${HOSTING_URL2}蕭秉治/狂人/04 WILD`
     },{
         artist: "蕭秉治",
         lyrics: null,
-        album: { name: "狂人" },
+        album: { cover: "img/album.png", name: "狂人" },
         title: "天生廢",
         isWavPack: true,
         filename: `${HOSTING_URL2}蕭秉治/狂人/05 天生廢`
     },{
         artist: "蕭秉治",
         lyrics: null,
-        album: { name: "狂人" },
+        album: { cover: "img/album.png", name: "狂人" },
         title: "On me",
         isWavPack: true,
         filename: `${HOSTING_URL2}蕭秉治/狂人/06 On me`
     },{
         artist: "蕭秉治",
         lyrics: null,
-        album: { name: "狂人" },
+        album: { cover: "img/album.png", name: "狂人" },
         title: "Sugar daddy",
         isWavPack: true,
         filename: `${HOSTING_URL2}蕭秉治/狂人/07 Sugar daddy`
     },{
         artist: "蕭秉治",
         lyrics: null,
-        album: { name: "狂人" },
+        album: { cover: "img/album.png", name: "狂人" },
         title: "絕殺",
         isWavPack: true,
         filename: `${HOSTING_URL2}蕭秉治/狂人/08 絕殺`
     },{
         artist: "蕭秉治",
         lyrics: null,
-        album: { name: "狂人" },
+        album: { cover: "img/album.png", name: "狂人" },
         title: "Savior",
         isWavPack: true,
         filename: `${HOSTING_URL2}蕭秉治/狂人/09 Savior`
     },{
         artist: "蕭秉治",
         lyrics: null,
-        album: { name: "狂人" },
+        album: { cover: "img/album.png", name: "狂人" },
         title: "不留活口",
         isWavPack: true,
         filename: `${HOSTING_URL2}蕭秉治/狂人/10 不留活口`
@@ -1238,6 +1210,12 @@ export const songs = [
         album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg?raw&proxied` },
         title: "HOPE",
         filename: `${HOSTING_URL1}Seven Billion Dots/HOPE/11 HOPE`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL1}Liyuu - ルルカワイマ.jpg?raw&proxied` },
+        title: "ルルカワイマ",
+        filename: `${HOSTING_URL1}Liyuu - ルルカワイマ`
     },{
         artist: "松谷祐子",
         lyrics: `${HOSTING_URL1}松谷祐子 - 愛はブーメラン.lrc?proxied`,
