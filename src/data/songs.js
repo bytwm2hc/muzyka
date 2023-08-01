@@ -65,6 +65,15 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}中川かのん 1stアルバム「Birth」／中川かのん starring 東山奈央/08 らぶこーる`
     },{
+        artist: "ワルキューレ",
+        lyrics: `見つめ合って恋をして 無我夢中で追いかけて<br />だけどもっと知りたくて メラメラしてる<br />願うほど謎が増え 思うほど熱になる<br />だからもっと飛び込むの 未開の世界 ah<br />恋とか夢とか誰でも信じるけど<br />ソコソコ攻めなきゃつまんないよ<br />ギリギリ愛 いけないボーダーライン<br />難易度Gでも すべて壊してみせる<br />キリキリ舞い さらなるGへと<br />意識が溶ける 体は制御不能<br />いっちゃうかもね<br />ふざけ合った友達と 求め合ったあの人と<br />また会える日のためにギラギラしてる<br />光るほど影はでき 燃えるほど灰になる<br />走るほど見えてくる 危ないライン ah<br />自由も平和も望めば生まれるけど<br />モタモタしてたら腐っちゃうよ<br />ギリギリ愛 あぶないボーダーレス<br />非常識だね まだ加速しているよ<br /キリキリ舞い<br />限界点なら塗り替えていい<br />破壊と再生から私が出来る<br />ギリギリ愛 いけないボーダーライン<br />難易度Gでも すべて壊してみせる<br />キリキリ舞い さらなるGへと<br />意識が溶ける 体は制御不能<br />いっちゃうかもね<br />ギリギリ愛 いけないボーダーライン<br />燃え尽きながらまだ輝いてみせる<br />キリキリ舞 あなたのために<br />未来のために何度砕け散っても<br />愛することで生まれ変わる<br />愛されたくて生きて帰る`,
+        album: {
+            cover: `${HOSTING_URL2}ワルキューレ - いけないボーダーライン.jpg?raw&proxied`,
+        },
+        title: "いけないボーダーライン",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}ワルキューレ - いけないボーダーライン`
+    },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
@@ -1924,6 +1933,12 @@ export const songs = [
         album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/Cover.jpg?raw&proxied` },
         title: "Good-Sleep, Baby♡",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/05 Good-Sleep, Baby♡`
+    },{
+        artist: "鈴木みのり",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL1}鈴木みのり - FEELING AROUND.jpg?raw&proxied` },
+        title: "FEELING AROUND",
+        filename: `${HOSTING_URL1}鈴木みのり - FEELING AROUND`
     },{
         artist: "安達としまむら（CV.鬼頭明里と伊藤美来）",
         lyrics: null,
