@@ -17,15 +17,14 @@
 
 <style>
 	main {
-		padding: 0;
 		max-width: 800px;
-		margin: 0 1rem;
+		margin: auto;
+		padding: 1rem;
 	}
 	
 	@media (min-width: 768px) {
 		main {
-			margin: 0 auto;
-			padding: 0 1rem;
+			padding: 0;
 		}
 	}
 </style>
