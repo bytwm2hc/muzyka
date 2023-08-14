@@ -54,7 +54,8 @@
         isLyricsPanel = false;
     let bsn,
         sr,
-        wavpackWrapper;
+        wavpackWrapper,
+        worker;
 
     onMount(() => {
         'use strict';
@@ -110,7 +111,7 @@
         lowShelf.connect(gainDryNode);
 
         wavpackWrapper = document.getElementById('wavpackWrapper');
-        window.addEventListener('message', (event) => {
+        window.addEventListener('message', async (event) => {
             //if (event.data === null || !event.data.L) {
             //    console.log(event.data);
             //}
@@ -141,7 +142,7 @@
             event.data.R = undefined;
             bsn.connect(convolverNode);
             bsn.connect(lowShelf);
-            //console.log(aud_buf); /* */
+            console.log(aud_buf); /* */
             bsn.onended = function () {
                 wavpackWrapper.contentWindow.postMessage('onended', '*');
                 bsn = undefined;
@@ -488,7 +489,63 @@
         //    bypasser.connect(audioContext.destination);
         //});
 
-        wavpackWrapper.contentWindow.postMessage({wvData: wvData}, '*', [wvData]);
+        if (iOS()) {
+            wavpackWrapper.contentWindow.postMessage({wvData: wvData}, '*', [wvData]);
+        } else {
+            if (typeof worker === 'undefined') {
+            worker = new Worker('wavpack-worker.js');
+        }
+            worker.onmessage = function (event) {
+                if (event.data === null) {
+                    bsn.onended = onended;
+                    return;
+                }
+                if (typeof event.data.BYTES_PER_ELEMENT !== 'undefined') {
+                    if (event.data.BYTES_PER_ELEMENT > 0) {
+                        worker.postMessage(wvData, [wvData]);
+                    } else {
+                        setTimeout(function () {
+                            'use strict';
+                            worker.postMessage('BYTES_PER_ELEMENT');
+                        }, 1);
+                    }
+                    return;
+                }
+                if (typeof event.data.sampleRate !== 'undefined') {
+                    sr = event.data.sampleRate;
+                    return;
+                }
+                if (typeof event.data.numSamples !== 'undefined') {
+                    duration = event.data.numSamples / sr * (440 / 432);
+                    startTime = audioContext.currentTime;
+                    setTimeout(updateTime.bind(null, false), 500);
+                    return;
+                }
+                if (typeof event.data.wvData !== 'undefined') {
+                    event.data.wvData = undefined;
+                    return;
+                }
+                bsn = audioContext.createBufferSource();
+                let aud_buf = audioContext.createBuffer(2, event.data.L.length, sr);
+                aud_buf.copyToChannel(event.data.L, 0);
+                event.data.L = undefined;
+                aud_buf.copyToChannel(event.data.R, 1);
+                event.data.R = undefined;
+                bsn.connect(convolverNode);
+                bsn.connect(lowShelf);
+                bsn.onended = function () {
+                    worker.postMessage("onended");
+                };
+                bsn.buffer = aud_buf;
+                bsn.detune.value = 432/440;
+                bsn.playbackRate.value = 432/440;
+                bsn.start(0);
+            };
+        setTimeout(function () {
+            'use strict';
+            worker.postMessage('BYTES_PER_ELEMENT');
+        }, 0);
+        }
         gainDryNode.gain.value = 0.64;
         gainWetNode.gain.value = 0.128;
 
