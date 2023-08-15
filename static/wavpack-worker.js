@@ -179,7 +179,7 @@ const addBufferToAudioContext = () => {
     // let the world know we are actively reading
     is_reading = true;
 
-    while (pcm_buffer_in_use) {
+    if (pcm_buffer_in_use) {
         // wait, this shouldn't be called, but if we're adding more data to the PCM buffer, don't want to overwrite it
         //console.log("-");
         setTimeout(addBufferToAudioContext, fetching_interval * 3);
