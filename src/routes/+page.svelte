@@ -124,17 +124,8 @@
                 }
                 return;
             }
-            if (typeof event.data.sampleRate !== 'undefined') {
-                sr = event.data.sampleRate;
-                return;
-            }
-            if (typeof event.data.numSamples !== 'undefined') {
-                duration = event.data.numSamples / sr * (440 / 432);
-                startTime = audioContext.currentTime;
-                setTimeout(updateTime.bind(null, false), 500);
-                return;
-            }
-            bsn = audioContext.createBufferSource();
+            if (typeof event.data.L !== 'undefined') {
+                bsn = audioContext.createBufferSource();
             let aud_buf = audioContext.createBuffer(2, event.data.L.length, sr);
             aud_buf.copyToChannel(event.data.L, 0);
             event.data.L = undefined;
@@ -151,6 +142,18 @@
             bsn.detune.value = 432/440;
             bsn.playbackRate.value = 432/440;
             bsn.start(0);
+            return;
+            }
+            if (typeof event.data.sampleRate !== 'undefined') {
+                sr = event.data.sampleRate;
+                return;
+            }
+            if (typeof event.data.numSamples !== 'undefined') {
+                duration = event.data.numSamples / sr * (440 / 432);
+                startTime = audioContext.currentTime;
+                setTimeout(updateTime.bind(null, false), 500);
+                return;
+            }
         });
 
         /* audio.onended = async () => {
