@@ -14,6 +14,16 @@ export const songs = [
     //    filename: `test`
     //},
     {
+        artist: "Two Steps from Hell",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Two Steps from Hell - Battlecry.jpg?raw&proxied`,
+            name: "Battlecry"
+        },
+        title: "Star Sky (Instrumental)",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Two Steps from Hell - Star Sky (Instrumental)`
+    },{
         artist: "Alstroemeria Records",
         lyrics: `流れてく 時の中ででも 気だるさが ほらグルグル廻って<br />私から 離れる心も 見えないわ そう知らない？<br />自分から 動くこともなく 時の隙間に 流され続けて<br />知らないわ 周りのことなど 私は私 それだけ<br />夢見てる？ なにも見てない？ 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />こんな自分に 未来はあるの？ こんな世界に 私はいるの？<br />今切ないの？ 今悲しいの？ 自分の事も わからないまま<br />歩むことさえ 疲れるだけよ 人のことなど 知りもしないわ<br />こんな私も 変われるのなら もし変われるのなら 白になる？<br />流れてく 時の中ででも 気だるさがほら グルグル廻って<br />私から 離れる心も 見えないわそう 知らない？<br />自分から 動くこともなく 時の隙間に 流され続けて<br />知らないわ 周りのことなど 私は私 それだけ？<br />夢見てる？ なにも見てない 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />無駄な時間に 未来はあるの？ こんな所に 私は居るの？<br />私のことを 言いたいならば 言葉にするのなら 「ろくでなし」<br />こんな所に 私はいるの？ こんな時間に 私はいるの？<br />こんな私も 変われるのなら もし変われるのなら 白になる？<br />今夢見てる？ なにも見てない？ 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />動くのならば 動くのならば すべて壊すわ すべて壊すわ<br />悲しむならば 悲しむならば 私の心 白く変われる？<br />貴方の事も 私のことも 全ての事も まだ知らないの<br />重い目蓋を 開けたのならば すべて壊すのなら 黒になれ!!!`,
         album: {
@@ -355,6 +365,176 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/12 ベノム`
     },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "It's OK",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/01 It's OK`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "LIFE",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/02 LIFE`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "Cry day...",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/03 Cry day...`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "ジレンマ～I’m your side～",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/04 ジレンマ～I’m your side～`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "Be．．．",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/05 Be．．．`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "My Way",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/06 My Way`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "30",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/07 30`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "ANSWER",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/08 ANSWER`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "また恋をすることなど",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/09 また恋をすることなど`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "翼",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/10 翼`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "あなたに会えなくなる日まで",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/11 あなたに会えなくなる日まで`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "You are Beautiful",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/12 You are Beautiful`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "WAY YOU ARE",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/13 WAY YOU ARE`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "I Remember You [feat. AK-69]",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/14 I Remember You [feat. AK-69]`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "鐘が鳴る",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/15 鐘が鳴る`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "Who Are You",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/16 Who Are You`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "Open door",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/17 Open door`
+    },{
         artist: "G.E.M.鄧紫棋",
         lyrics: null,
         album: {
@@ -495,6 +675,116 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}G.E.M.鄧紫棋/啓示錄 REVELATION/14 THE SKY`
     },{
+        artist: "周興哲",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            name: "小時候的我們"
+        },
+        title: "In the Works",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}周興哲/小時候的我們/01 In the Works`
+    },{
+        artist: "周興哲",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            name: "小時候的我們"
+        },
+        title: "小時候的我們",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}周興哲/小時候的我們/02 小時候的我們`
+    },{
+        artist: "周興哲",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            name: "小時候的我們"
+        },
+        title: "受夠",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}周興哲/小時候的我們/03 受夠`
+    },{
+        artist: "周興哲",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            name: "小時候的我們"
+        },
+        title: "Me and You",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}周興哲/小時候的我們/04 Me and You`
+    },{
+        artist: "周興哲",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            name: "小時候的我們"
+        },
+        title: "That's Why I Like You",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}周興哲/小時候的我們/05 That's Why I Like You`
+    },{
+        artist: "周興哲",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            name: "小時候的我們"
+        },
+        title: "Rollercoasters",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}周興哲/小時候的我們/06 Rollercoasters`
+    },{
+        artist: "周興哲",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            name: "小時候的我們"
+        },
+        title: "相信愛",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}周興哲/小時候的我們/07 相信愛`
+    },{
+        artist: "周興哲",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            name: "小時候的我們"
+        },
+        title: "That's All",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}周興哲/小時候的我們/08 That's All`
+    },{
+        artist: "周興哲",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            name: "小時候的我們"
+        },
+        title: "Something About You",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}周興哲/小時候的我們/09 Something About You`
+    },{
+        artist: "周興哲",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            name: "小時候的我們"
+        },
+        title: "我很快樂",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}周興哲/小時候的我們/10 我很快樂`
+    },{
+        artist: "周興哲",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            name: "小時候的我們"
+        },
+        title: "其實你並沒那麼孤單",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}周興哲/小時候的我們/11 其實你並沒那麼孤單`
+    },{
         artist: "蕭秉治",
         lyrics: null,
         album: { cover: "img/album.png", name: "狂人" },
@@ -564,6 +854,43 @@ export const songs = [
         title: "不留活口",
         isWavPack: true,
         filename: `${HOSTING_URL2}蕭秉治/狂人/10 不留活口`
+    },{
+        artist: "韩安旭",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "多幸运",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}韩安旭 - 多幸运`
+    },{
+        artist: "最美情侣",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "最美情侣",
+        filename: `${HOSTING_URL2}tmp/白小白 - 最美情侣`
+    },{
+        artist: "韩红&林俊杰 ",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "飞云之下",
+        filename: `${HOSTING_URL2}tmp/韩红&林俊杰 - 飞云之下`
+    },{
+        artist: "許茹芸",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "如果雲知道",
+        filename: `${HOSTING_URL2}tmp/許茹芸 - 如果雲知道`
+    },{
+        artist: "羽肿",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "为霜",
+        filename: `${HOSTING_URL2}tmp/羽肿 - 为霜`
+    },{
+        artist: "羽肿",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "花火が瞬く夜に",
+        filename: `${HOSTING_URL2}tmp/羽肿 - 花火が瞬く夜に`
     },{
         artist: "8/pLanet!!",
         lyrics: null,
