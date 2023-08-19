@@ -2,17 +2,16 @@ const HOSTING_URL1 = `//drive.emocdn.xyz/`;
 const HOSTING_URL2 = `//cdn.bytwm2hc.xyz/`;
 
 export const songs = [
-    //{
-    //    artist: "test",
-    //    lyrics: "",
-    //    album: {
-    //        cover: `${HOSTING_URL2}Alstroemeria Records/Bad Apple!! feat.nomico 10th Anniversary/Cover.jpg?raw&proxied`,
-    //        name: "Bad Apple!! feat.nomico 10th Anniversary"
-    //    },
-    //    title: "TEST",
-    //    isWavPack: true,
-    //    filename: `test`
-    //},
+    /*{
+        artist: "test",
+        lyrics: "",
+        album: {
+            cover: "img/album.png"
+        },
+        title: "TEST",
+        isWavPack: true,
+        filename: "01"
+    },*/
     {
         artist: "Two Steps from Hell",
         lyrics: null,
@@ -365,6 +364,36 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/12 ベノム`
     },{
+        artist: "YOASOBI",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}YOASOBI - アイドル.jpg?raw&proxied`,
+            name: "アイドル"
+        },
+        title: "アイドル",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}YOASOBI - アイドル`
+    },{
+        artist: "女王蜂",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}女王蜂/メフィスト/Cover.jpg?raw&proxied`,
+            name: "メフィスト"
+        },
+        title: "メフィスト",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}女王蜂/メフィスト/01 メフィスト`
+    },{
+        artist: "女王蜂",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}女王蜂/メフィスト/Cover.jpg?raw&proxied`,
+            name: "メフィスト"
+        },
+        title: "ファウスト",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}女王蜂/メフィスト/02 ファウスト`
+    },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
@@ -534,6 +563,396 @@ export const songs = [
         title: "Open door",
         isWavPack: true,
         filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/17 Open door`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "baby don't know why",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/01 baby don't know why`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "Dear",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/02 Dear`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "I can change",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/03 I can change`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "Letter",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/04 Letter`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "優しい雨",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/05 優しい雨`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "I WILL",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/06 I WILL`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "ORANGE",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/07 ORANGE`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "I'm ALIVE",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/08 I'm ALIVE`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "Footprint",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/09 Footprint`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "花",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/10 花`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "White Letter",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/11 White Letter`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "Be myself",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/12 Be myself`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "WITH",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/13 WITH`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "星をこえて",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/14 星をこえて`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "海を見てる",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/15 海を見てる`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "はじまりの時",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/16 はじまりの時`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "let go",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/01 let go`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "First Love",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/02 First Love`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "Ti Amo",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/03 Ti Amo`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "最後の雨 (ALBUM VERSION)",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/04 最後の雨 (ALBUM VERSION)`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "このまま君だけを奪い去りたい",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/05 このまま君だけを奪い去りたい`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "Time goes by",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/06 Time goes by`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "ら・ら・ら",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/07 ら・ら・ら`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "空と君のあいだに",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/08 空と君のあいだに`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "慟哭",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/09 慟哭`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "未来予想図II",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/10 未来予想図II`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "三日月",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/11 三日月`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "フライディ・チャイナタウン",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/12 フライディ・チャイナタウン`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "真夜中のドア～Stay With Me～",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/13 真夜中のドア～Stay With Me～`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "また君と [feat. Ms.OOJA]",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/14 また君と [feat. Ms.OOJA]`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "愛とは・・・",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/15 愛とは・・・`
+    },{
+        artist: "Ms.OOJA",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            name: "10th Anniversary Best 〜私たちの主題歌〜"
+        },
+        title: "しあわせ [feat. Ms.OOJA & SALU]",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/16 しあわせ [feat. Ms.OOJA & SALU]`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "Magic Words",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/01 Magic Words`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "ルルカワイマ",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/02 ルルカワイマ`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "Endless Vacation",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/03 Endless Vacation`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "めたもるふぉーぜ",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/04 めたもるふぉーぜ`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "花鳥風月",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/05 花鳥風月`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "BLUE ROSE",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/06 BLUE ROSE`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "Ambition",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/07 Ambition`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "カラフルホライズン",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/08 カラフルホライズン`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "カルペ・ディエム",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/09 カルペ・ディエム`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        title: "Reply",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/10 Reply`
     },{
         artist: "G.E.M.鄧紫棋",
         lyrics: null,
