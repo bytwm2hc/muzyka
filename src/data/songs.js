@@ -1281,7 +1281,7 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}韩安旭 - 多幸运`
     },{
-        artist: "最美情侣",
+        artist: "白小白",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "最美情侣",
