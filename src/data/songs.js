@@ -364,6 +364,16 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/12 ベノム`
     },{
+        artist: "ワンダーランズ×ショウタイム",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}ワンダーランズ×ショウタイム/4th Single「ショウタイム・ルーラー／にっこり^^調査隊のテーマ」/Cover.jpg?raw&proxied`,
+            name: "4th Single「ショウタイム・ルーラー／にっこり^^調査隊のテーマ」"
+        },
+        title: "にっこり^^調査隊のテーマ",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}ワンダーランズ×ショウタイム/4th Single「ショウタイム・ルーラー／にっこり^^調査隊のテーマ」/02 にっこり^^調査隊のテーマ`
+    },{
         artist: "YOASOBI",
         lyrics: null,
         album: {
@@ -1281,23 +1291,11 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}韩安旭 - 多幸运`
     },{
-        artist: "白小白",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "最美情侣",
-        filename: `${HOSTING_URL2}tmp/白小白 - 最美情侣`
-    },{
         artist: "韩红&林俊杰 ",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "飞云之下",
         filename: `${HOSTING_URL2}tmp/韩红&林俊杰 - 飞云之下`
-    },{
-        artist: "許茹芸",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "如果雲知道",
-        filename: `${HOSTING_URL2}tmp/許茹芸 - 如果雲知道`
     },{
         artist: "羽肿",
         lyrics: null,
