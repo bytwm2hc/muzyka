@@ -1284,12 +1284,26 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}蕭秉治/狂人/10 不留活口`
     },{
+        artist: "誓言",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "求佛",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}誓言 - 求佛`
+    },{
         artist: "韩安旭",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "多幸运",
         isWavPack: true,
         filename: `${HOSTING_URL2}韩安旭 - 多幸运`
+    },{
+        artist: "George Winston",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Variations on the Kanon by Johann Pachelbel",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}George Winston - Variations on the Kanon by Johann Pachelbel`
     },{
         artist: "韩红&林俊杰 ",
         lyrics: null,
