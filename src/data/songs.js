@@ -23,6 +23,24 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}Two Steps from Hell - Star Sky (Instrumental)`
     },{
+        artist: "ヒロシ&キーボー",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "3年目の浮気",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}ヒロシ&キーボー - 3年目の浮気`
+    },{
+        artist: "細川たかし",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "北酒場",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}細川たかし - 北酒場`
+    },{
         artist: "Alstroemeria Records",
         lyrics: `流れてく 時の中ででも 気だるさが ほらグルグル廻って<br />私から 離れる心も 見えないわ そう知らない？<br />自分から 動くこともなく 時の隙間に 流され続けて<br />知らないわ 周りのことなど 私は私 それだけ<br />夢見てる？ なにも見てない？ 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />こんな自分に 未来はあるの？ こんな世界に 私はいるの？<br />今切ないの？ 今悲しいの？ 自分の事も わからないまま<br />歩むことさえ 疲れるだけよ 人のことなど 知りもしないわ<br />こんな私も 変われるのなら もし変われるのなら 白になる？<br />流れてく 時の中ででも 気だるさがほら グルグル廻って<br />私から 離れる心も 見えないわそう 知らない？<br />自分から 動くこともなく 時の隙間に 流され続けて<br />知らないわ 周りのことなど 私は私 それだけ？<br />夢見てる？ なにも見てない 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />無駄な時間に 未来はあるの？ こんな所に 私は居るの？<br />私のことを 言いたいならば 言葉にするのなら 「ろくでなし」<br />こんな所に 私はいるの？ こんな時間に 私はいるの？<br />こんな私も 変われるのなら もし変われるのなら 白になる？<br />今夢見てる？ なにも見てない？ 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />動くのならば 動くのならば すべて壊すわ すべて壊すわ<br />悲しむならば 悲しむならば 私の心 白く変われる？<br />貴方の事も 私のことも 全ての事も まだ知らないの<br />重い目蓋を 開けたのならば すべて壊すのなら 黒になれ!!!`,
         album: {
@@ -93,6 +111,15 @@ export const songs = [
         title: "いけないボーダーライン",
         isWavPack: true,
         filename: `${HOSTING_URL2}ワルキューレ - いけないボーダーライン`
+    },{
+        artist: "野水いおり",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "ストロベリーレイン",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}野水いおり - ストロベリーレイン`
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
@@ -403,6 +430,24 @@ export const songs = [
         title: "ファウスト",
         isWavPack: true,
         filename: `${HOSTING_URL2}女王蜂/メフィスト/02 ファウスト`
+    },{
+        artist: "西野カナ",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Best Friend",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}西野カナ - Best Friend`
+    },{
+        artist: "西野カナ",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "トリセツ",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}西野カナ - トリセツ`
     },{
         artist: "Ms.OOJA",
         lyrics: null,
@@ -964,6 +1009,33 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/10 Reply`
     },{
+        artist: "王菲",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "我願意",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}王菲 - 我願意`
+    },{
+        artist: "那英",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "征服",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}那英 - 征服`
+    },{
+        artist: "那英",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "夢一場",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}那英 - 夢一場`
+    },{
         artist: "G.E.M.鄧紫棋",
         lyrics: null,
         album: {
@@ -1283,6 +1355,24 @@ export const songs = [
         title: "不留活口",
         isWavPack: true,
         filename: `${HOSTING_URL2}蕭秉治/狂人/10 不留活口`
+    },{
+        artist: "Mariah Carey & Whitney Houston",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "When You Believe",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Mariah Carey & Whitney Houston - When You Believe`
+    },{
+        artist: "Pianoboy",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "The truth that you leave",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Pianoboy - The truth that you leave`
     },{
         artist: "誓言",
         lyrics: null,
