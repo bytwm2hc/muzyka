@@ -1388,18 +1388,25 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}韩安旭 - 多幸运`
     },{
+        artist: "郭树东",
+        lyrics: `作词：郭树东<br />作曲：郭树东<br />编曲：大猫小猫<br />音乐制作人：念萨<br />录音：雨婷<br />混缩／母带：大海<br />吉他：陈东<br />灵感：赵萌<br />伴唱：及时雨<br /><br />这么多年假装坚强<br />恍然发现笑都不会了<br />看着自己抱抱自己<br />终于明白会哭才会笑<br />蓦然回首物是人非<br />落一滴泪重新再来过<br />付出太多伤痕累累<br />真的懂得会哭才会笑<br /><br />我终于哭了<br />不再压抑<br />我哭的声嘶力竭<br />我哭的痛彻心扉<br />我哭的好舒服<br />我真的哭了<br />我哭的彻底<br />我开始发泄自己<br />我学会爱上自己<br /><br />不知不觉青春不再<br />那些岁月太多不容易<br />往事曾经一幕一幕<br />终于明白会哭才会笑<br />放声高歌挥别过去<br />从今以后洒脱的过活<br />不再犯傻自我折磨<br />真的懂的会哭才会笑<br /><br />我终于哭了<br />不再压抑<br />我哭的声嘶力竭<br />我哭的痛彻心扉<br />我哭的好舒服<br />我真的哭了<br />我哭的彻底<br />我开始发泄自己<br />我学会爱上自己<br /><br />会哭才会笑<br />会哭才会笑<br />会哭才会笑<br />会哭才会笑<br /><br />我终于哭了<br />我不再压抑<br />我哭的声嘶力竭<br />我哭的痛彻心扉<br />我哭的好舒服<br />我真的哭了<br />我哭的彻底<br />我开始发泄自己<br />我学会爱上自己<br />我开始会笑了`,
+        album: { cover: "img/album.png" },
+        title: "会哭才会笑",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}郭树东 - 会哭才会笑`
+    },{
+        artist: "韩红&林俊杰",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "飞云之下",
+        filename: `${HOSTING_URL2}tmp/韩红&林俊杰 - 飞云之下`
+    },{
         artist: "George Winston",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Variations on the Kanon by Johann Pachelbel",
         isWavPack: true,
         filename: `${HOSTING_URL2}George Winston - Variations on the Kanon by Johann Pachelbel`
-    },{
-        artist: "韩红&林俊杰 ",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "飞云之下",
-        filename: `${HOSTING_URL2}tmp/韩红&林俊杰 - 飞云之下`
     },{
         artist: "羽肿",
         lyrics: null,
