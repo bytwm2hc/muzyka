@@ -106,7 +106,7 @@
 
         lowShelf = audioContext.createBiquadFilter();
         lowShelf.type = 'lowshelf';
-        lowShelf.frequency.value = 108;
+        lowShelf.frequency.value = 54;
         lowShelf.gain.value = 1.5;
         lowShelf.connect(gainDryNode);
 
