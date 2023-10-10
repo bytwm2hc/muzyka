@@ -258,7 +258,7 @@
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
                             gainDryNode.gain.value = 1;
-                            gainWetNode.gain.value = 0.2;
+                            gainWetNode.gain.value = 0.25;
                             sourceNode.connect(convolverNode);
                             sourceNode.connect(lowShelf);
                             sourceNode.onended = onended;
@@ -549,8 +549,8 @@
             worker.postMessage('BYTES_PER_ELEMENT');
         }, 0);
         }
-        gainDryNode.gain.value = 0.64;
-        gainWetNode.gain.value = 0.128;
+        gainDryNode.gain.value = 0.75;
+        gainWetNode.gain.value = 0.1875;
 
         sourceNode.buffer = audioContext.createBuffer(2, 1, audioContext.sampleRate);
         isPlay.set(true);
