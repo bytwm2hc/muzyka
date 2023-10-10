@@ -142,7 +142,7 @@ export const songs = [
         artist: "Roys",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Roys/I'll be there/Cover.png?raw&proxied`,
+            cover: `${HOSTING_URL2}Roys/I'll be there/Cover.jpg?raw&proxied`,
             name: "I'll be there"
         },
         title: "I'll be there",
@@ -152,7 +152,7 @@ export const songs = [
         artist: "Roys",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Roys/I'll be there/Cover.png?raw&proxied`,
+            cover: `${HOSTING_URL2}Roys/I'll be there/Cover.jpg?raw&proxied`,
             name: "I'll be there"
         },
         title: "Can't you say",
@@ -162,7 +162,7 @@ export const songs = [
         artist: "Roys",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Roys/I'll be there/Cover.png?raw&proxied`,
+            cover: `${HOSTING_URL2}Roys/I'll be there/Cover.jpg?raw&proxied`,
             name: "I'll be there"
         },
         title: "ROYS",
