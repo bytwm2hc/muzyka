@@ -107,7 +107,7 @@
         lowShelf = audioContext.createBiquadFilter();
         lowShelf.type = 'lowshelf';
         lowShelf.frequency.value = 54;
-        lowShelf.gain.value = 1.5;
+        lowShelf.gain.value = 2;
         lowShelf.connect(gainDryNode);
 
         wavpackWrapper = document.getElementById('wavpackWrapper');
