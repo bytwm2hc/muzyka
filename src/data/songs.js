@@ -31,6 +31,15 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}Andrea Bocelli & Giorgia Todrani - Vivo per lei`
     },{
+        artist: "張惠妹",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Time To Say Goodbye",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}張惠妹 - Time To Say Goodbye`
+    },{
         artist: "ヒロシ&キーボー",
         lyrics: null,
         album: {
