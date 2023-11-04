@@ -184,6 +184,60 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}μ's/Snow halation/02 baby maybe 恋のボタン`
     },{
+        artist: "Printemps",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Love marginal",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/Love marginal/01 Love marginal`
+    },{
+        artist: "Printemps",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "sweet＆sweet holiday",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/Love marginal/02 sweet＆sweet holiday`
+    },{
+        artist: "BiBi",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "ダイヤモンドプリンセスの憂鬱",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/ダイヤモンドプリンセスの憂鬱/01 ダイヤモンドプリンセスの憂鬱`
+    },{
+        artist: "BiBi",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "ラブノベルス",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/ダイヤモンドプリンセスの憂鬱/02 ラブノベルス`
+    },{
+        artist: "lily white",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "知らないLove＊教えてLove",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/知らないLove＊教えてLove/01 知らないLove＊教えてLove`
+    },{
+        artist: "lily white",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "あ・の・ね・が・ん・ば・れ！",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/知らないLove＊教えてLove/02 あ・の・ね・が・ん・ば・れ！`
+    },{
         artist: "μ's",
         lyrics: null,
         album: {
@@ -201,6 +255,213 @@ export const songs = [
         title: "Mermaid festa vol.1",
         isWavPack: true,
         filename: `${HOSTING_URL2}μ's/夏色えがおで1,2,Jump！/02 Mermaid festa vol.1`
+    },{
+        artist: "園田海未(CV.三森すずこ) from μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "私たちは未来の花",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/海色少女に魅せられて/01 私たちは未来の花`
+    },{
+        artist: "南ことり(CV.内田彩) from μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "スピカテリブル",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/ことりLovin' you/01 スピカテリブル`
+    },{
+        artist: "高坂穂乃果(CV.新田恵海) from μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "愛は太陽じゃない？",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/ほんのり穂乃果色！/01 愛は太陽じゃない？`
+    },{
+        artist: "高坂穂乃果(CV.新田恵海) from μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "もうひとりじゃないよ",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/ほんのり穂乃果色！/02 もうひとりじゃないよ`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "もぎゅっと“love”で接近中！",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/もぎゅっと“love”で接近中！/01 もぎゅっと“love”で接近中！`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "愛してるばんざーい！",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/もぎゅっと“love”で接近中！/02 愛してるばんざーい！`
+    },{
+        artist: "高坂穂乃果(CV.新田恵海)＆星空 凛(CV.飯田里穂)",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Mermaid festa vol.2 ～Passionate～",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/Mermaid festa vol.2 ～Passionate～/01 Mermaid festa vol.2 ～Passionate～`
+    },{
+        artist: "高坂穂乃果(CV.新田恵海)",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Someday of my life",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/Mermaid festa vol.2 ～Passionate～/02 Someday of my life`
+    },{
+        artist: "星空凛(CV.飯田里穂)",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "恋のシグナルRin rin rin!",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/Mermaid festa vol.2 ～Passionate～/03 恋のシグナルRin rin rin!`
+    },{
+        artist: "矢澤にこ(CV.徳井青空)＆東條 希(CV.楠田亜衣奈)",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "乙女式れんあい塾",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/乙女式れんあい塾/01 乙女式れんあい塾`
+    },{
+        artist: "矢澤にこ(CV.徳井青空)",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "まほうつかいはじめました！",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/乙女式れんあい塾/02 まほうつかいはじめました！`
+    },{
+        artist: "東條希(CV.楠田亜衣奈)",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "純愛レンズ",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/乙女式れんあい塾/03 純愛レンズ`
+    },{
+        artist: "南ことり(CV.内田彩)＆小泉花陽(CV.久保ユリカ)",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "告白日和、です！",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/告白日和、です！/01 告白日和、です！`
+    },{
+        artist: "南ことり(CV.内田彩)",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "ぶる～べりぃ♥とれいん",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/告白日和、です！/02 ぶる～べりぃ♥とれいん`
+    },{
+        artist: "小泉花陽(CV.久保ユリカ)",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "孤独なHeaven",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/告白日和、です！/03 孤独なHeaven`
+    },{
+        artist: "西木野真姫(CV.Pile),園田海未(CV.三森すずこ)＆絢瀬絵里(CV.南條愛乃)",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "soldier game",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/soldier game/01 soldier game`
+    },{
+        artist: "西木野真姫(CV.Pile)",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Daring!!",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/soldier game/02 Daring!!`
+    },{
+        artist: "園田海未(CV.三森すずこ)",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "勇気のReason",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/soldier game/03 勇気のReason`
+    },{
+        artist: "絢瀬絵里(CV.南條愛乃)",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "ありふれた悲しみの果て",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/soldier game/04 ありふれた悲しみの果て`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Wonderful Rush",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/Wonderful Rush/01 Wonderful Rush`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Oh,Love＆Peace!",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/Wonderful Rush/02 Oh,Love＆Peace!`
+    },{
+        artist: "にこりんぱな",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Listen to my heart!!",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/にこりんぱな テーマソングDJCD/01 Listen to my heart!!`
+    },{
+        artist: "にこりんぱな",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "after school NAVIGATORS",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/にこりんぱな テーマソングDJCD/02 after school NAVIGATORS`
     },{
         artist: "Roys",
         lyrics: null,
