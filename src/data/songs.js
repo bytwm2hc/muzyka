@@ -148,6 +148,60 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}野水いおり - ストロベリーレイン`
     },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "僕らのLIVE 君とのLIFE",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/僕らのLIVE 君とのLIFE/01 僕らのLIVE 君とのLIFE`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "友情ノーチェンジ",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/僕らのLIVE 君とのLIFE/02 友情ノーチェンジ`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Snow halation",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/Snow halation/01 Snow halation`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "baby maybe 恋のボタン",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/Snow halation/02 baby maybe 恋のボタン`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "夏色えがおで1,2,Jump！",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/夏色えがおで1,2,Jump！/01 夏色えがおで1,2,Jump！`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Mermaid festa vol.1",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/夏色えがおで1,2,Jump！/02 Mermaid festa vol.1`
+    },{
         artist: "Roys",
         lyrics: null,
         album: {
