@@ -97,6 +97,16 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}AKINO - 創聖のアクエリオン`
     },{
+        artist: "キュアダイヤモンド(CV.寿美菜子)",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}ドキドキ! プリキュアボーカルアルバム 1 Jump up, GIRLS!/Cover.jpg?raw&proxied`,
+            name: "ドキドキ! プリキュアボーカルアルバム 1 Jump up, GIRLS!"
+        },
+        title: "COCORO♦Diamond",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}ドキドキ! プリキュアボーカルアルバム 1 Jump up, GIRLS!/04 キュアダイヤモンド(CV.寿美菜子) - COCORO♦Diamond`
+    },{
         artist: "飛鳥空 starring 櫻井智",
         lyrics: `えんぴつの先 指で確かめ<br />どんな絵になるの? まだ見えないけど<br /><br />目を閉じると浮かび上がるから<br />心の奥にある想い カタチにしてみて<br /><br />綺麗な絵の具たちを並べてみていると<br />心ときめいてくるの<br /><br />そう 初めての色<br /><br />ふたりで選んだパステルたち<br />あと少しだから お願い気付いて<br /><br />そわそわしてるの バレちゃうかな?<br />目逸らしてるの わざとだよ<br />素直になれない<br /><br />あなたのこと想うと胸が高鳴るから<br />伝えたい この気持ちを<br />そう 風にのせて<br /><br />広い空のキャンパスに筆を走らせて<br />どこまでも自由だから<br />届けたい笑顔を<br /><br />未来描いて`,
         album: { cover: `${HOSTING_URL2}神のみキャラCD.くれよん 飛鳥空 starring 櫻井智/Cover.jpg?raw&proxied`, name: "神のみキャラCD.くれよん 飛鳥空 starring 櫻井智" },
