@@ -1427,6 +1427,15 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}那英 - 夢一場`
     },{
+        artist: "林憶蓮",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "至少還有你",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}林憶蓮 - 至少還有你`
+    },{
         artist: "林志炫",
         lyrics: null,
         album: {
