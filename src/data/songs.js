@@ -1781,6 +1781,15 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}Mariah Carey & Whitney Houston - When You Believe`
     },{
+        artist: "Aerosmith",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "I Don't Want To Miss A Thing",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Aerosmith - I Don't Want To Miss A Thing`
+    },{
         artist: "Deep Chills & IVIE",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1822,6 +1831,20 @@ export const songs = [
         title: "会哭才会笑",
         isWavPack: true,
         filename: `${HOSTING_URL2}郭树东 - 会哭才会笑`
+    },{
+        artist: "旺仔小乔",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "樱花树下的约定",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}旺仔小乔 - 樱花树下的约定`
+    },{
+        artist: "旺仔小乔",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "樱花树下的约定(DJ yaha版)",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}旺仔小乔 - 樱花树下的约定(DJ yaha版)`
     },{
         artist: "韩红&林俊杰",
         lyrics: null,
