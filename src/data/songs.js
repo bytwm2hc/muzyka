@@ -1813,6 +1813,13 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}Katie Sky - Monsters`
     },{
+        artist: "王麟",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "伤不起",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}王麟 - 伤不起`
+    },{
         artist: "誓言",
         lyrics: null,
         album: { cover: "img/album.png" },
