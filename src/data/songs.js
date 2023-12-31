@@ -473,6 +473,267 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}μ's/にこりんぱな テーマソングDJCD/02 after school NAVIGATORS`
     },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "僕らは今のなかで",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.02/01 僕らは今のなかで`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "WILD STARS",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.02/02 WILD STARS`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "きっと青春が聞こえる",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.02/03 きっと青春が聞こえる`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "輝夜の城で踊りたい",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.02/04 輝夜の城で踊りたい`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "ススメ→トゥモロウ",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.02/05 ススメ→トゥモロウ`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "06 START:DASH!!",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.02/06 STARTDASH!!`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "これからのSomeday",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.02/07 これからのSomeday`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Wonder zone",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.02/08 Wonder zone`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "No brand girls",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.02/09 No brand girls`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "START:DASH!!",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.02/10 STARTDASH!!`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "夢なき夢は夢じゃない",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.03/01 夢なき夢は夢じゃない`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Anemone heart",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.03/02 Anemone heart`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "なわとび",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.03/03 なわとび`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Beat in Angel",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.03/04 Beat in Angel`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "にこぷり♡女子道",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.03/05 にこぷり♡女子道`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "硝子の花園",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.03/06 硝子の花園`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "LONELIEST BABY",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.03/07 LONELIEST BABY`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Music S.T.A.R.T!!",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.01/11 Music S.T.A.R.T!!`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "LOVELESS WORLD",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.01/12 LOVELESS WORLD`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "それは僕たちの奇跡",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.04/01 それは僕たちの奇跡`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "だってだって噫無情",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.04/02 だってだって噫無情`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "どんなときもずっと",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.04/03 どんなときもずっと`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "COLORFUL VOICE",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.04/04 COLORFUL VOICE`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "ユメノトビラ",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.04/05 ユメノトビラ`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "SENTIMENTAL StepS",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.04/06 SENTIMENTAL StepS`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Love wing bell",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.04/07 Love wing bell`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Dancing stars on me!",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.04/08 Dancing stars on me!`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "KiRa-KiRa Sensation!",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.04/09 KiRa-KiRa Sensation!`
+    },{
+        artist: "μ's",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Happy maker!",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.04/10 Happy maker!`
+    },{
         artist: "Roys",
         lyrics: null,
         album: {
@@ -2091,13 +2352,13 @@ export const songs = [
     },{
         artist: "Clean Bandit feat. Zara Larsson",
         lyrics: `${HOSTING_URL1}Clean Bandit - Symphony.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}Symphony (feat. Zara Larsson) - Single.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Clean Bandit - Symphony.jpg?raw&proxied` },
         title: "Symphony",
         filename: `${HOSTING_URL1}Clean Bandit - Symphony`
     },{
         artist: "Sunfly Karaoke",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Symphony (feat. Zara Larsson) - Single.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Clean Bandit - Symphony.jpg?raw&proxied` },
         title: "Symphony (Originally Performed by Clean Bandit Feat. Zara Larsson)",
         filename: `${HOSTING_URL1}Sunfly Karaoke - Symphony (Originally Performed by Clean Bandit Feat. Zara Larsson)`
     },{
@@ -2593,12 +2854,6 @@ export const songs = [
         title: "HOPE",
         filename: `${HOSTING_URL1}Seven Billion Dots/HOPE/11 HOPE`
     },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liyuu - ルルカワイマ.jpg?raw&proxied` },
-        title: "ルルカワイマ",
-        filename: `${HOSTING_URL1}Liyuu - ルルカワイマ`
-    },{
         artist: "松谷祐子",
         lyrics: `${HOSTING_URL1}松谷祐子 - 愛はブーメラン.lrc?proxied`,
         album: { cover: `${HOSTING_URL1}松谷祐子 - 愛はブーメラン.jpg?raw&proxied` },
@@ -2923,84 +3178,6 @@ export const songs = [
         title: "青空のラプソディ",
         filename: `${HOSTING_URL1}fhana - 青空のラプソディ`
     },{
-        artist: "小泉花陽（CV.久保ユリカ）",
-        lyrics: `${HOSTING_URL1}小泉花陽 - なわとび.lrc?proxied`,
-        album: { cover: "img/album.png" },
-        title: "なわとび",
-        filename: `${HOSTING_URL1}小泉花陽 - なわとび`
-    },{
-        artist: "Printemps",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "Love marginal",
-        filename: `${HOSTING_URL1}ラブライブ！（μ's）/Love marginal/01 Love marginal`
-    },{
-        artist: "Printemps",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "sweet&sweet holiday",
-        filename: `${HOSTING_URL1}ラブライブ！（μ's）/Love marginal/02 sweet&sweet holiday`
-    },{
-        artist: "BiBi",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "ダイヤモンドプリンセスの憂鬱",
-        filename: `${HOSTING_URL1}ラブライブ！（μ's）/ダイヤモンドプリンセスの憂鬱/01 ダイヤモンドプリンセスの憂鬱`
-    },{
-        artist: "BiBi",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "ラブノベルス",
-        filename: `${HOSTING_URL1}ラブライブ！（μ's）/ダイヤモンドプリンセスの憂鬱/02 ラブノベルス`
-    },{
-        artist: "lily white",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "知らないLove＊教えてLove",
-        filename: `${HOSTING_URL1}ラブライブ！（μ's）/知らないLove＊教えてLove/01 知らないLove＊教えてLove`
-    },{
-        artist: "lily white",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "あ・の・ね・が・ん・ば・れ！",
-        filename: `${HOSTING_URL1}ラブライブ！（μ's）/知らないLove＊教えてLove/02 あ・の・ね・が・ん・ば・れ！`
-    },{
-        artist: "高坂穂乃果(CV.新田恵海)＆星空凛(CV.飯田里穂)",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "Mermaid festa vol.2 ～Passionate～",
-        filename: `${HOSTING_URL1}ラブライブ！（μ's）/Mermaid festa vol.2 ～Passionate～/01 Mermaid festa vol.2 〜Passionate〜`
-    },{
-        artist: "高坂穂乃果(CV.新田恵海)",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "Someday of my life",
-        filename: `${HOSTING_URL1}ラブライブ！（μ's）/Mermaid festa vol.2 ～Passionate～/02 Someday of my life`
-    },{
-        artist: "星空凛(CV.飯田里穂)",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "恋のシグナル Rin rin rin!",
-        filename: `${HOSTING_URL1}ラブライブ！（μ's）/Mermaid festa vol.2 ～Passionate～/03 恋のシグナル Rin rin rin!`
-    },{
-        artist: "南ことり(CV.内田 彩)＆小泉花陽(CV.久保ユリカ)",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "告白日和、です！",
-        filename: `${HOSTING_URL1}ラブライブ！（μ's）/告白日和、です！/01 告白日和、です！`
-    },{
-        artist: "南ことり(CV.内田彩)",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "ぶる～べりぃ♥とれいん",
-        filename: `${HOSTING_URL1}ラブライブ！（μ's）/告白日和、です！/02 ぶる～べりぃ♥とれいん`
-    },{
-        artist: "小泉花陽(CV.久保ユリカ)",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "孤独なHeaven",
-        filename: `${HOSTING_URL1}ラブライブ！（μ's）/告白日和、です！/03 孤独なHeaven`
-    },{
         artist: "西木野真姫（CV.Pile）",
         lyrics: null,
         album: { cover: `${HOSTING_URL1}image/TVアニメ「ラブライブ！ 2期」オリジナルサウンドトラック「Notes of School idol days ~Glory~」.jpg?raw&proxied` },
@@ -3020,10 +3197,10 @@ export const songs = [
         filename: `${HOSTING_URL1}01 天城越え`
     },{
         artist: "fripSide",
-        lyrics: `${HOSTING_URL1}[Hi-Res]fripSide - Only My Railgun/fripSide - Only My Railgun.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}[Hi-Res]fripSide - Only My Railgun/fripSide - Only My Railgun.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}fripSide - Only My Railgun.lrc?proxied`,
+        album: { cover: `${HOSTING_URL1}fripSide - Only My Railgun.jpg?raw&proxied` },
         title: "Only My Railgun",
-        filename: `${HOSTING_URL1}[Hi-Res]fripSide - Only My Railgun/fripSide - Only My Railgun`
+        filename: `${HOSTING_URL1}fripSide - Only My Railgun`
     },{
         artist: "WEAVER",
         lyrics: null,
@@ -3343,12 +3520,6 @@ export const songs = [
         title: "トウメイナユメ",
         filename: `${HOSTING_URL1}鬼頭明里/キミのとなりで/03 トウメイナユメ`
     },{
-        artist: "鐘嵐珠（CV.法元明菜）",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL1}Eutopia、EMOTION、stars we chase/Eutopia.jpg?raw&proxied` },
-        title: "Eutopia",
-        filename: `${HOSTING_URL1}Eutopia、EMOTION、stars we chase/01 Eutopia`
-    },{
         artist: "Liella!",
         lyrics: `${HOSTING_URL1}Liella!/始まりは君の空 [みんなで叶える物語盤]/01 始まりは君の空.lrc?proxied`,
         album: { cover: `${HOSTING_URL1}Liella!/始まりは君の空 [みんなで叶える物語盤]/cover.jpg?raw&proxied` },
@@ -3614,9 +3785,9 @@ export const songs = [
         filename: `${HOSTING_URL1}Liella!/追いかける夢の先で/02 水しぶきのサイン`
     },{
         artist: "高垣楓(早見沙織)、佐藤心(花守ゆみり)、三船美優(原田彩楓)、安部菜々(三宅麻理恵)、片桐早苗(和氣あず未)",
-        lyrics: `${HOSTING_URL1}命燃やして恋せよ乙女(M@STER VERSION).lrc?proxied`,
+        lyrics: `${HOSTING_URL1}命燃やして恋せよ乙女.lrc?proxied`,
         album: { cover: `${HOSTING_URL1}命燃やして恋せよ乙女.jpg?raw&proxied` },
-        title: "命燃やして恋せよ乙女(M@STER VERSION)",
+        title: "命燃やして恋せよ乙女",
         filename: `${HOSTING_URL1}命燃やして恋せよ乙女`
     },{
         artist: "えなこ feat. P丸様。",
