@@ -1,4 +1,4 @@
-const HOSTING_URL1 = `//drive.emocdn.xyz/`;
+const HOSTING_URL1 = `//drive.emocdn.workers.dev/`;
 const HOSTING_URL2 = `//cdn.bytwm2hc.xyz/`;
 
 export const songs = [
@@ -523,7 +523,7 @@ export const songs = [
         album: {
             cover: "img/album.png"
         },
-        title: "06 START:DASH!!",
+        title: "START:DASH!!",
         isWavPack: true,
         filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.02/06 STARTDASH!!`
     },{
@@ -3182,7 +3182,7 @@ export const songs = [
         lyrics: null,
         album: { cover: `${HOSTING_URL1}image/TVアニメ「ラブライブ！ 2期」オリジナルサウンドトラック「Notes of School idol days ~Glory~」.jpg?raw&proxied` },
         title: "愛してるばんざーい！(Prepro Piano Mix)",
-        filename: `${HOSTING_URL1}ラブライブ！（μ's）/TVアニメ「ラブライブ！ 2期」オリジナルサウンドトラック「Notes of School idol days ~Glory~」/11 愛してるばんざーい！(Prepro Piano Mix)`
+        filename: `${HOSTING_URL1}μ's/TVアニメ「ラブライブ！ 2期」オリジナルサウンドトラック「Notes of School idol days ~Glory~」/11 愛してるばんざーい！(Prepro Piano Mix)`
     },{
         artist: "岡本あかり（CV.水瀬いのり）",
         lyrics: null,
