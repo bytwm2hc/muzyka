@@ -1053,6 +1053,26 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}ワンダーランズ×ショウタイム/4th Single「ショウタイム・ルーラー／にっこり^^調査隊のテーマ」/02 にっこり^^調査隊のテーマ`
     },{
+        artist: "ワンダーランズ×ショウタイム",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}ワンダーランズ×ショウタイム/ワンダーランズ×ショウタイム SEKAI ALBUM vol.2/Cover.jpg?raw&proxied`,
+            name: "ワンダーランズ×ショウタイム SEKAI ALBUM vol.2"
+        },
+        title: "いーあるふぁんくらぶ",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}ワンダーランズ×ショウタイム/ワンダーランズ×ショウタイム SEKAI ALBUM vol.2/02 いーあるふぁんくらぶ`
+    },{
+        artist: "ワンダーランズ×ショウタイム",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}ワンダーランズ×ショウタイム/ワンダーランズ×ショウタイム SEKAI ALBUM vol.2/Cover.jpg?raw&proxied`,
+            name: "ワンダーランズ×ショウタイム SEKAI ALBUM vol.2"
+        },
+        title: "神のまにまに",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}ワンダーランズ×ショウタイム/ワンダーランズ×ショウタイム SEKAI ALBUM vol.2/04 神のまにまに`
+    },{
         artist: "YOASOBI",
         lyrics: null,
         album: {
