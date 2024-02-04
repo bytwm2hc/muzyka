@@ -1073,6 +1073,15 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}ワンダーランズ×ショウタイム/ワンダーランズ×ショウタイム SEKAI ALBUM vol.2/04 神のまにまに`
     },{
+        artist: "fripSide",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "an evening calm",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}fripSide - an evening calm`
+    },{
         artist: "YOASOBI",
         lyrics: null,
         album: {
