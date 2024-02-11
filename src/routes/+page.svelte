@@ -132,7 +132,8 @@
             aud_buf.copyToChannel(event.data.R, 1);
             event.data.R = undefined;
             bsn.connect(convolverNode);
-            bsn.connect(highShelf);
+            //bsn.connect(highShelf);
+            bsn.connect(gainDryNode);
             console.log(aud_buf); /* */
             bsn.onended = function () {
                 wavpackWrapper.contentWindow.postMessage('onended', '*');
@@ -358,7 +359,8 @@
             sourceNode = audioContext.createBufferSource();
             sourceNode.buffer = buffer;
             sourceNode.connect(convolverNode);
-            sourceNode.connect(highShelf);
+            //sourceNode.connect(highShelf);
+            sourceNode.connect(gainDryNode);
             sourceNode.onended = onended;
             if (sourceNode.start) {
                 sourceNode.start(0, slider.value);
