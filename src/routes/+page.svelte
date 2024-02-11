@@ -45,7 +45,7 @@
         gainDryNode,
         gainWetNode,
         volumeNode,
-        lowShelf,
+        highShelf,
         sourceNode,
         buffer,
         startTime,
@@ -104,11 +104,11 @@
             });
         });
 
-        lowShelf = audioContext.createBiquadFilter();
-        lowShelf.type = 'lowshelf';
-        lowShelf.frequency.value = 54;
-        lowShelf.gain.value = 2;
-        lowShelf.connect(gainDryNode);
+        highShelf = audioContext.createBiquadFilter();
+        highShelf.type = 'highshelf';
+        highShelf.frequency.value = 16000;
+        highShelf.gain.value = 3;
+        highShelf.connect(gainDryNode);
 
         wavpackWrapper = document.getElementById('wavpackWrapper');
         window.addEventListener('message', async (event) => {
@@ -132,7 +132,7 @@
             aud_buf.copyToChannel(event.data.R, 1);
             event.data.R = undefined;
             bsn.connect(convolverNode);
-            bsn.connect(lowShelf);
+            bsn.connect(highShelf);
             console.log(aud_buf); /* */
             bsn.onended = function () {
                 wavpackWrapper.contentWindow.postMessage('onended', '*');
@@ -223,7 +223,7 @@
             if (paused) {
                 sourceNode.buffer = buffer;
                 sourceNode.connect(convolverNode);
-                sourceNode.connect(lowShelf);
+                sourceNode.connect(highShelf);
                 try {
                     if (sourceNode.start) {
                         sourceNode.start(0, seekTime);
@@ -260,7 +260,7 @@
                             gainDryNode.gain.value = 1;
                             gainWetNode.gain.value = 0.25;
                             sourceNode.connect(convolverNode);
-                            sourceNode.connect(lowShelf);
+                            sourceNode.connect(highShelf);
                             sourceNode.onended = onended;
 
                             try {
@@ -356,7 +356,7 @@
             sourceNode = audioContext.createBufferSource();
             sourceNode.buffer = buffer;
             sourceNode.connect(convolverNode);
-            sourceNode.connect(lowShelf);
+            sourceNode.connect(highShelf);
             sourceNode.onended = onended;
             if (sourceNode.start) {
                 sourceNode.start(0, slider.value);
@@ -535,7 +535,7 @@
                 aud_buf.copyToChannel(event.data.R, 1);
                 event.data.R = undefined;
                 bsn.connect(convolverNode);
-                bsn.connect(lowShelf);
+                bsn.connect(highShelf);
                 bsn.onended = function () {
                     worker.postMessage("onended");
                 };
