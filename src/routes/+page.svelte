@@ -104,11 +104,11 @@
             });
         });
 
-        highShelf = audioContext.createBiquadFilter();
-        highShelf.type = 'highshelf';
-        highShelf.frequency.value = 16000;
-        highShelf.gain.value = 3;
-        highShelf.connect(gainDryNode);
+        //highShelf = audioContext.createBiquadFilter();
+        //highShelf.type = 'highshelf';
+        //highShelf.frequency.value = 16000;
+        //highShelf.gain.value = 3;
+        //highShelf.connect(gainDryNode);
 
         wavpackWrapper = document.getElementById('wavpackWrapper');
         window.addEventListener('message', async (event) => {
@@ -259,9 +259,10 @@
                             'use strict';
                             gainDryNode.gain.value = 1;
                             //gainWetNode.gain.value = 0.25;
-                            gainWetNode.gain.value = 1;
+                            gainWetNode.gain.value = 2;
                             sourceNode.connect(convolverNode);
-                            sourceNode.connect(highShelf);
+                            //sourceNode.connect(highShelf);
+                            sourceNode.connect(gainDryNode);
                             sourceNode.onended = onended;
 
                             try {
@@ -536,7 +537,8 @@
                 aud_buf.copyToChannel(event.data.R, 1);
                 event.data.R = undefined;
                 bsn.connect(convolverNode);
-                bsn.connect(highShelf);
+                //bsn.connect(highShelf);
+                bsn.connect(gainDryNode);
                 bsn.onended = function () {
                     worker.postMessage("onended");
                 };
@@ -552,7 +554,7 @@
         }
         gainDryNode.gain.value = 0.75;
         //gainWetNode.gain.value = 0.1875;
-        gainWetNode.gain.value = 0.75;
+        gainWetNode.gain.value = 1.5;
 
         sourceNode.buffer = audioContext.createBuffer(2, 1, audioContext.sampleRate);
         isPlay.set(true);
