@@ -224,7 +224,8 @@
             if (paused) {
                 sourceNode.buffer = buffer;
                 sourceNode.connect(convolverNode);
-                sourceNode.connect(highShelf);
+                //sourceNode.connect(highShelf);
+                sourceNode.connect(gainDryNode);
                 try {
                     if (sourceNode.start) {
                         sourceNode.start(0, seekTime);
