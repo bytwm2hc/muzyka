@@ -2307,6 +2307,162 @@ export const songs = [
         title: "썸 탈꺼야 (Chic ver)",
         filename: `${HOSTING_URL1}BOL4/Red Diary Page 1/06 썸 탈꺼야 (Chic ver)`
     },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL1}(G)I-DLE/HEAT/Cover.png?raw&proxied` },
+        title: "I DO",
+        filename: `${HOSTING_URL1}(G)I-DLE/HEAT/01 I DO`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL1}(G)I-DLE/HEAT/Cover.png?raw&proxied` },
+        title: "I Want That",
+        filename: `${HOSTING_URL1}(G)I-DLE/HEAT/02 I Want That`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL1}(G)I-DLE/HEAT/Cover.png?raw&proxied` },
+        title: "Eyes Roll",
+        filename: `${HOSTING_URL1}(G)I-DLE/HEAT/03 Eyes Roll`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL1}(G)I-DLE/HEAT/Cover.png?raw&proxied` },
+        title: "Flip It",
+        filename: `${HOSTING_URL1}(G)I-DLE/HEAT/04 Flip It`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL1}(G)I-DLE/HEAT/Cover.png?raw&proxied` },
+        title: "Tall Trees",
+        filename: `${HOSTING_URL1}(G)I-DLE/HEAT/05 Tall Trees`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Nxde",
+        filename: `${HOSTING_URL1}(G)I-DLE/I love/01 Nxde`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "LOVE",
+        filename: `${HOSTING_URL1}(G)I-DLE/I love/02 LOVE`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Change",
+        filename: `${HOSTING_URL1}(G)I-DLE/I love/03 Change`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Reset",
+        filename: `${HOSTING_URL1}(G)I-DLE/I love/04 Reset`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Sculpture (조각품)",
+        filename: `${HOSTING_URL1}(G)I-DLE/I love/05 Sculpture (조각품)`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "DARK (X-file)",
+        filename: `${HOSTING_URL1}(G)I-DLE/I love/06 DARK (X-file)`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "TOMBOY",
+        filename: `${HOSTING_URL1}(G)I-DLE/I NEVER DIE/01 TOMBOY`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "말리지 마",
+        filename: `${HOSTING_URL1}(G)I-DLE/I NEVER DIE/02 말리지 마`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "VILLAIN DIES",
+        filename: `${HOSTING_URL1}(G)I-DLE/I NEVER DIE/03 VILLAIN DIES`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "ALREADY",
+        filename: `${HOSTING_URL1}(G)I-DLE/I NEVER DIE/04 ALREADY`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "POLAROID",
+        filename: `${HOSTING_URL1}(G)I-DLE/I NEVER DIE/05 POLAROID`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "ESCAPE",
+        filename: `${HOSTING_URL1}(G)I-DLE/I NEVER DIE/06 ESCAPE`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "LIAR",
+        filename: `${HOSTING_URL1}(G)I-DLE/I NEVER DIE/07 LIAR`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "MY BAG",
+        filename: `${HOSTING_URL1}(G)I-DLE/I NEVER DIE/08 MY BAG`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "TOMBOY (CD Only)",
+        filename: `${HOSTING_URL1}(G)I-DLE/I NEVER DIE/09 TOMBOY (CD Only)`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "",
+        filename: `${HOSTING_URL1}(G)I-DLE/I feel/01 Queencard`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "",
+        filename: `${HOSTING_URL1}(G)I-DLE/I feel/02 Allergy`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "",
+        filename: `${HOSTING_URL1}(G)I-DLE/I feel/03 Lucid`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "",
+        filename: `${HOSTING_URL1}(G)I-DLE/I feel/04 All Night`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "",
+        filename: `${HOSTING_URL1}(G)I-DLE/I feel/05 Paradise`
+    },{
+        artist: "(G)I-DLE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "",
+        filename: `${HOSTING_URL1}(G)I-DLE/I feel/06 Peter Pan`
+    },{
         artist: "Anna Yina",
         lyrics: null,
         album: { cover: `${HOSTING_URL1}Anna Yina/Lichtmeer/cover.jpg?raw&proxied` },
@@ -3512,6 +3668,12 @@ export const songs = [
         album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/Cover.jpg?raw&proxied` },
         title: "Good-Sleep, Baby♡",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/05 Good-Sleep, Baby♡`
+    },{
+        artist: "春奈るな",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL1}春奈るな/君色シグナル/Cover.jpg?raw&proxied` },
+        title: "君色シグナル",
+        filename: `${HOSTING_URL1}春奈るな/君色シグナル/01 君色シグナル`
     },{
         artist: "鈴木みのり",
         lyrics: null,
