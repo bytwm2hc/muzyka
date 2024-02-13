@@ -2430,13 +2430,13 @@ export const songs = [
         artist: "(G)I-DLE",
         lyrics: null,
         album: { cover: "img/album.png" },
-        title: "",
+        title: "Queencard",
         filename: `${HOSTING_URL1}(G)I-DLE/I feel/01 Queencard`
     },{
         artist: "(G)I-DLE",
         lyrics: null,
         album: { cover: "img/album.png" },
-        title: "",
+        title: "Allergy",
         filename: `${HOSTING_URL1}(G)I-DLE/I feel/02 Allergy`
     },{
         artist: "(G)I-DLE",
@@ -2448,19 +2448,19 @@ export const songs = [
         artist: "(G)I-DLE",
         lyrics: null,
         album: { cover: "img/album.png" },
-        title: "",
+        title: "All Night",
         filename: `${HOSTING_URL1}(G)I-DLE/I feel/04 All Night`
     },{
         artist: "(G)I-DLE",
         lyrics: null,
         album: { cover: "img/album.png" },
-        title: "",
+        title: "Paradise",
         filename: `${HOSTING_URL1}(G)I-DLE/I feel/05 Paradise`
     },{
         artist: "(G)I-DLE",
         lyrics: null,
         album: { cover: "img/album.png" },
-        title: "",
+        title: "Peter Pan",
         filename: `${HOSTING_URL1}(G)I-DLE/I feel/06 Peter Pan`
     },{
         artist: "Anna Yina",
