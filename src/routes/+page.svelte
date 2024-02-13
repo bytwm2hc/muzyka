@@ -259,7 +259,7 @@
                     try {
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
-                            gainDryNode.gain.value = 0.75;
+                            gainDryNode.gain.value = 0.625;
                             gainWetNode.gain.value = 0.875;
                             sourceNode.connect(convolverNode);
                             //sourceNode.connect(highShelf);
