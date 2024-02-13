@@ -2442,7 +2442,7 @@ export const songs = [
         artist: "(G)I-DLE",
         lyrics: null,
         album: { cover: "img/album.png" },
-        title: "",
+        title: "Lucid",
         filename: `${HOSTING_URL1}(G)I-DLE/I feel/03 Lucid`
     },{
         artist: "(G)I-DLE",
