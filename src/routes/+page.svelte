@@ -134,7 +134,7 @@
             bsn.connect(convolverNode);
             //bsn.connect(highShelf);
             bsn.connect(gainDryNode);
-            console.log(aud_buf); /* */
+            //console.log(aud_buf); /* */
             bsn.onended = function () {
                 wavpackWrapper.contentWindow.postMessage('onended', '*');
                 bsn = undefined;
@@ -247,7 +247,7 @@
             const isCAFSupported = new Audio().canPlayType('audio/x-caf; codecs=opus') === 'probably' || safariMac;
             const isOGGSupported = new Audio().canPlayType('audio/ogg; codecs=opus') === 'probably';
             isCAFSupported ? (fileFormat = '.caf?raw') : (isOGGSupported ? (fileFormat = '.opus?raw') : true);
-            songs[$index].isWavPack ? (fileFormat = '.wv?raw') && (wavpackWrapper.src = '//wavpack-wrapper-3ade.pages.dev/') : true;
+            songs[$index].isWavPack ? (fileFormat = '.wv?raw&proxied') && (wavpackWrapper.src = '//wavpack-wrapper-3ade.pages.dev/') : true;
             fetch(songs[$index].filename + fileFormat).then(function (response) {
                 'use strict';
                 response.arrayBuffer().then(function (arrayBuffer) {
@@ -500,8 +500,8 @@
             wavpackWrapper.contentWindow.postMessage({wvData: wvData}, '*', [wvData]);
         } else {
             if (typeof worker === 'undefined') {
-            worker = new Worker('wavpack-worker.js');
-        }
+                worker = new Worker('wavpack-worker.js');
+            }
             worker.onmessage = function (event) {
                 if (event.data === null) {
                     bsn.onended = onended;
@@ -549,10 +549,10 @@
                 bsn.playbackRate.value = 432/440;
                 bsn.start(0);
             };
-        setTimeout(function () {
-            'use strict';
-            worker.postMessage('BYTES_PER_ELEMENT');
-        }, 0);
+            setTimeout(function () {
+                'use strict';
+                worker.postMessage('BYTES_PER_ELEMENT');
+            }, 0);
         }
         gainDryNode.gain.value = 0.4375;
         //gainWetNode.gain.value = 0.1875;

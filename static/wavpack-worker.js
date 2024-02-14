@@ -6,7 +6,7 @@ const fetching_interval = 6; // ms (Immediately if available, default: 5)
 var sample_rate = 44100;
 var numChannels = 1;
 var bps = 2;
-var decodedamount = 1;
+var decodedamount;
 var arrayPointer;
 var min_sample_size = 100;
 var floatDivisor = 1.0;
