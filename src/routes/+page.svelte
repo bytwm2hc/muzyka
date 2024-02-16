@@ -301,6 +301,7 @@
         time = 0;
         duration = 0;
         ended = true;
+        paused = false;
         let lastSong = songs.length - 1;
         buffer = undefined;
         try {
@@ -334,7 +335,7 @@
             albumCover.set(songs[nextSong].album.cover);
             lyrics.set(songs[nextSong].lyrics);
             await source.set(songs[nextSong].filename);
-            playAudio();
+            playAudio(false);
     	} else if ($playMode === PLAY_MODE[1]) {
         	const randomSong = songs[Math.floor(Math.random() * songs.length)];
         	const randomIndex = songs.indexOf(randomSong);
@@ -345,9 +346,9 @@
             albumCover.set(songs[randomIndex].album.cover);
             lyrics.set(songs[randomIndex].lyrics);
             await source.set(songs[randomIndex].filename);
-            playAudio();
+            playAudio(false);
         } else {
-        	playAudio();
+        	playAudio(false);
         }
     };
 
@@ -390,6 +391,7 @@
 
     const changeSong = async ({song}, i) => {
         $btnDisabled = '';
+        paused = false;
         if (song.title == $title) {
             index.set(i);
             title.set(song.title);
