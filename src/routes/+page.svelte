@@ -191,6 +191,7 @@
             slider.disabled = null;
 
             if (iOS() && audio.paused) {
+                audio.load();
                 await audio.play();
             }
             
