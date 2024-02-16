@@ -59,23 +59,29 @@
 
     onMount(() => {
         'use strict';
+        const AudioContext = window.AudioContext || window.webkitAudioContext;
         if (iOS()) {
             document.getElementById('overlay').addEventListener('click', async function () {
                 document.getElementById('overlay').style.display = "none";
                 await audio.play();
+                audioContext = new AudioContext({latencyHint: 'playback'});
+                audioContext.onstatechange = async () => {
+                    'use strict';
+                     if (audioContext.state !== "running") {
+                         await audioContext.resume();
+                    }
+                };
             });
         } else {
             document.getElementById('overlay').style.display = "none";
+            audioContext = new AudioContext({latencyHint: 'playback'});
+            audioContext.onstatechange = async () => {
+                'use strict';
+                if (audioContext.state !== "running") {
+                    await audioContext.resume();
+                }
+            };
         }
-                
-        const AudioContext = window.AudioContext || window.webkitAudioContext;
-        audioContext = new AudioContext({latencyHint: 'playback'});
-        audioContext.onstatechange = async () => {
-            'use strict';
-            if (audioContext.state !== "running") {
-                await audioContext.resume();
-            }
-        };
 
         convolverNode = audioContext.createConvolver();
         gainDryNode = audioContext.createGain();
