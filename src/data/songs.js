@@ -4203,6 +4203,12 @@ export const songs = [
         title: "今天你要嫁给我",
         filename: `${HOSTING_URL1}陶喆＆蔡依林 - 今天你要嫁给我`
     },{
+        artist: "李千娜",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "心花開",
+        filename: `${HOSTING_URL1}李千娜/愛到站了/02 心花開`
+    },{
         artist: "劉明湘",
         lyrics: `${HOSTING_URL1}劉明湘 - 飄洋過海來看你.lrc?proxied`,
         album: { cover: "img/album.png" },
