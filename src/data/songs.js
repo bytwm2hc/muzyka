@@ -4209,6 +4209,18 @@ export const songs = [
         title: "心花開",
         filename: `${HOSTING_URL1}李千娜/愛到站了/02 心花開`
     },{
+        artist: "家家",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "命運",
+        filename: `${HOSTING_URL1}家家 - 命運`
+    },{
+        artist: "Zy",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "命运 beat",
+        filename: `${HOSTING_URL1}Zy - 命运 beat`
+    },{
         artist: "劉明湘",
         lyrics: `${HOSTING_URL1}劉明湘 - 飄洋過海來看你.lrc?proxied`,
         album: { cover: "img/album.png" },
