@@ -12,7 +12,7 @@ export const songs = [
         isWavPack: true,
         filename: "01"
     },*/
-    {
+    /*{
         artist: "Andrea Bocelli",
         lyrics: null,
         album: {
@@ -2216,7 +2216,8 @@ export const songs = [
         album: { cover: "img/album.png" },
         title: "花火が瞬く夜に",
         filename: `${HOSTING_URL2}tmp/羽肿 - 花火が瞬く夜に`
-    },{
+    },*/
+    {
         artist: "8/pLanet!!",
         lyrics: null,
         album: { cover: `${HOSTING_URL1}01 ファンタジア.jpg?raw&proxied` },
