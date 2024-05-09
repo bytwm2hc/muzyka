@@ -4091,6 +4091,12 @@ export const songs = [
         filename: `${HOSTING_URL1}張艾嘉 - 童年`
     },{
         artist: "張信哲",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "愛就一個字",
+        filename: `${HOSTING_URL1}張信哲 - 愛如潮水`
+    },{
+        artist: "張信哲",
         lyrics: `${HOSTING_URL1}張信哲 - 愛就一個字.lrc?proxied`,
         album: { cover: "img/album.png" },
         title: "愛就一個字",
@@ -4246,6 +4252,12 @@ export const songs = [
         title: "老鼠爱大米",
         filename: `${HOSTING_URL1}王启文 - 老鼠爱大米`
     },{
+        artist: "李宇春",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "下个路口见",
+        filename: `${HOSTING_URL1}李宇春 - 下个路口见`
+    },{
         artist: "金莎",
         lyrics: `${HOSTING_URL1}金莎 - 爱的魔法.lrc?proxied`,
         album: { cover: "img/album.png" },
@@ -4288,11 +4300,17 @@ export const songs = [
         title: "熱愛105°C的你",
         filename: `${HOSTING_URL1}阿肆 - 熱愛105°C的你`
     },{
-        artist: "張信哲",
-        lyrics: `${HOSTING_URL1}張信哲 - 過火.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}張信哲 - 過火.jpg?raw&proxied` },
-        title: "過火",
-        filename: `${HOSTING_URL1}張信哲 - 過火`
+        artist: "李宗盛＆林憶蓮",
+        lyrics: `${HOSTING_URL1}李宗盛＆林憶蓮 - 當愛已成往事.lrc?proxied`,
+        album: { cover: "img/album.png" },
+        title: "當愛已成往事",
+        filename: `${HOSTING_URL1}李宗盛＆林憶蓮 - 當愛已成往事`
+    },{
+        artist: "陳淑樺",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "夢醒時分",
+        filename: `${HOSTING_URL1}陳淑樺 - 夢醒時分`
     },{
         artist: "李宗盛＆林憶蓮",
         lyrics: `${HOSTING_URL1}李宗盛＆林憶蓮 - 當愛已成往事.lrc?proxied`,
