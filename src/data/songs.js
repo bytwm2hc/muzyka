@@ -4093,7 +4093,7 @@ export const songs = [
         artist: "張信哲",
         lyrics: null,
         album: { cover: "img/album.png" },
-        title: "愛就一個字",
+        title: "愛如潮水",
         filename: `${HOSTING_URL1}張信哲 - 愛如潮水`
     },{
         artist: "張信哲",
