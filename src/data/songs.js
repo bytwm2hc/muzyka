@@ -2464,6 +2464,12 @@ export const songs = [
         title: "Peter Pan",
         filename: `${HOSTING_URL1}(G)I-DLE/I feel/06 Peter Pan`
     },{
+        artist: "Adaro",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Es ist ein Schnee gefallen",
+        filename: `${HOSTING_URL1}Adaro - Es Ist Ein Schnee Gefallen`
+    },{
         artist: "Anna Yina",
         lyrics: null,
         album: { cover: `${HOSTING_URL1}Anna Yina/Lichtmeer/cover.jpg?raw&proxied` },
@@ -4311,12 +4317,6 @@ export const songs = [
         album: { cover: "img/album.png" },
         title: "夢醒時分",
         filename: `${HOSTING_URL1}陳淑樺 - 夢醒時分`
-    },{
-        artist: "李宗盛＆林憶蓮",
-        lyrics: `${HOSTING_URL1}李宗盛＆林憶蓮 - 當愛已成往事.lrc?proxied`,
-        album: { cover: "img/album.png" },
-        title: "當愛已成往事",
-        filename: `${HOSTING_URL1}李宗盛＆林憶蓮 - 當愛已成往事`
     },{
         artist: "陳奕迅",
         lyrics: `${HOSTING_URL1}陳奕迅 - 十年.lrc?proxied`,
