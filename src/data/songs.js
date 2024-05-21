@@ -1716,6 +1716,33 @@ export const songs = [
         title: "夢一場",
         isWavPack: true,
         filename: `${HOSTING_URL2}那英 - 夢一場`
+    },*/{
+        artist: "伍思凯",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "特别的爱给特别的你.",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}伍思凯 - 特别的爱给特别的你`
+    },{
+        artist: "張雨生",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "口是心非",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}張雨生 - 口是心非`
+    },{
+        artist: "陈明",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "我要找到你",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}陈明 - 我要找到你`
     },{
         artist: "林憶蓮",
         lyrics: null,
@@ -1726,6 +1753,15 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}林憶蓮 - 至少還有你`
     },{
+        artist: "柯柯柯啊",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "姑娘别哭泣",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}柯柯柯啊 - 姑娘别哭泣`
+    },/*{
         artist: "林志炫",
         lyrics: null,
         album: {
