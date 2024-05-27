@@ -872,7 +872,7 @@ export const songs = [
         title: "マシュマリー",
         isWavPack: true,
         filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/12 マシュマリー`
-    },/*{
+    },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
@@ -1042,7 +1042,7 @@ export const songs = [
         title: "ベノム",
         isWavPack: true,
         filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/12 ベノム`
-    },{
+    },/*{
         artist: "ワンダーランズ×ショウタイム",
         lyrics: null,
         album: {
@@ -1052,7 +1052,7 @@ export const songs = [
         title: "にっこり^^調査隊のテーマ",
         isWavPack: true,
         filename: `${HOSTING_URL2}ワンダーランズ×ショウタイム/4th Single「ショウタイム・ルーラー／にっこり^^調査隊のテーマ」/02 にっこり^^調査隊のテーマ`
-    },{
+    },*/{
         artist: "ワンダーランズ×ショウタイム",
         lyrics: null,
         album: {
@@ -1072,7 +1072,7 @@ export const songs = [
         title: "神のまにまに",
         isWavPack: true,
         filename: `${HOSTING_URL2}ワンダーランズ×ショウタイム/ワンダーランズ×ショウタイム SEKAI ALBUM vol.2/04 神のまにまに`
-    },{
+    },/* {
         artist: "fripSide",
         lyrics: null,
         album: {
@@ -1722,7 +1722,7 @@ export const songs = [
         album: {
             cover: "img/album.png"
         },
-        title: "特别的爱给特别的你.",
+        title: "特别的爱给特别的你",
         isWavPack: true,
         filename: `${HOSTING_URL2}伍思凯 - 特别的爱给特别的你`
     },{
@@ -1752,6 +1752,15 @@ export const songs = [
         title: "至少還有你",
         isWavPack: true,
         filename: `${HOSTING_URL2}林憶蓮 - 至少還有你`
+    },{
+        artist: "艾北",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "姑娘别哭泣",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}艾北 - 姑娘别哭泣`
     },{
         artist: "柯柯柯啊",
         lyrics: null,
