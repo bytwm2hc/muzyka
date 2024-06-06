@@ -12,7 +12,7 @@ export const songs = [
         isWavPack: true,
         filename: "01"
     },*/
-    /*{
+    {
         artist: "Andrea Bocelli",
         lyrics: null,
         album: {
@@ -29,7 +29,16 @@ export const songs = [
         },
         title: "Vivo Per Lei",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Andrea Bocelli & Giorgia Todrani - Vivo per lei`
+        filename: `${HOSTING_URL2}Andrea Bocelli & Giorgia Todrani - Vivo Per Lei`
+    },{
+        artist: "Sarah Brightman & Andrea_Bocelli",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Time To Say Goodbye",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Sarah Brightman & Andrea Bocelli - Time To Say Goodbye`
     },{
         artist: "張惠妹",
         lyrics: null,
@@ -39,7 +48,7 @@ export const songs = [
         title: "Time To Say Goodbye",
         isWavPack: true,
         filename: `${HOSTING_URL2}張惠妹 - Time To Say Goodbye`
-    },{
+    },/*{
         artist: "ヒロシ&キーボー",
         lyrics: null,
         album: {
