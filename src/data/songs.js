@@ -31,7 +31,7 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}Andrea Bocelli & Giorgia Todrani - Vivo Per Lei`
     },{
-        artist: "Sarah Brightman & Andrea_Bocelli",
+        artist: "Sarah Brightman & Andrea Bocelli",
         lyrics: null,
         album: {
             cover: "img/album.png"
@@ -1761,6 +1761,15 @@ export const songs = [
         title: "至少還有你",
         isWavPack: true,
         filename: `${HOSTING_URL2}林憶蓮 - 至少還有你`
+    },{
+        artist: "南拳媽媽",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "下雨天",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}南拳媽媽 - 下雨天`
     },{
         artist: "艾北",
         lyrics: null,
