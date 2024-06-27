@@ -1753,24 +1753,6 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}陈明 - 我要找到你`
     },{
-        artist: "林憶蓮",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "至少還有你",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}林憶蓮 - 至少還有你`
-    },{
-        artist: "南拳媽媽",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "下雨天",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}南拳媽媽 - 下雨天`
-    },{
         artist: "艾北",
         lyrics: null,
         album: {
@@ -1788,6 +1770,33 @@ export const songs = [
         title: "姑娘别哭泣",
         isWavPack: true,
         filename: `${HOSTING_URL2}柯柯柯啊 - 姑娘别哭泣`
+    },{
+        artist: "林憶蓮",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "至少還有你",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}林憶蓮 - 至少還有你`
+    },{
+        artist: "梁靜茹",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "崇拜",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}梁靜茹 - 崇拜`
+    },{
+        artist: "南拳媽媽",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "下雨天",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}南拳媽媽 - 下雨天`
     },/*{
         artist: "林志炫",
         lyrics: null,
