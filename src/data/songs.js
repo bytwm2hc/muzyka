@@ -1726,6 +1726,15 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}那英 - 夢一場`
     },*/{
+        artist: "王馨平",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "別問我是誰",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}王馨平 - 別問我是誰`
+    },{
         artist: "伍思凯",
         lyrics: null,
         album: {
