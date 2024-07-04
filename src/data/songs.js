@@ -1806,6 +1806,24 @@ export const songs = [
         title: "下雨天",
         isWavPack: true,
         filename: `${HOSTING_URL2}南拳媽媽 - 下雨天`
+    },{
+        artist: "威仔＆格子兮",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "我知道你不爱我",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}威仔＆格子兮 - 我知道你不爱我`
+    },{
+        artist: "威仔＆格子兮",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "我知道你不爱我(DJAx祥版)",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}威仔＆格子兮 - 我知道你不爱我(DJAx祥版)`
     },/*{
         artist: "林志炫",
         lyrics: null,
