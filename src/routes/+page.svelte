@@ -596,7 +596,7 @@
                 worker.postMessage('BYTES_PER_ELEMENT');
             }, 0);
         }
-        gainDryNode.gain.value = 0.4375;
+        gainDryNode.gain.value = 0.375; //0.4375
         //gainWetNode.gain.value = 0.1875;
         gainWetNode.gain.value = 0.6875;
 
