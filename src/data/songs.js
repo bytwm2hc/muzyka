@@ -1798,6 +1798,15 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}梁靜茹 - 崇拜`
     },{
+        artist: "郭靜",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "心牆",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}郭靜 - 心牆`
+    },{
         artist: "南拳媽媽",
         lyrics: null,
         album: {
