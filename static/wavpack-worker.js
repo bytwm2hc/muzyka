@@ -1,34 +1,29 @@
 "use strict";
-//var Module = {'wasmMemory': new WebAssembly.Memory({initial: 16 * 1024 / 64, maximum: 16 * 1024 / 64})};
 importScripts("wavpack.js");
 const min_sample_duration = 2; // sec
-const fetching_interval = 4; // ms (Immediately if available, default: 5)
-var sample_rate = 44100;
-var numChannels = 1;
-var bps = 2;
-var decodedamount;
-var arrayPointer;
-var min_sample_size = 100;
-var floatDivisor = 1.0;
-var fetched_data_left = new Float32Array(0);
-var fetched_data_right = new Float32Array(0);
-var end_of_song_reached = false;
-var stopped = false;
-var is_reading = false;
-var pcm_buffer_in_use = false;
+let fetching_interval = 2; // ms (Immediately if available, default: 5)
+let sample_rate = 44100;
+let numChannels = 1;
+let bps = 2;
+let arrayPointer;
+let min_sample_size = 100;
+let floatDivisor = 1.0;
+let fetched_data_left = new Float32Array(0);
+let fetched_data_right = new Float32Array(0);
+let end_of_song_reached = false;
+let is_reading = false;
+let pcm_buffer_in_use = false;
+let filename = "wavpack.wv";
 
-function play (wvData) {
+const play = async function (wvData) {
     "use strict";
     end_of_song_reached = false;
-    stopped = false;
     is_reading = false;
     fetched_data_left = new Float32Array(0);
     fetched_data_right = new Float32Array(0);
     const bytes_per_element = Module.HEAP32.BYTES_PER_ELEMENT;
-    let data, filename, stream;
+    let data, stream;
     data = new Uint8Array(wvData);
-    //filename = makeId(5);
-    filename = "wavpack.wv";
     stream = FS.open(filename, "w+");
     FS.write(stream, data, 0, data.length, 0);
     FS.close(stream);
@@ -39,9 +34,7 @@ function play (wvData) {
     data = undefined;
 
     if (typeof arrayPointer === "undefined") {
-        //let result = Module.onRuntimeInitialized = () => {
-            arrayPointer = Module._malloc(4096 * bytes_per_element);
-        //};
+        arrayPointer = Module._malloc(4096 * bytes_per_element);
     }
 
     let musicdata = new Int32Array(4096).fill(0);
@@ -52,6 +45,9 @@ function play (wvData) {
 
     sample_rate = Module.ccall("GetSampleRate", null, [], []);
     //console.log("Sample rate is ", sample_rate);
+    if (sample_rate <= 48000) {
+        fetching_interval = 10;
+    }
     postMessage({
         sampleRate: sample_rate
     });
@@ -70,19 +66,20 @@ function play (wvData) {
 
     floatDivisor = Math.pow(2, bps * 8 - 1);
 
-    setTimeout(periodicFetch, 0);
-}
+    periodicFetch();
+};
 
-function periodicFetch () {
+const periodicFetch = async function () {
     "use strict";
-    if (pcm_buffer_in_use) {
+    let decodedamount = Module.ccall("DecodeWavPackBlock", "number", ["number", "number", "number"], [2, 2, arrayPointer]);
+
+    while (pcm_buffer_in_use) {
         // wait - this shouldn't be called but have as a sanity check, if we are currently adding PCM (decoded) music data to the AudioBuffer context we don't want to overwrite it
         //console.log("~");
-        setTimeout(periodicFetch, fetching_interval * 2);
-        return;
-    }
 
-    decodedamount = Module.ccall("DecodeWavPackBlock", "number", ["number", "number", "number"], [2, 2, arrayPointer]);
+        //setTimeout(periodicFetch, fetching_interval * 2);
+        //return;
+    }
 
     pcm_buffer_in_use = true;
 
@@ -130,43 +127,48 @@ function periodicFetch () {
 
     pcm_buffer_in_use = false;
 
-    if (!stopped && !end_of_song_reached) {
+    if (!end_of_song_reached) {
         // lets load more data (decode more audio from the WavPack file)
         setTimeout(periodicFetch, fetching_interval);
-        //return;
     }
 
     // if we are not actively reading and have fetched enough
     if (!is_reading && fetched_data_left.length >= min_sample_size) {
         readingLoop(); // start reading
-        return;
     }
 
     // Start playing when decoded all but wait very long time...
     //if (end_of_song_reached) {
     //    console.log(buffer.duration);
     //    try {
-    //    sourceNode.buffer = buffer;
-    //    duration = sourceNode.buffer.duration;
+    //        "use strict";
+    //        sourceNode.buffer = buffer;
+    //        duration = sourceNode.buffer.duration;
 
-    //    if (sourceNode.start) {
-    //        sourceNode.start(0);
-    //        startTime = audioContext.currentTime;
-    //        updateTime(false);
-    //    } else if (sourceNode.noteOn) {
-    //        sourceNode.noteOn(0);
-    //        startTime = audioContext.currentTime;
-    //        updateTime(false);
-    //        isPlay.set(true);
-    //    }
+    //        if (sourceNode.start) {
+    //            sourceNode.start(0);
+    //            startTime = audioContext.currentTime;
+    //            updateTime(false);
+    //        } else if (sourceNode.noteOn) {
+    //            sourceNode.noteOn(0);
+    //            startTime = audioContext.currentTime;
+    //            updateTime(false);
+    //            isPlay.set(true);
+    //        }
     //    }
     //    catch (ignored) {}
     //}
-}
+};
 
-const readingLoop = () => {
+const readingLoop = function () {
     "use strict";
-    if (stopped || fetched_data_left.length < min_sample_size) {
+    //if (end_of_song_reached) {
+    //    is_reading = false;
+    //    postMessage(null);
+    //    return;
+    //}
+    
+    if (fetched_data_left.length < min_sample_size) {
         is_reading = false;
         return;
     }
@@ -174,16 +176,17 @@ const readingLoop = () => {
     addBufferToAudioContext();
 };
 
-const addBufferToAudioContext = () => {
+const addBufferToAudioContext = async function () {
     "use strict";
     // let the world know we are actively reading
     is_reading = true;
 
-    if (pcm_buffer_in_use) {
+    while (pcm_buffer_in_use) {
         // wait, this shouldn't be called, but if we're adding more data to the PCM buffer, don't want to overwrite it
         //console.log("-");
-        setTimeout(addBufferToAudioContext, fetching_interval * 3);
-        return;
+
+        //setTimeout(addBufferToAudioContext, fetching_interval * 2);
+        //return;
     }
 
     pcm_buffer_in_use = true;
@@ -195,21 +198,13 @@ const addBufferToAudioContext = () => {
     //if (numChannels == 2) {
     //    aud_buf.copyToChannel(fetched_data_right, 1);
     //}
-    // the actual player
-    //try {
-        postMessage({
-            L: fetched_data_left,
-            R: fetched_data_right
-        }, [fetched_data_left.buffer, fetched_data_right.buffer]);
-    //} catch (e) {
-    //    postMessage({
-    //        L: fetched_data_left.slice(),
-    //        R: fetched_data_right.slice()
-    //    });
-    //}
-    // clear the buffered data
-    fetched_data_left = new Float32Array(0);
-    fetched_data_right = new Float32Array(0);
+
+    postMessage({
+        L: fetched_data_left,
+        R: fetched_data_right
+    }, [fetched_data_left.buffer, fetched_data_right.buffer]);
+    fetched_data_left = undefined;
+    fetched_data_right = undefined;
 
     // Append decoded audio buffer/data for all
     //if (buffer === null) {
@@ -225,7 +220,7 @@ const addBufferToAudioContext = () => {
     }
 };
 
-function concatFloat32Arrays (arr1, arr2) {
+const concatFloat32Arrays = function (arr1, arr2) {
     "use strict";
     if (!arr1 || !arr1.length) {
         return arr2 && arr2.slice();
@@ -236,22 +231,8 @@ function concatFloat32Arrays (arr1, arr2) {
     let out = new Float32Array(arr1.length + arr2.length);
     out.set(arr1);
     out.set(arr2, arr1.length);
-    //arr1 = new Float32Array(0);
-    //arr2 = new Float32Array(0);
     return out;
-}
-
-const makeId = (length) => {
-    let result = '';
-    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-    const charactersLength = characters.length;
-    let counter = 0;
-    while (counter < length) {
-      result += characters.charAt(Math.floor(Math.random() * charactersLength));
-      counter += 1;
-    }
-    return result;
-}
+};
 
 self.onmessage = function (event) {
     "use strict";
@@ -262,9 +243,11 @@ self.onmessage = function (event) {
 
     if (event.data === "BYTES_PER_ELEMENT") {
         try {
+            "use strict";
             postMessage({BYTES_PER_ELEMENT: Module.HEAP32.BYTES_PER_ELEMENT});
         }
         catch (e) {
+            "use strict";
             postMessage({BYTES_PER_ELEMENT: 0});
         }
         return;
@@ -272,15 +255,13 @@ self.onmessage = function (event) {
 
     if (event.data === "free") {
         if (arrayPointer) {
-            Module._free(arrayPointer);
+            Module.ccall('finaliseWavPack', null, ['string'], [filename]);
+            Module._free(Module.HEAP32.buffer);
+            //Module._free(arrayPointer);
+            //arrayPointer = undefined;
         }
-        FS.unlink("wavpack.wv");
         return;
     }
 
-    if (arrayPointer) {
-        //Module._free(arrayPointer);
-    }
-    //arrayPointer = undefined;
     play(event.data);
 };

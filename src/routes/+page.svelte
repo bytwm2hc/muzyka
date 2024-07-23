@@ -54,7 +54,7 @@
         isLyricsPanel = false;
     let bsn,
         sr,
-        wavpackWrapper,
+        //wavpackWrapper,
         worker;
 
     onMount(() => {
@@ -62,7 +62,7 @@
         const AudioContext = window.AudioContext || window.webkitAudioContext;
         if (iOS()) {
             document.getElementById('overlay').addEventListener('click', async function () {
-                document.getElementById('overlay').style.display = "none";
+                document.getElementById('overlay').style.display = 'none';
                 await audio.play();
                 audioContext = new AudioContext({latencyHint: 'playback'});
                 audioContext.onstatechange = async () => {
@@ -71,42 +71,44 @@
                          await audioContext.resume();
                     }
                 };
-                
+
                 convolverNode = audioContext.createConvolver();
-        gainDryNode = audioContext.createGain();
-        gainWetNode = audioContext.createGain();
-        volumeNode = audioContext.createGain();
-        gainDryNode.connect(volumeNode);
-        gainWetNode.connect(volumeNode);
-        volumeNode.connect(audioContext.destination);
-        convolverNode.connect(gainWetNode);
+                gainDryNode = audioContext.createGain();
+                gainWetNode = audioContext.createGain();
+                volumeNode = audioContext.createGain();
+                gainDryNode.connect(volumeNode);
+                gainWetNode.connect(volumeNode);
+                volumeNode.connect(audioContext.destination);
+                convolverNode.connect(gainWetNode);
 
-        fetch("arena.wav").then(function (response) {
-            'use strict';
-            response.arrayBuffer().then(function (ab) {
-                'use strict';
-                try {
-                    audioContext.decodeAudioData(ab).then(function (data) {
+                fetch('arena.wav').then(function (response) {
+                    'use strict';
+                    response.arrayBuffer().then(function (ab) {
                         'use strict';
-                        convolverNode.buffer = data;
+                        try {
+                            'use strict';
+                            audioContext.decodeAudioData(ab).then(function (data) {
+                                'use strict';
+                                convolverNode.buffer = data;
+                            });
+                        } catch (error) {
+                            'use strict';
+                            audioContext.decodeAudioData(ab, function (data) {
+                                'use strict';
+                                convolverNode.buffer = data;
+                            });
+                        }
                     });
-                } catch (error) {
-                    audioContext.decodeAudioData(ab, function (data) {
-                        'use strict';
-                        convolverNode.buffer = data;
-                    });
-                }
-            });
-        });
+                });
 
-        //highShelf = audioContext.createBiquadFilter();
-        //highShelf.type = 'highshelf';
-        //highShelf.frequency.value = 16000;
-        //highShelf.gain.value = 3;
-        //highShelf.connect(gainDryNode);
+                //highShelf = audioContext.createBiquadFilter();
+                //highShelf.type = 'highshelf';
+                //highShelf.frequency.value = 16000;
+                //highShelf.gain.value = 3;
+                //highShelf.connect(gainDryNode);
             });
         } else {
-            document.getElementById('overlay').style.display = "none";
+            document.getElementById('overlay').style.display = 'none';
             audioContext = new AudioContext({latencyHint: 'playback'});
             audioContext.onstatechange = async () => {
                 'use strict';
@@ -116,41 +118,43 @@
             };
             
             convolverNode = audioContext.createConvolver();
-        gainDryNode = audioContext.createGain();
-        gainWetNode = audioContext.createGain();
-        volumeNode = audioContext.createGain();
-        gainDryNode.connect(volumeNode);
-        gainWetNode.connect(volumeNode);
-        volumeNode.connect(audioContext.destination);
-        convolverNode.connect(gainWetNode);
+            gainDryNode = audioContext.createGain();
+            gainWetNode = audioContext.createGain();
+            volumeNode = audioContext.createGain();
+            gainDryNode.connect(volumeNode);
+            gainWetNode.connect(volumeNode);
+            volumeNode.connect(audioContext.destination);
+            convolverNode.connect(gainWetNode);
 
-        fetch("arena.wav").then(function (response) {
-            'use strict';
-            response.arrayBuffer().then(function (ab) {
+            fetch('arena.wav').then(function (response) {
                 'use strict';
-                try {
-                    audioContext.decodeAudioData(ab).then(function (data) {
+                response.arrayBuffer().then(function (ab) {
+                    'use strict';
+                    try {
                         'use strict';
-                        convolverNode.buffer = data;
-                    });
-                } catch (error) {
-                    audioContext.decodeAudioData(ab, function (data) {
+                        audioContext.decodeAudioData(ab).then(function (data) {
+                            'use strict';
+                            convolverNode.buffer = data;
+                        });
+                    } catch (error) {
                         'use strict';
-                        convolverNode.buffer = data;
-                    });
-                }
+                        audioContext.decodeAudioData(ab, function (data) {
+                            'use strict';
+                            convolverNode.buffer = data;
+                        });
+                    }
+                });
             });
-        });
 
-        //highShelf = audioContext.createBiquadFilter();
-        //highShelf.type = 'highshelf';
-        //highShelf.frequency.value = 16000;
-        //highShelf.gain.value = 3;
-        //highShelf.connect(gainDryNode);
+            //highShelf = audioContext.createBiquadFilter();
+            //highShelf.type = 'highshelf';
+            //highShelf.frequency.value = 16000;
+            //highShelf.gain.value = 3;
+            //highShelf.connect(gainDryNode);
         }
 
-        wavpackWrapper = document.getElementById('wavpackWrapper');
-        window.addEventListener('message', async (event) => {
+        //wavpackWrapper = document.getElementById('wavpackWrapper');
+        /* window.addEventListener('message', async (event) => {
             //if (event.data === null || !event.data.L) {
             //    console.log(event.data);
             //}
@@ -165,24 +169,24 @@
             }
             if (typeof event.data.L !== 'undefined') {
                 bsn = audioContext.createBufferSource();
-            let aud_buf = audioContext.createBuffer(2, event.data.L.length, sr);
-            aud_buf.copyToChannel(event.data.L, 0);
-            event.data.L = undefined;
-            aud_buf.copyToChannel(event.data.R, 1);
-            event.data.R = undefined;
-            bsn.connect(convolverNode);
-            //bsn.connect(highShelf);
-            bsn.connect(gainDryNode);
-            //console.log(aud_buf); /* */
-            bsn.onended = function () {
-                wavpackWrapper.contentWindow.postMessage('onended', '*');
-                bsn = undefined;
-            };
-            bsn.buffer = aud_buf;
-            bsn.detune.value = 432/440;
-            bsn.playbackRate.value = 432/440;
-            bsn.start(0);
-            return;
+                let aud_buf = audioContext.createBuffer(2, event.data.L.length, sr);
+                aud_buf.copyToChannel(event.data.L, 0);
+                event.data.L = undefined;
+                aud_buf.copyToChannel(event.data.R, 1);
+                event.data.R = undefined;
+                bsn.connect(convolverNode);
+                //bsn.connect(highShelf);
+                bsn.connect(gainDryNode);
+                //console.log(aud_buf);
+                bsn.onended = function () {
+                    wavpackWrapper.contentWindow.postMessage('onended', '*');
+                    bsn = undefined;
+                };
+                bsn.buffer = aud_buf;
+                bsn.detune.value = 432/440;
+                bsn.playbackRate.value = 432/440;
+                bsn.start(0);
+                return;
             }
             if (typeof event.data.sampleRate !== 'undefined') {
                 sr = event.data.sampleRate;
@@ -194,7 +198,7 @@
                 setTimeout(updateTime.bind(null, false), 500);
                 return;
             }
-        });
+        }); */
 
         /* audio.onended = async () => {
         	isPlay.set(false);
@@ -287,7 +291,7 @@
             const isCAFSupported = new Audio().canPlayType('audio/x-caf; codecs=opus') === 'probably' || safariMac;
             const isOGGSupported = new Audio().canPlayType('audio/ogg; codecs=opus') === 'probably';
             isCAFSupported ? (fileFormat = '.caf?raw') : (isOGGSupported ? (fileFormat = '.opus?raw') : true);
-            songs[$index].isWavPack ? (fileFormat = '.wv?raw&proxied') && (wavpackWrapper.src = '//wavpack-wrapper-3ade.pages.dev/') : true;
+            songs[$index].isWavPack ? (fileFormat = '.wv?raw&proxied') /* && (wavpackWrapper.src = '//wavpack-wrapper-3ade.pages.dev/') */ : true;
             fetch(songs[$index].filename + fileFormat).then(function (response) {
                 'use strict';
                 response.arrayBuffer().then(function (arrayBuffer) {
@@ -360,7 +364,10 @@
         }
         catch (ignored) {}
         bsn = undefined;
-        wavpackWrapper.src = 'about:blank';
+        if (typeof worker !== 'undefined') {
+            worker.postMessage('free');
+        }
+        //wavpackWrapper.src = 'about:blank';
 
         if ($playMode === PLAY_MODE[0]) {
         	let nextSong = $index + 1;
@@ -459,7 +466,10 @@
             }
             catch (ignored) {}
             bsn = undefined;
-            wavpackWrapper.src = 'about:blank';
+            if (typeof worker !== 'undefined') {
+                worker.postMessage('free');
+            }
+            //wavpackWrapper.src = 'about:blank';
 
             index.set(i);
             title.set(song.title);
@@ -515,7 +525,7 @@
         }
     };
 
-    const updateTime = (isBeaconing) => {
+    const updateTime = async (isBeaconing) => {
         'use strict';
         if (isBeaconing) {
             return;
@@ -527,11 +537,11 @@
         if (audioContext.currentTime - startTime <= duration) {
             time = audioContext.currentTime - startTime;
             // next run
-            setTimeout(updateTime.bind(null, false), 400);
+            setTimeout(updateTime.bind(null, false), 500);
         }
     };
 
-    const WavPackPlay = (wvData) => {
+    const WavPackPlay = async (wvData) => {
         'use strict';
         //audioContext.audioWorklet.addModule('bypass-processor.js').then(function () {
         //    bypasser = new AudioWorkletNode(audioContext, 'bypass-processor', {outputChannelCount: [2]});
@@ -539,9 +549,8 @@
         //});
 
         //if (iOS()) {
-        if (false) {
-            wavpackWrapper.contentWindow.postMessage({wvData: wvData}, '*', [wvData]);
-        } else {
+        //    wavpackWrapper.contentWindow.postMessage({wvData: wvData}, '*', [wvData]);
+        //} else {
             if (typeof worker === 'undefined') {
                 worker = new Worker('wavpack-worker.js');
             }
@@ -596,9 +605,8 @@
                 'use strict';
                 worker.postMessage('BYTES_PER_ELEMENT');
             }, 0);
-        }
+        //}
         gainDryNode.gain.value = 0.375; //0.4375
-        //gainWetNode.gain.value = 0.1875;
         gainWetNode.gain.value = 0.6875;
 
         sourceNode.buffer = audioContext.createBuffer(2, 1, audioContext.sampleRate);
