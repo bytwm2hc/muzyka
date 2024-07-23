@@ -538,7 +538,8 @@
         //    bypasser.connect(audioContext.destination);
         //});
 
-        if (iOS()) {
+        //if (iOS()) {
+        if (false) {
             wavpackWrapper.contentWindow.postMessage({wvData: wvData}, '*', [wvData]);
         } else {
             if (typeof worker === 'undefined') {
