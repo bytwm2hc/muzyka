@@ -1855,6 +1855,15 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}林志炫 - 單身情歌`
     },{
+        artist: "S.H.E",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "中國話",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}S.H.E/Play/01 中國話`
+    },{
         artist: "S.H.E & 飛輪海",
         lyrics: null,
         album: {
@@ -1862,7 +1871,7 @@ export const songs = [
         },
         title: "謝謝你的溫柔",
         isWavPack: true,
-        filename: `${HOSTING_URL2}S.H.E & 飛輪海 - 謝謝你的溫柔`
+        filename: `${HOSTING_URL2}S.H.E/Play/02 謝謝你的溫柔`
     },/*{
         artist: "G.E.M.鄧紫棋",
         lyrics: null,
