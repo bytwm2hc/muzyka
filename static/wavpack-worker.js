@@ -78,11 +78,11 @@ const periodicFetch = async function () {
         setTimeout(periodicFetch, fetching_interval * 2);
         return;
     }
-    if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate <= 96000 && fetched_data_left.length >= min_sample_size * 10) {
+    if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate <= 96000 && fetched_data_left.length >= min_sample_size * 5) {
         setTimeout(periodicFetch, fetching_interval * 2);
         return;
     }
-    if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate <= 192000 && fetched_data_left.length >= min_sample_size * 5) {
+    if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate <= 192000 && fetched_data_left.length >= min_sample_size * 2) {
         setTimeout(periodicFetch, fetching_interval * 2);
         return;
     }
