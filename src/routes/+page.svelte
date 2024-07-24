@@ -556,7 +556,24 @@
             }
             worker.onmessage = function (event) {
                 'use strict';
-                
+                if (typeof event.data.L !== 'undefined') {
+                    bsn = audioContext.createBufferSource();
+                    let aud_buf = audioContext.createBuffer(2, event.data.L.length, sr);
+                    aud_buf.copyToChannel(event.data.L, 0);
+                    event.data.L = undefined;
+                    aud_buf.copyToChannel(event.data.R, 1);
+                    event.data.R = undefined;
+                    bsn.connect(convolverNode);
+                    //bsn.connect(highShelf);
+                    bsn.connect(gainDryNode);
+                    bsn.onended = function () {
+                        worker.postMessage("onended");
+                    };
+                    bsn.buffer = aud_buf;
+                    bsn.detune.value = 432/440;
+                    bsn.playbackRate.value = 432/440;
+                    bsn.start(0);
+                }
                 if (event.data === "addBufferToAudioContext: end_of_song_reached") {
                     //console.log("worker: addBufferToAudioContext: end_of_song_reached");
                     bsn.onended = onended;
@@ -592,22 +609,6 @@
                     event.data.wvData = undefined;
                     return;
                 }
-                bsn = audioContext.createBufferSource();
-                let aud_buf = audioContext.createBuffer(2, event.data.L.length, sr);
-                aud_buf.copyToChannel(event.data.L, 0);
-                event.data.L = undefined;
-                aud_buf.copyToChannel(event.data.R, 1);
-                event.data.R = undefined;
-                bsn.connect(convolverNode);
-                //bsn.connect(highShelf);
-                bsn.connect(gainDryNode);
-                bsn.onended = function () {
-                    worker.postMessage("onended");
-                };
-                bsn.buffer = aud_buf;
-                bsn.detune.value = 432/440;
-                bsn.playbackRate.value = 432/440;
-                bsn.start(0);
             };
             setTimeout(function () {
                 'use strict';

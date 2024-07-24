@@ -1,21 +1,21 @@
 "use strict";
 importScripts("wavpack.js");
-const min_sample_duration = 2; // sec
-let fetching_interval; // ms (Immediately if available, default: 5)
+const filename = "wavpack.wv";
+let min_sample_duration; // sec
+let fetching_interval; // ms (default: 5)
 let sample_rate = 44100;
 let numChannels = 1;
 let bps = 2;
 let arrayPointer;
 let min_sample_size = 100;
 let floatDivisor = 1.0;
-let fetched_data_left = new Float32Array(0);
-let fetched_data_right = new Float32Array(0);
+let fetched_data_left;
+let fetched_data_right;
 let end_of_song_reached = false;
 let is_reading = false;
 let pcm_buffer_in_use = false;
-let filename = "wavpack.wv";
 
-const play = async function (wvData) {
+const play = function (wvData) {
     "use strict";
     end_of_song_reached = false;
     is_reading = false;
@@ -46,9 +46,11 @@ const play = async function (wvData) {
     sample_rate = Module.ccall("GetSampleRate", null, [], []);
     //console.log("Sample rate is ", sample_rate);
     if (sample_rate <= 48000) {
-        fetching_interval = 10;
+        min_sample_duration = 3;
+        fetching_interval = 12;
     }
-    if (sample_rate >= 96000) {
+    if (sample_rate > 48000) {
+        min_sample_duration = 3;
         fetching_interval = 8;
     }
     postMessage({
@@ -72,29 +74,25 @@ const play = async function (wvData) {
     periodicFetch();
 };
 
-const periodicFetch = async function () {
+const periodicFetch = function () {
     "use strict";
-    if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate <= 48000 && fetched_data_left.length >= min_sample_size * 20) {
+    if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate <= 48000 && fetched_data_left.length >= min_sample_size * 30) {
         setTimeout(periodicFetch, fetching_interval * 2);
         return;
     }
-    if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate >= 96000 && fetched_data_left.length >= min_sample_size * 10) {
-        setTimeout(periodicFetch, fetching_interval * 3);
-        return;
-    }
-    if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate <= 192000 && fetched_data_left.length >= min_sample_size * 5) {
-        setTimeout(periodicFetch, fetching_interval * 4);
+    if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate > 48000 && fetched_data_left.length >= min_sample_size * 5) {
+        setTimeout(periodicFetch, fetching_interval * 2);
         return;
     }
 
     let decodedamount = Module.ccall("DecodeWavPackBlock", "number", ["number", "number", "number"], [2, 2, arrayPointer]);
 
-    if (pcm_buffer_in_use) {
+    while (pcm_buffer_in_use) {
         // wait - this shouldn't be called but have as a sanity check, if we are currently adding PCM (decoded) music data to the AudioBuffer context we don't want to overwrite it
-        console.log("~");
+        //console.log("~");
 
-        setTimeout(periodicFetch, 1);
-        return;
+        //setTimeout(periodicFetch, 1);
+        //return;
     }
 
     pcm_buffer_in_use = true;
@@ -190,7 +188,7 @@ const readingLoop = function () {
     addBufferToAudioContext();
 };
 
-const addBufferToAudioContext = async function () {
+const addBufferToAudioContext = function () {
     "use strict";
     // let the world know we are actively reading
     is_reading = true;
@@ -245,8 +243,6 @@ const concatFloat32Arrays = function (arr1, arr2) {
     let out = new Float32Array(arr1.length + arr2.length);
     out.set(arr1);
     out.set(arr2, arr1.length);
-    arr1 = undefined;
-    arr2 = undefined;
     return out;
 };
 
