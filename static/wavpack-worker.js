@@ -78,11 +78,11 @@ const periodicFetch = async function () {
         setTimeout(periodicFetch, fetching_interval * 2);
         return;
     }
-    if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate >= 96000 && fetched_data_left.length >= min_sample_size * 5) {
+    if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate >= 96000 && fetched_data_left.length >= min_sample_size * 10) {
         setTimeout(periodicFetch, fetching_interval * 3);
         return;
     }
-    if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate <= 192000 && fetched_data_left.length >= min_sample_size * 2) {
+    if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate <= 192000 && fetched_data_left.length >= min_sample_size * 5) {
         setTimeout(periodicFetch, fetching_interval * 4);
         return;
     }
@@ -93,7 +93,7 @@ const periodicFetch = async function () {
         // wait - this shouldn't be called but have as a sanity check, if we are currently adding PCM (decoded) music data to the AudioBuffer context we don't want to overwrite it
         console.log("~");
 
-        setTimeout(periodicFetch, fetching_interval * 2);
+        setTimeout(periodicFetch, 1);
         return;
     }
 
