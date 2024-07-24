@@ -2237,7 +2237,7 @@ export const songs = [
         album: { cover: "img/album.png" },
         title: "伤不起",
         isWavPack: true,
-        filename: `${HOSTING_URL2}王麟&老猫 - 伤不起`
+        filename: `${HOSTING_URL2}王麟＆老猫 - 伤不起`
     },{
         artist: "誓言",
         lyrics: null,
@@ -2329,16 +2329,16 @@ export const songs = [
         artist: "HKT",
         lyrics: null,
         album: { cover: "img/album.png" },
-        title: "Thêm Một Lần Đau",
+        title: "Mặt Trái Của Sự Thật",
         isWavPack: true,
-        filename: `${HOSTING_URL2}HKT - Thêm Một Lần Đau`
+        filename: `${HOSTING_URL2}HKT/Mặt Trái Của Sự Thật/01 Mặt Trái Của Sự Thật`
     },{
         artist: "HKT",
         lyrics: null,
         album: { cover: "img/album.png" },
-        title: "Mặt Trái Của Sự Thật",
+        title: "Thêm Một Lần Đau",
         isWavPack: true,
-        filename: `${HOSTING_URL2}HKT - Mặt Trái Của Sự Thật`
+        filename: `${HOSTING_URL2}HKT/Mặt Trái Của Sự Thật/05 Thêm Một Lần Đau`
     },{
         artist: "8/pLanet!!",
         lyrics: null,

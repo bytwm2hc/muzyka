@@ -555,8 +555,16 @@
                 worker = new Worker('wavpack-worker.js');
             }
             worker.onmessage = function (event) {
-                if (event.data === null) {
+                'use strict';
+                
+                if (event.data === "addBufferToAudioContext: end_of_song_reached") {
+                    //console.log("worker: addBufferToAudioContext: end_of_song_reached");
                     bsn.onended = onended;
+                    return;
+                }
+                if (event.data === "readingLoop: end_of_song_reached") {
+                    //console.log("worker: readingLoop: end_of_song_reached");
+                    onended();
                     return;
                 }
                 if (typeof event.data.BYTES_PER_ELEMENT !== 'undefined') {

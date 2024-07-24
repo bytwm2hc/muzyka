@@ -1,7 +1,7 @@
 "use strict";
 importScripts("wavpack.js");
 const min_sample_duration = 2; // sec
-let fetching_interval = 2; // ms (Immediately if available, default: 5)
+let fetching_interval = 1; // ms (Immediately if available, default: 5)
 let sample_rate = 44100;
 let numChannels = 1;
 let bps = 2;
@@ -48,6 +48,9 @@ const play = async function (wvData) {
     if (sample_rate <= 48000) {
         fetching_interval = 10;
     }
+    if (sample_rate <= 96000) {
+        fetching_interval = 6;
+    }
     postMessage({
         sampleRate: sample_rate
     });
@@ -71,14 +74,27 @@ const play = async function (wvData) {
 
 const periodicFetch = async function () {
     "use strict";
+    if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate <= 48000 && fetched_data_left.length >= min_sample_size * 20) {
+        setTimeout(periodicFetch, fetching_interval * 2);
+        return;
+    }
+    if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate <= 96000 && fetched_data_left.length >= min_sample_size * 10) {
+        setTimeout(periodicFetch, fetching_interval * 2);
+        return;
+    }
+    if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate <= 192000 && fetched_data_left.length >= min_sample_size * 5) {
+        setTimeout(periodicFetch, fetching_interval * 2);
+        return;
+    }
+
     let decodedamount = Module.ccall("DecodeWavPackBlock", "number", ["number", "number", "number"], [2, 2, arrayPointer]);
 
-    while (pcm_buffer_in_use) {
+    if (pcm_buffer_in_use) {
         // wait - this shouldn't be called but have as a sanity check, if we are currently adding PCM (decoded) music data to the AudioBuffer context we don't want to overwrite it
-        //console.log("~");
+        console.log("~");
 
-        //setTimeout(periodicFetch, fetching_interval * 2);
-        //return;
+        setTimeout(periodicFetch, fetching_interval * 2);
+        return;
     }
 
     pcm_buffer_in_use = true;
@@ -162,14 +178,12 @@ const periodicFetch = async function () {
 
 const readingLoop = function () {
     "use strict";
-    //if (end_of_song_reached) {
-    //    is_reading = false;
-    //    postMessage(null);
-    //    return;
-    //}
-    
     if (fetched_data_left.length < min_sample_size) {
         is_reading = false;
+        if (end_of_song_reached) {
+            is_reading = false;
+            postMessage("readingLoop: end_of_song_reached");
+        }
         return;
     }
 
@@ -216,7 +230,7 @@ const addBufferToAudioContext = async function () {
     pcm_buffer_in_use = false;
     //setTimeout(readingLoop, 0);
     if (end_of_song_reached) {
-        postMessage(null);
+        postMessage("addBufferToAudioContext: end_of_song_reached");
     }
 };
 
@@ -231,6 +245,8 @@ const concatFloat32Arrays = function (arr1, arr2) {
     let out = new Float32Array(arr1.length + arr2.length);
     out.set(arr1);
     out.set(arr2, arr1.length);
+    arr1 = undefined;
+    arr2 = undefined;
     return out;
 };
 
