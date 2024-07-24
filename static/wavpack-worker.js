@@ -1,7 +1,7 @@
 "use strict";
 importScripts("wavpack.js");
 const min_sample_duration = 2; // sec
-let fetching_interval = 1; // ms (Immediately if available, default: 5)
+let fetching_interval; // ms (Immediately if available, default: 5)
 let sample_rate = 44100;
 let numChannels = 1;
 let bps = 2;
@@ -48,8 +48,8 @@ const play = async function (wvData) {
     if (sample_rate <= 48000) {
         fetching_interval = 10;
     }
-    if (sample_rate <= 96000) {
-        fetching_interval = 6;
+    if (sample_rate >= 96000) {
+        fetching_interval = 8;
     }
     postMessage({
         sampleRate: sample_rate
@@ -78,12 +78,12 @@ const periodicFetch = async function () {
         setTimeout(periodicFetch, fetching_interval * 2);
         return;
     }
-    if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate <= 96000 && fetched_data_left.length >= min_sample_size * 5) {
-        setTimeout(periodicFetch, fetching_interval * 2);
+    if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate >= 96000 && fetched_data_left.length >= min_sample_size * 5) {
+        setTimeout(periodicFetch, fetching_interval * 3);
         return;
     }
     if (!end_of_song_reached && typeof fetched_data_left !== 'undefined' && sample_rate <= 192000 && fetched_data_left.length >= min_sample_size * 2) {
-        setTimeout(periodicFetch, fetching_interval * 2);
+        setTimeout(periodicFetch, fetching_interval * 4);
         return;
     }
 
