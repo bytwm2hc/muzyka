@@ -615,8 +615,8 @@
                 worker.postMessage('BYTES_PER_ELEMENT');
             }, 0);
         //}
-        gainDryNode.gain.value = 0.75;
-        gainWetNode.gain.value = 0.75;
+        gainDryNode.gain.value = 0.71875;
+        gainWetNode.gain.value = 0.71875;
 
         sourceNode.buffer = audioContext.createBuffer(2, 1, audioContext.sampleRate);
         isPlay.set(true);
