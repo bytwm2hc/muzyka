@@ -784,6 +784,26 @@ export const songs = [
         title: "ROYS",
         isWavPack: true,
         filename: `${HOSTING_URL2}Roys/I'll be there/03 ROYS`
+    },{
+        artist: "ウィーン・マルガレーテ（CV.結那）",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}ウィーン・マルガレーテ/Butterfly Wing／エーデルシュタイン/Cover.jpg?raw&proxied`,
+            name: "Butterfly Wing／エーデルシュタイン"
+        },
+        title: "Butterfly Wing",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}ウィーン・マルガレーテ/Butterfly Wing／エーデルシュタイン/01 Butterfly Wing`
+    },{
+        artist: "ウィーン・マルガレーテ（CV.結那）",
+        lyrics: null,
+        album: {
+            cover: `${HOSTING_URL2}ウィーン・マルガレーテ/Butterfly Wing／エーデルシュタイン/Cover.jpg?raw&proxied`,
+            name: "Butterfly Wing／エーデルシュタイン"
+        },
+        title: "エーデルシュタイン",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}ウィーン・マルガレーテ/Butterfly Wing／エーデルシュタイン/02 エーデルシュタイン`
     },/*{
         artist: "ワルキューレ",
         lyrics: `見つめ合って恋をして 無我夢中で追いかけて<br />だけどもっと知りたくて メラメラしてる<br />願うほど謎が増え 思うほど熱になる<br />だからもっと飛び込むの 未開の世界 ah<br />恋とか夢とか誰でも信じるけど<br />ソコソコ攻めなきゃつまんないよ<br />ギリギリ愛 いけないボーダーライン<br />難易度Gでも すべて壊してみせる<br />キリキリ舞い さらなるGへと<br />意識が溶ける 体は制御不能<br />いっちゃうかもね<br />ふざけ合った友達と 求め合ったあの人と<br />また会える日のためにギラギラしてる<br />光るほど影はでき 燃えるほど灰になる<br />走るほど見えてくる 危ないライン ah<br />自由も平和も望めば生まれるけど<br />モタモタしてたら腐っちゃうよ<br />ギリギリ愛 あぶないボーダーレス<br />非常識だね まだ加速しているよ<br /キリキリ舞い<br />限界点なら塗り替えていい<br />破壊と再生から私が出来る<br />ギリギリ愛 いけないボーダーライン<br />難易度Gでも すべて壊してみせる<br />キリキリ舞い さらなるGへと<br />意識が溶ける 体は制御不能<br />いっちゃうかもね<br />ギリギリ愛 いけないボーダーライン<br />燃え尽きながらまだ輝いてみせる<br />キリキリ舞 あなたのために<br />未来のために何度砕け散っても<br />愛することで生まれ変わる<br />愛されたくて生きて帰る`,
@@ -1710,16 +1730,7 @@ export const songs = [
         title: "Reply",
         isWavPack: true,
         filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/10 Reply`
-    },{
-        artist: "王菲",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "我願意",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}王菲 - 我願意`
-    },{
+    },*/{
         artist: "那英",
         lyrics: null,
         album: {
@@ -1737,7 +1748,7 @@ export const songs = [
         title: "夢一場",
         isWavPack: true,
         filename: `${HOSTING_URL2}那英 - 夢一場`
-    },*/{
+    },{
         artist: "王馨平",
         lyrics: null,
         album: {
@@ -1746,6 +1757,15 @@ export const songs = [
         title: "別問我是誰",
         isWavPack: true,
         filename: `${HOSTING_URL2}王馨平 - 別問我是誰`
+    },{
+        artist: "王菲",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "因為愛情",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}王菲 - 因為愛情`
     },{
         artist: "伍思凯",
         lyrics: null,
@@ -1809,6 +1829,15 @@ export const songs = [
         title: "崇拜",
         isWavPack: true,
         filename: `${HOSTING_URL2}梁靜茹 - 崇拜`
+    },{
+        artist: "張韶涵",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "隱形的翅膀",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}張韶涵 - 隱形的翅膀`
     },{
         artist: "郭靜",
         lyrics: null,
@@ -2239,12 +2268,26 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}王麟＆老猫 - 伤不起`
     },{
+        artist: "馬鬱",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "如果下輩子我還記得你",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}馬鬱 - 如果下輩子我還記得你`
+    },{
         artist: "誓言",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "求佛",
         isWavPack: true,
         filename: `${HOSTING_URL2}誓言 - 求佛`
+    },{
+        artist: "汪峰",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "春天裡",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}汪峰 - 春天裡`
     },{
         artist: "韩安旭",
         lyrics: null,
