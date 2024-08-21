@@ -1,5 +1,5 @@
 const HOSTING_URL1 = `//drive.emocdn.workers.dev/`;
-const HOSTING_URL2 = `//cdn.bytwm2hc.xyz/`;
+const HOSTING_URL2 = `//cdn.bytwm2hc.xyz/api/raw?path=/Apps/`;
 
 export const songs = [
     /*{
@@ -70,7 +70,7 @@ export const songs = [
         artist: "いきものがかり",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}いきものがかり/ブルーバード/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}いきものがかり/ブルーバード/Cover.jpg`,
             name: "ブルーバード"
         },
         title: "ブルーバード",
@@ -80,7 +80,7 @@ export const songs = [
         artist: "Alstroemeria Records",
         lyrics: `流れてく 時の中ででも 気だるさが ほらグルグル廻って<br />私から 離れる心も 見えないわ そう知らない？<br />自分から 動くこともなく 時の隙間に 流され続けて<br />知らないわ 周りのことなど 私は私 それだけ<br />夢見てる？ なにも見てない？ 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />こんな自分に 未来はあるの？ こんな世界に 私はいるの？<br />今切ないの？ 今悲しいの？ 自分の事も わからないまま<br />歩むことさえ 疲れるだけよ 人のことなど 知りもしないわ<br />こんな私も 変われるのなら もし変われるのなら 白になる？<br />流れてく 時の中ででも 気だるさがほら グルグル廻って<br />私から 離れる心も 見えないわそう 知らない？<br />自分から 動くこともなく 時の隙間に 流され続けて<br />知らないわ 周りのことなど 私は私 それだけ？<br />夢見てる？ なにも見てない 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />無駄な時間に 未来はあるの？ こんな所に 私は居るの？<br />私のことを 言いたいならば 言葉にするのなら 「ろくでなし」<br />こんな所に 私はいるの？ こんな時間に 私はいるの？<br />こんな私も 変われるのなら もし変われるのなら 白になる？<br />今夢見てる？ なにも見てない？ 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />動くのならば 動くのならば すべて壊すわ すべて壊すわ<br />悲しむならば 悲しむならば 私の心 白く変われる？<br />貴方の事も 私のことも 全ての事も まだ知らないの<br />重い目蓋を 開けたのならば すべて壊すのなら 黒になれ!!!`,
         album: {
-            cover: `${HOSTING_URL2}Alstroemeria Records/Bad Apple!! feat.nomico 10th Anniversary/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Alstroemeria Records/Bad Apple!! feat.nomico 10th Anniversary/Cover.jpg`,
             name: "Bad Apple!! feat.nomico 10th Anniversary"
         },
         title: "Bad Apple!! feat.nomico(from Lovelight)",
@@ -90,7 +90,7 @@ export const songs = [
         artist: "Alstroemeria Records",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Alstroemeria Records/Bad Apple!! feat.nomico 10th Anniversary/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Alstroemeria Records/Bad Apple!! feat.nomico 10th Anniversary/Cover.jpg`,
             name: "Bad Apple!! feat.nomico 10th Anniversary"
         },
         title: "Bad Apple!! feat.nomico(Instrumental)",
@@ -100,7 +100,7 @@ export const songs = [
         artist: "AKINO",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}AKINO/AKINO from bless4 ベストアルバム「your ears, our years」[Pretty Edition]/Cover_01.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}AKINO/AKINO from bless4 ベストアルバム「your ears, our years」[Pretty Edition]/Cover_01.jpg`,
             name: "AKINO from bless4 ベストアルバム「your ears, our years」[Pretty Edition]"
         },
         title: "創聖のアクエリオン",
@@ -110,7 +110,7 @@ export const songs = [
         artist: "AKINO",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}AKINO/AKINO from bless4 ベストアルバム「your ears, our years」[Pretty Edition]/Cover_01.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}AKINO/AKINO from bless4 ベストアルバム「your ears, our years」[Pretty Edition]/Cover_01.jpg`,
             name: "AKINO from bless4 ベストアルバム「your ears, our years」[Pretty Edition]"
         },
         title: "Genesis of Aquarion",
@@ -120,7 +120,7 @@ export const songs = [
         artist: "キュアダイヤモンド(CV.寿美菜子)",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}ドキドキ! プリキュアボーカルアルバム 1 Jump up, GIRLS!/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}ドキドキ! プリキュアボーカルアルバム 1 Jump up, GIRLS!/Cover.jpg`,
             name: "ドキドキ! プリキュアボーカルアルバム 1 Jump up, GIRLS!"
         },
         title: "COCORO♦Diamond",
@@ -172,7 +172,7 @@ export const songs = [
         artist: "野水いおり",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}野水いおり/TVアニメーション「デート・ア・ライブ」エンディングテーマ『SAVE THE WORLD』/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}野水いおり/TVアニメーション「デート・ア・ライブ」エンディングテーマ『SAVE THE WORLD』/Cover.jpg`,
             name: "TVアニメーション「デート・ア・ライブ」エンディングテーマ『SAVE THE WORLD』"
         },
         title: "ストロベリーレイン",
@@ -758,7 +758,7 @@ export const songs = [
         artist: "Roys",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Roys/I'll be there/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Roys/I'll be there/Cover.jpg`,
             name: "I'll be there"
         },
         title: "I'll be there",
@@ -768,7 +768,7 @@ export const songs = [
         artist: "Roys",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Roys/I'll be there/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Roys/I'll be there/Cover.jpg`,
             name: "I'll be there"
         },
         title: "Can't you say",
@@ -778,7 +778,7 @@ export const songs = [
         artist: "Roys",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Roys/I'll be there/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Roys/I'll be there/Cover.jpg`,
             name: "I'll be there"
         },
         title: "ROYS",
@@ -788,7 +788,7 @@ export const songs = [
         artist: "ウィーン・マルガレーテ（CV.結那）",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}ウィーン・マルガレーテ/Butterfly Wing／エーデルシュタイン/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}ウィーン・マルガレーテ/Butterfly Wing／エーデルシュタイン/Cover.jpg`,
             name: "Butterfly Wing／エーデルシュタイン"
         },
         title: "Butterfly Wing",
@@ -798,7 +798,7 @@ export const songs = [
         artist: "ウィーン・マルガレーテ（CV.結那）",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}ウィーン・マルガレーテ/Butterfly Wing／エーデルシュタイン/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}ウィーン・マルガレーテ/Butterfly Wing／エーデルシュタイン/Cover.jpg`,
             name: "Butterfly Wing／エーデルシュタイン"
         },
         title: "エーデルシュタイン",
@@ -808,7 +808,7 @@ export const songs = [
         artist: "ワルキューレ",
         lyrics: `見つめ合って恋をして 無我夢中で追いかけて<br />だけどもっと知りたくて メラメラしてる<br />願うほど謎が増え 思うほど熱になる<br />だからもっと飛び込むの 未開の世界 ah<br />恋とか夢とか誰でも信じるけど<br />ソコソコ攻めなきゃつまんないよ<br />ギリギリ愛 いけないボーダーライン<br />難易度Gでも すべて壊してみせる<br />キリキリ舞い さらなるGへと<br />意識が溶ける 体は制御不能<br />いっちゃうかもね<br />ふざけ合った友達と 求め合ったあの人と<br />また会える日のためにギラギラしてる<br />光るほど影はでき 燃えるほど灰になる<br />走るほど見えてくる 危ないライン ah<br />自由も平和も望めば生まれるけど<br />モタモタしてたら腐っちゃうよ<br />ギリギリ愛 あぶないボーダーレス<br />非常識だね まだ加速しているよ<br /キリキリ舞い<br />限界点なら塗り替えていい<br />破壊と再生から私が出来る<br />ギリギリ愛 いけないボーダーライン<br />難易度Gでも すべて壊してみせる<br />キリキリ舞い さらなるGへと<br />意識が溶ける 体は制御不能<br />いっちゃうかもね<br />ギリギリ愛 いけないボーダーライン<br />燃え尽きながらまだ輝いてみせる<br />キリキリ舞 あなたのために<br />未来のために何度砕け散っても<br />愛することで生まれ変わる<br />愛されたくて生きて帰る`,
         album: {
-            cover: `${HOSTING_URL2}ワルキューレ - いけないボーダーライン.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}ワルキューレ - いけないボーダーライン.jpg`,
         },
         title: "いけないボーダーライン",
         isWavPack: true,
@@ -817,7 +817,7 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」/Cover.jpg`,
             name: "MORE MORE JUMP！ 1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」"
         },
         title: "アイドル新鋭隊",
@@ -827,7 +827,7 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」/Cover.jpg`,
             name: "MORE MORE JUMP！ 1st Single「アイドル新鋭隊／モア！ジャンプ！モア！」"
         },
         title: "モア！ジャンプ！モア！",
@@ -837,7 +837,7 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/2nd Single「Color of Drops／天使のクローバー」/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/2nd Single「Color of Drops／天使のクローバー」/Cover.jpg`,
             name: "MORE MORE JUMP！ 2nd Single「Color of Drops／天使のクローバー」"
         },
         title: "Color of Drops",
@@ -847,7 +847,7 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/2nd Single「Color of Drops／天使のクローバー」/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/2nd Single「Color of Drops／天使のクローバー」/Cover.jpg`,
             name: "MORE MORE JUMP！ 2nd Single「Color of Drops／天使のクローバー」"
         },
         title: "天使のクローバー",
@@ -857,7 +857,7 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg`,
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "ハッピーシンセサイザ",
@@ -867,7 +867,7 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg`,
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "ツギハギスタッカート",
@@ -877,7 +877,7 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg`,
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "ニア",
@@ -887,7 +887,7 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg`,
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "恋愛裁判",
@@ -897,7 +897,7 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg`,
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "どりーみんチュチュ",
@@ -907,7 +907,7 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg`,
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "マシュマリー",
@@ -917,7 +917,7 @@ export const songs = [
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」/Cover.jpg`,
             name: "1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」"
         },
         title: "悔やむと書いてミライ",
@@ -927,7 +927,7 @@ export const songs = [
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」/Cover.jpg`,
             name: "1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」"
         },
         title: "携帯恋話",
@@ -937,7 +937,7 @@ export const songs = [
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」/Cover.jpg`,
             name: "1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」"
         },
         title: "ジャックポットサッドガール",
@@ -947,7 +947,7 @@ export const songs = [
         artist: "25時、ナイトコードで。",
         lyrics: `才能なんてないからここで一生泣いているんだろ<br />目に映った景色の青さが羨ましく思っていた<br />路肩に転がる人生アスファルトの温度下がってる<br />真夜中を照らす灯りを求めつなぐ電波セカイへと<br />Rainy, rainy 求めるものだけ描いた<br />心閉まって待って！本当は叫びたいのよ<br />Rainy, rainy 強くありたいと願った<br />声は無情に散って孤独を奏る<br />指先から伝わっていく虚しさの色<br />認めてはくれないの？<br />燻んでしまったの灰色に<br />こんな才能なんて借り物<br />まだ人生終わっていないから<br />諦めんなって誰かの声<br />見失ってしまったのアイロニー<br />気付けなくて今も抗ってる<br />この感情奪って去ってよ<br />ドロドロになってしまう前に<br />私だけみて愛を伝えて<br />(Wow wow) こんなセカイとバイバイバイバイ<br />(Wow wow) 滲む想いなぞって描いた<br />(Wow wow) 夢の形に泣いちゃった<br />(Hey!)<br />いつかはできると思ってただけど現実は残酷だろ<br />焦りと不安の渦の間に黒くなって浮かんでいる<br />退廃的なセンスと曖昧な表現なんかじゃ<br />奇を衒った奴らの芸術アルスに<br />飲み込まれて消えていく<br />Rainy, rainy 雨と流れていく徒労感<br />肩を濡らして残った冷たい記憶の体温<br />Rainy, rainy 雲の隙間から覗いた<br />光当たって届いて身体を軽くしたんだ<br />美学とかプライドとか語る前に<br />やれることやっていけ<br />閉ざしてしまったの退路に<br />焼けた才能を一つ置いてけ<br />ただやったもん勝ちなんでしょ？<br />固唾飲んでる場合じゃないでしょ！<br />目を開いても変わらぬアイロニー<br />気付いたってどーしようもないから<br />それを虎視眈々と狙ってる<br />ペルソナになんて越されんなよ<br />私だけみて愛を伝えて<br />(Wow wow) こんなセカイとバイバイバイバイ<br />(Wow wow) 滲む想いなぞって描いた<br />(Wow wow) 言の葉の意味飲み込んで<br />(Hey!)<br />燻んでしまったの灰色に<br />こんな才能なんて借り物<br />まだ人生終わっていないから<br />諦めんなって誰かの声<br />見失ってしまったのアイロニー<br />気付けなくて今も抗ってる<br />この感情奪って去ってよ<br />ドロドロになってしまう前に<br />私だけみて愛を伝えて<br />(Wow wow) こんなセカイとバイバイバイバイ<br />(Wow wow) 滲む想いなぞって描いた<br />(Wow wow) 夢の形笑っていた`,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/2nd Single「限りなく灰色へ／アイディスマイル」/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/2nd Single「限りなく灰色へ／アイディスマイル」/Cover.jpg`,
             name: "2nd Single「限りなく灰色へ／アイディスマイル」"
         },
         title: "限りなく灰色へ",
@@ -957,7 +957,7 @@ export const songs = [
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/2nd Single「限りなく灰色へ／アイディスマイル」/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/2nd Single「限りなく灰色へ／アイディスマイル」/Cover.jpg`,
             name: "2nd Single「限りなく灰色へ／アイディスマイル」"
         },
         title: "アイディスマイル",
@@ -967,7 +967,7 @@ export const songs = [
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "自傷無色",
@@ -977,7 +977,7 @@ export const songs = [
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "シャルル",
@@ -987,7 +987,7 @@ export const songs = [
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "ハロ／ハワユ",
@@ -997,7 +997,7 @@ export const songs = [
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "命に嫌われている",
@@ -1007,7 +1007,7 @@ export const songs = [
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "乙女解剖",
@@ -1017,7 +1017,7 @@ export const songs = [
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "独りんぼエンヴィー",
@@ -1027,7 +1027,7 @@ export const songs = [
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "とても痛い痛がりたい",
@@ -1037,7 +1037,7 @@ export const songs = [
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "ボッカデラベリタ",
@@ -1047,7 +1047,7 @@ export const songs = [
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "夜に駆ける",
@@ -1057,7 +1057,7 @@ export const songs = [
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "ビターチョコデコレーション",
@@ -1067,7 +1067,7 @@ export const songs = [
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "カトラリー",
@@ -1077,7 +1077,7 @@ export const songs = [
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "ベノム",
@@ -1087,7 +1087,7 @@ export const songs = [
         artist: "ワンダーランズ×ショウタイム",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}ワンダーランズ×ショウタイム/4th Single「ショウタイム・ルーラー／にっこり^^調査隊のテーマ」/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}ワンダーランズ×ショウタイム/4th Single「ショウタイム・ルーラー／にっこり^^調査隊のテーマ」/Cover.jpg`,
             name: "4th Single「ショウタイム・ルーラー／にっこり^^調査隊のテーマ」"
         },
         title: "にっこり^^調査隊のテーマ",
@@ -1097,7 +1097,7 @@ export const songs = [
         artist: "ワンダーランズ×ショウタイム",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}ワンダーランズ×ショウタイム/ワンダーランズ×ショウタイム SEKAI ALBUM vol.2/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}ワンダーランズ×ショウタイム/ワンダーランズ×ショウタイム SEKAI ALBUM vol.2/Cover.jpg`,
             name: "ワンダーランズ×ショウタイム SEKAI ALBUM vol.2"
         },
         title: "いーあるふぁんくらぶ",
@@ -1107,7 +1107,7 @@ export const songs = [
         artist: "ワンダーランズ×ショウタイム",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}ワンダーランズ×ショウタイム/ワンダーランズ×ショウタイム SEKAI ALBUM vol.2/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}ワンダーランズ×ショウタイム/ワンダーランズ×ショウタイム SEKAI ALBUM vol.2/Cover.jpg`,
             name: "ワンダーランズ×ショウタイム SEKAI ALBUM vol.2"
         },
         title: "神のまにまに",
@@ -1126,7 +1126,7 @@ export const songs = [
         artist: "YOASOBI",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}YOASOBI - アイドル.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}YOASOBI - アイドル.jpg`,
             name: "アイドル"
         },
         title: "アイドル",
@@ -1136,7 +1136,7 @@ export const songs = [
         artist: "女王蜂",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}女王蜂/メフィスト/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}女王蜂/メフィスト/Cover.jpg`,
             name: "メフィスト"
         },
         title: "メフィスト",
@@ -1146,7 +1146,7 @@ export const songs = [
         artist: "女王蜂",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}女王蜂/メフィスト/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}女王蜂/メフィスト/Cover.jpg`,
             name: "メフィスト"
         },
         title: "ファウスト",
@@ -1174,7 +1174,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "It's OK",
@@ -1184,7 +1184,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "LIFE",
@@ -1194,7 +1194,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Cry day...",
@@ -1204,7 +1204,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "ジレンマ～I’m your side～",
@@ -1214,7 +1214,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Be．．．",
@@ -1224,7 +1224,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "My Way",
@@ -1234,7 +1234,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "30",
@@ -1244,7 +1244,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "ANSWER",
@@ -1254,7 +1254,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "また恋をすることなど",
@@ -1264,7 +1264,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "翼",
@@ -1274,7 +1274,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "あなたに会えなくなる日まで",
@@ -1284,7 +1284,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "You are Beautiful",
@@ -1294,7 +1294,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "WAY YOU ARE",
@@ -1304,7 +1304,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "I Remember You [feat. AK-69]",
@@ -1314,7 +1314,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "鐘が鳴る",
@@ -1324,7 +1324,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Who Are You",
@@ -1334,7 +1334,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Open door",
@@ -1344,7 +1344,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "baby don't know why",
@@ -1354,7 +1354,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Dear",
@@ -1364,7 +1364,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "I can change",
@@ -1374,7 +1374,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Letter",
@@ -1384,7 +1384,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "優しい雨",
@@ -1394,7 +1394,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "I WILL",
@@ -1404,7 +1404,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "ORANGE",
@@ -1414,7 +1414,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "I'm ALIVE",
@@ -1424,7 +1424,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Footprint",
@@ -1434,7 +1434,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "花",
@@ -1444,7 +1444,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "White Letter",
@@ -1454,7 +1454,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Be myself",
@@ -1464,7 +1464,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "WITH",
@@ -1474,7 +1474,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "星をこえて",
@@ -1484,7 +1484,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "海を見てる",
@@ -1494,7 +1494,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "はじまりの時",
@@ -1504,7 +1504,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "let go",
@@ -1514,7 +1514,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "First Love",
@@ -1524,7 +1524,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Ti Amo",
@@ -1534,7 +1534,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "最後の雨 (ALBUM VERSION)",
@@ -1544,7 +1544,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "このまま君だけを奪い去りたい",
@@ -1554,7 +1554,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Time goes by",
@@ -1564,7 +1564,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "ら・ら・ら",
@@ -1574,7 +1574,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "空と君のあいだに",
@@ -1584,7 +1584,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "慟哭",
@@ -1594,7 +1594,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "未来予想図II",
@@ -1604,7 +1604,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "三日月",
@@ -1614,7 +1614,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "フライディ・チャイナタウン",
@@ -1624,7 +1624,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "真夜中のドア～Stay With Me～",
@@ -1634,7 +1634,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "また君と [feat. Ms.OOJA]",
@@ -1644,7 +1644,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "愛とは・・・",
@@ -1654,7 +1654,7 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "しあわせ [feat. Ms.OOJA & SALU]",
@@ -1663,70 +1663,70 @@ export const songs = [
     },/*{
         artist: "Liyuu",
         lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
         title: "Magic Words",
         isWavPack: true,
         filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/01 Magic Words`
     },{
         artist: "Liyuu",
         lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
         title: "ルルカワイマ",
         isWavPack: true,
         filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/02 ルルカワイマ`
     },{
         artist: "Liyuu",
         lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
         title: "Endless Vacation",
         isWavPack: true,
         filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/03 Endless Vacation`
     },{
         artist: "Liyuu",
         lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
         title: "めたもるふぉーぜ",
         isWavPack: true,
         filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/04 めたもるふぉーぜ`
     },{
         artist: "Liyuu",
         lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
         title: "花鳥風月",
         isWavPack: true,
         filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/05 花鳥風月`
     },{
         artist: "Liyuu",
         lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
         title: "BLUE ROSE",
         isWavPack: true,
         filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/06 BLUE ROSE`
     },{
         artist: "Liyuu",
         lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
         title: "Ambition",
         isWavPack: true,
         filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/07 Ambition`
     },{
         artist: "Liyuu",
         lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
         title: "カラフルホライズン",
         isWavPack: true,
         filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/08 カラフルホライズン`
     },{
         artist: "Liyuu",
         lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
         title: "カルペ・ディエム",
         isWavPack: true,
         filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/09 カルペ・ディエム`
     },{
         artist: "Liyuu",
         lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
         title: "Reply",
         isWavPack: true,
         filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/10 Reply`
@@ -2045,7 +2045,7 @@ export const songs = [
         artist: "周興哲",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg`,
             name: "小時候的我們"
         },
         title: "In the Works",
@@ -2055,7 +2055,7 @@ export const songs = [
         artist: "周興哲",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg`,
             name: "小時候的我們"
         },
         title: "小時候的我們",
@@ -2065,7 +2065,7 @@ export const songs = [
         artist: "周興哲",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg`,
             name: "小時候的我們"
         },
         title: "受夠",
@@ -2075,7 +2075,7 @@ export const songs = [
         artist: "周興哲",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg`,
             name: "小時候的我們"
         },
         title: "Me and You",
@@ -2085,7 +2085,7 @@ export const songs = [
         artist: "周興哲",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg`,
             name: "小時候的我們"
         },
         title: "That's Why I Like You",
@@ -2095,7 +2095,7 @@ export const songs = [
         artist: "周興哲",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg`,
             name: "小時候的我們"
         },
         title: "Rollercoasters",
@@ -2105,7 +2105,7 @@ export const songs = [
         artist: "周興哲",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg`,
             name: "小時候的我們"
         },
         title: "相信愛",
@@ -2115,7 +2115,7 @@ export const songs = [
         artist: "周興哲",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg`,
             name: "小時候的我們"
         },
         title: "That's All",
@@ -2125,7 +2125,7 @@ export const songs = [
         artist: "周興哲",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg`,
             name: "小時候的我們"
         },
         title: "Something About You",
@@ -2135,7 +2135,7 @@ export const songs = [
         artist: "周興哲",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg`,
             name: "小時候的我們"
         },
         title: "我很快樂",
@@ -2145,7 +2145,7 @@ export const songs = [
         artist: "周興哲",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}周興哲/小時候的我們/Cover.jpg`,
             name: "小時候的我們"
         },
         title: "其實你並沒那麼孤單",
@@ -2334,7 +2334,7 @@ export const songs = [
         artist: "Two Steps from Hell",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Two Steps from Hell - Battlecry.jpg?raw&proxied`,
+            cover: `${HOSTING_URL2}Two Steps from Hell - Battlecry.jpg`,
             name: "Battlecry"
         },
         title: "Star Sky (Instrumental)",
