@@ -291,7 +291,7 @@
             const isCAFSupported = new Audio().canPlayType('audio/x-caf; codecs=opus') === 'probably' || safariMac;
             const isOGGSupported = new Audio().canPlayType('audio/ogg; codecs=opus') === 'probably';
             isCAFSupported ? (fileFormat = '.caf?raw') : (isOGGSupported ? (fileFormat = '.opus?raw') : true);
-            songs[$index].isWavPack ? (fileFormat = '.wv?raw&proxied') /* && (wavpackWrapper.src = '//wavpack-wrapper-3ade.pages.dev/') */ : true;
+            songs[$index].isWavPack ? (fileFormat = '.wv') /* && (wavpackWrapper.src = '//wavpack-wrapper-3ade.pages.dev/') */ : true;
             fetch(songs[$index].filename + fileFormat).then(function (response) {
                 'use strict';
                 response.arrayBuffer().then(function (arrayBuffer) {
