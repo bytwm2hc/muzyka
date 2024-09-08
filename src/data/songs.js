@@ -1,5 +1,6 @@
 const HOSTING_URL1 = `//drive.emocdn.workers.dev/`;
-const HOSTING_URL2 = `//cdn.bytwm2hc.xyz/api/raw?path=/Apps/`;
+const HOSTING_URL2 = `//onedrive-cf-index-ng-5fb.pages.dev/api/raw?path=/Apps/`;
+const HOSTING_URL3 = `//cdn.bytwm2hc.boo/`;
 
 export const songs = [
     /*{
@@ -13,6 +14,15 @@ export const songs = [
         filename: "01"
     },*/
     {
+        artist: "S.H.E",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "月桂女神",
+        isWavPack: true,
+        filename: `${HOSTING_URL3}S.H.E - 月桂女神`
+    },{
         artist: "Andrea Bocelli",
         lyrics: null,
         album: {

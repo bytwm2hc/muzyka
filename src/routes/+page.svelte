@@ -724,7 +724,7 @@
 	src={$source}
 />-->
 <audio bind:this={audio} on:loadeddata={() => isLoaded.set(true)} crossorigin loop>
-    <source src="//s1s.bytwm2hc.xyz/" type="audio/x-wav" />
+    <source src="//cdn.bytwm2hc.boo/silence.wav" type="audio/x-wav" />
 </audio>
 
 <style>
