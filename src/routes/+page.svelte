@@ -42,7 +42,7 @@
         volumeSlider, // bind volume control UI <input type="range"> element
         audioContext,
         convolverNode,
-        gainDryNode,
+        //gainDryNode,
         gainWetNode,
         volumeNode,
         //highShelf,
@@ -73,10 +73,10 @@
                 };
 
                 convolverNode = audioContext.createConvolver();
-                gainDryNode = audioContext.createGain();
+                //gainDryNode = audioContext.createGain();
                 gainWetNode = audioContext.createGain();
                 volumeNode = audioContext.createGain();
-                gainDryNode.connect(volumeNode);
+                //gainDryNode.connect(volumeNode);
                 gainWetNode.connect(volumeNode);
                 volumeNode.connect(audioContext.destination);
                 convolverNode.connect(gainWetNode);
@@ -118,10 +118,10 @@
             };
             
             convolverNode = audioContext.createConvolver();
-            gainDryNode = audioContext.createGain();
+            //gainDryNode = audioContext.createGain();
             gainWetNode = audioContext.createGain();
             volumeNode = audioContext.createGain();
-            gainDryNode.connect(volumeNode);
+            //gainDryNode.connect(volumeNode);
             gainWetNode.connect(volumeNode);
             volumeNode.connect(audioContext.destination);
             convolverNode.connect(gainWetNode);
@@ -176,7 +176,7 @@
                 event.data.R = undefined;
                 bsn.connect(convolverNode);
                 //bsn.connect(highShelf);
-                bsn.connect(gainDryNode);
+                //bsn.connect(gainDryNode);
                 //console.log(aud_buf);
                 bsn.onended = function () {
                     wavpackWrapper.contentWindow.postMessage('onended', '*');
@@ -269,7 +269,7 @@
                 sourceNode.buffer = buffer;
                 sourceNode.connect(convolverNode);
                 //sourceNode.connect(highShelf);
-                sourceNode.connect(gainDryNode);
+                //sourceNode.connect(gainDryNode);
                 try {
                     if (sourceNode.start) {
                         sourceNode.start(0, seekTime);
@@ -303,11 +303,11 @@
                     try {
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
-                            gainDryNode.gain.value = 1;
-                            gainWetNode.gain.value = 1.25;
+                            //gainDryNode.gain.value = 1;
+                            //gainWetNode.gain.value = 1;
                             sourceNode.connect(convolverNode);
                             //sourceNode.connect(highShelf);
-                            sourceNode.connect(gainDryNode);
+                            //sourceNode.connect(gainDryNode);
                             sourceNode.onended = onended;
 
                             try {
@@ -408,7 +408,7 @@
             sourceNode.buffer = buffer;
             sourceNode.connect(convolverNode);
             //sourceNode.connect(highShelf);
-            sourceNode.connect(gainDryNode);
+            //sourceNode.connect(gainDryNode);
             sourceNode.onended = onended;
             if (sourceNode.start) {
                 sourceNode.start(0, slider.value);
@@ -565,7 +565,7 @@
                     event.data.R = undefined;
                     bsn.connect(convolverNode);
                     //bsn.connect(highShelf);
-                    bsn.connect(gainDryNode);
+                    //bsn.connect(gainDryNode);
                     bsn.onended = function () {
                         worker.postMessage("onended");
                     };
@@ -615,8 +615,8 @@
                 worker.postMessage('BYTES_PER_ELEMENT');
             }, 0);
         //}
-        gainDryNode.gain.value = 0.75;
-        gainWetNode.gain.value = 1;
+        //gainDryNode.gain.value = 0.625;
+        gainWetNode.gain.value = 0.625;
 
         sourceNode.buffer = audioContext.createBuffer(2, 1, audioContext.sampleRate);
         isPlay.set(true);
