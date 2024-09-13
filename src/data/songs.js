@@ -19,6 +19,15 @@ export const songs = [
         album: {
             cover: "img/album.png"
         },
+        title: "美麗新世界",
+        isWavPack: true,
+        filename: `${HOSTING_URL3}S.H.E - 美麗新世界`
+    },{
+        artist: "S.H.E",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
         title: "月桂女神",
         isWavPack: true,
         filename: `${HOSTING_URL3}S.H.E - 月桂女神`
