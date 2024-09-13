@@ -68,6 +68,15 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}張惠妹 - Time To Say Goodbye`
     },{
+        artist: "Saka Trương Tuyền & Lương Gia Huy",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Tình Yêu Trong Sáng",
+        isWavPack: true,
+        filename: `${HOSTING_URL3}Saka Trương Tuyền & Lương Gia Huy - Tình Yêu Trong Sáng`
+    },{
         artist: "ヒロシ＆キーボー",
         lyrics: null,
         album: {
