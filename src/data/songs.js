@@ -46,18 +46,18 @@ export const songs = [
         album: {
             cover: "img/album.png"
         },
-        title: "Vivo Per Lei",
+        title: "Vivo per lei",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Andrea Bocelli & Giorgia Todrani - Vivo Per Lei`
+        filename: `${HOSTING_URL3}Andrea Bocelli & Giorgia Todrani - Vivo per lei`
     },{
-        artist: "Sarah Brightman & Andrea Bocelli",
+        artist: "Andrea Bocelli & Sarah Brightman",
         lyrics: null,
         album: {
             cover: "img/album.png"
         },
-        title: "Con te partirò",
+        title: "Time to Say Goodbye (Con te partirò)",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Sarah Brightman & Andrea Bocelli - Time To Say Goodbye`
+        filename: `${HOSTING_URL3}Andrea Bocelli & Sarah Brightman - Time to Say Goodbye (Con te partirò)`
     },{
         artist: "張惠妹",
         lyrics: null,
