@@ -32,6 +32,15 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL3}S.H.E - 月桂女神`
     },{
+        artist: "张妙格",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "我期待的不是雪",
+        isWavPack: true,
+        filename: `${HOSTING_URL3}张妙格 - 我期待的不是雪`
+    },{
         artist: "Andrea Bocelli",
         lyrics: null,
         album: {
