@@ -2422,48 +2422,48 @@ export const songs = [
     },{
         artist: "8/pLanet!!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}01 ファンタジア.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}01 ファンタジア.jpg` },
         title: "ファンタジア",
         filename: `${HOSTING_URL1}01 ファンタジア`
     },{
         artist: "FTISLAND",
-        lyrics: `${HOSTING_URL1}FTISLAND - 나쁜여자야.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}FTISLAND - 나쁜여자야.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}FTISLAND - 나쁜여자야.lrc`,
+        album: { cover: `${HOSTING_URL1}FTISLAND - 나쁜여자야.jpg` },
         title: "나쁜여자야",
         filename: `${HOSTING_URL1}FTISLAND - 나쁜여자야`
     },{
         artist: "차수경",
-        lyrics: `${HOSTING_URL1}Various Artists/아내의 유혹/02 차수경 - 용서 못해 (Theme Song).lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}Various Artists/아내의 유혹/cover.png?proxied&raw` },
+        lyrics: `${HOSTING_URL1}Various Artists/아내의 유혹/02 차수경 - 용서 못해 (Theme Song).lrc`,
+        album: { cover: `${HOSTING_URL1}Various Artists/아내의 유혹/cover.png` },
         title: "용서 못해 (Theme Song)",
         filename: `${HOSTING_URL1}Various Artists/아내의 유혹/02 차수경 - 용서 못해 (Theme Song)`
     },{
         artist: "ユ・ヨンソン＆ザ・コネクション",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}ユ・ヨンソン＆ザ・コネクション/韓国ドラマ『妻の誘惑』日本語ヴァージョン・アルバム/cover.jpg?proxied&raw` },
+        album: { cover: `${HOSTING_URL1}ユ・ヨンソン＆ザ・コネクション/韓国ドラマ『妻の誘惑』日本語ヴァージョン・アルバム/cover.jpg` },
         title: "許せない(テーマソング)[日本語ヴァージョン]",
         filename: `${HOSTING_URL1}ユ・ヨンソン＆ザ・コネクション/韓国ドラマ『妻の誘惑』日本語ヴァージョン・アルバム/01 許せない(テーマソング)[日本語ヴァージョン]`
     },{
         artist: "李佳璐",
-        lyrics: `${HOSTING_URL1}李佳璐 - 無法原諒.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}李佳璐 - 無法原諒.lrc`,
         album: { cover: "img/album.png" },
         title: "無法原諒",
         filename: `${HOSTING_URL1}李佳璐 - 無法原諒`
     },{
         artist: "옥택연, 장우영, 수지, 김수현, JOO",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ドリームハイ　オリジナル・サウンドトラック　ジャパニーズ・プレミアムエディション/cover.jpg?proxied&raw` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ドリームハイ　オリジナル・サウンドトラック　ジャパニーズ・プレミアムエディション/cover.jpg` },
         title: "Dream High",
         filename: `${HOSTING_URL1}Various Artists/ドリームハイ　オリジナル・サウンドトラック　ジャパニーズ・プレミアムエディション/01 Dream High`
     },{
         artist: "テギョン，スジ，スヒョン，ウヨン，JOO",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ドリームハイ　オリジナル・サウンドトラック　ジャパニーズ・プレミアムエディション/cover.jpg?proxied&raw` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ドリームハイ　オリジナル・サウンドトラック　ジャパニーズ・プレミアムエディション/cover.jpg` },
         title: "Dream High 日本語Ver.",
         filename: `${HOSTING_URL1}Various Artists/ドリームハイ　オリジナル・サウンドトラック　ジャパニーズ・プレミアムエディション/13 Dream High 日本語Ver.`
     },{
         artist: "Henry (feat. 규현 & 태민)",
-        lyrics: `${HOSTING_URL1}Henry - Trap (feat. 규현 & 태민).lrc?proxied`,
+        lyrics: `${HOSTING_URL1}Henry - Trap (feat. 규현 & 태민).lrc`,
         album: { cover: "img/album.png" },
         title: "Trap",
         filename: `${HOSTING_URL1}Henry - Trap (feat. 규현 & 태민)`
@@ -2476,67 +2476,67 @@ export const songs = [
     },{
         artist: "BOL4",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}BOL4/Red Diary Page 1/Cover.png?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}BOL4/Red Diary Page 1/Cover.png` },
         title: "썸 탈꺼야",
         filename: `${HOSTING_URL1}BOL4/Red Diary Page 1/01 썸 탈꺼야`
     },{
         artist: "BOL4",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}BOL4/Red Diary Page 1/Cover.png?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}BOL4/Red Diary Page 1/Cover.png` },
         title: "Blue",
         filename: `${HOSTING_URL1}BOL4/Red Diary Page 1/02 Blue`
     },{
         artist: "BOL4",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}BOL4/Red Diary Page 1/Cover.png?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}BOL4/Red Diary Page 1/Cover.png` },
         title: "고쳐주세요",
         filename: `${HOSTING_URL1}BOL4/Red Diary Page 1/03 고쳐주세요`
     },{
         artist: "BOL4",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}BOL4/Red Diary Page 1/Cover.png?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}BOL4/Red Diary Page 1/Cover.png` },
         title: "상상",
         filename: `${HOSTING_URL1}BOL4/Red Diary Page 1/04 상상`
     },{
         artist: "BOL4",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}BOL4/Red Diary Page 1/Cover.png?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}BOL4/Red Diary Page 1/Cover.png` },
         title: "나의 사춘기에게",
         filename: `${HOSTING_URL1}BOL4/Red Diary Page 1/05 나의 사춘기에게`
     },{
         artist: "BOL4",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}BOL4/Red Diary Page 1/Cover.png?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}BOL4/Red Diary Page 1/Cover.png` },
         title: "썸 탈꺼야 (Chic ver)",
         filename: `${HOSTING_URL1}BOL4/Red Diary Page 1/06 썸 탈꺼야 (Chic ver)`
     },{
         artist: "(G)I-DLE",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}(G)I-DLE/HEAT/Cover.png?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}(G)I-DLE/HEAT/Cover.png` },
         title: "I DO",
         filename: `${HOSTING_URL1}(G)I-DLE/HEAT/01 I DO`
     },{
         artist: "(G)I-DLE",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}(G)I-DLE/HEAT/Cover.png?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}(G)I-DLE/HEAT/Cover.png` },
         title: "I Want That",
         filename: `${HOSTING_URL1}(G)I-DLE/HEAT/02 I Want That`
     },{
         artist: "(G)I-DLE",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}(G)I-DLE/HEAT/Cover.png?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}(G)I-DLE/HEAT/Cover.png` },
         title: "Eyes Roll",
         filename: `${HOSTING_URL1}(G)I-DLE/HEAT/03 Eyes Roll`
     },{
         artist: "(G)I-DLE",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}(G)I-DLE/HEAT/Cover.png?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}(G)I-DLE/HEAT/Cover.png` },
         title: "Flip It",
         filename: `${HOSTING_URL1}(G)I-DLE/HEAT/04 Flip It`
     },{
         artist: "(G)I-DLE",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}(G)I-DLE/HEAT/Cover.png?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}(G)I-DLE/HEAT/Cover.png` },
         title: "Tall Trees",
         filename: `${HOSTING_URL1}(G)I-DLE/HEAT/05 Tall Trees`
     },{
@@ -2674,7 +2674,7 @@ export const songs = [
     },{
         artist: "Anna Yina",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Anna Yina/Lichtmeer/cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Anna Yina/Lichtmeer/cover.jpg` },
         title: "Wie weit",
         filename: `${HOSTING_URL1}Anna Yina/Lichtmeer/09 Anna Yina - Wie weit`
     },{
@@ -2697,25 +2697,25 @@ export const songs = [
         filename: `${HOSTING_URL1}DJ Remo - Eo Ea`
     },{
         artist: "O-Zone",
-        lyrics: `${HOSTING_URL1}O-Zone - Dragostea Din Tei.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}O-Zone - Dragostea Din Tei.lrc`,
         album: { cover: "img/album.png" },
         title: "Dragostea Din Tei",
         filename: `${HOSTING_URL1}O-Zone - Dragostea Din Tei`
     },{
         artist: "Витас",
-        lyrics: `${HOSTING_URL1}Витас - 7 элемент.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}Витас - 7 элемент.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}Витас - 7 элемент.lrc`,
+        album: { cover: `${HOSTING_URL1}Витас - 7 элемент.jpg` },
         title: "7 элемент",
         filename: `${HOSTING_URL1}Витас - 7 элемент`
     },{
         artist: "Витас",
-        lyrics: `${HOSTING_URL1}Витас - Опера № 2.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}Витас - Опера № 2.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}Витас - Опера № 2.lrc`,
+        album: { cover: `${HOSTING_URL1}Витас - Опера № 2.jpg` },
         title: "Опера № 2",
         filename: `${HOSTING_URL1}Витас - Опера № 2`
     },{
         artist: "Rick Astley",
-        lyrics: `${HOSTING_URL1}Rick Astley - Never Gonna Give You Up.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}Rick Astley - Never Gonna Give You Up.lrc`,
         album: { cover: "img/album.png" },
         title: "Never Gonna Give You Up",
         filename: `${HOSTING_URL1}Rick Astley - Never Gonna Give You Up`
@@ -2727,32 +2727,32 @@ export const songs = [
         filename: `${HOSTING_URL1}Aqua - Barbie Girl`
     },{
         artist: "The Black Eyed Peas",
-        lyrics: `${HOSTING_URL1}The Black Eyed Peas - Boom Boom Pow.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}The Black Eyed Peas - Boom Boom Pow.lrc`,
         album: { cover: "img/album.png" },
         title: "Boom Boom Pow",
         filename: `${HOSTING_URL1}The Black Eyed Peas - Boom Boom Pow`
     },{
         artist: "Justin Bieber",
-        lyrics: `${HOSTING_URL1}Justin Bieber - Baby.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}Justin Bieber - Baby.lrc`,
         album: { cover: "img/album.png" },
         title: "Baby",
         filename: `${HOSTING_URL1}Justin Bieber - Baby`
     },{
         artist: "Andrew Lloyd Webber",
-        lyrics: `${HOSTING_URL1}Andrew Lloyd Webber - The Phantom Of The Opera.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}Andrew Lloyd Webber - The Phantom Of The Opera.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}Andrew Lloyd Webber - The Phantom Of The Opera.lrc`,
+        album: { cover: `${HOSTING_URL1}Andrew Lloyd Webber - The Phantom Of The Opera.jpg` },
         title: "The Phantom Of The Opera",
         filename: `${HOSTING_URL1}Andrew Lloyd Webber - The Phantom Of The Opera`
     },{
         artist: "Clean Bandit feat. Zara Larsson",
-        lyrics: `${HOSTING_URL1}Clean Bandit - Symphony.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}Clean Bandit - Symphony.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}Clean Bandit - Symphony.lrc`,
+        album: { cover: `${HOSTING_URL1}Clean Bandit - Symphony.jpg` },
         title: "Symphony",
         filename: `${HOSTING_URL1}Clean Bandit - Symphony`
     },{
         artist: "Sunfly Karaoke",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Clean Bandit - Symphony.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Clean Bandit - Symphony.jpg` },
         title: "Symphony (Originally Performed by Clean Bandit Feat. Zara Larsson)",
         filename: `${HOSTING_URL1}Sunfly Karaoke - Symphony (Originally Performed by Clean Bandit Feat. Zara Larsson)`
     },{
@@ -2763,506 +2763,506 @@ export const songs = [
         filename: `${HOSTING_URL1}Nelly - Just A Dream`
     },{
         artist: "Katy Perry",
-        lyrics: `${HOSTING_URL1}Katy Perry - Firework.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}Katy Perry - Firework.lrc`,
         album: { cover: "img/album.png" },
         title: "Firework",
         filename: `${HOSTING_URL1}Katy Perry - Firework`
     },{
         artist: "The Chainsmokers",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}The Chainsmokers - Closer.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}The Chainsmokers - Closer.jpg` },
         title: "Closer",
         filename: `${HOSTING_URL1}The Chainsmokers - Closer`
     },{
         artist: "Naomi Scott",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/Aladdin (Original Motion Picture Soundtrack)/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/Aladdin (Original Motion Picture Soundtrack)/Cover.jpg` },
         title: "Speechless",
         filename: `${HOSTING_URL1}Various Artists/Aladdin (Original Motion Picture Soundtrack)/12 Speechless (Full)`
     },{
         artist: "テレサ・テン",
-        lyrics: `${HOSTING_URL1}テレサ・テン - 時の流れに身をまかせ.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}テレサ・テン - 時の流れに身をまかせ.lrc`,
         album: { cover: "img/album.png" },
         title: "時の流れに身をまかせ",
         filename: `${HOSTING_URL1}テレサ・テン - 時の流れに身をまかせ`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "恋に落ちて",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 1/01 恋に落ちて`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "運命の人",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 1/02 運命の人`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "環状８号線",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 1/03 環状８号線`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "君が手を伸ばす先に",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 1/04 君が手を伸ばす先に`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "あなたは幸せになる",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 1/05 あなたは幸せになる`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "蛍",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 1/06 蛍`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "ねぇ",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 1/07 ねぇ`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "高鳴る",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 1/08 高鳴る`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "宝物",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 1/09 宝物`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "素敵なことがあなたを待っている",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 1/10 素敵なことがあなたを待っている`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "水風船",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 2/11 水風船`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "君が呼ぶのなら",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 2/12 君が呼ぶのなら`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "パンジー",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 2/13 パンジー`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "恋煩い",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 2/14 恋煩い`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "カーテン",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 2/15 カーテン`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "in fact",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 2/16 in fact`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "you",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 2/17 you`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "君よ進め",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 2/18 君よ進め`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "スポットライト",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 2/19 スポットライト`
     },{
         artist: "藤田麻衣子",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Cover.jpg` },
         title: "秋風鈴",
         filename: `${HOSTING_URL1}藤田麻衣子/15th Anniversary 弾き語りBest/Disc 2/20 秋風鈴`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "雪の華",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/01 雪の華`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "WILL",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/02 WILL`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "彩恋 ～SAI_REN～",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/03 彩恋 ～SAI_REN～`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "初恋",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/04 初恋`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "愛してる",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/05 愛してる`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "愛の歌",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/06 愛の歌`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "恋をする",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/07 恋をする`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "KISS OF DEATH(Produced by HYDE)",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/08 KISS OF DEATH(Produced by HYDE)`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "Love Addict",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/09 Love Addict`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "LOVE NO CRY",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/10 LOVE NO CRY`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "A or B",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/11 A or B`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "ALWAYS",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/12 ALWAYS`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "あなたがいるから",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/13 あなたがいるから`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "花束",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/14 花束`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "夜が明ける前に",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/15 夜が明ける前に`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "雪の華 Piano & Voice Style",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/16 雪の華 Piano & Voice Style`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "ORION",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/17 ORION`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "Forget Me Not",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/18 Forget Me Not`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "メロディー",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/19 メロディー`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "桜色舞うころ",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/20 桜色舞うころ`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "Dear",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/21 Dear`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "僕が死のうと思ったのは",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/22 僕が死のうと思ったのは`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "ひろ",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/23 ひろ`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "Alone",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/24 Alone`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "ピアス",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/25 ピアス`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "明日世界が終わるなら",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/26 明日世界が終わるなら`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "声",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/27 声`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "電光石火之間",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/28 電光石火之間`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "ひとり (single version)",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/29 ひとり (single version)`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "雪の華 Reggae Disco Rockers 2018 Relaxin' mix",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/30 雪の華 Reggae Disco Rockers 2018 Relaxin' mix`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "STARS",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/31 STARS`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "一番綺麗な私を",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/32 一番綺麗な私を`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "LIFE",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/33 LIFE`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "GLAMOROUS SKY",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/34 GLAMOROUS SKY`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "Fighter",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/35 Fighter`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "Over Load",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/36 Over Load`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "TOUGH",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/37 TOUGH`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "ALL HANDS TOGETHER",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/38 ALL HANDS TOGETHER`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "Happy Life",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/39 Happy Life`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "Gift",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/40 Gift`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "THE DIVIDING LINE",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/41 THE DIVIDING LINE`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "FIND THE WAY",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/42 FIND THE WAY`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "LAST WALTZ",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/43 LAST WALTZ`
     },{
         artist: "中島美嘉",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/Cover.jpg` },
         title: "AMAZING GRACE (album version)",
         filename: `${HOSTING_URL1}中島美嘉/雪の華15周年記念ベスト盤 BIBLE [Hi-Res]/44 AMAZING GRACE (album version)`
     },{
         artist: "三浦サリー",
-        lyrics: `${HOSTING_URL1}三浦サリー - セツナイのは….lrc?proxied`,
+        lyrics: `${HOSTING_URL1}三浦サリー - セツナイのは….lrc`,
         album: { cover: "img/album.png" },
         title: "セツナイのは…",
         filename: `${HOSTING_URL1}三浦サリー - セツナイのは…`
     },{
         artist: "Official髭男dism",
-        lyrics: `${HOSTING_URL1}Official髭男dism - Pretender.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}image/Official髭男dism - Traveler.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}Official髭男dism - Pretender.lrc`,
+        album: { cover: `${HOSTING_URL1}image/Official髭男dism - Traveler.jpg` },
         title: "Pretender",
         filename: `${HOSTING_URL1}Official髭男dism - Pretender`
     },{
         artist: "Seven Billion Dots",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg` },
         title: "Stay With Me",
         filename: `${HOSTING_URL1}Seven Billion Dots/HOPE/01 Stay With Me`
     },{
         artist: "Seven Billion Dots",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg` },
         title: "Nightmare",
         filename: `${HOSTING_URL1}Seven Billion Dots/HOPE/02 Nightmare`
     },{
         artist: "Seven Billion Dots",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg` },
         title: "Dive!!",
         filename: `${HOSTING_URL1}Seven Billion Dots/HOPE/03 Dive!!`
     },{
         artist: "Seven Billion Dots",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg` },
         title: "Let's get the party started",
         filename: `${HOSTING_URL1}Seven Billion Dots/HOPE/04 Let's get the party started`
     },{
         artist: "Seven Billion Dots",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg` },
         title: "マイナーロード",
         filename: `${HOSTING_URL1}Seven Billion Dots/HOPE/05 マイナーロード`
     },{
         artist: "Seven Billion Dots",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg` },
         title: "もしもフィルムに二人だけなら",
         filename: `${HOSTING_URL1}Seven Billion Dots/HOPE/06 もしもフィルムに二人だけなら`
     },{
         artist: "Seven Billion Dots",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg` },
         title: "Fingers Crossed",
         filename: `${HOSTING_URL1}Seven Billion Dots/HOPE/07 Fingers Crossed`
     },{
         artist: "Seven Billion Dots",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg` },
         title: "What Was That!?",
         filename: `${HOSTING_URL1}Seven Billion Dots/HOPE/08 What Was That！？`
     },{
         artist: "Seven Billion Dots",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg` },
         title: "Maybe I",
         filename: `${HOSTING_URL1}Seven Billion Dots/HOPE/09 Maybe I`
     },{
         artist: "Seven Billion Dots",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg` },
         title: "You & I",
         filename: `${HOSTING_URL1}Seven Billion Dots/HOPE/10 You & I`
     },{
         artist: "Seven Billion Dots",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg` },
         title: "HOPE",
         filename: `${HOSTING_URL1}Seven Billion Dots/HOPE/11 HOPE`
     },{
         artist: "松谷祐子",
-        lyrics: `${HOSTING_URL1}松谷祐子 - 愛はブーメラン.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}松谷祐子 - 愛はブーメラン.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}松谷祐子 - 愛はブーメラン.lrc`,
+        album: { cover: `${HOSTING_URL1}松谷祐子 - 愛はブーメラン.jpg` },
         title: "愛はブーメラン",
         filename: `${HOSTING_URL1}松谷祐子 - 愛はブーメラン`
     },{
         artist: "高橋洋子",
-        lyrics: `${HOSTING_URL1}高橋洋子 - 残酷な天使のテーゼ.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}高橋洋子 - 残酷な天使のテーゼ.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}高橋洋子 - 残酷な天使のテーゼ.lrc`,
+        album: { cover: `${HOSTING_URL1}高橋洋子 - 残酷な天使のテーゼ.jpg` },
         title: "残酷な天使のテーゼ",
         filename: `${HOSTING_URL1}高橋洋子 - 残酷な天使のテーゼ`
     },{
         artist: "OLIVIA inspi' REIRA (TRAPNEST)",
-        lyrics: `${HOSTING_URL1}NANA BEST/10 Winter sleep.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}NANA BEST/Scans/03.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}NANA BEST/10 Winter sleep.lrc`,
+        album: { cover: `${HOSTING_URL1}NANA BEST/Scans/03.jpg` },
         title: "Winter sleep",
         filename: `${HOSTING_URL1}NANA BEST/10 Winter sleep`
     },{
@@ -3274,307 +3274,307 @@ export const songs = [
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/BK/PCCG-00652_007.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/BK/PCCG-00652_007.jpg` },
         title: "Before the Moment",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/01 Before the Moment`
     },{
         artist: "真珠美人魚",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/3/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/3/Cover.jpg` },
         title: "Before the Moment",
         filename: `${HOSTING_URL1}Various Artists/真珠美人魚/3/01 Before the Moment`
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/BK/PCCG-00652_007.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/BK/PCCG-00652_007.jpg` },
         title: "KODOU～パーフェクト・ハーモニー～ (7Mermaid Version)",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/02 KODOU～パーフェクト・ハーモニー～ (7Mermaid Version)`
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/BK/PCCG-00652_007.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/BK/PCCG-00652_007.jpg` },
         title: "闇のBAROQUE -バロック-",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/03 闇のBAROQUE -バロック-`
     },{
         artist: "真珠美人魚",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/3/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/3/Cover.jpg` },
         title: "黑暗的巴洛克",
         filename: `${HOSTING_URL1}Various Artists/真珠美人魚/3/06 黑暗的巴洛克`
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/BK/PCCG-00652_007.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/BK/PCCG-00652_007.jpg` },
         title: "暗黒の翼",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/04 暗黒の翼`
     },{
         artist: "真珠美人魚",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/3/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/3/Cover.jpg` },
         title: "黑暗的羽翼",
         filename: `${HOSTING_URL1}Various Artists/真珠美人魚/3/07 黑暗的羽翼`
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/BK/PCCG-00652_007.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/BK/PCCG-00652_007.jpg` },
         title: "花と蝶のセレナーデ",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/05 花と蝶のセレナーデ`
     },{
         artist: "真珠美人魚",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/3/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/3/Cover.jpg` },
         title: "花與蝴蝶之小夜曲",
         filename: `${HOSTING_URL1}Various Artists/真珠美人魚/3/08 花與蝴蝶之小夜曲`
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/BK/PCCG-00652_007.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/BK/PCCG-00652_007.jpg` },
         title: "MOTHER SYMPHONY (3Mermaid Version)",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/06 MOTHER SYMPHONY (3Mermaid Version)`
     },{
         artist: "真珠美人魚",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/3/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/3/Cover.jpg` },
         title: "MOTHER SYMPHONY",
         filename: `${HOSTING_URL1}Various Artists/真珠美人魚/3/03 MOTHER SYMPHONY`
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/BK/PCCG-00652_007.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/BK/PCCG-00652_007.jpg` },
         title: "水色の旋律 (3Mermaid Version)",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/07 水色の旋律 (3Mermaid Version)`
     },{
         artist: "真珠美人魚",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/3/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/3/Cover.jpg` },
         title: "水色的旋律",
         filename: `${HOSTING_URL1}Various Artists/真珠美人魚/3/04 水色的旋律`
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/BK/PCCG-00652_007.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/BK/PCCG-00652_007.jpg` },
         title: "Piece of Love (3Mermaid Version)",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/08 Piece of Love (3Mermaid Version)`
     },{
         artist: "真珠美人魚",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/4/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/4/Cover.jpg` },
         title: "Piece of Love",
         filename: `${HOSTING_URL1}Various Artists/真珠美人魚/4/03 Piece of Love`
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/BK/PCCG-00652_007.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/BK/PCCG-00652_007.jpg` },
         title: "愛の温度℃",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 1/09 愛の温度℃`
     },{
         artist: "真珠美人魚",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/3/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/3/Cover.jpg` },
         title: "愛的溫度℃",
         filename: `${HOSTING_URL1}Various Artists/真珠美人魚/3/02 愛的溫度℃`
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg` },
         title: "希望の鐘音～Love goes on～",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/01 希望の鐘音～Love goes on～`
     },{
         artist: "真珠美人魚",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/4/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/4/Cover.jpg` },
         title: "希望的鐘聲",
         filename: `${HOSTING_URL1}Various Artists/真珠美人魚/4/02 希望的鐘聲`
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg` },
         title: "翼を抱いて",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/02 翼を抱いて`
     },{
         artist: "真珠美人魚",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/4/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/4/Cover.jpg` },
         title: "懷抱著羽翼",
         filename: `${HOSTING_URL1}Various Artists/真珠美人魚/4/06 懷抱著羽翼`
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg` },
         title: "七つの海の物語～Pearls of Mermaid～ (リナソロバージョン)",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/03 七つの海の物語～Pearls of Mermaid～ (リナソロバージョン)`
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg` },
         title: "Beautiful Wish",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/04 Beautiful Wish`
     },{
         artist: "真珠美人魚",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/3/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/3/Cover.jpg` },
         title: "Beautiful Wish",
         filename: `${HOSTING_URL1}Various Artists/真珠美人魚/3/05 Beautiful Wish`
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg` },
         title: "Star☆メロメロ Heart",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/05 Star☆メロメロ Heart`
     },{
         artist: "真珠美人魚",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/4/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/4/Cover.jpg` },
         title: "Star☆為我神魂顛倒的心",
         filename: `${HOSTING_URL1}Various Artists/真珠美人魚/4/04 Star☆為我神魂顛倒的心`
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg` },
         title: "七つの海の物語～Pearls of Mermaid～ (波音ソロバージョン)",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/06 七つの海の物語～Pearls of Mermaid～ (波音ソロバージョン)`
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg` },
         title: "明日が見えなくて",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/07 明日が見えなくて`
     },{
         artist: "真珠美人魚",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/4/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/4/Cover.jpg` },
         title: "看不到明天",
         filename: `${HOSTING_URL1}Various Artists/真珠美人魚/4/05 看不到明天`
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg` },
         title: "Birth of Love",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/08 Birth of Love`
     },{
         artist: "真珠美人魚",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/4/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/真珠美人魚/4/Cover.jpg` },
         title: "Birth of Love",
         filename: `${HOSTING_URL1}Various Artists/真珠美人魚/4/07 Birth of Love`
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg` },
         title: "七つの海の物語～Pearls of Mermaid～ (るちあソロバージョン)",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/09 七つの海の物語～Pearls of Mermaid～ (るちあソロバージョン)`
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/BK/PCCG-00662_009.jpg` },
         title: "希望の鐘音～Love goes on～ (7Mermaid Version)",
         filename: `${HOSTING_URL1}Various Artists/ぴちぴちピッチ/マーメイドメロディー ぴちぴちピッチ ピュア ボーカルコレクションピュアBOX 2/10 希望の鐘音～Love goes on～ (7Mermaid Version)`
     },{
         artist: "ZAQ",
-        lyrics: `${HOSTING_URL1}ZAQ - 君のとなりに.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}ZAQ - 君のとなりに.lrc`,
         album: { cover: "img/album.png" },
         title: "君のとなりに",
         filename: `${HOSTING_URL1}ZAQ - 君のとなりに`
     },{
         artist: "小木曽雪菜（CV.米澤円）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg` },
         title: "届かない恋 Live at Campus Fes（TV anime ver.）",
         filename: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/01 届かない恋 (Live at Campus Fes) (TV anime ver.)`
     },{
         artist: "小木曽雪菜（CV.米澤円）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg` },
         title: "悪女",
         filename: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/02 悪女`
     },{
         artist: "小木曽雪菜（CV.米澤円）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg` },
         title: "I'm fallin’ in love",
         filename: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/03 I’m fallin’ in love`
     },{
         artist: "上原れな",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg` },
         title: "After All～綴る想い～ '13",
         filename: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/04 After All ~綴る想い~ ’13`
     },{
         artist: "津田朱里",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg` },
         title: "Twinkle Snow '13",
         filename: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/05 Twinkle Snow ’13`
     },{
         artist: "小木曽雪菜（CV.米澤円）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg` },
         title: "大切な君へ",
         filename: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/06 大切な君へ`
     },{
         artist: "上原れな",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg` },
         title: "closing '13",
         filename: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/07 closing ’13`
     },{
         artist: "小木曽雪菜（CV.米澤円）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg` },
         title: "WHITE ALBUM Live at Campus Fes（TV anime ver.）",
         filename: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/08 WHITE ALBUM (Live at Campus Fes) (TV anime ver.)`
     },{
         artist: "小木曽雪菜（CV.米澤円）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg` },
         title: "SOUND OF DESTINY Live at Campus Fes（TV anime ver.）",
         filename: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/09 SOUND OF DESTINY (Live at Campus Fes) (TV anime ver.)`
     },{
         artist: "上原れな",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg` },
         title: "さよならのこと",
         filename: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/10 さよならのこと`
     },{
         artist: "上原れな、津田朱里",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg` },
         title: "Free and Dream",
         filename: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/11 Free and Dream`
     },{
         artist: "上原れな",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg` },
         title: "届かない恋 '13",
         filename: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/12 届かない恋 ’13`
     },{
         artist: "小木曽雪菜（CV.米澤円）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg` },
         title: "優しい嘘",
         filename: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/13 優しい嘘 (Bonus Track)`
     },{
         artist: "小木曽雪菜（CV.米澤円）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/Cover.jpg` },
         title: "恋のような",
         filename: `${HOSTING_URL1}WHITE ALBUM2 VOCAL COLLECTION/14 恋のような (Bonus Track)`
     },{
         artist: "学園生活部",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}ふ・れ・ん・ど・し・た・い(24bit_48kHz)/cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}ふ・れ・ん・ど・し・た・い(24bit_48kHz)/cover.jpg` },
         title: "ふ・れ・ん・ど・し・た・い",
         filename: `${HOSTING_URL1}ふ・れ・ん・ど・し・た・い(24bit_48kHz)/01 ふ・れ・ん・ど・し・た・い`
     },{
         artist: "fhana",
-        lyrics: `${HOSTING_URL1}fhana - 青空のラプソディ.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}fhana - 青空のラプソディ.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}fhana - 青空のラプソディ.lrc`,
+        album: { cover: `${HOSTING_URL1}fhana - 青空のラプソディ.jpg` },
         title: "青空のラプソディ",
         filename: `${HOSTING_URL1}fhana - 青空のラプソディ`
     },{
         artist: "西木野真姫（CV.Pile）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}image/TVアニメ「ラブライブ！ 2期」オリジナルサウンドトラック「Notes of School idol days ~Glory~」.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}image/TVアニメ「ラブライブ！ 2期」オリジナルサウンドトラック「Notes of School idol days ~Glory~」.jpg` },
         title: "愛してるばんざーい！(Prepro Piano Mix)",
         filename: `${HOSTING_URL1}μ's/TVアニメ「ラブライブ！ 2期」オリジナルサウンドトラック「Notes of School idol days ~Glory~」/11 愛してるばんざーい！(Prepro Piano Mix)`
     },{
@@ -3591,44 +3591,44 @@ export const songs = [
         filename: `${HOSTING_URL1}01 天城越え`
     },{
         artist: "fripSide",
-        lyrics: `${HOSTING_URL1}fripSide - Only My Railgun.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}fripSide - Only My Railgun.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}fripSide - Only My Railgun.lrc`,
+        album: { cover: `${HOSTING_URL1}fripSide - Only My Railgun.jpg` },
         title: "Only My Railgun",
         filename: `${HOSTING_URL1}fripSide - Only My Railgun`
     },{
         artist: "WEAVER",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}WEAVER - くちづけDiamond.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}WEAVER - くちづけDiamond.jpg` },
         title: "くちづけDiamond",
         filename: `${HOSTING_URL1}WEAVER - くちづけDiamond`
     },{
         artist: "みみめめMIMI",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}みみめめMIMI - CANDY MAGIC.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}みみめめMIMI - CANDY MAGIC.jpg` },
         title: "CANDY MAGIC",
         filename: `${HOSTING_URL1}みみめめMIMI - CANDY MAGIC`
     },{
         artist: "Aqours",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Aqours/未来の僕らは知ってるよ/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Aqours/未来の僕らは知ってるよ/Cover.jpg` },
         title: "未来の僕らは知ってるよ",
         filename: `${HOSTING_URL1}Aqours/未来の僕らは知ってるよ/01 未来の僕らは知ってるよ`
     },{
         artist: "Aqours",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Aqours/未来の僕らは知ってるよ/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Aqours/未来の僕らは知ってるよ/Cover.jpg` },
         title: "君の瞳を巡る冒険",
         filename: `${HOSTING_URL1}Aqours/未来の僕らは知ってるよ/02 君の瞳を巡る冒険`
     },{
         artist: "Aqours",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Aqours/勇気はどこに？君の胸に！/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Aqours/勇気はどこに？君の胸に！/Cover.jpg` },
         title: "勇気はどこに？君の胸に！",
         filename: `${HOSTING_URL1}Aqours/勇気はどこに？君の胸に！/01 勇気はどこに？君の胸に！`
     },{
         artist: "Aqours",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Aqours/勇気はどこに？君の胸に！/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Aqours/勇気はどこに？君の胸に！/Cover.jpg` },
         title: "MY LIST to you!",
         filename: `${HOSTING_URL1}Aqours/勇気はどこに？君の胸に！/02 MY LIST to you!`
     },{
@@ -3646,313 +3646,313 @@ export const songs = [
     },{
         artist: "765 MILLIONSTARS",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 01/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 01/Cover.jpg` },
         title: "Thank You! (765PRO ver.)",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 01/02 Thank You! (765PRO ver.)`
     },{
         artist: "765 MILLIONSTARS",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 01/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 01/Cover.jpg` },
         title: "Thank You! (765THEATER ver.)",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 01/03 Thank You! (765THEATER ver.)`
     },{
         artist: "天海春香（CV.中村繪里子）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 02/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 02/Cover.jpg` },
         title: "キラメキ進行形",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 02/01 キラメキ進行形`
     },{
         artist: "七尾百合子（CV.伊藤美来）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 02/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 02/Cover.jpg` },
         title: "透明なプロローグ",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 02/02 透明なプロローグ`
     },{
         artist: "箱崎星梨花（CV.麻倉もも）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 02/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 02/Cover.jpg` },
         title: "トキメキの音符になって",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 02/03 トキメキの音符になって`
     },{
         artist: "天空橋朋花（CV.小岩井ことり）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 02/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 02/Cover.jpg` },
         title: "Maria Trap",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 02/04 Maria Trap`
     },{
         artist: "最上静香（CV.田所あずさ）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 02/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 02/Cover.jpg` },
         title: "Precious Grain",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 02/05 Precious Grain`
     },{
         artist: "天海春香（CV.中村繪里子）, 天空橋朋花（CV.小岩井ことり）, 七尾百合子（CV.伊藤美来）, 箱崎星梨花（CV.麻倉もも）, 最上静香（CV.田所あずさ）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 02/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 02/Cover.jpg` },
         title: "Legend Girls!!",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 02/06 Legend Girls!!`
     },{
         artist: "春日未来（CV.山崎はるか）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 03/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 03/Cover.jpg` },
         title: "素敵なキセキ",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 03/01 素敵なキセキ`
     },{
         artist: "横山奈緒（CV.渡部優衣）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 03/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 03/Cover.jpg` },
         title: "ハッピー☆ラッキー☆ジェットマシーン",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 03/02 ハッピー☆ラッキー☆ジェットマシーン`
     },{
         artist: "望月杏奈（CV.夏川椎菜）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 03/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 03/Cover.jpg` },
         title: "Happy Darling",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 03/03 Happy Darling`
     },{
         artist: "豊川風花（CV.末柄里恵）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 03/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 03/Cover.jpg` },
         title: "オレンジの空の下",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 03/04 オレンジの空の下`
     },{
         artist: "我那覇響（CV.沼倉愛美）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 03/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 03/Cover.jpg` },
         title: "Rebellion",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 03/05 Rebellion`
     },{
         artist: "我那覇響（CV.沼倉愛美）、春日未来（CV.山崎はるか）、豊川風花（CV.末柄里恵）、望月杏奈（CV.夏川椎菜）、横山奈緒（CV.渡部優衣）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 03/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 03/Cover.jpg` },
         title: "PRETTY DREAMER",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 03/06 PRETTY DREAMER`
     },{
         artist: "所恵美（CV.藤井ゆきよ）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 04/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 04/Cover.jpg` },
         title: "アフタースクールパーリータイム",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 04/01 アフタースクールパーリータイム`
     },{
         artist: "田中琴葉（CV.種田梨沙）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 04/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 04/Cover.jpg` },
         title: "朝焼けのクレッシェンド",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 04/02 朝焼けのクレッシェンド`
     },{
         artist: "北沢志保（CV.雨宮天）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 04/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 04/Cover.jpg` },
         title: "ライアー・ルージュ",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 04/03 ライアー・ルージュ`
     },{
         artist: "如月千早（CV.今井麻美）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 04/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 04/Cover.jpg` },
         title: "Snow White",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 04/04 Snow White`
     },{
         artist: "如月千早（CV.今井麻美）、北沢志保（CV.雨宮天）、田中琴葉（CV.種田梨沙）、所恵美（CV.藤井ゆきよ）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 04/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 04/Cover.jpg` },
         title: "Blue Symphony",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 04/05 Blue Symphony`
     },{
         artist: "エミリー＝スチュアート（CV.郁原ゆう）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 05/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 05/Cover.jpg` },
         title: "微笑み日和",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 05/01 微笑み日和`
     },{
         artist: "真壁瑞希（CV.阿部里果）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 05/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 05/Cover.jpg` },
         title: "POKER POKER",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 05/02 POKER POKER`
     },{
         artist: "百瀬莉緒（CV.山口立花子）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 05/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 05/Cover.jpg` },
         title: "Be My Boy",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 05/03 Be My Boy`
     },{
         artist: "水瀬伊織（CV.釘宮理恵）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 05/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 05/Cover.jpg` },
         title: "プライヴェイト・ロードショウ",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 05/04 プライヴェイト・ロードショウ`
     },{
         artist: "水瀬伊織（CV.釘宮理恵）、エミリー=スチュアート（CV.郁原ゆう）、真壁瑞希（CV.阿部里果）、百瀬莉緒（CV.山口立花子）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 05/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 05/Cover.jpg` },
         title: "Sentimental Venus",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 05/05 Sentimental Venus`
     },{
         artist: "伊吹翼（CV.Machico）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 06/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 06/Cover.jpg` },
         title: "恋のLesson初級編",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 06/01 恋のLesson初級編`
     },{
         artist: "北上麗花（CV.平山笑美）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 06/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 06/Cover.jpg` },
         title: "FIND YOUR WIND！",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 06/02 FIND YOUR WIND!`
     },{
         artist: "星井美希（CV.長谷川明子）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 06/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 06/Cover.jpg` },
         title: "追憶のサンドグラス",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 06/03 追憶のサンドグラス`
     },{
         artist: "ジュリア（CV.寺川愛美）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 06/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 06/Cover.jpg` },
         title: "流星群",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 06/04 流星群`
     },{
         artist: "星井美希（CV.長谷川明子）、伊吹翼（CV.Machico）、北上麗花（CV.平山笑美）、ジュリア（CV.寺川愛美）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 06/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 06/Cover.jpg` },
         title: "Marionetteは眠らない",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 06/05 Marionetteは眠らない`
     },{
         artist: "福田のり子（CV.浜崎奈々）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 07/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 07/Cover.jpg` },
         title: "マイペース☆マイウェイ",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 07/01 マイペース☆マイウェイ`
     },{
         artist: "高山紗代子（CV.駒形友梨）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 07/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 07/Cover.jpg` },
         title: "君想いBirthday",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 07/02 君想いBirthday`
     },{
         artist: "篠宮可憐（CV.近藤唯）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 07/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 07/Cover.jpg` },
         title: "ちいさな恋の足音",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 07/03 ちいさな恋の足音`
     },{
         artist: "三浦あずさ（CV.たかはし智秋）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 07/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 07/Cover.jpg` },
         title: "嘆きのFRACTION",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 07/04 嘆きのFRACTION`
     },{
         artist: "三浦あずさ（CV.たかはし智秋）、篠宮可憐（CV.近藤唯）、高山紗代子（CV.駒形友梨）、福田のり子（CV.浜崎奈々）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 07/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 07/Cover.jpg` },
         title: "カワラナイモノ",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 07/05 カワラナイモノ`
     },{
         artist: "大神環（CV.稲川英里）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/Cover.jpg` },
         title: "ホップ♪ステップ♪レインボウ♪",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/01 ホップ♪ステップ♪レインボウ♪`
     },{
         artist: "中谷育（CV.原嶋あかり）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/Cover.jpg` },
         title: "グッデイ・サンシャイン！",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/02 グッデイ・サンシャイン！`
     },{
         artist: "矢吹可奈（CV.木戸衣吹）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/Cover.jpg` },
         title: "オリジナル声になって",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/03 オリジナル声になって`
     },{
         artist: "高槻やよい（CV.仁後真耶子）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/Cover.jpg` },
         title: "ハートウォーミング",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/04 ハートウォーミング`
     },{
         artist: "高槻やよい（CV.仁後真耶子）、大神環（CV.稲川英里）、中谷育（CV.原嶋あかり）、矢吹可奈（CV.木戸衣吹）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/Cover.jpg` },
         title: "Good-Sleep, Baby♡",
         filename: `${HOSTING_URL1}THE IDOLM@STER LIVE THE@TER PERFORMANCE 08/05 Good-Sleep, Baby♡`
     },{
         artist: "春奈るな",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}春奈るな/君色シグナル/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}春奈るな/君色シグナル/Cover.jpg` },
         title: "君色シグナル",
         filename: `${HOSTING_URL1}春奈るな/君色シグナル/01 君色シグナル`
     },{
         artist: "鈴木みのり",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}鈴木みのり - FEELING AROUND.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}鈴木みのり - FEELING AROUND.jpg` },
         title: "FEELING AROUND",
         filename: `${HOSTING_URL1}鈴木みのり - FEELING AROUND`
     },{
         artist: "安達としまむら（CV.鬼頭明里と伊藤美来）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}安達としまむら（CV.鬼頭明里と伊藤美来）/君に会えた日/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}安達としまむら（CV.鬼頭明里と伊藤美来）/君に会えた日/Cover.jpg` },
         title: "君に会えた日",
         filename: `${HOSTING_URL1}安達としまむら（CV.鬼頭明里と伊藤美来）/君に会えた日/01 君に会えた日`
     },{
         artist: "安達としまむら（CV.鬼頭明里と伊藤美来）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}安達としまむら（CV.鬼頭明里と伊藤美来）/君に会えた日/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}安達としまむら（CV.鬼頭明里と伊藤美来）/君に会えた日/Cover.jpg` },
         title: "メリーゴーランド",
         filename: `${HOSTING_URL1}安達としまむら（CV.鬼頭明里と伊藤美来）/君に会えた日/02 メリーゴーランド`
     },{
         artist: "鬼頭明里",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}鬼頭明里/キミのとなりで/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}鬼頭明里/キミのとなりで/Cover.jpg` },
         title: "キミのとなりで",
         filename: `${HOSTING_URL1}鬼頭明里/キミのとなりで/01 キミのとなりで`
     },{
         artist: "鬼頭明里",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}鬼頭明里/キミのとなりで/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}鬼頭明里/キミのとなりで/Cover.jpg` },
         title: "Dive to World",
         filename: `${HOSTING_URL1}鬼頭明里/キミのとなりで/02 Dive to World`
     },{
         artist: "鬼頭明里",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}鬼頭明里/キミのとなりで/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}鬼頭明里/キミのとなりで/Cover.jpg` },
         title: "トウメイナユメ",
         filename: `${HOSTING_URL1}鬼頭明里/キミのとなりで/03 トウメイナユメ`
     },{
         artist: "Liella!",
-        lyrics: `${HOSTING_URL1}Liella!/始まりは君の空 [みんなで叶える物語盤]/01 始まりは君の空.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}Liella!/始まりは君の空 [みんなで叶える物語盤]/cover.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}Liella!/始まりは君の空 [みんなで叶える物語盤]/01 始まりは君の空.lrc`,
+        album: { cover: `${HOSTING_URL1}Liella!/始まりは君の空 [みんなで叶える物語盤]/cover.jpg` },
         title: "始まりは君の空",
         filename: `${HOSTING_URL1}Liella!/始まりは君の空 [みんなで叶える物語盤]/01 始まりは君の空`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/始まりは君の空 [私を叶える物語盤]/cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/始まりは君の空 [私を叶える物語盤]/cover.jpg` },
         title: "Dancing Heart La-Pa-Pa-Pa!",
         filename: `${HOSTING_URL1}Liella!/始まりは君の空 [私を叶える物語盤]/02 Dancing Heart La-Pa-Pa-Pa!`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/始まりは君の空 [みんなで叶える物語盤]/cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/始まりは君の空 [みんなで叶える物語盤]/cover.jpg` },
         title: "Dreaming Energy",
         filename: `${HOSTING_URL1}Liella!/始まりは君の空 [みんなで叶える物語盤]/03 Dreaming Energy`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/始まりは君の空 [私を叶える物語盤]/cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/始まりは君の空 [私を叶える物語盤]/cover.jpg` },
         title: "私のSymphony",
         filename: `${HOSTING_URL1}Liella!/始まりは君の空 [私を叶える物語盤]/03 私のSymphony`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/START!! True dreams/cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/START!! True dreams/cover.jpg` },
         title: "START!! True dreams",
         filename: `${HOSTING_URL1}Liella!/START!! True dreams/01 START!! True dreams`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/START!! True dreams/cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/START!! True dreams/cover.jpg` },
         title: "だから僕らは鳴らすんだ！",
         filename: `${HOSTING_URL1}Liella!/START!! True dreams/02 だから僕らは鳴らすんだ！`
     },{
@@ -3969,8 +3969,8 @@ export const songs = [
         filename: `${HOSTING_URL1}Liella!/TVアニメ『ラブライブ！スーパースター!!』オリジナルサウンドトラック「Dreams of the Superstar 」/Disc1/03 ほんのちょっぴり〜Orchestra Ver.〜`
     },{
         artist: "Liella!",
-        lyrics: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/01 未来予報ハレルヤ！.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/cover1.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/01 未来予報ハレルヤ！.lrc`,
+        album: { cover: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/cover1.jpg` },
         title: "未来予報ハレルヤ！",
         filename: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/01 未来予報ハレルヤ！`
     },{
@@ -3987,20 +3987,20 @@ export const songs = [
         filename: `${HOSTING_URL1}Liella!/TVアニメ『ラブライブ！スーパースター!!』オリジナルサウンドトラック「Dreams of the Superstar 」/Disc3/05 Tiny Stars~Demo~`
     },{
         artist: "澁谷かのん (CV.伊達さゆり)、唐 可可 (CV.Liyuu)",
-        lyrics: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/02 Tiny Stars.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/cover2.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/02 Tiny Stars.lrc`,
+        album: { cover: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/cover2.jpg` },
         title: "Tiny Stars",
         filename: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/02 Tiny Stars`
     },{
         artist: "Liella!",
-        lyrics: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/03 GOING UP.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/cover1.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/03 GOING UP.lrc`,
+        album: { cover: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/cover1.jpg` },
         title: "GOING UP",
         filename: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/03 GOING UP`
     },{
         artist: "Liella!",
-        lyrics: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/03 1.2.3！.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/cover2.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/03 1.2.3！.lrc`,
+        album: { cover: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/cover2.jpg` },
         title: "1.2.3！",
         filename: `${HOSTING_URL1}Liella!/未来予報ハレルヤ！／Tiny Stars/03 1.2.3！`
     },{
@@ -4018,37 +4018,37 @@ export const songs = [
     },{
         artist: "Sunny Passion",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Sunny Passion - HOT PASSION!!.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Sunny Passion - HOT PASSION!!.jpg` },
         title: "HOT PASSION!!",
         filename: `${HOSTING_URL1}01 HOT PASSION!!`
     },{
         artist: "澁谷かのん（CV.伊達さゆり）、唐可可（CV.Liyuu）、嵐千砂都（CV.岬なこ）、平安名すみれ（CV.ペイトン尚未）",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/常夏☆サンシャイン／Wish Song/Cover1.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/常夏☆サンシャイン／Wish Song/Cover1.jpg` },
         title: "常夏☆サンシャイン",
         filename: `${HOSTING_URL1}Liella!/常夏☆サンシャイン／Wish Song/01 常夏☆サンシャイン`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/常夏☆サンシャイン／Wish Song/Cover2.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/常夏☆サンシャイン／Wish Song/Cover2.jpg` },
         title: "Wish Song",
         filename: `${HOSTING_URL1}Liella!/常夏☆サンシャイン／Wish Song/02 Wish Song`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/常夏☆サンシャイン／Wish Song/Cover1.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/常夏☆サンシャイン／Wish Song/Cover1.jpg` },
         title: "バイバイしちゃえば！？",
         filename: `${HOSTING_URL1}Liella!/常夏☆サンシャイン／Wish Song/03 バイバイしちゃえば！？`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/常夏☆サンシャイン／Wish Song/Cover2.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/常夏☆サンシャイン／Wish Song/Cover2.jpg` },
         title: "瞬きの先へ",
         filename: `${HOSTING_URL1}Liella!/常夏☆サンシャイン／Wish Song/03 瞬きの先へ`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/ノンフィクション!!／Starlight Prologue/Cover1.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/ノンフィクション!!／Starlight Prologue/Cover1.jpg` },
         title: "ノンフィクション!!",
         filename: `${HOSTING_URL1}Liella!/ノンフィクション!!／Starlight Prologue/01 ノンフィクション!!`
     },{
@@ -4060,240 +4060,240 @@ export const songs = [
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/ノンフィクション!!／Starlight Prologue/Cover2.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/ノンフィクション!!／Starlight Prologue/Cover2.jpg` },
         title: "Starlight Prologue",
         filename: `${HOSTING_URL1}Liella!/ノンフィクション!!／Starlight Prologue/02 Starlight Prologue`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/ノンフィクション!!／Starlight Prologue/Cover1.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/ノンフィクション!!／Starlight Prologue/Cover1.jpg` },
         title: "Day1",
         filename: `${HOSTING_URL1}Liella!/ノンフィクション!!／Starlight Prologue/03 Day1`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/ノンフィクション!!／Starlight Prologue/Cover2.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/ノンフィクション!!／Starlight Prologue/Cover2.jpg` },
         title: "Dream Rainbow",
         filename: `${HOSTING_URL1}Liella!/ノンフィクション!!／Starlight Prologue/03 Dream Rainbow`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/未来は風のように/cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/未来は風のように/cover.jpg` },
         title: "未来は風のように",
         filename: `${HOSTING_URL1}Liella!/未来は風のように/01 未来は風のように`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/未来は風のように/cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/未来は風のように/cover.jpg` },
         title: "この街でいまキミと",
         filename: `${HOSTING_URL1}Liella!/未来は風のように/02 この街でいまキミと`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/WE WILL!!/cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/WE WILL!!/cover.jpg` },
         title: "WE WILL!!",
         filename: `${HOSTING_URL1}Liella!/WE WILL!!/01 WE WILL!!`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/WE WILL!!/cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/WE WILL!!/cover.jpg` },
         title: "スター宣言",
         filename: `${HOSTING_URL1}Liella!/WE WILL!!/02 スター宣言`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/Welcome to 僕らのセカイ／Go!! リスタート/Cover1.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/Welcome to 僕らのセカイ／Go!! リスタート/Cover1.jpg` },
         title: "Welcome to 僕らのセカイ",
         filename: `${HOSTING_URL1}Liella!/Welcome to 僕らのセカイ／Go!! リスタート/01 Welcome to 僕らのセカイ`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/Welcome to 僕らのセカイ／Go!! リスタート/Cover2.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/Welcome to 僕らのセカイ／Go!! リスタート/Cover2.jpg` },
         title: "Go!! リスタート",
         filename: `${HOSTING_URL1}Liella!/Welcome to 僕らのセカイ／Go!! リスタート/02 Go!! リスタート`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/Welcome to 僕らのセカイ／Go!! リスタート/Cover1.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/Welcome to 僕らのセカイ／Go!! リスタート/Cover1.jpg` },
         title: "色づいて透明",
         filename: `${HOSTING_URL1}Liella!/Welcome to 僕らのセカイ／Go!! リスタート/03 色づいて透明`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/Welcome to 僕らのセカイ／Go!! リスタート/Cover2.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/Welcome to 僕らのセカイ／Go!! リスタート/Cover2.jpg` },
         title: "揺らぐわ",
         filename: `${HOSTING_URL1}Liella!/Welcome to 僕らのセカイ／Go!! リスタート/03 揺らぐわ`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/ビタミンSUMMER！／Chance Day, Chance Way！/Cover1.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/ビタミンSUMMER！／Chance Day, Chance Way！/Cover1.jpg` },
         title: "ビタミンSUMMER！",
         filename: `${HOSTING_URL1}Liella!/ビタミンSUMMER！／Chance Day, Chance Way！/01 ビタミンSUMMER！`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/ビタミンSUMMER！／Chance Day, Chance Way！/Cover2.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/ビタミンSUMMER！／Chance Day, Chance Way！/Cover2.jpg` },
         title: "Chance Day, Chance Way！",
         filename: `${HOSTING_URL1}Liella!/ビタミンSUMMER！／Chance Day, Chance Way！/02 Chance Day, Chance Way！`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/ビタミンSUMMER！／Chance Day, Chance Way！/Cover1.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/ビタミンSUMMER！／Chance Day, Chance Way！/Cover1.jpg` },
         title: "POP TALKING",
         filename: `${HOSTING_URL1}Liella!/ビタミンSUMMER！／Chance Day, Chance Way！/03 POP TALKING`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/ビタミンSUMMER！／Chance Day, Chance Way！/Cover2.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/ビタミンSUMMER！／Chance Day, Chance Way！/Cover2.jpg` },
         title: "ユートピアマジック",
         filename: `${HOSTING_URL1}Liella!/ビタミンSUMMER！／Chance Day, Chance Way！/03 ユートピアマジック`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/Sing！Shine！Smile！／未来の音が聴こえる/Cover1.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/Sing！Shine！Smile！／未来の音が聴こえる/Cover1.jpg` },
         title: "Sing！Shine！Smile！",
         filename: `${HOSTING_URL1}Liella!/Sing！Shine！Smile！／未来の音が聴こえる/01 Sing！Shine！Smile！`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/Sing！Shine！Smile！／未来の音が聴こえる/Cover2.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/Sing！Shine！Smile！／未来の音が聴こえる/Cover2.jpg` },
         title: "未来の音が聴こえる",
         filename: `${HOSTING_URL1}Liella!/Sing！Shine！Smile！／未来の音が聴こえる/02 未来の音が聴こえる`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/Sing！Shine！Smile！／未来の音が聴こえる/Cover1.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/Sing！Shine！Smile！／未来の音が聴こえる/Cover1.jpg` },
         title: "名前呼びあうように",
         filename: `${HOSTING_URL1}Liella!/Sing！Shine！Smile！／未来の音が聴こえる/03 名前呼びあうように`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/Sing！Shine！Smile！／未来の音が聴こえる/Cover2.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/Sing！Shine！Smile！／未来の音が聴こえる/Cover2.jpg` },
         title: "TO BE CONTINUED",
         filename: `${HOSTING_URL1}Liella!/Sing！Shine！Smile！／未来の音が聴こえる/03 TO BE CONTINUED`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/追いかける夢の先で/cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/追いかける夢の先で/cover.jpg` },
         title: "追いかける夢の先で",
         filename: `${HOSTING_URL1}Liella!/追いかける夢の先で/01 追いかける夢の先で`
     },{
         artist: "Liella!",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Liella!/追いかける夢の先で/cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Liella!/追いかける夢の先で/cover.jpg` },
         title: "水しぶきのサイン",
         filename: `${HOSTING_URL1}Liella!/追いかける夢の先で/02 水しぶきのサイン`
     },{
         artist: "高垣楓(早見沙織)、佐藤心(花守ゆみり)、三船美優(原田彩楓)、安部菜々(三宅麻理恵)、片桐早苗(和氣あず未)",
-        lyrics: `${HOSTING_URL1}命燃やして恋せよ乙女.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}命燃やして恋せよ乙女.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}命燃やして恋せよ乙女.lrc`,
+        album: { cover: `${HOSTING_URL1}命燃やして恋せよ乙女.jpg` },
         title: "命燃やして恋せよ乙女",
         filename: `${HOSTING_URL1}命燃やして恋せよ乙女`
     },{
         artist: "えなこ feat. P丸様。",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}えなこ feat. P丸様。 - アイデン貞貞メルトダウン.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}えなこ feat. P丸様。 - アイデン貞貞メルトダウン.jpg` },
         title: "アイデン貞貞メルトダウン",
         filename: `${HOSTING_URL1}えなこ feat. P丸様。 - アイデン貞貞メルトダウン`
     },{
         artist: "星街すいせい",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg` },
         title: "Stellar Stellar",
         filename: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/01 Stellar Stellar`
     },{
         artist: "星街すいせい",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg` },
         title: "NEXT COLOR PLANET (Still Still Stellar ver.)",
         filename: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/02 NEXT COLOR PLANET (Still Still Stellar ver.)`
     },{
         artist: "星街すいせい",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg` },
         title: "天球、彗星は夜を跨いで (Still Still Stellar ver.)",
         filename: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/03 天球、彗星は夜を跨いで (Still Still Stellar ver.)`
     },{
         artist: "星街すいせい",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg` },
         title: "GHOST (Still Still Stellar ver.)",
         filename: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/04 GHOST (Still Still Stellar ver.)`
     },{
         artist: "星街すいせい",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg` },
         title: "バイバイレイニー (Still Still Stellar ver.)",
         filename: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/05 バイバイレイニー (Still Still Stellar ver.)`
     },{
         artist: "星街すいせい",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg` },
         title: "自分勝手Dazzling (Still Still Stellar ver.)",
         filename: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/06 自分勝手Dazzling (Still Still Stellar ver.)`
     },{
         artist: "星街すいせい",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg` },
         title: "Bluerose (Still Still Stellar ver.)",
         filename: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/07 Bluerose (Still Still Stellar ver.)`
     },{
         artist: "星街すいせい",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg` },
         title: "comet (Still Still Stellar ver.)",
         filename: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/08 comet (Still Still Stellar ver.)`
     },{
         artist: "星街すいせい",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg` },
         title: "Andromeda",
         filename: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/09 Andromeda`
     },{
         artist: "星街すいせい",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg` },
         title: "Je t'aime。",
         filename: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/10 Je t_aime。`
     },{
         artist: "星街すいせい",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg` },
         title: "Starry Jet",
         filename: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/11 Starry Jet`
     },{
         artist: "星街すいせい",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/Cover.jpg` },
         title: "駆けろ (Still Still Stellar ver.)",
         filename: `${HOSTING_URL1}星街すいせい/Still Still Stellar [Hi-Res]/12 駆けろ (Still Still Stellar ver.)`
     },{
         artist: "杨沛宜",
-        lyrics: `${HOSTING_URL1}杨沛宜 - 左手右手.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}杨沛宜 - 左手右手.lrc`,
         album: { cover: "img/album.png" },
         title: "左手右手",
         filename: `${HOSTING_URL1}杨沛宜 - 左手右手`
     },{
         artist: "郑中基",
-        lyrics: `${HOSTING_URL1}郑中基 - 我爱平底锅.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}郑中基 - 我爱平底锅.lrc`,
         album: { cover: "img/album.png" },
         title: "我爱平底锅",
         filename: `${HOSTING_URL1}郑中基 - 我爱平底锅`
     },{
         artist: "甄妮",
-        lyrics: `${HOSTING_URL1}甄妮 - 你知道我在等你嗎.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}甄妮 - 你知道我在等你嗎.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}甄妮 - 你知道我在等你嗎.lrc`,
+        album: { cover: `${HOSTING_URL1}甄妮 - 你知道我在等你嗎.jpg` },
         title: "你知道我在等你嗎",
         filename: `${HOSTING_URL1}甄妮 - 你知道我在等你嗎`
     },{
         artist: "甄妮",
-        lyrics: `${HOSTING_URL1}甄妮 - 你知道我在等你嗎 (Live).lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}甄妮 - 你知道我在等你嗎 (Live).jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}甄妮 - 你知道我在等你嗎 (Live).lrc`,
+        album: { cover: `${HOSTING_URL1}甄妮 - 你知道我在等你嗎 (Live).jpg` },
         title: "你知道我在等你嗎 (Live)",
         filename: `${HOSTING_URL1}甄妮 - 你知道我在等你嗎 (Live)`
     },{
         artist: "張艾嘉",
-        lyrics: `${HOSTING_URL1}張艾嘉 - 童年.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}張艾嘉 - 童年.lrc`,
         album: { cover: "img/album.png" },
         title: "童年",
         filename: `${HOSTING_URL1}張艾嘉 - 童年`
@@ -4305,7 +4305,7 @@ export const songs = [
         filename: `${HOSTING_URL1}張信哲 - 愛如潮水`
     },{
         artist: "張信哲",
-        lyrics: `${HOSTING_URL1}張信哲 - 愛就一個字.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}張信哲 - 愛就一個字.lrc`,
         album: { cover: "img/album.png" },
         title: "愛就一個字",
         filename: `${HOSTING_URL1}張信哲 - 愛就一個字`
@@ -4323,79 +4323,79 @@ export const songs = [
         filename: `${HOSTING_URL1}許茹芸 - 如果雲知道`
     },{
         artist: "陳奕迅",
-        lyrics: `${HOSTING_URL1}陳奕迅 - 愛情轉移.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}陳奕迅 - 愛情轉移.lrc`,
         album: { cover: "img/album.png" },
         title: "愛情轉移",
         filename: `${HOSTING_URL1}陳奕迅 - 愛情轉移`
     },{
         artist: "王心凌",
-        lyrics: `${HOSTING_URL1}王心凌 - 愛你.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}王心凌 - 愛你.lrc`,
         album: { cover: "img/album.png" },
         title: "愛你",
         filename: `${HOSTING_URL1}王心凌 - 愛你`
     },{
         artist: "張紹涵",
-        lyrics: `${HOSTING_URL1}張紹涵 - 夢裡花.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}張紹涵 - 夢裡花.lrc`,
         album: { cover: "img/album.png" },
         title: "夢裡花",
         filename: `${HOSTING_URL1}張紹涵 - 夢裡花`
     },{
         artist: "光良",
-        lyrics: `${HOSTING_URL1}光良 - 童話.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}光良 - 童話.lrc`,
         album: { cover: "img/album.png" },
         title: "童話",
         filename: `${HOSTING_URL1}光良 - 童話`
     },{
         artist: "光良",
-        lyrics: `${HOSTING_URL1}光良 - 約定.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}光良 - 約定.lrc`,
         album: { cover: "img/album.png" },
         title: "約定",
         filename: `${HOSTING_URL1}光良 - 約定`
     },{
         artist: "Sweety",
-        lyrics: `${HOSTING_URL1}Sweety - 樱花草.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}Sweety - 花言喬語.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}Sweety - 樱花草.lrc`,
+        album: { cover: `${HOSTING_URL1}Sweety - 花言喬語.jpg` },
         title: "樱花草",
         filename: `${HOSTING_URL1}Sweety - 樱花草`
     },{
         artist: "李聖傑",
-        lyrics: `${HOSTING_URL1}李聖傑 - 癡心絕對.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}李聖傑 - 癡心絕對.lrc`,
         album: { cover: "img/album.png" },
         title: "癡心絕對",
         filename: `${HOSTING_URL1}李聖傑 - 癡心絕對`
     },{
         artist: "黃美珍",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}黃美珍/途中/cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}黃美珍/途中/cover.jpg` },
         title: "途中",
         filename: `${HOSTING_URL1}黃美珍/途中/04 途中`
     },{
         artist: "周杰倫",
-        lyrics: `${HOSTING_URL1}周杰倫 - 七里香.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}周杰倫 - 七里香.lrc`,
         album: { cover: "img/album.png" },
         title: "七里香",
         filename: `${HOSTING_URL1}周杰倫 - 七里香`
     },{
         artist: "周杰倫",
-        lyrics: `${HOSTING_URL1}周杰倫 - 聽媽媽的話.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}周杰倫 - 聽媽媽的話.lrc`,
         album: { cover: "img/album.png" },
         title: "聽媽媽的話",
         filename: `${HOSTING_URL1}周杰倫 - 聽媽媽的話`
     },{
         artist: "周杰倫",
-        lyrics: `${HOSTING_URL1}周杰倫 - 甜甜的.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}周杰倫 - 甜甜的.lrc`,
         album: { cover: "img/album.png" },
         title: "甜甜的",
         filename: `${HOSTING_URL1}周杰倫 - 甜甜的`
     },{
         artist: "吳克群",
-        lyrics: `${HOSTING_URL1}吳克群 - 為你寫詩.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}吳克群 - 為你寫詩.lrc`,
         album: { cover: "img/album.png" },
         title: "為你寫詩",
         filename: `${HOSTING_URL1}吳克群 - 為你寫詩`
     },{
         artist: "梁心頤（Lara）",
-        lyrics: `${HOSTING_URL1}梁心頤（Lara） - 靠近一點點.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}梁心頤（Lara） - 靠近一點點.lrc`,
         album: { cover: "img/album.png" },
         title: "靠近一點點",
         filename: `${HOSTING_URL1}梁心頤（Lara） - 靠近一點點`
@@ -4407,13 +4407,13 @@ export const songs = [
         filename: `${HOSTING_URL1}梁靜茹 - 暖暖`
     },{
         artist: "卓文萱＆曹格",
-        lyrics: `${HOSTING_URL1}卓文萱＆曹格 - 梁山伯與茱麗葉.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}卓文萱＆曹格 - 梁山伯與茱麗葉.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}卓文萱＆曹格 - 梁山伯與茱麗葉.lrc`,
+        album: { cover: `${HOSTING_URL1}卓文萱＆曹格 - 梁山伯與茱麗葉.jpg` },
         title: "梁山伯與茱麗葉",
         filename: `${HOSTING_URL1}卓文萱＆曹格 - 梁山伯與茱麗葉`
     },{
         artist: "陶喆＆蔡依林",
-        lyrics: `${HOSTING_URL1}陶喆＆蔡依林 - 今天你要嫁给我.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}陶喆＆蔡依林 - 今天你要嫁给我.lrc`,
         album: { cover: "img/album.png" },
         title: "今天你要嫁给我",
         filename: `${HOSTING_URL1}陶喆＆蔡依林 - 今天你要嫁给我`
@@ -4437,25 +4437,25 @@ export const songs = [
         filename: `${HOSTING_URL1}Zy - 命运 beat`
     },{
         artist: "劉明湘",
-        lyrics: `${HOSTING_URL1}劉明湘 - 飄洋過海來看你.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}劉明湘 - 飄洋過海來看你.lrc`,
         album: { cover: "img/album.png" },
         title: "飄洋過海來看你",
         filename: `${HOSTING_URL1}劉明湘 - 飄洋過海來看你`
     },{
         artist: "汪蘇瀧＆BY2",
-        lyrics: `${HOSTING_URL1}汪蘇瀧＆BY2 - 有點甜.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}汪蘇瀧＆BY2 - 有點甜.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}汪蘇瀧＆BY2 - 有點甜.lrc`,
+        album: { cover: `${HOSTING_URL1}汪蘇瀧＆BY2 - 有點甜.jpg` },
         title: "有點甜",
         filename: `${HOSTING_URL1}汪蘇瀧＆BY2 - 有點甜`
     },{
         artist: "陶喆、关诗敏",
-        lyrics: `${HOSTING_URL1}陶喆、关诗敏 - 屋顶.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}陶喆、关诗敏 - 屋顶.lrc`,
         album: { cover: "img/album.png" },
         title: "屋顶",
         filename: `${HOSTING_URL1}陶喆、关诗敏 - 屋顶`
     },{
         artist: "王启文",
-        lyrics: `${HOSTING_URL1}王启文 - 老鼠爱大米.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}王启文 - 老鼠爱大米.lrc`,
         album: { cover: "img/album.png" },
         title: "老鼠爱大米",
         filename: `${HOSTING_URL1}王启文 - 老鼠爱大米`
@@ -4467,7 +4467,7 @@ export const songs = [
         filename: `${HOSTING_URL1}李宇春 - 下个路口见`
     },{
         artist: "金莎",
-        lyrics: `${HOSTING_URL1}金莎 - 爱的魔法.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}金莎 - 爱的魔法.lrc`,
         album: { cover: "img/album.png" },
         title: "爱的魔法",
         filename: `${HOSTING_URL1}金莎 - 爱的魔法`
@@ -4479,37 +4479,37 @@ export const songs = [
         filename: `${HOSTING_URL1}白小白 - 最美情侣`
     },{
         artist: "冷漠",
-        lyrics: `${HOSTING_URL1}冷漠 - 我爱你不是因为你爱我.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}冷漠 - 冷漠金曲醉精選.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}冷漠 - 我爱你不是因为你爱我.lrc`,
+        album: { cover: `${HOSTING_URL1}冷漠 - 冷漠金曲醉精選.jpg` },
         title: "我爱你不是因为你爱我",
         filename: `${HOSTING_URL1}冷漠 - 我爱你不是因为你爱我`
     },{
         artist: "逃跑计划",
-        lyrics: `${HOSTING_URL1}逃跑计划 - 夜空中最亮的星.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}逃跑计划 - 夜空中最亮的星.lrc`,
         album: { cover: "img/album.png" },
         title: "夜空中最亮的星",
         filename: `${HOSTING_URL1}逃跑计划 - 夜空中最亮的星`
     },{
         artist: "樊凡",
-        lyrics: `${HOSTING_URL1}樊凡 - 我想大声告诉你.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}樊凡 - 我想大声告诉你.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}樊凡 - 我想大声告诉你.lrc`,
+        album: { cover: `${HOSTING_URL1}樊凡 - 我想大声告诉你.jpg` },
         title: "我想大声告诉你",
         filename: `${HOSTING_URL1}樊凡 - 我想大声告诉你`
     },{
         artist: "陈泫孝（大泫）",
-        lyrics: `${HOSTING_URL1}陈泫孝（大泫） - 静悄悄.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}陈泫孝（大泫） - 静悄悄.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}陈泫孝（大泫） - 静悄悄.lrc`,
+        album: { cover: `${HOSTING_URL1}陈泫孝（大泫） - 静悄悄.jpg` },
         title: "静悄悄",
         filename: `${HOSTING_URL1}陈泫孝（大泫） - 静悄悄`
     },{
         artist: "阿肆",
-        lyrics: `${HOSTING_URL1}阿肆 - 熱愛105°C的你.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}阿肆 - 熱愛105°C的你.lrc`,
         album: { cover: "img/album.png" },
         title: "熱愛105°C的你",
         filename: `${HOSTING_URL1}阿肆 - 熱愛105°C的你`
     },{
         artist: "李宗盛＆林憶蓮",
-        lyrics: `${HOSTING_URL1}李宗盛＆林憶蓮 - 當愛已成往事.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}李宗盛＆林憶蓮 - 當愛已成往事.lrc`,
         album: { cover: "img/album.png" },
         title: "當愛已成往事",
         filename: `${HOSTING_URL1}李宗盛＆林憶蓮 - 當愛已成往事`
@@ -4521,49 +4521,49 @@ export const songs = [
         filename: `${HOSTING_URL1}陳淑樺 - 夢醒時分`
     },{
         artist: "陳奕迅",
-        lyrics: `${HOSTING_URL1}陳奕迅 - 十年.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}陳奕迅 - 十年.lrc`,
         album: { cover: "img/album.png" },
         title: "十年",
         filename: `${HOSTING_URL1}陳奕迅 - 十年`
     },{
         artist: "陶晶瑩",
-        lyrics: `${HOSTING_URL1}陶晶瑩 - 太委屈.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}陶晶瑩 - 太委屈.lrc`,
         album: { cover: "img/album.png" },
         title: "太委屈",
         filename: `${HOSTING_URL1}陶晶瑩 - 太委屈`
     },{
         artist: "李聖杰",
-        lyrics: `${HOSTING_URL1}李聖杰 - 你那麽愛她.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}李聖杰 - 你那麽愛她.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}李聖杰 - 你那麽愛她.lrc`,
+        album: { cover: `${HOSTING_URL1}李聖杰 - 你那麽愛她.jpg` },
         title: "你那麽愛她",
         filename: `${HOSTING_URL1}李聖杰 - 你那麽愛她`
     },{
         artist: "FIR",
-        lyrics: `${HOSTING_URL1}FIR - 我們的愛.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}FIR - 飛兒樂團.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}FIR - 我們的愛.lrc`,
+        album: { cover: `${HOSTING_URL1}FIR - 飛兒樂團.jpg` },
         title: "我們的愛",
         filename: `${HOSTING_URL1}FIR - 我們的愛`
     },{
         artist: "周杰倫、梁心頤",
-        lyrics: `${HOSTING_URL1}周杰倫、梁心頤 - 珊瑚海.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}周杰倫、梁心頤 - 珊瑚海.lrc`,
         album: { cover: "img/album.png" },
         title: "珊瑚海",
         filename: `${HOSTING_URL1}周杰倫、梁心頤 - 珊瑚海`
     },{
         artist: "周杰倫",
-        lyrics: `${HOSTING_URL1}周杰倫 - 安靜.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}周杰倫 - 安靜.lrc`,
         album: { cover: "img/album.png" },
         title: "安靜",
         filename: `${HOSTING_URL1}周杰倫 - 安靜`
     },{
         artist: "周杰倫",
-        lyrics: `${HOSTING_URL1}周杰倫 - 蒲公英的約定.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}周杰倫 - 蒲公英的約定.lrc`,
         album: { cover: "img/album.png" },
         title: "蒲公英的約定",
         filename: `${HOSTING_URL1}周杰倫 - 蒲公英的約定`
     },{
         artist: "周杰倫",
-        lyrics: `${HOSTING_URL1}周杰倫 - 說好的幸福呢.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}周杰倫 - 說好的幸福呢.lrc`,
         album: { cover: "img/album.png" },
         title: "說好的幸福呢",
         filename: `${HOSTING_URL1}周杰倫 - 說好的幸福呢`
@@ -4575,86 +4575,86 @@ export const songs = [
         filename: `${HOSTING_URL1}張玉華 - 那又怎麼樣呢`
     },{
         artist: "阿桑",
-        lyrics: `${HOSTING_URL1}阿桑 - 一直很安静.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}阿桑 - 寂寞在唱歌.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}阿桑 - 一直很安静.lrc`,
+        album: { cover: `${HOSTING_URL1}阿桑 - 寂寞在唱歌.jpg` },
         title: "一直很安静",
         filename: `${HOSTING_URL1}阿桑 - 一直很安静`
     },{
         artist: "光良",
-        lyrics: `${HOSTING_URL1}光良 - 第一次.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}光良 - 第一次.lrc`,
         album: { cover: "img/album.png" },
         title: "第一次",
         filename: `${HOSTING_URL1}光良 - 第一次`
     },{
         artist: "梁静茹",
-        lyrics: `${HOSTING_URL1}梁静茹 - 可惜不是你.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}梁静茹 - 可惜不是你.lrc`,
         album: { cover: "img/album.png" },
         title: "可惜不是你",
         filename: `${HOSTING_URL1}梁静茹 - 可惜不是你`
     },{
         artist: "桂莹莹",
-        lyrics: `${HOSTING_URL1}桂莹莹 - 香水有毒.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}桂莹莹 - 香水有毒.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}桂莹莹 - 香水有毒.lrc`,
+        album: { cover: `${HOSTING_URL1}桂莹莹 - 香水有毒.jpg` },
         title: "香水有毒",
         filename: `${HOSTING_URL1}桂莹莹 - 香水有毒`
     },{
         artist: "冷漠",
-        lyrics: `${HOSTING_URL1}冷漠 - 小三.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}冷漠 - 小三.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}冷漠 - 小三.lrc`,
+        album: { cover: `${HOSTING_URL1}冷漠 - 小三.jpg` },
         title: "小三",
         filename: `${HOSTING_URL1}冷漠 - 小三`
     },{
         artist: "阿木",
-        lyrics: `${HOSTING_URL1}阿木 - 有一种爱叫做放手.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}阿木 - 有一种爱叫做放手.lrc`,
         album: { cover: "img/album.png" },
         title: "有一种爱叫做放手",
         filename: `${HOSTING_URL1}阿木 - 有一种爱叫做放手`
     },{
         artist: "徐誉滕",
-        lyrics: `${HOSTING_URL1}徐誉滕 - 等一分钟.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}徐誉滕 - 等一分钟.lrc`,
         album: { cover: "img/album.png" },
         title: "等一分钟",
         filename: `${HOSTING_URL1}徐誉滕 - 等一分钟`
     },{
         artist: "T.R.Y",
-        lyrics: `${HOSTING_URL1}T.R.Y - 不是因为寂寞才想你.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}T.R.Y - 不是因为寂寞才想你.lrc`,
         album: { cover: "img/album.png" },
         title: "不是因为寂寞才想你",
         filename: `${HOSTING_URL1}T.R.Y - 不是因为寂寞才想你`
     },{
         artist: "马天宇",
-        lyrics: `${HOSTING_URL1}马天宇 - 该死的温柔.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}马天宇 - 该死的温柔.lrc`,
         album: { cover: "img/album.png" },
         title: "该死的温柔",
         filename: `${HOSTING_URL1}马天宇 - 该死的温柔`
     },{
         artist: "六哲＆陈娟儿",
-        lyrics: `${HOSTING_URL1}六哲＆陈娟儿 - 错错错.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}六哲＆陈娟儿 - 错错错.lrc`,
         album: { cover: "img/album.png" },
         title: "错错错",
         filename: `${HOSTING_URL1}六哲＆陈娟儿 - 错错错`
     },{
         artist: "胡夏",
-        lyrics: `${HOSTING_URL1}胡夏 - 那些年.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}胡夏 - 那些年.lrc`,
         album: { cover: "img/album.png" },
         title: "那些年",
         filename: `${HOSTING_URL1}胡夏 - 那些年`
     },{
         artist: "毛不易",
-        lyrics: `${HOSTING_URL1}毛不易 - 像我这样的人.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}毛不易 - 像我这样的人.lrc`,
         album: { cover: "img/album.png" },
         title: "像我这样的人",
         filename: `${HOSTING_URL1}毛不易 - 像我这样的人`
     },{
         artist: "于文文",
-        lyrics: `${HOSTING_URL1}于文文 - 体面.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}于文文 - 体面.lrc`,
         album: { cover: "img/album.png" },
         title: "体面",
         filename: `${HOSTING_URL1}于文文 - 体面`
     },{
         artist: "夏天 Alex",
-        lyrics: `${HOSTING_URL1}夏天Alex - 不再联系.lrc?proxied`,
-        album: { cover: `${HOSTING_URL1}夏天Alex - 不再联系.jpg?raw&proxied` },
+        lyrics: `${HOSTING_URL1}夏天Alex - 不再联系.lrc`,
+        album: { cover: `${HOSTING_URL1}夏天Alex - 不再联系.jpg` },
         title: "不再联系",
         filename: `${HOSTING_URL1}夏天Alex - 不再联系`
     },{
@@ -4665,19 +4665,19 @@ export const songs = [
         filename: `${HOSTING_URL1}曾一鸣 - 像疯了一样`
     },{
         artist: "孙方",
-        lyrics: `${HOSTING_URL1}孙方 - 再爱不能.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}孙方 - 再爱不能.lrc`,
         album: { cover: "img/album.png" },
         title: "再爱不能",
         filename: `${HOSTING_URL1}孙方 - 再爱不能`
     },{
         artist: "韓紅",
-        lyrics: `${HOSTING_URL1}韓紅 - 青藏高原.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}韓紅 - 青藏高原.lrc`,
         album: { cover: "img/album.png" },
         title: "青藏高原",
         filename: `${HOSTING_URL1}韓紅 - 青藏高原`
     },{
         artist: "乌兰托娅",
-        lyrics: `${HOSTING_URL1}乌兰托娅 - 火红的萨日朗.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}乌兰托娅 - 火红的萨日朗.lrc`,
         album: { cover: "img/album.png" },
         title: "火红的萨日朗",
         filename: `${HOSTING_URL1}乌兰托娅 - 火红的萨日朗`
@@ -4731,80 +4731,80 @@ export const songs = [
         filename: `${HOSTING_URL1}五音Jw - 赴人间`
     },{
         artist: "G.E.M. 鄧紫棋",
-        lyrics: `${HOSTING_URL1}G.E.M. 鄧紫棋 - 來自天堂的魔鬼.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}G.E.M. 鄧紫棋 - 來自天堂的魔鬼.lrc`,
         album: { cover: "img/album.png" },
         title: "來自天堂的魔鬼",
         filename: `${HOSTING_URL1}G.E.M. 鄧紫棋 - 來自天堂的魔鬼`
     },{
         artist: "艾辰",
-        lyrics: `${HOSTING_URL1}艾辰 - 錯位時空.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}艾辰 - 錯位時空.lrc`,
         album: { cover: "img/album.png" },
         title: "錯位時空",
         filename: `${HOSTING_URL1}艾辰 - 錯位時空`
     },{
         artist: "阿冗",
-        lyrics: `${HOSTING_URL1}阿冗 - 你的答案.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}阿冗 - 你的答案.lrc`,
         album: { cover: "img/album.png" },
         title: "你的答案",
         filename: `${HOSTING_URL1}阿冗 - 你的答案`
     },{
         artist: "文慧如",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg` },
         title: "还原",
         filename: `${HOSTING_URL1}文慧如/还原/01 还原`
     },{
         artist: "文慧如",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg` },
         title: "Crush on You",
         filename: `${HOSTING_URL1}文慧如/还原/02 Crush on You`
     },{
         artist: "文慧如",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg` },
         title: "全放空 ft. 鼓鼓 吕思纬",
         filename: `${HOSTING_URL1}文慧如/还原/03 全放空 ft. 鼓鼓 吕思纬`
     },{
         artist: "文慧如",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg` },
         title: "玩意",
         filename: `${HOSTING_URL1}文慧如/还原/04 玩意`
     },{
         artist: "文慧如",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg` },
         title: "Messed Up ft.邱锋泽",
         filename: `${HOSTING_URL1}文慧如/还原/05 Messed Up ft.邱锋泽`
     },{
         artist: "文慧如",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg` },
         title: "I'm Lost",
         filename: `${HOSTING_URL1}文慧如/还原/06 I'm Lost`
     },{
         artist: "文慧如",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg` },
         title: "不可言说",
         filename: `${HOSTING_URL1}文慧如/还原/07 不可言说`
     },{
         artist: "文慧如",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg` },
         title: "同行",
         filename: `${HOSTING_URL1}文慧如/还原/08 同行`
     },{
         artist: "文慧如",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg` },
         title: "Don't Be Afraid ft. 黄祝贤儒",
         filename: `${HOSTING_URL1}文慧如/还原/09 Don't Be Afraid ft. 黄祝贤儒`
     },{
         artist: "文慧如",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}文慧如/还原/Cover.jpg` },
         title: "做你的太阳",
         filename: `${HOSTING_URL1}文慧如/还原/10 做你的太阳`
     },{
@@ -4816,25 +4816,25 @@ export const songs = [
     },{
         artist: "李聖傑",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}李聖傑/Face II 真・裏/Cover.png?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}李聖傑/Face II 真・裏/Cover.png` },
         title: "FACE",
         filename: `${HOSTING_URL1}李聖傑/Face II 真・裏/01 FACE`
     },{
         artist: "李聖傑",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}李聖傑/Face II 真・裏/Cover.png?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}李聖傑/Face II 真・裏/Cover.png` },
         title: "時尚大叔",
         filename: `${HOSTING_URL1}李聖傑/Face II 真・裏/02 時尚大叔`
     },{
         artist: "李聖傑",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}李聖傑/Face II 真・裏/Cover.png?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}李聖傑/Face II 真・裏/Cover.png` },
         title: "最美的遺憾",
         filename: `${HOSTING_URL1}李聖傑/Face II 真・裏/03 最美的遺憾`
     },{
         artist: "李聖傑",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}李聖傑/Face II 真・裏/Cover.png?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}李聖傑/Face II 真・裏/Cover.png` },
         title: "塔圖",
         filename: `${HOSTING_URL1}李聖傑/Face II 真・裏/04 塔圖`
     },{
@@ -4845,25 +4845,25 @@ export const songs = [
         filename: `${HOSTING_URL1}翁立友 - 我問天`
     },{
         artist: "蔡小虎",
-        lyrics: `${HOSTING_URL1}蔡小虎 - 愛情爐丹.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}蔡小虎 - 愛情爐丹.lrc`,
         album: { cover: "img/album.png" },
         title: "愛情爐丹",
         filename: `${HOSTING_URL1}蔡小虎 - 愛情爐丹`
     },{
         artist: "唐儷＆陳隨意",
-        lyrics: `${HOSTING_URL1}唐儷＆陳隨意 - 夢紅塵.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}唐儷＆陳隨意 - 夢紅塵.lrc`,
         album: { cover: "img/album.png" },
         title: "夢紅塵",
         filename: `${HOSTING_URL1}唐儷＆陳隨意 - 夢紅塵`
     },{
         artist: "唐儷＆陳隨意",
-        lyrics: `${HOSTING_URL1}唐儷＆陳隨意 - 今生只為你.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}唐儷＆陳隨意 - 今生只為你.lrc`,
         album: { cover: "img/album.png" },
         title: "今生只為你",
         filename: `${HOSTING_URL1}唐儷＆陳隨意 - 今生只為你`
     },{
         artist: "鄭智化",
-        lyrics: `${HOSTING_URL1}鄭智化 - 星星點燈.lrc?proxied`,
+        lyrics: `${HOSTING_URL1}鄭智化 - 星星點燈.lrc`,
         album: { cover: "img/album.png" },
         title: "星星點燈",
         filename: `${HOSTING_URL1}鄭智化 - 星星點燈`
@@ -4876,7 +4876,7 @@ export const songs = [
     },{
         artist: "Saint Preux",
         lyrics: null,
-        album: { cover: `${HOSTING_URL1}Saint Preux/Concerto pour deux voix/Cover.jpg?raw&proxied` },
+        album: { cover: `${HOSTING_URL1}Saint Preux/Concerto pour deux voix/Cover.jpg` },
         title: "Concerto pour deux voix",
         filename: `${HOSTING_URL1}Saint Preux/Concerto pour deux voix/01 Concerto pour deux voix`
     }
