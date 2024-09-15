@@ -1,5 +1,5 @@
-const HOSTING_URL1 = `//drive.emocdn.workers.dev/`;
-const HOSTING_URL2 = `//onedrive-cf-index-ng-5fb.pages.dev/api/raw?path=/Apps/`;
+const HOSTING_URL1 = `//onedrive-cf-index-ng-cro.pages.dev/api/raw?path=/`;
+const HOSTING_URL2 = `//onedrive-cf-index-ng-5fb.pages.dev/api/raw?path=/`;
 const HOSTING_URL3 = `//cdn.bytwm2hc.boo/`;
 
 export const songs = [

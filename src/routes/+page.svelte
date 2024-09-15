@@ -126,7 +126,7 @@
             volumeNode.connect(audioContext.destination);
             convolverNode.connect(gainWetNode);
 
-            fetch('arena.wav').then(function (response) {
+            fetch('//cdn.bytwm2hc.boo/arena.wav').then(function (response) {
                 'use strict';
                 response.arrayBuffer().then(function (ab) {
                     'use strict';
