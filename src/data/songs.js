@@ -4730,6 +4730,12 @@ export const songs = [
         title: "赴人间",
         filename: `${HOSTING_URL1}五音Jw - 赴人间`
     },{
+        artist: "羅志祥",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "精舞門",
+        filename: `${HOSTING_URL1}羅志祥 - 精舞門`
+    },{
         artist: "G.E.M. 鄧紫棋",
         lyrics: `${HOSTING_URL1}G.E.M. 鄧紫棋 - 來自天堂的魔鬼.lrc`,
         album: { cover: "img/album.png" },
