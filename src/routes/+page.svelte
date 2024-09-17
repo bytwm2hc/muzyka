@@ -46,6 +46,7 @@
         gainWetNode,
         volumeNode,
         //highShelf,
+        panNode,
         sourceNode,
         buffer,
         startTime,
@@ -60,6 +61,10 @@
     onMount(() => {
         'use strict';
         const AudioContext = window.AudioContext || window.webkitAudioContext;
+        const params = new Proxy(new URLSearchParams(window.location.search), {
+            get: (searchParams, prop) => searchParams.get(prop),
+        });
+        
         if (iOS()) {
             document.getElementById('overlay').addEventListener('click', async function () {
                 document.getElementById('overlay').style.display = 'none';
@@ -80,6 +85,14 @@
                 gainWetNode.connect(volumeNode);
                 volumeNode.connect(audioContext.destination);
                 convolverNode.connect(gainWetNode);
+                // Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
+                if (params.pan !== undefined) {
+                    panNode = audioContext.createStereoPanner();
+                    panNode.pan.setValueAtTime(Number(params.pan), audioContext.currentTime);
+                    panNode.connect(convolverNode);
+                    //panNode.connect(highShelf);
+                    panNode.connect(gainDryNode);
+                }
 
                 fetch('//cdn.bytwm2hc.boo/arena.wav').then(function (response) {
                     'use strict';
@@ -125,6 +138,14 @@
             gainWetNode.connect(volumeNode);
             volumeNode.connect(audioContext.destination);
             convolverNode.connect(gainWetNode);
+            // Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
+            if (params.pan !== undefined) {
+                panNode = audioContext.createStereoPanner();
+                panNode.pan.setValueAtTime(Number(params.pan), audioContext.currentTime);
+                panNode.connect(convolverNode);
+                //panNode.connect(highShelf);
+                panNode.connect(gainDryNode);
+            }
 
             fetch('//cdn.bytwm2hc.boo/arena.wav').then(function (response) {
                 'use strict';
@@ -174,9 +195,13 @@
                 event.data.L = undefined;
                 aud_buf.copyToChannel(event.data.R, 1);
                 event.data.R = undefined;
-                bsn.connect(convolverNode);
-                //bsn.connect(highShelf);
-                bsn.connect(gainDryNode);
+                if (panNode === undefined) {
+                    bsn.connect(convolverNode);
+                    //bsn.connect(highShelf);
+                    bsn.connect(gainDryNode);
+                } else {
+                    bsn.connect(panNode);
+                }
                 //console.log(aud_buf);
                 bsn.onended = function () {
                     wavpackWrapper.contentWindow.postMessage('onended', '*');
@@ -267,9 +292,14 @@
             // Resume playing
             if (paused) {
                 sourceNode.buffer = buffer;
-                sourceNode.connect(convolverNode);
-                //sourceNode.connect(highShelf);
-                sourceNode.connect(gainDryNode);
+                if (panNode === undefined) {
+                    sourceNode.connect(convolverNode);
+                    //sourceNode.connect(highShelf);
+                    sourceNode.connect(gainDryNode);
+                } else {
+                    sourceNode.connect(panNode);
+                }
+                sourceNode.onended = onended;
                 try {
                     if (sourceNode.start) {
                         sourceNode.start(0, seekTime);
@@ -303,11 +333,15 @@
                     try {
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
-                            //gainDryNode.gain.value = 1;
-                            gainWetNode.gain.value = 1.25;
-                            sourceNode.connect(convolverNode);
-                            //sourceNode.connect(highShelf);
-                            sourceNode.connect(gainDryNode);
+                            gainDryNode.gain.value = 0.5;
+                            //gainWetNode.gain.value = 1;
+                            if (panNode === undefined) {
+                                sourceNode.connect(convolverNode);
+                                //sourceNode.connect(highShelf);
+                                sourceNode.connect(gainDryNode);
+                            } else {
+                                sourceNode.connect(panNode);
+                            }
                             sourceNode.onended = onended;
 
                             try {
@@ -406,9 +440,13 @@
             sourceNode.stop();
             sourceNode = audioContext.createBufferSource();
             sourceNode.buffer = buffer;
-            sourceNode.connect(convolverNode);
-            //sourceNode.connect(highShelf);
-            sourceNode.connect(gainDryNode);
+            if (panNode === undefined) {
+                sourceNode.connect(convolverNode);
+                //sourceNode.connect(highShelf);
+                sourceNode.connect(gainDryNode);
+            } else {
+                sourceNode.connect(panNode);
+            }
             sourceNode.onended = onended;
             if (sourceNode.start) {
                 sourceNode.start(0, slider.value);
@@ -563,9 +601,13 @@
                     event.data.L = undefined;
                     aud_buf.copyToChannel(event.data.R, 1);
                     event.data.R = undefined;
-                    bsn.connect(convolverNode);
-                    //bsn.connect(highShelf);
-                    bsn.connect(gainDryNode);
+                    if (panNode === undefined) {
+                        bsn.connect(convolverNode);
+                        //bsn.connect(highShelf);
+                        bsn.connect(gainDryNode);
+                    } else {
+                        bsn.connect(panNode);
+                    }
                     bsn.onended = function () {
                         worker.postMessage("onended");
                     };
@@ -615,7 +657,7 @@
                 worker.postMessage('BYTES_PER_ELEMENT');
             }, 0);
         //}
-        gainDryNode.gain.value = 0.625;
+        gainDryNode.gain.value = 0.375;
         gainWetNode.gain.value = 0.75;
 
         sourceNode.buffer = audioContext.createBuffer(2, 1, audioContext.sampleRate);
