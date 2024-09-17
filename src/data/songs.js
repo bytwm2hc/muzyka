@@ -32,6 +32,15 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL3}S.H.E - 月桂女神`
     },{
+        artist: "陳芳語",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "愛你",
+        isWavPack: true,
+        filename: `${HOSTING_URL3}陳芳語 - 愛你`
+    },{
         artist: "张妙格",
         lyrics: null,
         album: {
