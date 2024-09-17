@@ -50,6 +50,15 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL3}张妙格 - 我期待的不是雪`
     },{
+        artist: "動力火車",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "忠孝東路走九遍",
+        isWavPack: true,
+        filename: `${HOSTING_URL3}動力火車 - 忠孝東路走九遍`
+    },{
         artist: "Andrea Bocelli",
         lyrics: null,
         album: {
