@@ -32,6 +32,24 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL3}S.H.E - 月桂女神`
     },{
+        artist: "張棟樑",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "當你孤單你會想起誰",
+        isWavPack: true,
+        filename: `${HOSTING_URL3}張棟樑 - 當你孤單你會想起誰`
+    },{
+        artist: "張棟樑",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "小烏龜",
+        isWavPack: true,
+        filename: `${HOSTING_URL3}張棟樑 -小烏龜`
+    },{
         artist: "陳芳語",
         lyrics: null,
         album: {
