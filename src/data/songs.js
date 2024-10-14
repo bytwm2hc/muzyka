@@ -59,6 +59,15 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL3}陳芳語 - 愛你`
     },{
+        artist: "孫楠",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "拯救",
+        isWavPack: true,
+        filename: `${HOSTING_URL3}孫楠 - 拯救`
+    },{
         artist: "张妙格",
         lyrics: null,
         album: {
