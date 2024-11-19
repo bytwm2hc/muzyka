@@ -268,8 +268,6 @@ self.onmessage = function (event) {
     if (event.data === "free") {
         if (arrayPointer) {
             Module.ccall('finaliseWavPack', null, ['string'], [filename]);
-            Module._free(Module.HEAP32.buffer);
-            Module._free(arrayPointer);
         }
         return;
     }
