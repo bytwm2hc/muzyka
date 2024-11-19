@@ -72,7 +72,7 @@ export const songs = [
         album: {
             cover: "img/album.png"
         },
-        title: "北酒場",
+        title: "浪花節だよ人生は",
         isWavPack: true,
         filename: `${HOSTING_URL2}細川たかし - 浪花節だよ人生は`
     },{
@@ -223,7 +223,7 @@ export const songs = [
         title: "baby maybe 恋のボタン",
         isWavPack: true,
         filename: `${HOSTING_URL2}μ's/Snow halation/02 baby maybe 恋のボタン`
-    },*/{
+    },{
         artist: "Printemps",
         lyrics: null,
         album: {
@@ -232,7 +232,7 @@ export const songs = [
         title: "Love marginal",
         isWavPack: true,
         filename: `${HOSTING_URL2}μ's/Love marginal/01 Love marginal`
-    },/*{
+    },{
         artist: "Printemps",
         lyrics: null,
         album: {
@@ -1161,7 +1161,7 @@ export const songs = [
         title: "ファウスト",
         isWavPack: true,
         filename: `${HOSTING_URL2}女王蜂/メフィスト/02 ファウスト`
-    },*/{
+    },{
         artist: "西野カナ",
         lyrics: null,
         album: {
@@ -1179,7 +1179,7 @@ export const songs = [
         title: "トリセツ",
         isWavPack: true,
         filename: `${HOSTING_URL2}西野カナ - トリセツ`
-    },{
+    },*/{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
