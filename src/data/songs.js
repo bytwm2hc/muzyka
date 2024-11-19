@@ -49,15 +49,6 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}張惠妹 - Time To Say Goodbye`
     },{
-        artist: "Saka Trương Tuyền & Lương Gia Huy",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "Tình Yêu Trong Sáng",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}Saka Trương Tuyền & Lương Gia Huy - Tình Yêu Trong Sáng`
-    },{
         artist: "ヒロシ＆キーボー",
         lyrics: null,
         album: {
@@ -1781,9 +1772,9 @@ export const songs = [
         album: {
             cover: "img/album.png"
         },
-        title: "特别的爱给特别的你",
+        title: "特別的愛給特別的你",
         isWavPack: true,
-        filename: `${HOSTING_URL2}伍思凯 - 特别的爱给特别的你`
+        filename: `${HOSTING_URL2}伍思凱 - 特別的愛給特別的你`
     },{
         artist: "張雨生",
         lyrics: null,
@@ -1828,24 +1819,6 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}陈明 - 我要找到你`
     },{
-        artist: "柯柯柯啊",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "姑娘别哭泣",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}柯柯柯啊 - 姑娘别哭泣`
-    },{
-        artist: "艾北",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "姑娘别哭泣",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}艾北 - 姑娘别哭泣`
-    },{
         artist: "林志炫",
         lyrics: null,
         album: {
@@ -1887,7 +1860,7 @@ export const songs = [
         },
         title: "崇拜",
         isWavPack: true,
-        filename: `${HOSTING_URL2}梁靜茹 - 崇拜`
+        filename: `${HOSTING_URL2}梁静茹 - 崇拜`
     },{
         artist: "S.H.E",
         lyrics: null,
@@ -1985,6 +1958,24 @@ export const songs = [
         title: "愛你",
         isWavPack: true,
         filename: `${HOSTING_URL2}陳芳語 - 愛你`
+    },{
+        artist: "柯柯柯啊",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "姑娘别哭泣",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}柯柯柯啊 - 姑娘别哭泣`
+    },{
+        artist: "艾北",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "姑娘别哭泣",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}艾北 - 姑娘别哭泣`
     },{
         artist: "威仔＆格子兮",
         lyrics: null,
@@ -2481,6 +2472,15 @@ export const songs = [
         title: "Thêm Một Lần Đau",
         isWavPack: true,
         filename: `${HOSTING_URL2}HKT/Mặt Trái Của Sự Thật/05 Thêm Một Lần Đau`
+    },{
+        artist: "Saka Trương Tuyền & Lương Gia Huy",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Tình Yêu Trong Sáng",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}Saka Trương Tuyền & Lương Gia Huy - Tình Yêu Trong Sáng`
     },{
         artist: "8/pLanet!!",
         lyrics: null,
