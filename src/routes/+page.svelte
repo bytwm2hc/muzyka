@@ -94,7 +94,7 @@
                     panNode.connect(gainDryNode);
                 }
 
-                fetch('//cdn.bytwm2hc.boo/arena.wav').then(function (response) {
+                fetch('//cdn.mecx.dev/arena.wav').then(function (response) {
                     'use strict';
                     response.arrayBuffer().then(function (ab) {
                         'use strict';
@@ -147,7 +147,7 @@
                 panNode.connect(gainDryNode);
             }
 
-            fetch('//cdn.bytwm2hc.boo/arena.wav').then(function (response) {
+            fetch('//cdn.mecx.dev/arena.wav').then(function (response) {
                 'use strict';
                 response.arrayBuffer().then(function (ab) {
                     'use strict';
@@ -766,7 +766,7 @@
 	src={$source}
 />-->
 <audio bind:this={audio} on:loadeddata={() => isLoaded.set(true)} crossorigin loop>
-    <source src="//cdn.bytwm2hc.boo/silence.wav" type="audio/x-wav" />
+    <source src="//cdn.mecx.dev/silence.wav" type="audio/x-wav" />
 </audio>
 
 <style>

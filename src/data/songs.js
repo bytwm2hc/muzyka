@@ -1740,6 +1740,15 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/10 Reply`
     },*/{
+        artist: "王菲",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "因為愛情",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}王菲 - 因為愛情`
+    },{
         artist: "那英",
         lyrics: null,
         album: {
@@ -1767,15 +1776,6 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}王馨平 - 別問我是誰`
     },{
-        artist: "王菲",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "因為愛情",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}王菲 - 因為愛情`
-    },{
         artist: "伍思凯",
         lyrics: null,
         album: {
@@ -1794,6 +1794,31 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}張雨生 - 口是心非`
     },{
+        artist: "張雨生",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "我的未來不是夢",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}張雨生 - 我的未來不是夢`
+    },{
+        artist: "王麟＆老猫",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "伤不起",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}王麟＆老猫 - 伤不起`
+    },{
+        artist: "陈明",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "快乐老家",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}陈明 - 快乐老家`
+    },{
         artist: "陈明",
         lyrics: null,
         album: {
@@ -1802,6 +1827,15 @@ export const songs = [
         title: "我要找到你",
         isWavPack: true,
         filename: `${HOSTING_URL2}陈明 - 我要找到你`
+    },{
+        artist: "柯柯柯啊",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "姑娘别哭泣",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}柯柯柯啊 - 姑娘别哭泣`
     },{
         artist: "艾北",
         lyrics: null,
@@ -1812,14 +1846,30 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}艾北 - 姑娘别哭泣`
     },{
-        artist: "柯柯柯啊",
+        artist: "林志炫",
         lyrics: null,
         album: {
             cover: "img/album.png"
         },
-        title: "姑娘别哭泣",
+        title: "單身情歌",
         isWavPack: true,
-        filename: `${HOSTING_URL2}柯柯柯啊 - 姑娘别哭泣`
+        filename: `${HOSTING_URL2}林志炫 - 單身情歌`
+    },{
+        artist: "誓言",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "求佛",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}誓言 - 求佛`
+    },{
+        artist: "動力火車",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "忠孝東路走九遍",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}動力火車 - 忠孝東路走九遍`
     },{
         artist: "林憶蓮",
         lyrics: null,
@@ -1857,14 +1907,23 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}S.H.E - 月桂女神`
     },{
-        artist: "動力火車",
+        artist: "S.H.E",
         lyrics: null,
         album: {
             cover: "img/album.png"
         },
-        title: "忠孝東路走九遍",
+        title: "中國話",
         isWavPack: true,
-        filename: `${HOSTING_URL2}動力火車 - 忠孝東路走九遍`
+        filename: `${HOSTING_URL2}S.H.E - 中國話`
+    },{
+        artist: "S.H.E & 飛輪海",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "謝謝你的溫柔",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}S.H.E - 謝謝你的溫柔`
     },{
         artist: "張棟樑",
         lyrics: null,
@@ -1884,14 +1943,12 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}張棟樑 - 小烏龜`
     },{
-        artist: "陳芳語",
+        artist: "馬鬱",
         lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "愛你",
+        album: { cover: "img/album.png" },
+        title: "如果下輩子我還記得你",
         isWavPack: true,
-        filename: `${HOSTING_URL2}陳芳語 - 愛你`
+        filename: `${HOSTING_URL2}馬鬱 - 如果下輩子我還記得你`
     },{
         artist: "張韶涵",
         lyrics: null,
@@ -1920,6 +1977,15 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}南拳媽媽 - 下雨天`
     },{
+        artist: "陳芳語",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "愛你",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}陳芳語 - 愛你`
+    },{
         artist: "威仔＆格子兮",
         lyrics: null,
         album: {
@@ -1937,33 +2003,6 @@ export const songs = [
         title: "我知道你不爱我(DJAx祥版)",
         isWavPack: true,
         filename: `${HOSTING_URL2}威仔＆格子兮 - 我知道你不爱我(DJAx祥版)`
-    },{
-        artist: "林志炫",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "單身情歌",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}林志炫 - 單身情歌`
-    },{
-        artist: "S.H.E",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "中國話",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}S.H.E/Play/01 中國話`
-    },{
-        artist: "S.H.E & 飛輪海",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "謝謝你的溫柔",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}S.H.E/Play/02 謝謝你的溫柔`
     },/*{
         artist: "G.E.M.鄧紫棋",
         lyrics: null,
@@ -2324,33 +2363,21 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}Katie Sky - Monsters`
     },*/{
-        artist: "王麟＆老猫",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "伤不起",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}王麟＆老猫 - 伤不起`
-    },{
-        artist: "馬鬱",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "如果下輩子我還記得你",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}馬鬱 - 如果下輩子我還記得你`
-    },{
-        artist: "誓言",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "求佛",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}誓言 - 求佛`
-    },{
         artist: "汪峰",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "春天裡",
         isWavPack: true,
         filename: `${HOSTING_URL2}汪峰 - 春天裡`
+    },{
+        artist: "孫楠",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "拯救",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}孫楠 - 拯救`
     },{
         artist: "韩安旭",
         lyrics: null,
@@ -2366,14 +2393,12 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}大壮 - 伪装`
     },{
-        artist: "孫楠",
+        artist: "旺仔小乔",
         lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "拯救",
+        album: { cover: "img/album.png" },
+        title: "樱花树下的约定",
         isWavPack: true,
-        filename: `${HOSTING_URL2}孫楠 - 拯救`
+        filename: `${HOSTING_URL2}旺仔小乔 - 樱花树下的约定`
     },{
         artist: "张妙格",
         lyrics: null,
@@ -2383,13 +2408,6 @@ export const songs = [
         title: "我期待的不是雪",
         isWavPack: true,
         filename: `${HOSTING_URL2}张妙格 - 我期待的不是雪`
-    },{
-        artist: "旺仔小乔",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "樱花树下的约定",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}旺仔小乔 - 樱花树下的约定`
     },/*{
         artist: "Approaching Nirvana",
         lyrics: null,
