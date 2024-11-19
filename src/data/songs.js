@@ -57,7 +57,7 @@ export const songs = [
         title: "3年目の浮気",
         isWavPack: true,
         filename: `${HOSTING_URL2}ヒロシ＆キーボー - 3年目の浮気`
-    },/*{
+    },{
         artist: "細川たかし",
         lyrics: null,
         album: {
@@ -66,17 +66,26 @@ export const songs = [
         title: "北酒場",
         isWavPack: true,
         filename: `${HOSTING_URL2}細川たかし - 北酒場`
-    },*/{
+    },{
+        artist: "細川たかし",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "北酒場",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}細川たかし - 浪花節だよ人生は`
+    },{
         artist: "いきものがかり",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}いきものがかり/ブルーバード/Cover.jpg`,
+            cover: `${HOSTING_URL2}いきものがかり - ブルーバード.jpg`,
             name: "ブルーバード"
         },
         title: "ブルーバード",
         isWavPack: true,
-        filename: `${HOSTING_URL2}いきものがかり/ブルーバード/01 ブルーバード`
-    },{
+        filename: `${HOSTING_URL2}いきものがかり - ブルーバード`
+    },/*{
         artist: "Alstroemeria Records",
         lyrics: `流れてく 時の中ででも 気だるさが ほらグルグル廻って<br />私から 離れる心も 見えないわ そう知らない？<br />自分から 動くこともなく 時の隙間に 流され続けて<br />知らないわ 周りのことなど 私は私 それだけ<br />夢見てる？ なにも見てない？ 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />こんな自分に 未来はあるの？ こんな世界に 私はいるの？<br />今切ないの？ 今悲しいの？ 自分の事も わからないまま<br />歩むことさえ 疲れるだけよ 人のことなど 知りもしないわ<br />こんな私も 変われるのなら もし変われるのなら 白になる？<br />流れてく 時の中ででも 気だるさがほら グルグル廻って<br />私から 離れる心も 見えないわそう 知らない？<br />自分から 動くこともなく 時の隙間に 流され続けて<br />知らないわ 周りのことなど 私は私 それだけ？<br />夢見てる？ なにも見てない 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />無駄な時間に 未来はあるの？ こんな所に 私は居るの？<br />私のことを 言いたいならば 言葉にするのなら 「ろくでなし」<br />こんな所に 私はいるの？ こんな時間に 私はいるの？<br />こんな私も 変われるのなら もし変われるのなら 白になる？<br />今夢見てる？ なにも見てない？ 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />動くのならば 動くのならば すべて壊すわ すべて壊すわ<br />悲しむならば 悲しむならば 私の心 白く変われる？<br />貴方の事も 私のことも 全ての事も まだ知らないの<br />重い目蓋を 開けたのならば すべて壊すのなら 黒になれ!!!`,
         album: {
@@ -96,7 +105,7 @@ export const songs = [
         title: "Bad Apple!! feat.nomico(Instrumental)",
         isWavPack: true,
         filename: `${HOSTING_URL2}Alstroemeria Records/Bad Apple!! feat.nomico 10th Anniversary/05 Bad Apple!! feat.nomico(Instrumental)`
-    },{
+    },*/{
         artist: "AKINO",
         lyrics: null,
         album: {
@@ -126,7 +135,7 @@ export const songs = [
         title: "COCORO♦Diamond",
         isWavPack: true,
         filename: `${HOSTING_URL2}ドキドキ! プリキュアボーカルアルバム 1 Jump up, GIRLS!/04 キュアダイヤモンド(CV.寿美菜子) - COCORO♦Diamond`
-    },*/{
+    },{
         artist: "飛鳥空 starring 櫻井智",
         lyrics: `えんぴつの先 指で確かめ<br />どんな絵になるの? まだ見えないけど<br /><br />目を閉じると浮かび上がるから<br />心の奥にある想い カタチにしてみて<br /><br />綺麗な絵の具たちを並べてみていると<br />心ときめいてくるの<br /><br />そう 初めての色<br /><br />ふたりで選んだパステルたち<br />あと少しだから お願い気付いて<br /><br />そわそわしてるの バレちゃうかな?<br />目逸らしてるの わざとだよ<br />素直になれない<br /><br />あなたのこと想うと胸が高鳴るから<br />伝えたい この気持ちを<br />そう 風にのせて<br /><br />広い空のキャンパスに筆を走らせて<br />どこまでも自由だから<br />届けたい笑顔を<br /><br />未来描いて`,
         album: { cover: "img/album.png" },
@@ -168,16 +177,16 @@ export const songs = [
         title: "らぶこーる",
         isWavPack: true,
         filename: `${HOSTING_URL2}神のみぞ知るセカイ 中川かのん 1stアルバム「Birth」／中川かのん starring 東山奈央/08 らぶこーる`
-    },{
+    },*/{
         artist: "野水いおり",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}野水いおり/TVアニメーション「デート・ア・ライブ」エンディングテーマ『SAVE THE WORLD』/Cover.jpg`,
+            cover: `${HOSTING_URL2}野水いおり - ストロベリーレイン.jpg`,
             name: "TVアニメーション「デート・ア・ライブ」エンディングテーマ『SAVE THE WORLD』"
         },
         title: "ストロベリーレイン",
         isWavPack: true,
-        filename: `${HOSTING_URL2}野水いおり/TVアニメーション「デート・ア・ライブ」エンディングテーマ『SAVE THE WORLD』/03 ストロベリーレイン`
+        filename: `${HOSTING_URL2}野水いおり - ストロベリーレイン`
     },/*{
         artist: "μ's",
         lyrics: null,
@@ -754,7 +763,7 @@ export const songs = [
         title: "Happy maker!",
         isWavPack: true,
         filename: `${HOSTING_URL2}μ's/μ's Complete BEST BOX Chapter.04/10 Happy maker!`
-    },*/{
+    },{
         artist: "Roys",
         lyrics: null,
         album: {
@@ -804,7 +813,7 @@ export const songs = [
         title: "エーデルシュタイン",
         isWavPack: true,
         filename: `${HOSTING_URL2}ウィーン・マルガレーテ/Butterfly Wing／エーデルシュタイン/02 エーデルシュタイン`
-    },/*{
+    },{
         artist: "ワルキューレ",
         lyrics: `見つめ合って恋をして 無我夢中で追いかけて<br />だけどもっと知りたくて メラメラしてる<br />願うほど謎が増え 思うほど熱になる<br />だからもっと飛び込むの 未開の世界 ah<br />恋とか夢とか誰でも信じるけど<br />ソコソコ攻めなきゃつまんないよ<br />ギリギリ愛 いけないボーダーライン<br />難易度Gでも すべて壊してみせる<br />キリキリ舞い さらなるGへと<br />意識が溶ける 体は制御不能<br />いっちゃうかもね<br />ふざけ合った友達と 求め合ったあの人と<br />また会える日のためにギラギラしてる<br />光るほど影はでき 燃えるほど灰になる<br />走るほど見えてくる 危ないライン ah<br />自由も平和も望めば生まれるけど<br />モタモタしてたら腐っちゃうよ<br />ギリギリ愛 あぶないボーダーレス<br />非常識だね まだ加速しているよ<br /キリキリ舞い<br />限界点なら塗り替えていい<br />破壊と再生から私が出来る<br />ギリギリ愛 いけないボーダーライン<br />難易度Gでも すべて壊してみせる<br />キリキリ舞い さらなるGへと<br />意識が溶ける 体は制御不能<br />いっちゃうかもね<br />ギリギリ愛 いけないボーダーライン<br />燃え尽きながらまだ輝いてみせる<br />キリキリ舞 あなたのために<br />未来のために何度砕け散っても<br />愛することで生まれ変わる<br />愛されたくて生きて帰る`,
         album: {
@@ -1113,7 +1122,7 @@ export const songs = [
         title: "神のまにまに",
         isWavPack: true,
         filename: `${HOSTING_URL2}ワンダーランズ×ショウタイム/ワンダーランズ×ショウタイム SEKAI ALBUM vol.2/04 神のまにまに`
-    },/* {
+    },{
         artist: "fripSide",
         lyrics: null,
         album: {
@@ -1122,7 +1131,7 @@ export const songs = [
         title: "an evening calm",
         isWavPack: true,
         filename: `${HOSTING_URL2}fripSide - an evening calm`
-    },{
+    },/*{
         artist: "YOASOBI",
         lyrics: null,
         album: {
@@ -1660,77 +1669,7 @@ export const songs = [
         title: "しあわせ [feat. Ms.OOJA & SALU]",
         isWavPack: true,
         filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/16 しあわせ [feat. Ms.OOJA & SALU]`
-    },/*{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
-        title: "Magic Words",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/01 Magic Words`
     },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
-        title: "ルルカワイマ",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/02 ルルカワイマ`
-    },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
-        title: "Endless Vacation",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/03 Endless Vacation`
-    },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
-        title: "めたもるふぉーぜ",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/04 めたもるふぉーぜ`
-    },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
-        title: "花鳥風月",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/05 花鳥風月`
-    },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
-        title: "BLUE ROSE",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/06 BLUE ROSE`
-    },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
-        title: "Ambition",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/07 Ambition`
-    },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
-        title: "カラフルホライズン",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/08 カラフルホライズン`
-    },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
-        title: "カルペ・ディエム",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/09 カルペ・ディエム`
-    },{
-        artist: "Liyuu",
-        lyrics: null,
-        album: { cover: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/Cover.jpg` },
-        title: "Reply",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}Liyuu/Fo(u)r YuU/10 Reply`
-    },*/{
         artist: "王菲",
         lyrics: null,
         album: {
@@ -1860,7 +1799,7 @@ export const songs = [
         },
         title: "崇拜",
         isWavPack: true,
-        filename: `${HOSTING_URL2}%E6%A2%81%E9%9D%99%E8%8C%B9%20-%20%E5%B4%87%E6%8B%9C`
+        filename: `${HOSTING_URL2}梁靜茹 - 崇拜`
     },{
         artist: "S.H.E",
         lyrics: null,
@@ -3309,6 +3248,12 @@ export const songs = [
         album: { cover: `${HOSTING_URL1}Seven Billion Dots/HOPE/Cover.jpg` },
         title: "HOPE",
         filename: `${HOSTING_URL1}Seven Billion Dots/HOPE/11 HOPE`
+    },{
+        artist: "Liyuu",
+        lyrics: null,
+        album: { cover: `${HOSTING_URL1}Liyuu - ルルカワイマ.jpg` },
+        title: "ルルカワイマ",
+        filename: `${HOSTING_URL1}Liyuu - ルルカワイマ`
     },{
         artist: "松谷祐子",
         lyrics: `${HOSTING_URL1}松谷祐子 - 愛はブーメラン.lrc`,
