@@ -1,6 +1,5 @@
 const HOSTING_URL1 = `//onedrive-cf-index-ng-cro.pages.dev/api/raw?path=/`;
-const HOSTING_URL2 = `//onedrive-cf-index-ng-5fb.pages.dev/api/raw?path=/`;
-const HOSTING_URL3 = `//cdn.bytwm2hc.boo/`;
+const HOSTING_URL2 = `//cdn.mecx.dev/`;
 
 export const songs = [
     /*{
@@ -14,78 +13,6 @@ export const songs = [
         filename: "01"
     },*/
     {
-        artist: "S.H.E",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "美麗新世界",
-        isWavPack: true,
-        filename: `${HOSTING_URL3}S.H.E - 美麗新世界`
-    },{
-        artist: "S.H.E",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "月桂女神",
-        isWavPack: true,
-        filename: `${HOSTING_URL3}S.H.E - 月桂女神`
-    },{
-        artist: "張棟樑",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "當你孤單你會想起誰",
-        isWavPack: true,
-        filename: `${HOSTING_URL3}張棟樑 - 當你孤單你會想起誰`
-    },{
-        artist: "張棟樑",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "小烏龜",
-        isWavPack: true,
-        filename: `${HOSTING_URL3}張棟樑 - 小烏龜`
-    },{
-        artist: "陳芳語",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "愛你",
-        isWavPack: true,
-        filename: `${HOSTING_URL3}陳芳語 - 愛你`
-    },{
-        artist: "孫楠",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "拯救",
-        isWavPack: true,
-        filename: `${HOSTING_URL3}孫楠 - 拯救`
-    },{
-        artist: "张妙格",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "我期待的不是雪",
-        isWavPack: true,
-        filename: `${HOSTING_URL3}张妙格 - 我期待的不是雪`
-    },{
-        artist: "動力火車",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "忠孝東路走九遍",
-        isWavPack: true,
-        filename: `${HOSTING_URL3}動力火車 - 忠孝東路走九遍`
-    },{
         artist: "Andrea Bocelli",
         lyrics: null,
         album: {
@@ -102,7 +29,7 @@ export const songs = [
         },
         title: "Vivo per lei",
         isWavPack: true,
-        filename: `${HOSTING_URL3}Andrea Bocelli & Giorgia Todrani - Vivo per lei`
+        filename: `${HOSTING_URL2}Andrea Bocelli & Giorgia Todrani - Vivo per lei`
     },{
         artist: "Andrea Bocelli & Sarah Brightman",
         lyrics: null,
@@ -111,7 +38,7 @@ export const songs = [
         },
         title: "Time to Say Goodbye (Con te partirò)",
         isWavPack: true,
-        filename: `${HOSTING_URL3}Andrea Bocelli & Sarah Brightman - Time to Say Goodbye (Con te partirò)`
+        filename: `${HOSTING_URL2}Andrea Bocelli & Sarah Brightman - Time to Say Goodbye (Con te partirò)`
     },{
         artist: "張惠妹",
         lyrics: null,
@@ -129,7 +56,7 @@ export const songs = [
         },
         title: "Tình Yêu Trong Sáng",
         isWavPack: true,
-        filename: `${HOSTING_URL3}Saka Trương Tuyền & Lương Gia Huy - Tình Yêu Trong Sáng`
+        filename: `${HOSTING_URL2}Saka Trương Tuyền & Lương Gia Huy - Tình Yêu Trong Sáng`
     },{
         artist: "ヒロシ＆キーボー",
         lyrics: null,
@@ -1912,6 +1839,60 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}梁靜茹 - 崇拜`
     },{
+        artist: "S.H.E",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "美麗新世界",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}S.H.E - 美麗新世界`
+    },{
+        artist: "S.H.E",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "月桂女神",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}S.H.E - 月桂女神`
+    },{
+        artist: "動力火車",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "忠孝東路走九遍",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}動力火車 - 忠孝東路走九遍`
+    },{
+        artist: "張棟樑",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "當你孤單你會想起誰",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}張棟樑 - 當你孤單你會想起誰`
+    },{
+        artist: "張棟樑",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "小烏龜",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}張棟樑 - 小烏龜`
+    },{
+        artist: "陳芳語",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "愛你",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}陳芳語 - 愛你`
+    },{
         artist: "張韶涵",
         lyrics: null,
         album: {
@@ -2384,6 +2365,24 @@ export const songs = [
         title: "伪装",
         isWavPack: true,
         filename: `${HOSTING_URL2}大壮 - 伪装`
+    },{
+        artist: "孫楠",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "拯救",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}孫楠 - 拯救`
+    },{
+        artist: "张妙格",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "我期待的不是雪",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}张妙格 - 我期待的不是雪`
     },{
         artist: "旺仔小乔",
         lyrics: null,
