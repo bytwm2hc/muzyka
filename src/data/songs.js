@@ -1860,7 +1860,7 @@ export const songs = [
         },
         title: "崇拜",
         isWavPack: true,
-        filename: `${HOSTING_URL2}梁静茹 - 崇拜`
+        filename: `${HOSTING_URL2}%E6%A2%81%E9%9D%99%E8%8C%B9%20-%20%E5%B4%87%E6%8B%9C`
     },{
         artist: "S.H.E",
         lyrics: null,
