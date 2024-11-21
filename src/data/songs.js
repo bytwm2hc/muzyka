@@ -1161,7 +1161,7 @@ export const songs = [
         title: "ファウスト",
         isWavPack: true,
         filename: `${HOSTING_URL2}女王蜂/メフィスト/02 ファウスト`
-    },{
+    },*/{
         artist: "西野カナ",
         lyrics: null,
         album: {
@@ -1169,7 +1169,7 @@ export const songs = [
         },
         title: "Best Friend",
         isWavPack: true,
-        filename: `${HOSTING_URL2}西野カナ - Best Friend`
+        filename: `${HOSTING_URL2}01 Best Friend`
     },{
         artist: "西野カナ",
         lyrics: null,
@@ -1178,8 +1178,8 @@ export const songs = [
         },
         title: "トリセツ",
         isWavPack: true,
-        filename: `${HOSTING_URL2}西野カナ - トリセツ`
-    },*/{
+        filename: `${HOSTING_URL2}01 トリセツ`
+    },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
@@ -2308,6 +2308,15 @@ export const songs = [
         title: "拯救",
         isWavPack: true,
         filename: `${HOSTING_URL2}孫楠 - 拯救`
+    },{
+        artist: "黄绮珊",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "离不开你",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}黄绮珊 - 离不开你`
     },{
         artist: "韩安旭",
         lyrics: null,
