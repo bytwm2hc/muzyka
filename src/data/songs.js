@@ -2421,6 +2421,12 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}HKT/Mặt Trái Của Sự Thật/05 Thêm Một Lần Đau`
     },{
+        artist: "六哲＆陈娟儿",
+        lyrics: `${HOSTING_URL1}六哲＆陈娟儿 - 错错错.lrc`,
+        album: { cover: "img/album.png" },
+        title: "错错错",
+        filename: `${HOSTING_URL1}六哲＆陈娟儿 - 错错错`
+    },{
         artist: "Saka Trương Tuyền & Lương Gia Huy",
         lyrics: null,
         album: {
@@ -2429,6 +2435,13 @@ export const songs = [
         title: "Tình Yêu Trong Sáng",
         isWavPack: true,
         filename: `${HOSTING_URL2}Saka Trương Tuyền & Lương Gia Huy - Tình Yêu Trong Sáng`
+    },{
+        artist: "顾峰＆斯琴高丽",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "犯错",
+        isWavPack: true,
+        filename: `${HOSTING_URL2}顾峰＆斯琴高丽 - 犯错`
     },{
         artist: "8/pLanet!!",
         lyrics: null,
@@ -4643,12 +4656,6 @@ export const songs = [
         album: { cover: "img/album.png" },
         title: "该死的温柔",
         filename: `${HOSTING_URL1}马天宇 - 该死的温柔`
-    },{
-        artist: "六哲＆陈娟儿",
-        lyrics: `${HOSTING_URL1}六哲＆陈娟儿 - 错错错.lrc`,
-        album: { cover: "img/album.png" },
-        title: "错错错",
-        filename: `${HOSTING_URL1}六哲＆陈娟儿 - 错错错`
     },{
         artist: "胡夏",
         lyrics: `${HOSTING_URL1}胡夏 - 那些年.lrc`,
