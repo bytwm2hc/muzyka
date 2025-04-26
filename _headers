@@ -1,2 +1,4 @@
+/wavpack-worker.js
+  Cross-Origin-Embedder-Policy: require-corp
 /_app/immutable/workers/*
   Cross-Origin-Embedder-Policy: require-corp
