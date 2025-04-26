@@ -4,7 +4,7 @@
         onMount,
         onDestroy
     } from 'svelte';
-    import { fetchFile, toBlobURL } from '@ffmpeg/util';
+    import { toBlobURL } from '@ffmpeg/util';
     import {
         formatDuration
     } from '../helpers/format.js';
