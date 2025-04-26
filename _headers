@@ -1,0 +1,2 @@
+/_app/immutable/workers/*
+  Cross-Origin-Embedder-Policy: require-corp

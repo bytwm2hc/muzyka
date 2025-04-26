@@ -13,6 +13,33 @@ export const songs = [
         filename: "01"
     },*/
     {
+        artist: "AiScReam",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "愛♡スクリ～ム！",
+        isTAK: true,
+        filename: `${HOSTING_URL2}AiScReam - 愛♡スクリ～ム！`
+    },{
+        artist: "BIGBANG",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Fantastic Baby",
+        isTAK: true,
+        filename: `${HOSTING_URL2}BIGBANG - Fantastic Baby`
+    },{
+        artist: "蔡依林",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "舞孃",
+        isTAK: true,
+        filename: `${HOSTING_URL2}蔡依林 - 舞孃`
+    },{
         artist: "Andrea Bocelli",
         lyrics: null,
         album: {

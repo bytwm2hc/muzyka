@@ -4,6 +4,7 @@
         onMount,
         onDestroy
     } from 'svelte';
+    import { fetchFile, toBlobURL } from '@ffmpeg/util';
     import {
         formatDuration
     } from '../helpers/format.js';
@@ -29,6 +30,7 @@
         PLAY_MODE,
         showError
     } from '../helpers/song';
+    import { FFmpeg } from '../ffmpeg';
 
     let audio, // bind <audio> element
         time = 0, // song played time
@@ -321,13 +323,19 @@
             const isCAFSupported = new Audio().canPlayType('audio/x-caf; codecs=opus') === 'probably' || safariMac;
             const isOGGSupported = new Audio().canPlayType('audio/ogg; codecs=opus') === 'probably';
             isCAFSupported ? (fileFormat = '.caf') : (isOGGSupported ? (fileFormat = '.opus') : true);
+            songs[$index].isTAK ? (fileFormat = '.tak') : true;
             songs[$index].isWavPack ? (fileFormat = '.wv') /* && (wavpackWrapper.src = '//wavpack-wrapper-3ade.pages.dev/') */ : true;
             fetch(songs[$index].filename + fileFormat).then(function (response) {
                 'use strict';
                 response.arrayBuffer().then(function (arrayBuffer) {
                     'use strict';
+                    if (songs[$index].isTAK) {
+                        TakPlay(arrayBuffer, fileFormat);
+                        return;
+                    }
                     if (songs[$index].isWavPack) {
                         WavPackPlay(arrayBuffer);
+                        //TakPlay(arrayBuffer, fileFormat);
                         return;
                     }
                     try {
@@ -579,6 +587,55 @@
         }
     };
 
+    const TakPlay = async (takData, fileFormat) => {
+        'use strict';
+        const ffmpeg = new FFmpeg();
+        let message;
+		ffmpeg.on('log', ({ message: msg }) => {
+			message = msg;
+			console.log(message);
+		});
+		await ffmpeg.load({
+			coreURL: await toBlobURL('/core-mt/dist/esm/ffmpeg-core.js', 'application/javascript'),
+			wasmURL: await toBlobURL('/core-mt/dist/esm/ffmpeg-core.wasm', 'application/wasm'),
+			workerURL: await toBlobURL('/core-mt/dist/esm/ffmpeg-core.worker.js', 'application/javascript')
+		});
+		await ffmpeg.writeFile('input' + fileFormat, new Uint8Array(takData));
+		await ffmpeg.exec(['-i', 'input' + fileFormat, '-c:a', 'pcm_s24le', 'output.wav']);
+		const data = await ffmpeg.readFile('output.wav');
+		ffmpeg.terminate();
+        audioContext.decodeAudioData(data.buffer, function (buffer2) {
+            if (panNode === undefined) {
+                sourceNode.connect(convolverNode);
+                //sourceNode.connect(highShelf);
+                sourceNode.connect(gainDryNode);
+            } else {
+                sourceNode.connect(panNode);
+            }
+            sourceNode.onended = onended;
+
+            try {
+                sourceNode.buffer = buffer2;
+                buffer = buffer2;
+                duration = sourceNode.buffer.duration;
+
+                if (sourceNode.start) {
+                    sourceNode.start(0);
+                    startTime = audioContext.currentTime;
+                    updateTime(false);
+                    isPlay.set(true);
+                } else if (sourceNode.noteOn) {
+                    sourceNode.noteOn(0);
+                    startTime = audioContext.currentTime;
+                    updateTime(false);
+                    isPlay.set(true);
+                }
+            } catch (ignored) {}
+        });
+        gainDryNode.gain.value = 0.375;
+        gainWetNode.gain.value = 0.75;
+    }
+
     const WavPackPlay = async (wvData) => {
         'use strict';
         //audioContext.audioWorklet.addModule('bypass-processor.js').then(function () {
@@ -590,7 +647,7 @@
         //    wavpackWrapper.contentWindow.postMessage({wvData: wvData}, '*', [wvData]);
         //} else {
             if (typeof worker === 'undefined') {
-                worker = new Worker('wavpack-worker.js');
+                worker = new Worker('/src/wavpack-worker.js');
             }
             worker.onmessage = function (event) {
                 'use strict';
