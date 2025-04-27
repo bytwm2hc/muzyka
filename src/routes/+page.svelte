@@ -647,7 +647,7 @@
         //    wavpackWrapper.contentWindow.postMessage({wvData: wvData}, '*', [wvData]);
         //} else {
             if (typeof worker === 'undefined') {
-                worker = new Worker('/src/wavpack-worker.js');
+                worker = new Worker('/wavpack-worker.js');
             }
             worker.onmessage = function (event) {
                 'use strict';
