@@ -591,18 +591,44 @@
         'use strict';
         const ffmpeg = new FFmpeg();
         let message;
-		ffmpeg.on('log', ({ message: msg }) => {
+		/* ffmpeg.on('log', ({ message: msg }) => {
 			message = msg;
 			console.log(message);
-		});
+		}); */
 		await ffmpeg.load({
 			coreURL: await toBlobURL('/core-mt/dist/esm/ffmpeg-core.js', 'application/javascript'),
 			wasmURL: await toBlobURL('/core-mt/dist/esm/ffmpeg-core.wasm', 'application/wasm'),
 			workerURL: await toBlobURL('/core-mt/dist/esm/ffmpeg-core.worker.js', 'application/javascript')
 		});
 		await ffmpeg.writeFile('input' + fileFormat, new Uint8Array(takData));
-		await ffmpeg.exec(['-i', 'input' + fileFormat, '-c:a', 'pcm_s24le', 'output.wav']);
-		const data = await ffmpeg.readFile('output.wav');
+		await ffmpeg.ffprobe(['-v', 'quiet', '-show_entries', 'stream=sample_fmt,bits_per_raw_sample', 'input' + fileFormat, '-o', 'output.txt']);
+		let data = new TextDecoder().decode(await ffmpeg.readFile('output.txt'));
+		let fmt = 'pcm_f32le';
+		if (data.indexOf('u8') > -1 || data.indexOf('bits_per_raw_sample=8') > -1) {
+		    fmt = 'pcm_u8';
+		} else
+		if (data.indexOf('s16') > -1 || data.indexOf('bits_per_raw_sample=16') > -1) {
+		    fmt = 'pcm_s16le';
+		} else
+		if (data.indexOf('s24') > -1 || data.indexOf('bits_per_raw_sample=24') > -1) {
+		    fmt = 'pcm_s24le';
+		}  else
+		if (data.indexOf('s32') > -1 && data.indexOf('bits_per_raw_sample=32') > -1) {
+		    fmt = 'pcm_s32le';
+		} else
+		if (data.indexOf('flt') > -1 && data.indexOf('bits_per_raw_sample=32') > -1) {
+		    fmt = 'pcm_f32le';
+		} else
+		if (data.indexOf('dbl') > -1) {
+		    fmt = 'pcm_f64le';
+		} else
+		if (data.indexOf('s64') > -1) {
+		    fmt = 'pcm_s64le';
+		}
+		console.log(data);
+		console.log(fmt);
+		await ffmpeg.exec(['-i', 'input' + fileFormat, '-c:a', fmt, 'output.wav']);
+		data = await ffmpeg.readFile('output.wav');
 		ffmpeg.terminate();
         audioContext.decodeAudioData(data.buffer, function (buffer2) {
             if (panNode === undefined) {
