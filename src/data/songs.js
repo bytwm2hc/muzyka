@@ -1,4 +1,4 @@
-const HOSTING_URL1 = `//onedrive-cf-index-ng-cro.pages.dev/api/raw?path=/`;
+const HOSTING_URL1 = `//QrSDc2MZ5PlzP1JjCNNAT5.global.ssl.fastly.net/api/raw?path=/`;
 const HOSTING_URL2 = `//cdn.mecx.dev/`;
 
 export const songs = [
@@ -30,6 +30,15 @@ export const songs = [
         title: "Fantastic Baby",
         isTAK: true,
         filename: `${HOSTING_URL2}BIGBANG - Fantastic Baby`
+    },{
+        artist: "G-DRAGON (feat. 태양, 대성)",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "HOME SWEET HOME",
+        isTAK: true,
+        filename: `${HOSTING_URL2}G-DRAGON (feat. 태양, 대성) - HOME SWEET HOME`
     },{
         artist: "蔡依林",
         lyrics: null,
