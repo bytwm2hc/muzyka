@@ -5,7 +5,7 @@
 <svelte:head>
 	<title>Muzyka</title>
 	<link rel="preconnect" href="https://cdn.mecx.dev/" crossorigin="anonymous" />
-	<link rel="preconnect" href="https://onedrive-cf-index-ng-cro.pages.dev" crossorigin="anonymous" />
+	<link rel="preconnect" href="https://QrSDc2MZ5PlzP1JjCNNAT5.global.ssl.fastly.net" crossorigin="anonymous" />
 	<link rel="preconnect" href="https://emocdn-my.sharepoint.com" crossorigin="anonymous" />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" />

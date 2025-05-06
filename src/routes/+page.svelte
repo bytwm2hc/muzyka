@@ -323,9 +323,13 @@
             const isCAFSupported = new Audio().canPlayType('audio/x-caf; codecs=opus') === 'probably' || safariMac;
             const isOGGSupported = new Audio().canPlayType('audio/ogg; codecs=opus') === 'probably';
             isCAFSupported ? (fileFormat = '.caf') : (isOGGSupported ? (fileFormat = '.opus') : true);
-            songs[$index].isTAK ? (fileFormat = '.tak') : true;
-            songs[$index].isWavPack ? (fileFormat = '.wv') /* && (wavpackWrapper.src = '//wavpack-wrapper-3ade.pages.dev/') */ : true;
-            fetch(songs[$index].filename + fileFormat).then(function (response) {
+            let url = songs[$index].filename;
+            if (!songs[$index].isTeraBox) {
+                songs[$index].isTAK ? (fileFormat = '.tak') : false;
+                songs[$index].isWavPack ? (fileFormat = '.wv') : false;
+                url = songs[$index].filename + fileFormat;
+            }
+            fetch(url).then(function (response) {
                 'use strict';
                 response.arrayBuffer().then(function (arrayBuffer) {
                     'use strict';

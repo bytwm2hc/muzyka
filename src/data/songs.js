@@ -1,5 +1,6 @@
 const HOSTING_URL1 = `//QrSDc2MZ5PlzP1JjCNNAT5.global.ssl.fastly.net/api/raw?path=/`;
 const HOSTING_URL2 = `//cdn.mecx.dev/`;
+const TERABOX_API = "//terabox-app-f4r.pages.dev/api?download&data=";
 
 export const songs = [
     /*{
@@ -20,7 +21,8 @@ export const songs = [
         },
         title: "愛♡スクリ～ム！",
         isTAK: true,
-        filename: `${HOSTING_URL2}AiScReam - 愛♡スクリ～ム！`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1DNFbtRwU18s9-hRuWbELzQ"
     },{
         artist: "BIGBANG",
         lyrics: null,
@@ -29,7 +31,8 @@ export const songs = [
         },
         title: "Fantastic Baby",
         isTAK: true,
-        filename: `${HOSTING_URL2}BIGBANG - Fantastic Baby`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1BFPJEHR0X7YTVDtylYDyTg"
     },{
         artist: "G-DRAGON (feat. 태양, 대성)",
         lyrics: null,
@@ -38,7 +41,8 @@ export const songs = [
         },
         title: "HOME SWEET HOME",
         isTAK: true,
-        filename: `${HOSTING_URL2}G-DRAGON (feat. 태양, 대성) - HOME SWEET HOME`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1lITaUy6jOPg5qIOgYJzI6g"
     },{
         artist: "蔡依林",
         lyrics: null,
@@ -47,7 +51,8 @@ export const songs = [
         },
         title: "舞孃",
         isTAK: true,
-        filename: `${HOSTING_URL2}蔡依林 - 舞孃`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/12NhiAaMA_Qgm5NGuDABbqQ"
     },{
         artist: "Andrea Bocelli",
         lyrics: null,
@@ -56,7 +61,8 @@ export const songs = [
         },
         title: "Canto Della Terra",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Andrea Bocelli - Canto Della Terra`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1qmdFV-Ofw0YTPfcZioZCZQ"
     },{
         artist: "Andrea Bocelli & Giorgia Todrani",
         lyrics: null,
@@ -65,7 +71,8 @@ export const songs = [
         },
         title: "Vivo per lei",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Andrea Bocelli & Giorgia Todrani - Vivo per lei`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1FlR5anm0ir4hJe92-m7OJw"
     },{
         artist: "Andrea Bocelli & Sarah Brightman",
         lyrics: null,
@@ -74,7 +81,8 @@ export const songs = [
         },
         title: "Time to Say Goodbye (Con te partirò)",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Andrea Bocelli & Sarah Brightman - Time to Say Goodbye (Con te partirò)`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/13zPEpAeTE75qOKLcmPv8GQ"
     },{
         artist: "張惠妹",
         lyrics: null,
@@ -83,7 +91,8 @@ export const songs = [
         },
         title: "Time To Say Goodbye",
         isWavPack: true,
-        filename: `${HOSTING_URL2}張惠妹 - Time To Say Goodbye`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/13ceamEjBDv692x5ZMn9XfA"
     },{
         artist: "ヒロシ＆キーボー",
         lyrics: null,
