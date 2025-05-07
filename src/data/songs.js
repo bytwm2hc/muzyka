@@ -72,7 +72,7 @@ export const songs = [
         title: "Vivo per lei",
         isWavPack: true,
         isTeraBox: true,
-        filename: TERABOX_API + "https://1024terabox.com/s/1FlR5anm0ir4hJe92-m7OJw"
+        filename: TERABOX_API + "https://1024terabox.com/s/19FyvYC01x3JbTTbQ3HfGmw"
     },{
         artist: "Andrea Bocelli & Sarah Brightman",
         lyrics: null,
