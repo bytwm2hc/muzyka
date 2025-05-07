@@ -72,7 +72,7 @@ export const songs = [
         title: "Vivo per lei",
         isWavPack: true,
         isTeraBox: true,
-        filename: TERABOX_API + "https://1024terabox.com/s/19FyvYC01x3JbTTbQ3HfGmw"
+        filename: TERABOX_API + "https://1024terabox.com/s/1h5R_w_hHFk8C3MX5SvGgjQ"
     },{
         artist: "Andrea Bocelli & Sarah Brightman",
         lyrics: null,
@@ -82,7 +82,7 @@ export const songs = [
         title: "Time to Say Goodbye (Con te partirò)",
         isWavPack: true,
         isTeraBox: true,
-        filename: TERABOX_API + "https://1024terabox.com/s/13zPEpAeTE75qOKLcmPv8GQ"
+        filename: TERABOX_API + "https://1024terabox.com/s/1tQ747LDhoSu1Txr_o36qeA"
     },{
         artist: "張惠妹",
         lyrics: null,
