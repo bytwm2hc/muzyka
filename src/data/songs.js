@@ -1,6 +1,6 @@
 const HOSTING_URL1 = `//QrSDc2MZ5PlzP1JjCNNAT5.global.ssl.fastly.net/api/raw?path=/`;
 const HOSTING_URL2 = `//cdn.mecx.dev/`;
-const TERABOX_API = "//terabox-app-f4r.pages.dev/api?download&data=";
+const TERABOX_API = "//terabox-app-f4r.pages.dev/api?proxy&data=";
 
 export const songs = [
     /*{
@@ -101,7 +101,8 @@ export const songs = [
         },
         title: "3年目の浮気",
         isWavPack: true,
-        filename: `${HOSTING_URL2}ヒロシ＆キーボー - 3年目の浮気`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1wDNHZ92PWhWYHB8EMxEeag"
     },{
         artist: "細川たかし",
         lyrics: null,
@@ -110,7 +111,8 @@ export const songs = [
         },
         title: "北酒場",
         isWavPack: true,
-        filename: `${HOSTING_URL2}細川たかし - 北酒場`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1E2dNRLUcdCcRBkBp_enO9Q"
     },{
         artist: "細川たかし",
         lyrics: null,
@@ -119,17 +121,19 @@ export const songs = [
         },
         title: "浪花節だよ人生は",
         isWavPack: true,
-        filename: `${HOSTING_URL2}細川たかし - 浪花節だよ人生は`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1BO9sCHICNqqYkzIL63UWJg"
     },{
         artist: "いきものがかり",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}いきものがかり - ブルーバード.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1N9pnrmxgwML9HbwMCiLd4w",
             name: "ブルーバード"
         },
         title: "ブルーバード",
         isWavPack: true,
-        filename: `${HOSTING_URL2}いきものがかり - ブルーバード`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1Kl7s2BdpjQxpL7ID57wyfA"
     },/*{
         artist: "Alstroemeria Records",
         lyrics: `流れてく 時の中ででも 気だるさが ほらグルグル廻って<br />私から 離れる心も 見えないわ そう知らない？<br />自分から 動くこともなく 時の隙間に 流され続けて<br />知らないわ 周りのことなど 私は私 それだけ<br />夢見てる？ なにも見てない？ 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />こんな自分に 未来はあるの？ こんな世界に 私はいるの？<br />今切ないの？ 今悲しいの？ 自分の事も わからないまま<br />歩むことさえ 疲れるだけよ 人のことなど 知りもしないわ<br />こんな私も 変われるのなら もし変われるのなら 白になる？<br />流れてく 時の中ででも 気だるさがほら グルグル廻って<br />私から 離れる心も 見えないわそう 知らない？<br />自分から 動くこともなく 時の隙間に 流され続けて<br />知らないわ 周りのことなど 私は私 それだけ？<br />夢見てる？ なにも見てない 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />無駄な時間に 未来はあるの？ こんな所に 私は居るの？<br />私のことを 言いたいならば 言葉にするのなら 「ろくでなし」<br />こんな所に 私はいるの？ こんな時間に 私はいるの？<br />こんな私も 変われるのなら もし変われるのなら 白になる？<br />今夢見てる？ なにも見てない？ 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />動くのならば 動くのならば すべて壊すわ すべて壊すわ<br />悲しむならば 悲しむならば 私の心 白く変われる？<br />貴方の事も 私のことも 全ての事も まだ知らないの<br />重い目蓋を 開けたのならば すべて壊すのなら 黒になれ!!!`,
@@ -226,12 +230,13 @@ export const songs = [
         artist: "野水いおり",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}野水いおり - ストロベリーレイン.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1YNLT6piwLPhRHjj2rmUZ8Q",
             name: "TVアニメーション「デート・ア・ライブ」エンディングテーマ『SAVE THE WORLD』"
         },
         title: "ストロベリーレイン",
         isWavPack: true,
-        filename: `${HOSTING_URL2}野水いおり - ストロベリーレイン`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1tVFGlCC1b0YxfWN-B0-r2A"
     },/*{
         artist: "μ's",
         lyrics: null,
@@ -911,62 +916,68 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/156rg6in1kEu2_NtOhmk8SA",
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "ハッピーシンセサイザ",
         isWavPack: true,
-        filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/01 ハッピーシンセサイザ`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1e3LLhAUw7B-dmext2t1xUQ"
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/156rg6in1kEu2_NtOhmk8SA",
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "ツギハギスタッカート",
         isWavPack: true,
-        filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/02 ツギハギスタッカート`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1QtdBC1H_QK1v7EQKbezqxw"
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/156rg6in1kEu2_NtOhmk8SA",
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "ニア",
         isWavPack: true,
-        filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/04 ニア`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1gzzA8aFKFocmLC_wvibH1Q"
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/156rg6in1kEu2_NtOhmk8SA",
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "恋愛裁判",
         isWavPack: true,
-        filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/07 恋愛裁判`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1iNy5BCw0Unzeku8J7fE4jQ"
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/156rg6in1kEu2_NtOhmk8SA",
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "どりーみんチュチュ",
         isWavPack: true,
-        filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/09 どりーみんチュチュ`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1QUExX4tknKcc7c9QjPlKTg"
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/Cover02.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/156rg6in1kEu2_NtOhmk8SA",
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "マシュマリー",
         isWavPack: true,
-        filename: `${HOSTING_URL2}MORE MORE JUMP!/MORE MORE JUMP! SEKAI ALBUM vol.1/12 マシュマリー`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1olneOwLah56piblFguZQuQ"
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
