@@ -1,6 +1,6 @@
 const HOSTING_URL1 = "//QrSDc2MZ5PlzP1JjCNNAT5.global.ssl.fastly.net/api/raw?path=/";
 const HOSTING_URL2 = "//cdn.mecx.dev/";
-const TERABOX_API = "//terabox-app-f4r.pages.dev/api?proxy&data=";
+const TERABOX_API = "//terabox-app-mecx.pages.dev/api?proxy&data=";
 
 export const songs = [
     /*{
