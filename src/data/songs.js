@@ -1,5 +1,5 @@
-const HOSTING_URL1 = `//QrSDc2MZ5PlzP1JjCNNAT5.global.ssl.fastly.net/api/raw?path=/`;
-const HOSTING_URL2 = `//cdn.mecx.dev/`;
+const HOSTING_URL1 = "//QrSDc2MZ5PlzP1JjCNNAT5.global.ssl.fastly.net/api/raw?path=/";
+const HOSTING_URL2 = "//cdn.mecx.dev/";
 const TERABOX_API = "//terabox-app-f4r.pages.dev/api?proxy&data=";
 
 export const songs = [
@@ -916,7 +916,7 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: TERABOX_API + "https://1024terabox.com/s/156rg6in1kEu2_NtOhmk8SA",
+            cover: TERABOX_API + "https://1024terabox.com/s/1MQMD3xZeCOpZo6xY3kXckg",
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "ハッピーシンセサイザ",
@@ -927,7 +927,7 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: TERABOX_API + "https://1024terabox.com/s/156rg6in1kEu2_NtOhmk8SA",
+            cover: TERABOX_API + "https://1024terabox.com/s/1MQMD3xZeCOpZo6xY3kXckg",
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "ツギハギスタッカート",
@@ -938,7 +938,7 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: TERABOX_API + "https://1024terabox.com/s/156rg6in1kEu2_NtOhmk8SA",
+            cover: TERABOX_API + "https://1024terabox.com/s/1MQMD3xZeCOpZo6xY3kXckg",
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "ニア",
@@ -949,7 +949,7 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: TERABOX_API + "https://1024terabox.com/s/156rg6in1kEu2_NtOhmk8SA",
+            cover: TERABOX_API + "https://1024terabox.com/s/1MQMD3xZeCOpZo6xY3kXckg",
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "恋愛裁判",
@@ -960,7 +960,7 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: TERABOX_API + "https://1024terabox.com/s/156rg6in1kEu2_NtOhmk8SA",
+            cover: TERABOX_API + "https://1024terabox.com/s/1MQMD3xZeCOpZo6xY3kXckg",
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "どりーみんチュチュ",
@@ -971,7 +971,7 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: TERABOX_API + "https://1024terabox.com/s/156rg6in1kEu2_NtOhmk8SA",
+            cover: TERABOX_API + "https://1024terabox.com/s/1MQMD3xZeCOpZo6xY3kXckg",
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "マシュマリー",
@@ -982,172 +982,189 @@ export const songs = [
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1vb6XRJ2OilWl1DhUC7ERag",
             name: "1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」"
         },
         title: "悔やむと書いてミライ",
         isWavPack: true,
-        filename: `${HOSTING_URL2}25時、ナイトコードで。/1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」/01 悔やむと書いてミライ`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/19c1KNjGfgu13EevScNy8zw"
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1vb6XRJ2OilWl1DhUC7ERag",
             name: "1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」"
         },
         title: "携帯恋話",
         isWavPack: true,
-        filename: `${HOSTING_URL2}25時、ナイトコードで。/1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」/02 携帯恋話`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1babXPLUF4jeLcBBQaHTwAg"
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1vb6XRJ2OilWl1DhUC7ERag",
             name: "1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」"
         },
         title: "ジャックポットサッドガール",
         isWavPack: true,
-        filename: `${HOSTING_URL2}25時、ナイトコードで。/1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」/03 ジャックポットサッドガール`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1RkLS063rsMMhr_s0yHOphw"
     },{
         artist: "25時、ナイトコードで。",
         lyrics: `才能なんてないからここで一生泣いているんだろ<br />目に映った景色の青さが羨ましく思っていた<br />路肩に転がる人生アスファルトの温度下がってる<br />真夜中を照らす灯りを求めつなぐ電波セカイへと<br />Rainy, rainy 求めるものだけ描いた<br />心閉まって待って！本当は叫びたいのよ<br />Rainy, rainy 強くありたいと願った<br />声は無情に散って孤独を奏る<br />指先から伝わっていく虚しさの色<br />認めてはくれないの？<br />燻んでしまったの灰色に<br />こんな才能なんて借り物<br />まだ人生終わっていないから<br />諦めんなって誰かの声<br />見失ってしまったのアイロニー<br />気付けなくて今も抗ってる<br />この感情奪って去ってよ<br />ドロドロになってしまう前に<br />私だけみて愛を伝えて<br />(Wow wow) こんなセカイとバイバイバイバイ<br />(Wow wow) 滲む想いなぞって描いた<br />(Wow wow) 夢の形に泣いちゃった<br />(Hey!)<br />いつかはできると思ってただけど現実は残酷だろ<br />焦りと不安の渦の間に黒くなって浮かんでいる<br />退廃的なセンスと曖昧な表現なんかじゃ<br />奇を衒った奴らの芸術アルスに<br />飲み込まれて消えていく<br />Rainy, rainy 雨と流れていく徒労感<br />肩を濡らして残った冷たい記憶の体温<br />Rainy, rainy 雲の隙間から覗いた<br />光当たって届いて身体を軽くしたんだ<br />美学とかプライドとか語る前に<br />やれることやっていけ<br />閉ざしてしまったの退路に<br />焼けた才能を一つ置いてけ<br />ただやったもん勝ちなんでしょ？<br />固唾飲んでる場合じゃないでしょ！<br />目を開いても変わらぬアイロニー<br />気付いたってどーしようもないから<br />それを虎視眈々と狙ってる<br />ペルソナになんて越されんなよ<br />私だけみて愛を伝えて<br />(Wow wow) こんなセカイとバイバイバイバイ<br />(Wow wow) 滲む想いなぞって描いた<br />(Wow wow) 言の葉の意味飲み込んで<br />(Hey!)<br />燻んでしまったの灰色に<br />こんな才能なんて借り物<br />まだ人生終わっていないから<br />諦めんなって誰かの声<br />見失ってしまったのアイロニー<br />気付けなくて今も抗ってる<br />この感情奪って去ってよ<br />ドロドロになってしまう前に<br />私だけみて愛を伝えて<br />(Wow wow) こんなセカイとバイバイバイバイ<br />(Wow wow) 滲む想いなぞって描いた<br />(Wow wow) 夢の形笑っていた`,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/2nd Single「限りなく灰色へ／アイディスマイル」/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1NoFrHot-9_qMxwup1ZjYzA",
             name: "2nd Single「限りなく灰色へ／アイディスマイル」"
         },
         title: "限りなく灰色へ",
         isWavPack: true,
-        filename: `${HOSTING_URL2}25時、ナイトコードで。/2nd Single「限りなく灰色へ／アイディスマイル」/01 限りなく灰色へ`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1Sb5BamntOAaoAbHAORnXPw"
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/2nd Single「限りなく灰色へ／アイディスマイル」/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1NoFrHot-9_qMxwup1ZjYzA",
             name: "2nd Single「限りなく灰色へ／アイディスマイル」"
         },
         title: "アイディスマイル",
         isWavPack: true,
-        filename: `${HOSTING_URL2}25時、ナイトコードで。/2nd Single「限りなく灰色へ／アイディスマイル」/02 アイディスマイル`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1zmllo1zksvRBoVVaLjoh0g"
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw",
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "自傷無色",
         isWavPack: true,
-        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/01 自傷無色`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/16VObxym4jl0M_75_sHtFpg"
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw",
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "シャルル",
         isWavPack: true,
-        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/02 シャルル`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1lALUi6rL5xpoVY9zLsKkVQ"
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw",
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "ハロ／ハワユ",
         isWavPack: true,
-        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/03 ハロ／ハワユ`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/16aKwkVKUdNr6CSsFTJUdEw"
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw",
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "命に嫌われている",
         isWavPack: true,
-        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/04 命に嫌われている`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1FbxjbY27BDv5cdbvFveKlQ"
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw",
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "乙女解剖",
         isWavPack: true,
-        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/05 乙女解剖`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1Jccz8vBvzV5A3gAgL8GYAA"
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw",
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "独りんぼエンヴィー",
         isWavPack: true,
-        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/06 独りんぼエンヴィー`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1AE_1yDiBB0_qm8-jz6srfw"
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw",
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "とても痛い痛がりたい",
         isWavPack: true,
-        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/07 とても痛い痛がりたい`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1i1BIiJ41vcvjVlwXxeiprQ"
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw",
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "ボッカデラベリタ",
         isWavPack: true,
-        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/08 ボッカデラベリタ`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1uRdtnAO0zOukN4icKBb19w"
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw",
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "夜に駆ける",
         isWavPack: true,
-        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/09 夜に駆ける`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1jJfu-BrqARjQWOiWerL-ZQ"
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw",
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "ビターチョコデコレーション",
         isWavPack: true,
-        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/10 ビターチョコデコレーション`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/14MnZkGFdi4G431hUI-iOaQ"
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw",
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "カトラリー",
         isWavPack: true,
-        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/11 カトラリー`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1Ha2mSu-wXJKCYoFeCueCgg"
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/Cover02.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw",
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "ベノム",
         isWavPack: true,
-        filename: `${HOSTING_URL2}25時、ナイトコードで。/25時、ナイトコードで。 SEKAI ALBUM vol.1/12 ベノム`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1ghD5A0uF7UXKjtwrPR4rjw"
     },/*{
         artist: "ワンダーランズ×ショウタイム",
         lyrics: null,
@@ -1162,22 +1179,24 @@ export const songs = [
         artist: "ワンダーランズ×ショウタイム",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}ワンダーランズ×ショウタイム/ワンダーランズ×ショウタイム SEKAI ALBUM vol.2/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1iOouY___A6_TiDjexoSurQ",
             name: "ワンダーランズ×ショウタイム SEKAI ALBUM vol.2"
         },
         title: "いーあるふぁんくらぶ",
         isWavPack: true,
-        filename: `${HOSTING_URL2}ワンダーランズ×ショウタイム/ワンダーランズ×ショウタイム SEKAI ALBUM vol.2/02 いーあるふぁんくらぶ`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1JvMoJk8WuTRq0c8Sxb5AKQ"
     },{
         artist: "ワンダーランズ×ショウタイム",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}ワンダーランズ×ショウタイム/ワンダーランズ×ショウタイム SEKAI ALBUM vol.2/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1iOouY___A6_TiDjexoSurQ",
             name: "ワンダーランズ×ショウタイム SEKAI ALBUM vol.2"
         },
         title: "神のまにまに",
         isWavPack: true,
-        filename: `${HOSTING_URL2}ワンダーランズ×ショウタイム/ワンダーランズ×ショウタイム SEKAI ALBUM vol.2/04 神のまにまに`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1G9g_oL2PRXNpd_eexeKrWA"
     },{
         artist: "fripSide",
         lyrics: null,
@@ -1186,7 +1205,8 @@ export const songs = [
         },
         title: "an evening calm",
         isWavPack: true,
-        filename: `${HOSTING_URL2}fripSide - an evening calm`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1HZqdsBy6vtVbnPMBtDuVkg"
     },/*{
         artist: "YOASOBI",
         lyrics: null,
@@ -1225,7 +1245,8 @@ export const songs = [
         },
         title: "Best Friend",
         isWavPack: true,
-        filename: `${HOSTING_URL2}01 Best Friend`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1t88aED-wEyJ1vmCPfpWy_g"
     },{
         artist: "西野カナ",
         lyrics: null,
@@ -1234,7 +1255,8 @@ export const songs = [
         },
         title: "トリセツ",
         isWavPack: true,
-        filename: `${HOSTING_URL2}01 トリセツ`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/12LXgUR4hfjjRkuE7urKSyg"
     },{
         artist: "Ms.OOJA",
         lyrics: null,

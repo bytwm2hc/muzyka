@@ -1,3 +1,5 @@
+/
+  Referrer-Policy: same-origin
 /wavpack-worker.js
   Cross-Origin-Embedder-Policy: require-corp
 /_app/immutable/workers/*

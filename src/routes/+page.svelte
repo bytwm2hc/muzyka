@@ -96,7 +96,7 @@
                     panNode.connect(gainDryNode);
                 }
 
-                fetch('https://terabox-app-f4r.pages.dev/api?proxy&data=https://1024terabox.com/s/1ApRBhKmcrIzqEx4Bs00Kyw').then(function (response) {
+                fetch('//terabox-app-f4r.pages.dev/api?proxy&data=https://1024terabox.com/s/1ApRBhKmcrIzqEx4Bs00Kyw').then(function (response) {
                     'use strict';
                     response.arrayBuffer().then(function (ab) {
                         'use strict';
@@ -338,8 +338,8 @@
                         return;
                     }
                     if (songs[$index].isWavPack) {
-                        WavPackPlay(arrayBuffer);
-                        //TakPlay(arrayBuffer, fileFormat);
+                        //WavPackPlay(arrayBuffer);
+                        TakPlay(arrayBuffer, fileFormat);
                         return;
                     }
                     try {
@@ -677,7 +677,75 @@
         //    wavpackWrapper.contentWindow.postMessage({wvData: wvData}, '*', [wvData]);
         //} else {
             if (typeof worker === 'undefined') {
-                worker = new Worker('/wavpack-worker.js');
+                    worker = new Worker('/wavpack-worker.js');
+                    worker.onerror = function (e) {
+                        worker = new Worker('/src/wavpack-worker.js');
+                        worker.onmessage = function (event) {
+                'use strict';
+                if (typeof event.data.L !== 'undefined') {
+                    bsn = audioContext.createBufferSource();
+                    let aud_buf = audioContext.createBuffer(2, event.data.L.length, sr);
+                    aud_buf.copyToChannel(event.data.L, 0);
+                    event.data.L = undefined;
+                    aud_buf.copyToChannel(event.data.R, 1);
+                    event.data.R = undefined;
+                    if (panNode === undefined) {
+                        bsn.connect(convolverNode);
+                        //bsn.connect(highShelf);
+                        bsn.connect(gainDryNode);
+                    } else {
+                        bsn.connect(panNode);
+                    }
+                    bsn.onended = function () {
+                        worker.postMessage("onended");
+                    };
+                    bsn.buffer = aud_buf;
+                    bsn.detune.value = 432/440;
+                    bsn.playbackRate.value = 432/440;
+                    bsn.start(0);
+                }
+                if (event.data === "addBufferToAudioContext: end_of_song_reached") {
+                    //console.log("worker: addBufferToAudioContext: end_of_song_reached");
+                    bsn.onended = onended;
+                    return;
+                }
+                if (event.data === "readingLoop: end_of_song_reached") {
+                    //console.log("worker: readingLoop: end_of_song_reached");
+                    onended();
+                    return;
+                }
+                if (typeof event.data.BYTES_PER_ELEMENT !== 'undefined') {
+                    if (event.data.BYTES_PER_ELEMENT > 0) {
+                        worker.postMessage(wvData, [wvData]);
+                    } else {
+                        setTimeout(function () {
+                            'use strict';
+                            worker.postMessage('BYTES_PER_ELEMENT');
+                        }, 1);
+                    }
+                    return;
+                }
+                if (typeof event.data.sampleRate !== 'undefined') {
+                    sr = event.data.sampleRate;
+                    return;
+                }
+                if (typeof event.data.numSamples !== 'undefined') {
+                    duration = event.data.numSamples / sr * (440 / 432);
+                    startTime = audioContext.currentTime;
+                    setTimeout(updateTime.bind(null, false), 500);
+                    return;
+                }
+                if (typeof event.data.wvData !== 'undefined') {
+                    event.data.wvData = undefined;
+                    return;
+                }
+            };
+            setTimeout(function () {
+                'use strict';
+                worker.postMessage('BYTES_PER_ELEMENT');
+            }, 0);
+
+                    };
             }
             worker.onmessage = function (event) {
                 'use strict';
@@ -853,7 +921,7 @@
 	src={$source}
 />-->
 <audio bind:this={audio} on:loadeddata={() => isLoaded.set(true)} crossorigin loop>
-    <source src="//cdn.mecx.dev/silence.wav" type="audio/x-wav" />
+    <source src="//terabox-app-f4r.pages.dev/api?proxy&data=https://1024terabox.com/s/1-_v-hgSoGaO3XI_Gk10kMA" type="audio/wav" />
 </audio>
 
 <style>
