@@ -96,7 +96,7 @@
                     panNode.connect(gainDryNode);
                 }
 
-                fetch('//terabox-app-f4r.pages.dev/api?proxy&data=https://1024terabox.com/s/1ApRBhKmcrIzqEx4Bs00Kyw').then(function (response) {
+                fetch('//terabox-app-mecx.pages.dev/api?proxy&data=https://1024terabox.com/s/1a5ewBklv_7r48QFszl7e_g').then(function (response) {
                     'use strict';
                     response.arrayBuffer().then(function (ab) {
                         'use strict';
@@ -149,7 +149,7 @@
                 panNode.connect(gainDryNode);
             }
 
-            fetch('https://terabox-app-f4r.pages.dev/api?proxy&data=https://1024terabox.com/s/1ApRBhKmcrIzqEx4Bs00Kyw').then(function (response) {
+            fetch('https://terabox-app-mecx.pages.dev/api?proxy&data=https://1024terabox.com/s/1a5ewBklv_7r48QFszl7e_g').then(function (response) {
                 'use strict';
                 response.arrayBuffer().then(function (ab) {
                     'use strict';
@@ -301,6 +301,10 @@
                 } else {
                     sourceNode.connect(panNode);
                 }
+                if (songs[$index].isTAK || songs[$index].isWavPack) {
+                    sourceNode.detune.value = 432/440;
+                    sourceNode.playbackRate.value = 432/440;
+                }
                 sourceNode.onended = onended;
                 try {
                     if (sourceNode.start) {
@@ -345,8 +349,8 @@
                     try {
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
-                            gainDryNode.gain.value = 0.5;
-                            //gainWetNode.gain.value = 1;
+                            gainDryNode.gain.value = 0.75;
+                            gainWetNode.gain.value = 1.75;
                             if (panNode === undefined) {
                                 sourceNode.connect(convolverNode);
                                 //sourceNode.connect(highShelf);
@@ -355,6 +359,8 @@
                                 sourceNode.connect(panNode);
                             }
                             sourceNode.onended = onended;
+                            sourceNode.detune.value = 1;
+                            sourceNode.playbackRate.value = 1;
 
                             try {
                                 sourceNode.buffer = audioData;
@@ -458,6 +464,10 @@
                 sourceNode.connect(gainDryNode);
             } else {
                 sourceNode.connect(panNode);
+            }
+            if (songs[$index].isTAK || songs[$index].isWavPack) {
+                sourceNode.detune.value = 432/440;
+                sourceNode.playbackRate.value = 432/440;
             }
             sourceNode.onended = onended;
             if (sourceNode.start) {
@@ -643,6 +653,8 @@
                 sourceNode.connect(panNode);
             }
             sourceNode.onended = onended;
+            sourceNode.detune.value = 432/440;
+            sourceNode.playbackRate.value = 432/440;
 
             try {
                 sourceNode.buffer = buffer2;
@@ -663,7 +675,7 @@
             } catch (ignored) {}
         });
         gainDryNode.gain.value = 0.375;
-        gainWetNode.gain.value = 0.75;
+        gainWetNode.gain.value = 1.375;
     }
 
     const WavPackPlay = async (wvData) => {
@@ -921,7 +933,7 @@
 	src={$source}
 />-->
 <audio bind:this={audio} on:loadeddata={() => isLoaded.set(true)} crossorigin loop>
-    <source src="//terabox-app-f4r.pages.dev/api?proxy&data=https://1024terabox.com/s/1-_v-hgSoGaO3XI_Gk10kMA" type="audio/wav" />
+    <source src="//terabox-app-mecx.pages.dev/api?proxy&data=https://1024terabox.com/s/1-_v-hgSoGaO3XI_Gk10kMA" type="audio/wav" />
 </audio>
 
 <style>

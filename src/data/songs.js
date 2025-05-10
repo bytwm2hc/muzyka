@@ -1,4 +1,4 @@
-const HOSTING_URL1 = "//QrSDc2MZ5PlzP1JjCNNAT5.global.ssl.fastly.net/api/raw?path=/";
+const HOSTING_URL1 = "//onedrive-cf-index-ng-emocdn.pages.dev/api/raw?path=/";
 const HOSTING_URL2 = "//cdn.mecx.dev/";
 const TERABOX_API = "//terabox-app-mecx.pages.dev/api?proxy&data=";
 
@@ -158,75 +158,81 @@ export const songs = [
         artist: "AKINO",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}AKINO/AKINO from bless4 ベストアルバム「your ears, our years」[Pretty Edition]/Cover_01.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1oCaoHGobAgx17Q3AnWl_bg",
             name: "AKINO from bless4 ベストアルバム「your ears, our years」[Pretty Edition]"
         },
         title: "創聖のアクエリオン",
         isWavPack: true,
-        filename: `${HOSTING_URL2}AKINO/AKINO from bless4 ベストアルバム「your ears, our years」[Pretty Edition]/01 創聖のアクエリオン`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1bJDzZxtG97wWJ8fLgpcVmg"
     },{
         artist: "AKINO",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}AKINO/AKINO from bless4 ベストアルバム「your ears, our years」[Pretty Edition]/Cover_01.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1oCaoHGobAgx17Q3AnWl_bg",
             name: "AKINO from bless4 ベストアルバム「your ears, our years」[Pretty Edition]"
         },
         title: "Genesis of Aquarion",
         isWavPack: true,
-        filename: `${HOSTING_URL2}AKINO/AKINO from bless4 ベストアルバム「your ears, our years」[Pretty Edition]/06 Genesis of Aquarion`
-    },/*{
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1-tqvgArxyT3Mgwzuh3aYOw"
+    },{
         artist: "キュアダイヤモンド(CV.寿美菜子)",
         lyrics: null,
-        album: {
-            cover: `${HOSTING_URL2}ドキドキ! プリキュアボーカルアルバム 1 Jump up, GIRLS!/Cover.jpg`,
-            name: "ドキドキ! プリキュアボーカルアルバム 1 Jump up, GIRLS!"
-        },
+        album: { cover: "img/album.png" },
         title: "COCORO♦Diamond",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}ドキドキ! プリキュアボーカルアルバム 1 Jump up, GIRLS!/04 キュアダイヤモンド(CV.寿美菜子) - COCORO♦Diamond`
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/19JadikKO75cRq-Ai-w471w"
     },{
         artist: "飛鳥空 starring 櫻井智",
         lyrics: `えんぴつの先 指で確かめ<br />どんな絵になるの? まだ見えないけど<br /><br />目を閉じると浮かび上がるから<br />心の奥にある想い カタチにしてみて<br /><br />綺麗な絵の具たちを並べてみていると<br />心ときめいてくるの<br /><br />そう 初めての色<br /><br />ふたりで選んだパステルたち<br />あと少しだから お願い気付いて<br /><br />そわそわしてるの バレちゃうかな?<br />目逸らしてるの わざとだよ<br />素直になれない<br /><br />あなたのこと想うと胸が高鳴るから<br />伝えたい この気持ちを<br />そう 風にのせて<br /><br />広い空のキャンパスに筆を走らせて<br />どこまでも自由だから<br />届けたい笑顔を<br /><br />未来描いて`,
         album: { cover: "img/album.png" },
         title: "初めての色",
         isWavPack: true,
-        filename: `${HOSTING_URL2}神のみぞ知るセカイ 神のみキャラCD .くれよん／飛鳥空 starring 桜井智/01 初めての色`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1NYeLvf4fhudlEKvjjxkLeg"
     },{
         artist: "飛鳥空 starring 櫻井智",
         lyrics: `煌く星を見上げて 想う あの日の事<br />届けたい 胸の奥にある この気持ち きっと<br /><br />あなたの笑顔を 見つけたい<br />たった一度の奇跡 そう 夢見ている<br /><br />広い荒野に立ちすくんでも<br />勇気持てれば そう 歩き出せるわ<br /><br />出会えたことは 偶然じゃない<br />お願い 明日伝えて<br /><br />小さな あの約束を 忘れはしないから<br />腕の中残る 暖かい優しさが ずっと<br /><br />あなたの言葉を聴きたくて<br />何度も繰り返す そう 魔法みたい<br /><br />ひとりぼっちのせつない夜を<br />終わらせたいの そう 涙拭って<br /><br />ふたつの心 ひとつ重ねて<br />見つめ合えれば そう 願い叶えて<br /><br />白く輝く翼広げて<br />舞い上がれ永遠の空へ`,
         album: { cover: "img/album.png" },
         title: "たった一度の奇跡",
         isWavPack: true,
-        filename: `${HOSTING_URL2}神のみぞ知るセカイ 神のみキャラCD .くれよん／飛鳥空 starring 桜井智/02 たった一度の奇跡`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/19XiGl6cUIf5hMxlo4TcwzA"
     },{
         artist: "中川かのん starring 東山奈央",
         lyrics: `短い髪を なびかせて<br />リボン革命 起こしちゃう<br />レボレボな 未来<br /><br />みんなの声が 聞きたいの<br />みんなに届け 愛の歌<br />メロメロな メロディ<br /><br />明日も会えるかな きっと会えるよね<br />胸のときめきを 伝えたいな<br /><br />I MY ME アイドル WA TA SHI アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />みんなのハート狙い撃ちよ もう 離さない<br /><br />スカートひらり なびかせて<br />魅惑のダンス サプライズ<br />ドキドキを あげる<br /><br />みんなが辛い 時にはね<br />夜空きらめく 星になる<br />キラキラリ 光る<br /><br />誰にも止められない 準備万端だよね？<br />ローラーコースター ついてきてね<br /><br />I MY ME アイドル I MY ME アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />みんなのハート狙い撃ちよ もう 離さない<br /><br />あなたに 伝えたい<br /><br />I MY ME アイドル WA TA SHI アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />あなたのハート狙い撃ちよ ずっと 離さない`,
         album: { cover: "img/album.png" },
         title: "LOVE KANON",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}神のみぞ知るセカイ 中川かのん 1stアルバム「Birth」／中川かのん starring 東山奈央/02 LOVE KANON`
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1ZAqc-exyC5jBq6oVMZhU3Q"
     },{
         artist: "中川かのん starring 東山奈央",
         lyrics: `ALL 4 YOU 白い砂に ALL 4 YOU 裸足の愛<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 触れる素肌 ALL 4 YOU 渚の愛<br />君と走りぬけたい 常夏色の恋 叶えたいよ<br /><br />太陽 スマイル 炎天下ドライブ<br />なんて 綺麗な エメラルド絨毯<br />恋の プロローグ 寄せては返す<br />この想い 伝えたい<br /><br />サンダルが青空 飛んでいく<br />鼓動をつないだ シルエット<br /><br />ALL 4 YOU 白い砂に ALL 4 YOU 裸足の恋<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 風が走る ALL 4 YOU 渚の恋<br />君と走りぬけたい 常夏色の愛 届けたいよ<br /><br />太陽 アクビで 地平線へダイブ<br />なんて 綺麗な 星空の絨毯<br />ちょっと 勇気出して 距離縮める<br />この想い 気づいてよ<br /><br />波音のシンフォニー 鳴り響く<br />二人はひとつの シルエット<br /><br />ALL 4 YOU 一人占めよ ALL 4 YOU わたしの愛<br />照れた横顔 目が離せないよ<br />ALL 4 YOU 触れた素肌 ALL 4 YOU 渚のキス<br />君と一緒にいたい 来年再来年 その先も<br /><br />ALL 4 YOU 白い砂に ALL 4 YOU 裸足の恋<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 風が走る ALL 4 YOU 渚の恋<br />君と走りぬけたい 常夏色の愛 届けたいよ`,
         album: { cover: "img/album.png" },
         title: "ALL 4 YOU",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}神のみぞ知るセカイ 中川かのん 1stアルバム「Birth」／中川かのん starring 東山奈央/04 ALL 4 YOU`
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1pzd_4r6nRKLnvS0ev1CtoQ"
     },{
         artist: "中川かのん starring 東山奈央",
         lyrics: `黒板 そっちのけで チラリ 見つめる先は<br />甘い横顔 ファンタジー<br /><br />突然 校舎の裏 相談 恋愛モード<br />やっぱ私にじゃない<br /><br />だけどあなたの 為に頑張る<br />いつの日にか 振り 向かせてみせるわ<br />鈍感過ぎな ロミオさん<br /><br />ハピハピハッピークレセント<br />あなたにハッピープレゼント<br />わかって欲しいの この気持ち あなただけよ 永遠ロマンス<br />ハピハピハッピークレセント<br />あなたに全部ささげるI love you<br />いつか終わるの？ ねぇ抱きしめて欲しい 片想い<br /><br />窓辺 溜め息色 ふいに 見つめる先に<br />暗い横顔 ミステリー<br /><br />走る 渡り廊下 背中 失恋モード<br />もしかしてフラれたの？<br /><br />元気だしてよ わたしがいるよ<br />告白だよ？ でも 気付いてない顔<br />鈍感過ぎよ ロミオさん<br /><br />トキメキハッピークレセント<br />ドキドキもっとプレゼント<br />気付いて欲しいの 胸の鼓動 奏でてるよ 恋のメロディ<br />トキメキハッピークレセント<br />あなたに全部ささげるI want you<br />いつになるだろ？ ねぇ終わらせたいよ 片想い<br /><br />ハピハピハッピークレセント<br />あなたにハッピープレゼント<br />わかって欲しいの この気持ち あなただけよ 永遠ロマンス<br />ハピハピハッピークレセント<br />あなたに全部ささげるI love you<br />いつか終わるの？ ねぇ抱きしめて欲しい 片想い`,
         album: { cover: "img/album.png" },
         title: "ハッピークレセント",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}神のみぞ知るセカイ 中川かのん 1stアルバム「Birth」／中川かのん starring 東山奈央/06 ハッピークレセント`
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/10_bJfAW9gA-egQnxB5t0YA"
     },{
         artist: "中川かのん starring 東山奈央",
         lyrics: `何もみえない<br />暗闇のなかで<br />見つけたんだ 小さな光を<br /><br />私は歩いてく<br />もう迷わない<br />まっすぐに届け<br /><br />何も聞こえない<br />喧騒のなかで<br />見つけたんだ 小さな声を<br /><br />私は歌う<br />メロディが空へ一杯に<br />広がれ<br /><br />心は あなたに続いてる<br />いますぐ会いたい<br />感じたい ぬくもりを<br />世界が満たされる 光で<br />どこにいても 感じるよ 声を<br /><br />わたしの<br />らぶこーる<br /><br />あなたに<br /><br />涙があふれる<br />孤独な心に<br />見つけたんだ 小さな愛を<br /><br />私は想う<br />歌声が どこまでも響く<br />I love you<br /><br />たとえ つまずいて 疲れ切っても<br />地図のない道に<br />ゴールは見えなくても<br />進むよ 目の前を見つめて<br /><br />たどりつくよ<br />あなたの<br />ところへ<br /><br />心は あなたに続いてる<br />いつでも会いたい<br />感じたい ぬくもりを<br />世界が満たされる 光で<br />どこにいても 感じるよ 愛を<br /><br />わたしの<br />らぶこーる<br /><br />あなたに`,
         album: { cover: "img/album.png" },
         title: "らぶこーる",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}神のみぞ知るセカイ 中川かのん 1stアルバム「Birth」／中川かのん starring 東山奈央/08 らぶこーる`
-    },*/{
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1hyipghDIc7z4mjuRLtpukg"
+    },{
         artist: "野水いおり",
         lyrics: null,
         album: {
@@ -1261,492 +1267,541 @@ export const songs = [
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "It's OK",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/01 It's OK`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1e89LMRXReddTFfm57MVNjQ"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "LIFE",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/02 LIFE`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/101TACUhoXLAwCEbMFzL1fg"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Cry day...",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/03 Cry day...`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1Q3rrVvCyueKOjJDjWJLYbA"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "ジレンマ～I’m your side～",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/04 ジレンマ～I’m your side～`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/14ohBCmSx058DGSLxIOLk8g"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Be．．．",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/05 Be．．．`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/13gIow-jly8fcAOLLGWg4_Q"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "My Way",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/06 My Way`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1ssUcvkJdwD369-fdVTqfqg"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "30",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/07 30`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1xsBoflH8d3BecNCBIK00KQ"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "ANSWER",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/08 ANSWER`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1NYFN7n8uIjMDV49uJZKNOw"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "また恋をすることなど",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/09 また恋をすることなど`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1kSjb3zo1riq4Ek-8KnWX-w"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "翼",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/10 翼`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1l1bbYWs5xuNzgUEKeyEaYw"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "あなたに会えなくなる日まで",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/11 あなたに会えなくなる日まで`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1QJrylmh79ZTPgCouymVAlw"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "You are Beautiful",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/12 You are Beautiful`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1zp2WThaV1OAvWgFY8eD-iA"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "WAY YOU ARE",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/13 WAY YOU ARE`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1V-hiofMHEMdzsN13qcMD9A"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "I Remember You [feat. AK-69]",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/14 I Remember You [feat. AK-69]`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1z6flL90A-3Ii2v6wdyXf6w"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "鐘が鳴る",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/15 鐘が鳴る`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1N3OgBxtstErU3JXuP0SyHg"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Who Are You",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/16 Who Are You`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1pmWFh_PdD44xAnRhPKRkKg"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Open door",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 1/17 Open door`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1lTAdGxKTWh87CJ-1UcM3nA"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "baby don't know why",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/01 baby don't know why`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1ChJ1esv6wiyT-w5PyUx_Ww"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Dear",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/02 Dear`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1lDCDdW5fPZRYxsYPsI_VZw"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "I can change",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/03 I can change`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1P69dvO3BKtW7ObX61nrKog"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Letter",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/04 Letter`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1faBep-P7NcCer9QRsvFYgQ"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "優しい雨",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/05 優しい雨`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1v58y6u-5b7UJ7v0XOqwHVQ"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "I WILL",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/06 I WILL`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1HmBFhisRNBP2FsHX_TQvrQ"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "ORANGE",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/07 ORANGE`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1fbamMj1h_BnJczilXqrqqg"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "I'm ALIVE",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/08 I'm ALIVE`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1OFanXZRWBzwXyARptzYgQg"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Footprint",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/09 Footprint`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1nf4Ra4PvofZHCML23yw7dg"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "花",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/10 花`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1lwetg-b_A8urTY6atPVbRQ"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "White Letter",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/11 White Letter`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1HCySbCMfmOJG15AGENtowQ"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Be myself",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/12 Be myself`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1loZ8u8_nUSZjcjdw8NBp7A"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "WITH",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/13 WITH`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1_gDJ5PQaQN7VkbTMFGq_VQ"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "星をこえて",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/14 星をこえて`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1EpwPb3dnqbAUOmyZs-r23Q"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "海を見てる",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/15 海を見てる`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1Ggvp5z81T3i16koV1ytQvw"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "はじまりの時",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 2/16 はじまりの時`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/11y-kA4fZsLpc0Eozn0hD9w"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "let go",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/01 let go`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1FlroS5ZRlOweIPvy4V7Rmw"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "First Love",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/02 First Love`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1V3pNZoqdcCgUwr8AddztQA"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Ti Amo",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/03 Ti Amo`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1F_ZZGtUjzQJ9LjeMBwiM8g"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "最後の雨 (ALBUM VERSION)",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/04 最後の雨 (ALBUM VERSION)`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1aGygbkn2FFiGUa2ARWqQLQ"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "このまま君だけを奪い去りたい",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/05 このまま君だけを奪い去りたい`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1vqG8hkoirTt6X7cZaYiBXQ"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Time goes by",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/06 Time goes by`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1Zj2sZE7BsgYi6bKvO-j3eg"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "ら・ら・ら",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/07 ら・ら・ら`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1Lqm_0U1eKFOWtr5idTKxQA"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "空と君のあいだに",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/08 空と君のあいだに`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1IqLJ9Oqz_iV62QxzlDrpow"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "慟哭",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/09 慟哭`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1hKLp8mzx6__ubJ_NGDcMgA"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "未来予想図II",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/10 未来予想図II`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/14Uykjp1ytTR8fE4Zij0YAg"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "三日月",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/11 三日月`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1pW9rjdK8CwgyHzidRc1tGw"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "フライディ・チャイナタウン",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/12 フライディ・チャイナタウン`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/16-h9KIS8aOCNVU8AdcyUTw"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "真夜中のドア～Stay With Me～",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/13 真夜中のドア～Stay With Me～`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1poXL9HEonQJPvdgC4ml7yQ"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "また君と [feat. Ms.OOJA]",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/14 また君と [feat. Ms.OOJA]`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1C7gMVHr83u76MkAh81QoFg"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "愛とは・・・",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/15 愛とは・・・`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1HBr9l7jjYak7lWyLKLrmLA"
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Cover.jpg`,
+            cover: TERABOX_API + "https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw",
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "しあわせ [feat. Ms.OOJA & SALU]",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Ms.OOJA/10th Anniversary Best 〜私たちの主題歌〜/Disc 3/16 しあわせ [feat. Ms.OOJA & SALU]`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1F40-zCMT_-w3uVV_rOUg5w"
     },{
         artist: "王菲",
         lyrics: null,
@@ -2564,10 +2619,10 @@ export const songs = [
         filename: `${HOSTING_URL1}Various Artists/ドリームハイ　オリジナル・サウンドトラック　ジャパニーズ・プレミアムエディション/13 Dream High 日本語Ver.`
     },{
         artist: "Henry (feat. 규현 & 태민)",
-        lyrics: `${HOSTING_URL1}Henry - Trap (feat. 규현 & 태민).lrc`,
+        lyrics: `${HOSTING_URL1}Henry - Trap.lrc`,
         album: { cover: "img/album.png" },
         title: "Trap",
-        filename: `${HOSTING_URL1}Henry - Trap (feat. 규현 & 태민)`
+        filename: `${HOSTING_URL1}Henry - Trap`
     },{
         artist: "Ailee",
         lyrics: null,
