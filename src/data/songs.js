@@ -1,5 +1,5 @@
 const HOSTING_URL1 = "//onedrive-cf-index-ng-emocdn.pages.dev/api/raw?path=/";
-const HOSTING_URL2 = "//cdn.mecx.dev/";
+//const HOSTING_URL2 = "//cdn.mecx.dev/";
 const TERABOX_API = "//terabox-app-mecx.pages.dev/api?proxy&data=";
 
 export const songs = [
@@ -16,13 +16,84 @@ export const songs = [
     {
         artist: "AiScReam",
         lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
+        album: { cover: "img/album.png" },
         title: "愛♡スクリ～ム！",
         isTAK: true,
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1DNFbtRwU18s9-hRuWbELzQ"
+    },{
+        artist: "高嶺のなでしこ",
+        lyrics: null,
+        album: {
+            cover: TERABOX_API + "https://1024terabox.com/s/1GR-YIeIt1VmMHpejGrYT-A",
+            name: "可愛くてごめん"
+        },
+        title: "可愛くてごめん",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1-6gAdmitdtceOGfBNzmP1Q"
+    },{
+        artist: "浅野てんき（浅野天琪）",
+        lyrics: null,
+        album: {
+            cover: TERABOX_API + "https://1024terabox.com/s/1r5xsL5xnpvTs6xWDiXeZLg",
+            name: "星の夢"
+        },
+        title: "星の夢",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1VXrRpxge_DsYSLBSogrQUQ"
+    },{
+        artist: "浅野てんき（浅野天琪）",
+        lyrics: null,
+        album: {
+            cover: TERABOX_API + "https://1024terabox.com/s/1r5xsL5xnpvTs6xWDiXeZLg",
+            name: "星の夢"
+        },
+        title: "星の夢（Piano Ver.）",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1fCYbsbfPAlMSoDGLryFnAw"
+    },{
+        artist: "中川かのん starring 東山奈央",
+        lyrics: `短い髪を なびかせて<br />リボン革命 起こしちゃう<br />レボレボな 未来<br /><br />みんなの声が 聞きたいの<br />みんなに届け 愛の歌<br />メロメロな メロディ<br /><br />明日も会えるかな きっと会えるよね<br />胸のときめきを 伝えたいな<br /><br />I MY ME アイドル WA TA SHI アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />みんなのハート狙い撃ちよ もう 離さない<br /><br />スカートひらり なびかせて<br />魅惑のダンス サプライズ<br />ドキドキを あげる<br /><br />みんなが辛い 時にはね<br />夜空きらめく 星になる<br />キラキラリ 光る<br /><br />誰にも止められない 準備万端だよね？<br />ローラーコースター ついてきてね<br /><br />I MY ME アイドル I MY ME アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />みんなのハート狙い撃ちよ もう 離さない<br /><br />あなたに 伝えたい<br /><br />I MY ME アイドル WA TA SHI アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />あなたのハート狙い撃ちよ ずっと 離さない`,
+        album: { cover: "img/album.png" },
+        title: "LOVE KANON",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1ZAqc-exyC5jBq6oVMZhU3Q"
+    },{
+        artist: "中川かのん starring 東山奈央",
+        lyrics: `ALL 4 YOU 白い砂に ALL 4 YOU 裸足の愛<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 触れる素肌 ALL 4 YOU 渚の愛<br />君と走りぬけたい 常夏色の恋 叶えたいよ<br /><br />太陽 スマイル 炎天下ドライブ<br />なんて 綺麗な エメラルド絨毯<br />恋の プロローグ 寄せては返す<br />この想い 伝えたい<br /><br />サンダルが青空 飛んでいく<br />鼓動をつないだ シルエット<br /><br />ALL 4 YOU 白い砂に ALL 4 YOU 裸足の恋<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 風が走る ALL 4 YOU 渚の恋<br />君と走りぬけたい 常夏色の愛 届けたいよ<br /><br />太陽 アクビで 地平線へダイブ<br />なんて 綺麗な 星空の絨毯<br />ちょっと 勇気出して 距離縮める<br />この想い 気づいてよ<br /><br />波音のシンフォニー 鳴り響く<br />二人はひとつの シルエット<br /><br />ALL 4 YOU 一人占めよ ALL 4 YOU わたしの愛<br />照れた横顔 目が離せないよ<br />ALL 4 YOU 触れた素肌 ALL 4 YOU 渚のキス<br />君と一緒にいたい 来年再来年 その先も<br /><br />ALL 4 YOU 白い砂に ALL 4 YOU 裸足の恋<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 風が走る ALL 4 YOU 渚の恋<br />君と走りぬけたい 常夏色の愛 届けたいよ`,
+        album: { cover: "img/album.png" },
+        title: "ALL 4 YOU",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1pzd_4r6nRKLnvS0ev1CtoQ"
+    },{
+        artist: "中川かのん starring 東山奈央",
+        lyrics: `黒板 そっちのけで チラリ 見つめる先は<br />甘い横顔 ファンタジー<br /><br />突然 校舎の裏 相談 恋愛モード<br />やっぱ私にじゃない<br /><br />だけどあなたの 為に頑張る<br />いつの日にか 振り 向かせてみせるわ<br />鈍感過ぎな ロミオさん<br /><br />ハピハピハッピークレセント<br />あなたにハッピープレゼント<br />わかって欲しいの この気持ち あなただけよ 永遠ロマンス<br />ハピハピハッピークレセント<br />あなたに全部ささげるI love you<br />いつか終わるの？ ねぇ抱きしめて欲しい 片想い<br /><br />窓辺 溜め息色 ふいに 見つめる先に<br />暗い横顔 ミステリー<br /><br />走る 渡り廊下 背中 失恋モード<br />もしかしてフラれたの？<br /><br />元気だしてよ わたしがいるよ<br />告白だよ？ でも 気付いてない顔<br />鈍感過ぎよ ロミオさん<br /><br />トキメキハッピークレセント<br />ドキドキもっとプレゼント<br />気付いて欲しいの 胸の鼓動 奏でてるよ 恋のメロディ<br />トキメキハッピークレセント<br />あなたに全部ささげるI want you<br />いつになるだろ？ ねぇ終わらせたいよ 片想い<br /><br />ハピハピハッピークレセント<br />あなたにハッピープレゼント<br />わかって欲しいの この気持ち あなただけよ 永遠ロマンス<br />ハピハピハッピークレセント<br />あなたに全部ささげるI love you<br />いつか終わるの？ ねぇ抱きしめて欲しい 片想い`,
+        album: { cover: "img/album.png" },
+        title: "ハッピークレセント",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/10_bJfAW9gA-egQnxB5t0YA"
+    },{
+        artist: "中川かのん starring 東山奈央",
+        lyrics: `何もみえない<br />暗闇のなかで<br />見つけたんだ 小さな光を<br /><br />私は歩いてく<br />もう迷わない<br />まっすぐに届け<br /><br />何も聞こえない<br />喧騒のなかで<br />見つけたんだ 小さな声を<br /><br />私は歌う<br />メロディが空へ一杯に<br />広がれ<br /><br />心は あなたに続いてる<br />いますぐ会いたい<br />感じたい ぬくもりを<br />世界が満たされる 光で<br />どこにいても 感じるよ 声を<br /><br />わたしの<br />らぶこーる<br /><br />あなたに<br /><br />涙があふれる<br />孤独な心に<br />見つけたんだ 小さな愛を<br /><br />私は想う<br />歌声が どこまでも響く<br />I love you<br /><br />たとえ つまずいて 疲れ切っても<br />地図のない道に<br />ゴールは見えなくても<br />進むよ 目の前を見つめて<br /><br />たどりつくよ<br />あなたの<br />ところへ<br /><br />心は あなたに続いてる<br />いつでも会いたい<br />感じたい ぬくもりを<br />世界が満たされる 光で<br />どこにいても 感じるよ 愛を<br /><br />わたしの<br />らぶこーる<br /><br />あなたに`,
+        album: { cover: "img/album.png" },
+        title: "らぶこーる",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1hyipghDIc7z4mjuRLtpukg"
+    },{
+        artist: "キュアダイヤモンド(CV.寿美菜子)",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "COCORO♦Diamond",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/19JadikKO75cRq-Ai-w471w"
     },{
         artist: "BIGBANG",
         lyrics: null,
@@ -54,35 +125,16 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/12NhiAaMA_Qgm5NGuDABbqQ"
     },{
-        artist: "Andrea Bocelli",
+        artist: "Adele",
         lyrics: null,
         album: {
-            cover: "img/album.png"
+            cover: TERABOX_API + "https://1024terabox.com/s/1ztgSMZCjCqGgzhrRnDducA",
+            name: "Rolling in the Deep"
         },
-        title: "Canto Della Terra",
-        isWavPack: true,
+        title: "Rolling in the Deep",
+        isTAK: true,
         isTeraBox: true,
-        filename: TERABOX_API + "https://1024terabox.com/s/1qmdFV-Ofw0YTPfcZioZCZQ"
-    },{
-        artist: "Andrea Bocelli & Giorgia Todrani",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "Vivo per lei",
-        isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOX_API + "https://1024terabox.com/s/1h5R_w_hHFk8C3MX5SvGgjQ"
-    },{
-        artist: "Andrea Bocelli & Sarah Brightman",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "Time to Say Goodbye (Con te partirò)",
-        isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOX_API + "https://1024terabox.com/s/1tQ747LDhoSu1Txr_o36qeA"
+        filename: TERABOX_API + "https://1024terabox.com/s/1KmLeJto2XMGOGjggyISTYg"
     },{
         artist: "張惠妹",
         lyrics: null,
@@ -177,14 +229,6 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1-tqvgArxyT3Mgwzuh3aYOw"
     },{
-        artist: "キュアダイヤモンド(CV.寿美菜子)",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "COCORO♦Diamond",
-        isTAK: true,
-        isTeraBox: true,
-        filename: TERABOX_API + "https://1024terabox.com/s/19JadikKO75cRq-Ai-w471w"
-    },{
         artist: "飛鳥空 starring 櫻井智",
         lyrics: `えんぴつの先 指で確かめ<br />どんな絵になるの? まだ見えないけど<br /><br />目を閉じると浮かび上がるから<br />心の奥にある想い カタチにしてみて<br /><br />綺麗な絵の具たちを並べてみていると<br />心ときめいてくるの<br /><br />そう 初めての色<br /><br />ふたりで選んだパステルたち<br />あと少しだから お願い気付いて<br /><br />そわそわしてるの バレちゃうかな?<br />目逸らしてるの わざとだよ<br />素直になれない<br /><br />あなたのこと想うと胸が高鳴るから<br />伝えたい この気持ちを<br />そう 風にのせて<br /><br />広い空のキャンパスに筆を走らせて<br />どこまでも自由だから<br />届けたい笑顔を<br /><br />未来描いて`,
         album: { cover: "img/album.png" },
@@ -200,38 +244,6 @@ export const songs = [
         isWavPack: true,
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/19XiGl6cUIf5hMxlo4TcwzA"
-    },{
-        artist: "中川かのん starring 東山奈央",
-        lyrics: `短い髪を なびかせて<br />リボン革命 起こしちゃう<br />レボレボな 未来<br /><br />みんなの声が 聞きたいの<br />みんなに届け 愛の歌<br />メロメロな メロディ<br /><br />明日も会えるかな きっと会えるよね<br />胸のときめきを 伝えたいな<br /><br />I MY ME アイドル WA TA SHI アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />みんなのハート狙い撃ちよ もう 離さない<br /><br />スカートひらり なびかせて<br />魅惑のダンス サプライズ<br />ドキドキを あげる<br /><br />みんなが辛い 時にはね<br />夜空きらめく 星になる<br />キラキラリ 光る<br /><br />誰にも止められない 準備万端だよね？<br />ローラーコースター ついてきてね<br /><br />I MY ME アイドル I MY ME アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />みんなのハート狙い撃ちよ もう 離さない<br /><br />あなたに 伝えたい<br /><br />I MY ME アイドル WA TA SHI アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />あなたのハート狙い撃ちよ ずっと 離さない`,
-        album: { cover: "img/album.png" },
-        title: "LOVE KANON",
-        isTAK: true,
-        isTeraBox: true,
-        filename: TERABOX_API + "https://1024terabox.com/s/1ZAqc-exyC5jBq6oVMZhU3Q"
-    },{
-        artist: "中川かのん starring 東山奈央",
-        lyrics: `ALL 4 YOU 白い砂に ALL 4 YOU 裸足の愛<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 触れる素肌 ALL 4 YOU 渚の愛<br />君と走りぬけたい 常夏色の恋 叶えたいよ<br /><br />太陽 スマイル 炎天下ドライブ<br />なんて 綺麗な エメラルド絨毯<br />恋の プロローグ 寄せては返す<br />この想い 伝えたい<br /><br />サンダルが青空 飛んでいく<br />鼓動をつないだ シルエット<br /><br />ALL 4 YOU 白い砂に ALL 4 YOU 裸足の恋<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 風が走る ALL 4 YOU 渚の恋<br />君と走りぬけたい 常夏色の愛 届けたいよ<br /><br />太陽 アクビで 地平線へダイブ<br />なんて 綺麗な 星空の絨毯<br />ちょっと 勇気出して 距離縮める<br />この想い 気づいてよ<br /><br />波音のシンフォニー 鳴り響く<br />二人はひとつの シルエット<br /><br />ALL 4 YOU 一人占めよ ALL 4 YOU わたしの愛<br />照れた横顔 目が離せないよ<br />ALL 4 YOU 触れた素肌 ALL 4 YOU 渚のキス<br />君と一緒にいたい 来年再来年 その先も<br /><br />ALL 4 YOU 白い砂に ALL 4 YOU 裸足の恋<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 風が走る ALL 4 YOU 渚の恋<br />君と走りぬけたい 常夏色の愛 届けたいよ`,
-        album: { cover: "img/album.png" },
-        title: "ALL 4 YOU",
-        isTAK: true,
-        isTeraBox: true,
-        filename: TERABOX_API + "https://1024terabox.com/s/1pzd_4r6nRKLnvS0ev1CtoQ"
-    },{
-        artist: "中川かのん starring 東山奈央",
-        lyrics: `黒板 そっちのけで チラリ 見つめる先は<br />甘い横顔 ファンタジー<br /><br />突然 校舎の裏 相談 恋愛モード<br />やっぱ私にじゃない<br /><br />だけどあなたの 為に頑張る<br />いつの日にか 振り 向かせてみせるわ<br />鈍感過ぎな ロミオさん<br /><br />ハピハピハッピークレセント<br />あなたにハッピープレゼント<br />わかって欲しいの この気持ち あなただけよ 永遠ロマンス<br />ハピハピハッピークレセント<br />あなたに全部ささげるI love you<br />いつか終わるの？ ねぇ抱きしめて欲しい 片想い<br /><br />窓辺 溜め息色 ふいに 見つめる先に<br />暗い横顔 ミステリー<br /><br />走る 渡り廊下 背中 失恋モード<br />もしかしてフラれたの？<br /><br />元気だしてよ わたしがいるよ<br />告白だよ？ でも 気付いてない顔<br />鈍感過ぎよ ロミオさん<br /><br />トキメキハッピークレセント<br />ドキドキもっとプレゼント<br />気付いて欲しいの 胸の鼓動 奏でてるよ 恋のメロディ<br />トキメキハッピークレセント<br />あなたに全部ささげるI want you<br />いつになるだろ？ ねぇ終わらせたいよ 片想い<br /><br />ハピハピハッピークレセント<br />あなたにハッピープレゼント<br />わかって欲しいの この気持ち あなただけよ 永遠ロマンス<br />ハピハピハッピークレセント<br />あなたに全部ささげるI love you<br />いつか終わるの？ ねぇ抱きしめて欲しい 片想い`,
-        album: { cover: "img/album.png" },
-        title: "ハッピークレセント",
-        isTAK: true,
-        isTeraBox: true,
-        filename: TERABOX_API + "https://1024terabox.com/s/10_bJfAW9gA-egQnxB5t0YA"
-    },{
-        artist: "中川かのん starring 東山奈央",
-        lyrics: `何もみえない<br />暗闇のなかで<br />見つけたんだ 小さな光を<br /><br />私は歩いてく<br />もう迷わない<br />まっすぐに届け<br /><br />何も聞こえない<br />喧騒のなかで<br />見つけたんだ 小さな声を<br /><br />私は歌う<br />メロディが空へ一杯に<br />広がれ<br /><br />心は あなたに続いてる<br />いますぐ会いたい<br />感じたい ぬくもりを<br />世界が満たされる 光で<br />どこにいても 感じるよ 声を<br /><br />わたしの<br />らぶこーる<br /><br />あなたに<br /><br />涙があふれる<br />孤独な心に<br />見つけたんだ 小さな愛を<br /><br />私は想う<br />歌声が どこまでも響く<br />I love you<br /><br />たとえ つまずいて 疲れ切っても<br />地図のない道に<br />ゴールは見えなくても<br />進むよ 目の前を見つめて<br /><br />たどりつくよ<br />あなたの<br />ところへ<br /><br />心は あなたに続いてる<br />いつでも会いたい<br />感じたい ぬくもりを<br />世界が満たされる 光で<br />どこにいても 感じるよ 愛を<br /><br />わたしの<br />らぶこーる<br /><br />あなたに`,
-        album: { cover: "img/album.png" },
-        title: "らぶこーる",
-        isTAK: true,
-        isTeraBox: true,
-        filename: TERABOX_API + "https://1024terabox.com/s/1hyipghDIc7z4mjuRLtpukg"
     },{
         artist: "野水いおり",
         lyrics: null,
@@ -849,27 +861,23 @@ export const songs = [
         title: "ROYS",
         isWavPack: true,
         filename: `${HOSTING_URL2}Roys/I'll be there/03 ROYS`
-    },{
+    },*/{
         artist: "ウィーン・マルガレーテ（CV.結那）",
         lyrics: null,
-        album: {
-            cover: `${HOSTING_URL2}ウィーン・マルガレーテ/Butterfly Wing／エーデルシュタイン/Cover.jpg`,
-            name: "Butterfly Wing／エーデルシュタイン"
-        },
+        album: { cover: "img/album.png" },
         title: "Butterfly Wing",
         isWavPack: true,
-        filename: `${HOSTING_URL2}ウィーン・マルガレーテ/Butterfly Wing／エーデルシュタイン/01 Butterfly Wing`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1B2mFRW4mWXqrH8Jd0v6jrg"
     },{
         artist: "ウィーン・マルガレーテ（CV.結那）",
         lyrics: null,
-        album: {
-            cover: `${HOSTING_URL2}ウィーン・マルガレーテ/Butterfly Wing／エーデルシュタイン/Cover.jpg`,
-            name: "Butterfly Wing／エーデルシュタイン"
-        },
+        album: { cover: "img/album.png" },
         title: "エーデルシュタイン",
         isWavPack: true,
-        filename: `${HOSTING_URL2}ウィーン・マルガレーテ/Butterfly Wing／エーデルシュタイン/02 エーデルシュタイン`
-    },{
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1iY5YaTWaVt9tHfOXPaxXlg"
+    },/*{
         artist: "ワルキューレ",
         lyrics: `見つめ合って恋をして 無我夢中で追いかけて<br />だけどもっと知りたくて メラメラしてる<br />願うほど謎が増え 思うほど熱になる<br />だからもっと飛び込むの 未開の世界 ah<br />恋とか夢とか誰でも信じるけど<br />ソコソコ攻めなきゃつまんないよ<br />ギリギリ愛 いけないボーダーライン<br />難易度Gでも すべて壊してみせる<br />キリキリ舞い さらなるGへと<br />意識が溶ける 体は制御不能<br />いっちゃうかもね<br />ふざけ合った友達と 求め合ったあの人と<br />また会える日のためにギラギラしてる<br />光るほど影はでき 燃えるほど灰になる<br />走るほど見えてくる 危ないライン ah<br />自由も平和も望めば生まれるけど<br />モタモタしてたら腐っちゃうよ<br />ギリギリ愛 あぶないボーダーレス<br />非常識だね まだ加速しているよ<br /キリキリ舞い<br />限界点なら塗り替えていい<br />破壊と再生から私が出来る<br />ギリギリ愛 いけないボーダーライン<br />難易度Gでも すべて壊してみせる<br />キリキリ舞い さらなるGへと<br />意識が溶ける 体は制御不能<br />いっちゃうかもね<br />ギリギリ愛 いけないボーダーライン<br />燃え尽きながらまだ輝いてみせる<br />キリキリ舞 あなたのために<br />未来のために何度砕け散っても<br />愛することで生まれ変わる<br />愛されたくて生きて帰る`,
         album: {
@@ -1810,7 +1818,7 @@ export const songs = [
         },
         title: "因為愛情",
         isWavPack: true,
-        filename: `${HOSTING_URL2}王菲 - 因為愛情`
+        filename: TERABOX_API + "https://1024terabox.com/s/1uf1oa2zqV2Pmz1I34B4N2A"
     },{
         artist: "那英",
         lyrics: null,
@@ -1819,7 +1827,8 @@ export const songs = [
         },
         title: "征服",
         isWavPack: true,
-        filename: `${HOSTING_URL2}那英 - 征服`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1GViGgnXHmsfyXvnZYjmzCQ"
     },{
         artist: "那英",
         lyrics: null,
@@ -1828,7 +1837,8 @@ export const songs = [
         },
         title: "夢一場",
         isWavPack: true,
-        filename: `${HOSTING_URL2}那英 - 夢一場`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1TsHuK5Jf7FtF7LP62BBTaA"
     },{
         artist: "王馨平",
         lyrics: null,
@@ -1837,7 +1847,8 @@ export const songs = [
         },
         title: "別問我是誰",
         isWavPack: true,
-        filename: `${HOSTING_URL2}王馨平 - 別問我是誰`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1d8fY7IqjVF7yarLNb4PwEQ"
     },{
         artist: "伍思凯",
         lyrics: null,
@@ -1846,7 +1857,8 @@ export const songs = [
         },
         title: "特別的愛給特別的你",
         isWavPack: true,
-        filename: `${HOSTING_URL2}伍思凱 - 特別的愛給特別的你`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1U487OTRy3ujUfYUUJdVDig"
     },{
         artist: "張雨生",
         lyrics: null,
@@ -1855,7 +1867,8 @@ export const songs = [
         },
         title: "口是心非",
         isWavPack: true,
-        filename: `${HOSTING_URL2}張雨生 - 口是心非`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1ixlViKlqw7Pc8KNtTc9dSQ"
     },{
         artist: "張雨生",
         lyrics: null,
@@ -1864,14 +1877,16 @@ export const songs = [
         },
         title: "我的未來不是夢",
         isWavPack: true,
-        filename: `${HOSTING_URL2}張雨生 - 我的未來不是夢`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1h1pEXcPfdB_ZnQGoQATAuQ"
     },{
         artist: "王麟＆老猫",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "伤不起",
         isWavPack: true,
-        filename: `${HOSTING_URL2}王麟＆老猫 - 伤不起`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1KcguSFcoJFaXE9MR-n-Arg"
     },{
         artist: "陈明",
         lyrics: null,
@@ -1880,7 +1895,8 @@ export const songs = [
         },
         title: "快乐老家",
         isWavPack: true,
-        filename: `${HOSTING_URL2}陈明 - 快乐老家`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1hQRSXBRq4Imgp0m-z6rFEw"
     },{
         artist: "陈明",
         lyrics: null,
@@ -1889,7 +1905,8 @@ export const songs = [
         },
         title: "我要找到你",
         isWavPack: true,
-        filename: `${HOSTING_URL2}陈明 - 我要找到你`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/19IhRJqQlGErXGHUAPCy5QQ"
     },{
         artist: "林志炫",
         lyrics: null,
@@ -1898,14 +1915,16 @@ export const songs = [
         },
         title: "單身情歌",
         isWavPack: true,
-        filename: `${HOSTING_URL2}林志炫 - 單身情歌`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1leW3MMqCTEnMPj0Ei-e5ZA"
     },{
         artist: "誓言",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "求佛",
         isWavPack: true,
-        filename: `${HOSTING_URL2}誓言 - 求佛`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1P-uc3clYZ41uZyrT89qKwQ"
     },{
         artist: "動力火車",
         lyrics: null,
@@ -1914,7 +1933,8 @@ export const songs = [
         },
         title: "忠孝東路走九遍",
         isWavPack: true,
-        filename: `${HOSTING_URL2}動力火車 - 忠孝東路走九遍`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/12P0eZRy4oZqUpFgajzKPtA"
     },{
         artist: "林憶蓮",
         lyrics: null,
@@ -1923,7 +1943,8 @@ export const songs = [
         },
         title: "至少還有你",
         isWavPack: true,
-        filename: `${HOSTING_URL2}林憶蓮 - 至少還有你`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1EP8Mz_ehX7z01zAIQyB2ZA"
     },{
         artist: "梁靜茹",
         lyrics: null,
@@ -1932,7 +1953,8 @@ export const songs = [
         },
         title: "崇拜",
         isWavPack: true,
-        filename: `${HOSTING_URL2}梁靜茹 - 崇拜`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1G4o1AZcEAo2-VNcJ1NCuQQ"
     },{
         artist: "S.H.E",
         lyrics: null,
@@ -1941,7 +1963,8 @@ export const songs = [
         },
         title: "美麗新世界",
         isWavPack: true,
-        filename: `${HOSTING_URL2}S.H.E - 美麗新世界`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1x7htGidwWQWKstE1r9yGbw"
     },{
         artist: "S.H.E",
         lyrics: null,
@@ -1950,7 +1973,8 @@ export const songs = [
         },
         title: "月桂女神",
         isWavPack: true,
-        filename: `${HOSTING_URL2}S.H.E - 月桂女神`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1dpAWES5y6BIb6wLU-vqdcw"
     },{
         artist: "S.H.E",
         lyrics: null,
@@ -1959,7 +1983,8 @@ export const songs = [
         },
         title: "中國話",
         isWavPack: true,
-        filename: `${HOSTING_URL2}S.H.E - 中國話`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1mJb_W2l0ltQvw98qJWyuYA"
     },{
         artist: "S.H.E & 飛輪海",
         lyrics: null,
@@ -1968,7 +1993,8 @@ export const songs = [
         },
         title: "謝謝你的溫柔",
         isWavPack: true,
-        filename: `${HOSTING_URL2}S.H.E - 謝謝你的溫柔`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/12kFSOnIICOtGvx7jsi50VA"
     },{
         artist: "張棟樑",
         lyrics: null,
@@ -1977,7 +2003,8 @@ export const songs = [
         },
         title: "當你孤單你會想起誰",
         isWavPack: true,
-        filename: `${HOSTING_URL2}張棟樑 - 當你孤單你會想起誰`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1KA_UueRm5-t_GXCa-zvLKw"
     },{
         artist: "張棟樑",
         lyrics: null,
@@ -1986,14 +2013,16 @@ export const songs = [
         },
         title: "小烏龜",
         isWavPack: true,
-        filename: `${HOSTING_URL2}張棟樑 - 小烏龜`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1nTekHnPKkNqGpN1azNQLRQ"
     },{
         artist: "馬鬱",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "如果下輩子我還記得你",
         isWavPack: true,
-        filename: `${HOSTING_URL2}馬鬱 - 如果下輩子我還記得你`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1Ak_5BBW94W_PKlsmKzQ6sQ"
     },{
         artist: "張韶涵",
         lyrics: null,
@@ -2002,7 +2031,8 @@ export const songs = [
         },
         title: "隱形的翅膀",
         isWavPack: true,
-        filename: `${HOSTING_URL2}張韶涵 - 隱形的翅膀`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1wPSiSw0whP_qbABTes5XEw"
     },{
         artist: "郭靜",
         lyrics: null,
@@ -2011,7 +2041,8 @@ export const songs = [
         },
         title: "心牆",
         isWavPack: true,
-        filename: `${HOSTING_URL2}郭靜 - 心牆`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/11YwiPU0Umt7LTjnOjZOp6Q"
     },{
         artist: "南拳媽媽",
         lyrics: null,
@@ -2020,7 +2051,8 @@ export const songs = [
         },
         title: "下雨天",
         isWavPack: true,
-        filename: `${HOSTING_URL2}南拳媽媽 - 下雨天`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1N6qtN_9B7rA82fvh0knRVg"
     },{
         artist: "陳芳語",
         lyrics: null,
@@ -2029,7 +2061,8 @@ export const songs = [
         },
         title: "愛你",
         isWavPack: true,
-        filename: `${HOSTING_URL2}陳芳語 - 愛你`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1oM9bmSMmHYZiFfu5U13itA"
     },{
         artist: "柯柯柯啊",
         lyrics: null,
@@ -2038,7 +2071,8 @@ export const songs = [
         },
         title: "姑娘别哭泣",
         isWavPack: true,
-        filename: `${HOSTING_URL2}柯柯柯啊 - 姑娘别哭泣`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1G9boK9vb51p7uNLX0FUSLw"
     },{
         artist: "艾北",
         lyrics: null,
@@ -2047,7 +2081,8 @@ export const songs = [
         },
         title: "姑娘别哭泣",
         isWavPack: true,
-        filename: `${HOSTING_URL2}艾北 - 姑娘别哭泣`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1VFMTFqCYTChqgq9yAM8nkQ"
     },{
         artist: "威仔＆格子兮",
         lyrics: null,
@@ -2056,7 +2091,8 @@ export const songs = [
         },
         title: "我知道你不爱我",
         isWavPack: true,
-        filename: `${HOSTING_URL2}威仔＆格子兮 - 我知道你不爱我`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1E0KO1o-3TIuigzVaCACyVQ"
     },{
         artist: "威仔＆格子兮",
         lyrics: null,
@@ -2065,7 +2101,8 @@ export const songs = [
         },
         title: "我知道你不爱我(DJAx祥版)",
         isWavPack: true,
-        filename: `${HOSTING_URL2}威仔＆格子兮 - 我知道你不爱我(DJAx祥版)`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/163UzK3iiPKQIOqF6hGPFMw"
     },/*{
         artist: "G.E.M.鄧紫棋",
         lyrics: null,
@@ -2431,7 +2468,8 @@ export const songs = [
         album: { cover: "img/album.png" },
         title: "春天裡",
         isWavPack: true,
-        filename: `${HOSTING_URL2}汪峰 - 春天裡`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1RxuqM9CDpOO7osDrttilAw"
     },{
         artist: "孫楠",
         lyrics: null,
@@ -2440,7 +2478,8 @@ export const songs = [
         },
         title: "拯救",
         isWavPack: true,
-        filename: `${HOSTING_URL2}孫楠 - 拯救`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1rqBWxGrJnQbYkMe4VGCPhQ"
     },{
         artist: "黄绮珊",
         lyrics: null,
@@ -2449,28 +2488,32 @@ export const songs = [
         },
         title: "离不开你",
         isWavPack: true,
-        filename: `${HOSTING_URL2}黄绮珊 - 离不开你`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1ICetJpkoflC9wmfqCTmZwQ"
     },{
         artist: "韩安旭",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "多幸运",
         isWavPack: true,
-        filename: `${HOSTING_URL2}韩安旭 - 多幸运`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1-W6YHCN2i0JjX1jbUxdP3w"
     },{
         artist: "大壮",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "伪装",
         isWavPack: true,
-        filename: `${HOSTING_URL2}大壮 - 伪装`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1KSCcAbeKYTpAuZC2BZ3-7A"
     },{
         artist: "旺仔小乔",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "樱花树下的约定",
         isWavPack: true,
-        filename: `${HOSTING_URL2}旺仔小乔 - 樱花树下的约定`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1i6FMjQ_7iv0O9TEuMTO_9Q"
     },{
         artist: "张妙格",
         lyrics: null,
@@ -2479,7 +2522,8 @@ export const songs = [
         },
         title: "我期待的不是雪",
         isWavPack: true,
-        filename: `${HOSTING_URL2}张妙格 - 我期待的不是雪`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1y-KFDJ__UkFQiwbdD-y8_g"
     },/*{
         artist: "Approaching Nirvana",
         lyrics: null,
@@ -2545,14 +2589,16 @@ export const songs = [
         album: { cover: "img/album.png" },
         title: "Mặt Trái Của Sự Thật",
         isWavPack: true,
-        filename: `${HOSTING_URL2}HKT/Mặt Trái Của Sự Thật/01 Mặt Trái Của Sự Thật`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1sZ__kQDXaN4wP9j6Rgk-fw"
     },{
         artist: "HKT",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Thêm Một Lần Đau",
         isWavPack: true,
-        filename: `${HOSTING_URL2}HKT/Mặt Trái Của Sự Thật/05 Thêm Một Lần Đau`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1-JV2VvVsR8w0PQ-cBd6-4g"
     },{
         artist: "六哲＆陈娟儿",
         lyrics: `${HOSTING_URL1}六哲＆陈娟儿 - 错错错.lrc`,
@@ -2567,14 +2613,16 @@ export const songs = [
         },
         title: "Tình Yêu Trong Sáng",
         isWavPack: true,
-        filename: `${HOSTING_URL2}Saka Trương Tuyền & Lương Gia Huy - Tình Yêu Trong Sáng`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1_myobRnZ-vsXpKNxgkLJ2Q"
     },{
         artist: "顾峰＆斯琴高丽",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "犯错",
         isWavPack: true,
-        filename: `${HOSTING_URL2}顾峰＆斯琴高丽 - 犯错`
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1w9s-YI6hRg3wAHNeAFqF9Q"
     },{
         artist: "8/pLanet!!",
         lyrics: null,
