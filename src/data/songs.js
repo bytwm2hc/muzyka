@@ -42,12 +42,12 @@ export const songs = [
         title: "星の夢",
         isTAK: true,
         isTeraBox: true,
-        filename: TERABOX_API + "https://1024terabox.com/s/1VXrRpxge_DsYSLBSogrQUQ"
+        filename: TERABOX_API + "https://1024terabox.com/s/1YGc0nwFSf_hRZSxFJHmOag"
     },{
         artist: "浅野てんき（浅野天琪）",
         lyrics: null,
         album: {
-            cover: TERABOX_API + "https://1024terabox.com/s/1YGc0nwFSf_hRZSxFJHmOag",
+            cover: TERABOX_API + "https://1024terabox.com/s/1r5xsL5xnpvTs6xWDiXeZLg",
             name: "星の夢"
         },
         title: "星の夢（Piano Ver.）",
