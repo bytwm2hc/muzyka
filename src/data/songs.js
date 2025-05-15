@@ -55,6 +55,17 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1PsUZbmBoPUdXWGYbdBh_Bw"
     },{
+        artist: "アルストロメリア",
+        lyrics: null,
+        album: {
+            cover: TERABOX_API + "https://1024terabox.com/s/1Rxu4ASK7KYUDqumangXwFA",
+            name: "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 05"
+        },
+        title: "アルストロメリア",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1ycQID5RkhnzwyM5LJF5Hsw"
+    },{
         artist: "中川かのん starring 東山奈央",
         lyrics: `短い髪を なびかせて<br />リボン革命 起こしちゃう<br />レボレボな 未来<br /><br />みんなの声が 聞きたいの<br />みんなに届け 愛の歌<br />メロメロな メロディ<br /><br />明日も会えるかな きっと会えるよね<br />胸のときめきを 伝えたいな<br /><br />I MY ME アイドル WA TA SHI アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />みんなのハート狙い撃ちよ もう 離さない<br /><br />スカートひらり なびかせて<br />魅惑のダンス サプライズ<br />ドキドキを あげる<br /><br />みんなが辛い 時にはね<br />夜空きらめく 星になる<br />キラキラリ 光る<br /><br />誰にも止められない 準備万端だよね？<br />ローラーコースター ついてきてね<br /><br />I MY ME アイドル I MY ME アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />みんなのハート狙い撃ちよ もう 離さない<br /><br />あなたに 伝えたい<br /><br />I MY ME アイドル WA TA SHI アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />あなたのハート狙い撃ちよ ずっと 離さない`,
         album: { cover: "img/album.png" },
