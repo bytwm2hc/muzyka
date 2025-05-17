@@ -1,5 +1,4 @@
 const HOSTING_URL1 = "//onedrive-cf-index-ng-emocdn.pages.dev/api/raw?path=/";
-//const HOSTING_URL2 = "//cdn.mecx.dev/";
 const TERABOX_API = "//terabox-app-mecx.pages.dev/api?proxy&data=";
 
 export const songs = [
@@ -136,6 +135,34 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/12NhiAaMA_Qgm5NGuDABbqQ"
     },{
+        artist: "皮小妹",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "遺憾（抖音DJ版）",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1bzZBorB1Mb71t6BmZRkshw"
+    },{
+        artist: "李行亮",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "愿得一人心",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/19Qm982sgPOuHj9m4R_JD-Q"
+    },{
+        artist: "Michael Jackson",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Beat It",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/15WIVABAzuEchRn90-RVdXw"
+    },{
         artist: "Adele",
         lyrics: null,
         album: {
@@ -146,6 +173,52 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1KmLeJto2XMGOGjggyISTYg"
+    },{
+        artist: "The Weeknd",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Blinding Lights",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1vzCMR6ubmKhsNdZnvLyFpQ"
+    },{
+        artist: "Illenium & Kameron Alexander",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Pray",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1DztQToASDY-Vsds8BFVIdQ"
+    },{
+        artist: "Andrea Bocelli",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Canto Della Terra",
+        isWavPack: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1TtHOIdIsxNzWzXFl6xdCYQ"
+    },{
+        artist: "Andrea Bocelli & Giorgia Todrani",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Vivo per lei",
+        isWavPack: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/18VHLbTO6pok3N-8xmOktjg"
+    },{
+        artist: "Andrea Bocelli & Sarah Brightman",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Time To Say Goodbye",
+        isWavPack: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1oqOaBOwCAbbHyU64Gsu2FA"
     },{
         artist: "張惠妹",
         lyrics: null,
