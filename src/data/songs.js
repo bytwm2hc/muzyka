@@ -125,6 +125,26 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1lITaUy6jOPg5qIOgYJzI6g"
     },{
+        artist: "Rosé x Bruno Mars",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "APT.",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1AV0eeQiQeyeSl6pP-YAvgw"
+    },{
+        artist: "任賢齊",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "心太軟",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1PId6OIjmazkP5MHVDna5UQ"
+    },{
         artist: "蔡依林",
         lyrics: null,
         album: {
@@ -144,6 +164,46 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1bzZBorB1Mb71t6BmZRkshw"
+    },{
+        artist: "烏蘭圖雅",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "站在草原望北京（抖音DJ版）",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1EY61KQJNGpbapS6YBMzChQ"
+    },{
+        artist: "烏蘭圖雅",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "阿爾山的姑娘（抖音DJ版）",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1jaTlIQnsT_cVGu0yeX-2bA"
+    },{
+        artist: "魏新雨",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "情花幾時開（抖音DJ版）",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1GQMk8bXPprL9hvSR3J1caA"
+    },{
+        artist: "69",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "最美的傷口（抖音DJ版）",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1GzLUaccTEfvfvw8uvXQLtQ"
     },{
         artist: "李行亮",
         lyrics: null,
@@ -189,6 +249,30 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1DztQToASDY-Vsds8BFVIdQ"
+    },{
+        artist: "Illenium & Georgia Ku",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Hold On",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1D0-I6iQsOfQ9g-gdpcKZqQ"
+    },{
+        artist: "Deep East Music",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Old Threads",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1XMWNwIOi1ExjPilB-O6hJw"
+    },{
+        artist: "King Africa",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Salta",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1FEbk3ihvwSau8MdLFJfQ4w"
     },{
         artist: "Andrea Bocelli",
         lyrics: null,
