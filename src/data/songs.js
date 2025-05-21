@@ -145,6 +145,16 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1PId6OIjmazkP5MHVDna5UQ"
     },{
+        artist: "飛輪海＆Hebe",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "只對你有感覺",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1sLj8_nawFvdKPP3TozFTlA"
+    },,{
         artist: "蔡依林",
         lyrics: null,
         album: {
