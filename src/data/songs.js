@@ -154,7 +154,7 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1sLj8_nawFvdKPP3TozFTlA"
-    },,{
+    },{
         artist: "蔡依林",
         lyrics: null,
         album: {
