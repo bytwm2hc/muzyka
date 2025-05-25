@@ -32,7 +32,8 @@
     } from '../helpers/song';
     import { FFmpeg } from '../ffmpeg';
 
-    let audio, // bind <audio> element
+    let params,
+        audio, // bind <audio> element
         time = 0, // song played time
         slider, // bind song seek time UI <input type="range"> element
         duration,
@@ -63,7 +64,7 @@
     onMount(() => {
         'use strict';
         const AudioContext = window.AudioContext || window.webkitAudioContext;
-        const params = new Proxy(new URLSearchParams(window.location.search), {
+        params = new Proxy(new URLSearchParams(window.location.search), {
             get: (searchParams, prop) => searchParams.get(prop),
         });
         
