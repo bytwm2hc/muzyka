@@ -175,6 +175,10 @@
             //highShelf.gain.value = 3;
             //highShelf.connect(gainDryNode);
         }
+        // Convolver Off
+        if (params.off !== undefined) {
+            convolverNode.buffer = null;
+        }
 
         //wavpackWrapper = document.getElementById('wavpackWrapper');
         /* window.addEventListener('message', async (event) => {
@@ -351,6 +355,10 @@
                             'use strict';
                             gainDryNode.gain.value = 0.75;
                             gainWetNode.gain.value = 1.75;
+                            if (params.off !== undefined) {
+                                gainDryNode.gain.value = 1;
+                                gainWetNode.gain.value = 0;
+                            }
                             if (panNode === undefined) {
                                 sourceNode.connect(convolverNode);
                                 //sourceNode.connect(highShelf);
@@ -639,8 +647,8 @@
 		if (data.indexOf('s64') > -1) {
 		    fmt = 'pcm_s64le';
 		}
-		console.log(data);
-		console.log(fmt);
+		//console.log(data);
+		//console.log(fmt);
 		await ffmpeg.exec(['-i', 'input' + fileFormat, '-c:a', fmt, 'output.wav']);
 		data = await ffmpeg.readFile('output.wav');
 		ffmpeg.terminate();
@@ -651,6 +659,12 @@
                 sourceNode.connect(gainDryNode);
             } else {
                 sourceNode.connect(panNode);
+            }
+            gainDryNode.gain.value = 0.375;
+            gainWetNode.gain.value = 1.375;
+            if (params.off !== undefined) {
+                gainDryNode.gain.value = 1;
+                gainWetNode.gain.value = 0;
             }
             sourceNode.onended = onended;
             sourceNode.detune.value = 432/440;
@@ -674,8 +688,6 @@
                 }
             } catch (ignored) {}
         });
-        gainDryNode.gain.value = 0.375;
-        gainWetNode.gain.value = 1.375;
     }
 
     const WavPackPlay = async (wvData) => {
