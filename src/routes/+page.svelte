@@ -89,7 +89,7 @@
                 volumeNode.connect(audioContext.destination);
                 convolverNode.connect(gainWetNode);
                 // Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
-                if (params.pan !== undefined) {
+                if (params.pan !== null) {
                     panNode = audioContext.createStereoPanner();
                     panNode.pan.setValueAtTime(Number(params.pan), audioContext.currentTime);
                     panNode.connect(convolverNode);
@@ -142,7 +142,7 @@
             volumeNode.connect(audioContext.destination);
             convolverNode.connect(gainWetNode);
             // Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
-            if (params.pan !== undefined) {
+            if (params.pan !== null) {
                 panNode = audioContext.createStereoPanner();
                 panNode.pan.setValueAtTime(Number(params.pan), audioContext.currentTime);
                 panNode.connect(convolverNode);
@@ -177,7 +177,7 @@
             //highShelf.connect(gainDryNode);
         }
         // Convolver Off
-        if (params.off !== undefined) {
+        if (params.off !== null) {
             convolverNode.buffer = null;
         }
 
@@ -356,7 +356,7 @@
                             'use strict';
                             gainDryNode.gain.value = 0.75;
                             gainWetNode.gain.value = 1.75;
-                            if (params.off !== undefined) {
+                            if (params.off !== null) {
                                 gainDryNode.gain.value = 1;
                                 gainWetNode.gain.value = 0;
                             }
@@ -663,7 +663,7 @@
             }
             gainDryNode.gain.value = 0.375;
             gainWetNode.gain.value = 1.375;
-            if (params.off !== undefined) {
+            if (params.off !== null) {
                 gainDryNode.gain.value = 1;
                 gainWetNode.gain.value = 0;
             }
