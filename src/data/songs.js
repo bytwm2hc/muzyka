@@ -153,7 +153,7 @@ export const songs = [
         title: "只對你有感覺",
         isTAK: true,
         isTeraBox: true,
-        filename: TERABOX_API + "https://1024terabox.com/s/1sLj8_nawFvdKPP3TozFTlA"
+        filename: TERABOX_API + "https://1024terabox.com/s/1esysk-kpq8v1rzaXthedmA"
     },{
         artist: "蔡依林",
         lyrics: null,
@@ -195,6 +195,16 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1jaTlIQnsT_cVGu0yeX-2bA"
     },{
+        artist: "乌兰图雅",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "恼人的秋风(Live)",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1JYiPJdmImDwfaJwbuoHjYw"
+    },{
         artist: "魏新雨",
         lyrics: null,
         album: {
@@ -215,6 +225,96 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1GzLUaccTEfvfvw8uvXQLtQ"
     },{
+        artist: "DJ小鱼儿",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "一生回味一面",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1v-V_nDS75nF4biTMIxdK7Q"
+    },{
+        artist: "DJ馬哥",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "I love Poland",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1oyQbHTkod2MJZv0p8sOOSg"
+    },{
+        artist: "Dragon Pig",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "全部都是你",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1glH0VEN019-M3Oq9Hmbw0g"
+    },{
+        artist: "MC名决",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "时间的过客",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1TtVzdoPToEmN1EeYAyQ9IA"
+    },{
+        artist: "MC药材",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "几度梦回大唐",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1YEhnA7Pd9NF0U5bmaA1QBQ"
+    },{
+        artist: "M&K＆董子龙",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "猴子说 (M&K Remix)",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1PpXbAjtj5PKX5UiPDvHeyw"
+    },{
+        artist: "Hoop圈圈",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "洗澡歌",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1m4xtPRO60FswBhuOvhyvow"
+    },{
+        artist: "Ryan.B",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "再也沒有",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1vMlJX9ZB5vVeQXZ6w72YxA"
+    },{
+        artist: "任然",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "无人之岛",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1Xvi6XWvcr1dLZsd4Dgw-7Q"
+    },{
         artist: "李行亮",
         lyrics: null,
         album: {
@@ -224,6 +324,14 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/19Qm982sgPOuHj9m4R_JD-Q"
+    },{
+        artist: "Schnuffel",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Häschenparty",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/18Mhe0Dz_JK3nzp283XskRw"
     },{
         artist: "Michael Jackson",
         lyrics: null,
@@ -252,14 +360,6 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1vzCMR6ubmKhsNdZnvLyFpQ"
     },{
-        artist: "Illenium & Kameron Alexander",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "Pray",
-        isTAK: true,
-        isTeraBox: true,
-        filename: TERABOX_API + "https://1024terabox.com/s/1DztQToASDY-Vsds8BFVIdQ"
-    },{
         artist: "Illenium & Georgia Ku",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -268,13 +368,357 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1D0-I6iQsOfQ9g-gdpcKZqQ"
     },{
-        artist: "Deep East Music",
+        artist: "Connie Talbot",
         lyrics: null,
         album: { cover: "img/album.png" },
-        title: "Old Threads",
+        title: "Count on Me",
         isTAK: true,
         isTeraBox: true,
-        filename: TERABOX_API + "https://1024terabox.com/s/1XMWNwIOi1ExjPilB-O6hJw"
+        filename: TERABOX_API + "https://1024terabox.com/s/1XcoXCTP2LaoC4RAnPADmvQ"
+    },{
+        artist: "Colbie Caillat",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Bubbly",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1LKzXEOVBS7ab0I3m3BEmqQ"
+    },{
+        artist: "Dripice",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Escape",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1CdBu7OU8DUsQO_MrLnXCuA"
+    },{
+        artist: "Daddy Yankee",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Dura",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1Kp8anUQjA24YO2YQUr6ugQ"
+    },{
+        artist: "Disco Fries & Raquel Castro",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "U Make Me (Natan Chaim & Asketa Remix)",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1k-Qikl92XP1siONivoiJ7g"
+    },{
+        artist: "DAISHI DANCE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Take Me Hand",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1QbDFPzaGBWBZsQFJwTVh_g"
+    },{
+        artist: "DJ Maxwell",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Vivi Nell'Aria",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1oRcruA4uKuOIoYMDlsDueA"
+    },{
+        artist: "Deep Chills",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Run Free",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1po-L0A8xl6gYWOwgKMWYrQ"
+    },{
+        artist: "Ed Sheeran",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Shape of You",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1l4uBS6puBw-OcVNA3QVpNA"
+    },{
+        artist: "Alan Walker",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Faded",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1d1q5n2qY9dqHtQQAgnSEIw"
+    },{
+        artist: "Ampyx",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Holo",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1GCuHPzWGdX4kjvUz-jkT1w"
+    },{
+        artist: "Feint＆Laura Brehm",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "We Won't Be Alone",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/12twCTwy7h6E2xRzVxYVgcQ"
+    },{
+        artist: "Approaching Nirvana",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "September",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1yo0Gex0YyevJ_DoCjoWxcA"
+    },{
+        artist: "Sia",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Move Your Body",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1gUMdqUoy6PO2WXD5vLCXow"
+    },{
+        artist: "Hayley Westenra",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Blooming Flower",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/10KmnzyPYp-3ODZ2FnK-gYw"
+    },{
+        artist: "Feint＆Veela＆Boyinaband",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Time Bomb",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1JR-STpIxoVeHWXZYejpXAg"
+    },{
+        artist: "Mesto＆Brielle Von Hugel",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Chances",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/165Ocjnel5dlyGh7ObZofrA"
+    },{
+        artist: "That Girl",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Olly Murs",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1zp231WTQgCk04jYDwtsbtw"
+    },{
+        artist: "Rag'N'Bone Man",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Skin",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/14KNDWHeH_QyVNhoUqIKGOA"
+    },{
+        artist: "Hawk Nelson",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Sold Out",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1CMq1fyc6ofVSSP41uhrz7A"
+    },{
+        artist: "Fitz & The Tantrums",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "HandClap",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1E_fVkz07dGUdL6THb1AmJA"
+    },{
+        artist: "Fifth Harmony",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Worth It",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1LENmmvxLQl85J4CtpMdQqQ"
+    },{
+        artist: "Gavin DeGraw",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Fire",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1LCyYLuyPcGpspM45oOzl0w"
+    },{
+        artist: "iKON",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "LOVE SCENARIO",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1d4aHSUTksIKkh6hvA7nrew"
+    },{
+        artist: "Monogem",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Wild",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1If0qDhFFIoOLlRe9L8K4AA"
+    },{
+        artist: "Pay Phone",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Payphone",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1LECudLMf2V3gta_1gVVvxQ"
+    },{
+        artist: "Ellie Goulding＆Calvin Harris",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Outside",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/11sFtI_ouxpx7F1wRCa1cwA"
+    },{
+        artist: "Meizong",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Melood",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1BlB468FqYM4_9Ggnh9OnGg"
+    },{
+        artist: "Inna",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "In Your Eyes",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1rPRkl8SMuC3kA0K5o9lH4A"
+    },{
+        artist: "Martin Tungevaag",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Wicked Wonderland",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/13VKG_-8Gqn4mO5_ooMbPXw"
+    },{
+        artist: "Rony Rex＆LCMDF",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Fucked It Up (Gas Gas Remix) (Explicit)",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/11oH8RShGNn1-pOFytQDiOA"
+    },{
+        artist: "Kadebostany",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Early Morning Dreams (Kled Mone Remix)",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/16cKeo3S16X7H7UwbUVSvag"
+    },{
+        artist: "KemimikE",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Adventure (KemimikE 2017 Rework)",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1HuayLSiWFzNJHmQ-xg2hxA"
+    },{
+        artist: "Jin",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Last Summer (K.TOBI Remix)",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1r_0ersaDL4ixukw-i_M9OQ"
+    },{
+        artist: "IU",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Jam Jam",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1JNMy5YmXy2C4qjsd4qk8ig"
+    },{
+        artist: "Imagine Dragons＆Broiler",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Shots (Broiler Remix)",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1lahE-bj799QCuskRzAAbiQ"
+    },{
+        artist: "Rachel Platten",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Lone Ranger",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1bW0mPCPn9ys8kztQKXMUDA"
+    },{
+        artist: "The Chainsmokers",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Something Just Like This",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1myCZc6_Bf5psaazuWYzJZA"
+    },{
+        artist: "Sweetbox",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Don't Push Me",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1pAfRBwWAeEXO47X-g66RUA"
+    },{
+        artist: "Yael Naim",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "New Soul",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1ynv60NN4gibfzhOn7gr3Ng"
+    },{
+        artist: "Two Steps From Hell＆Thomas Bergersen",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Victory",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1cSZHXtsifkKCPHoN3H7ZMQ"
+    },{
+        artist: "Vicetone＆Meron Ryan",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Walk Thru Fire",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1Ra613RVZIleYR04g81IeMg"
+    },{
+        artist: "The Weeknd＆Daft Punk",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Starboy (Explicit)",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1AUDwtw-3vFJWcekGtkZoTw"
+    },{
+        artist: "Hoaprox",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "#Lov3 #Ngẫu Hứng",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/12yOfxSEoxNe3uDwGWnLJpQ"
     },{
         artist: "King Africa",
         lyrics: null,
@@ -283,6 +727,30 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1FEbk3ihvwSau8MdLFJfQ4w"
+    },{
+        artist: "Stephan F",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Astronomia 2K19",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1y--cppdk3696JETEV1C6EQ"
+    },{
+        artist: "Brooks＆GRX",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Boomerang",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1uknJsYNzwb82Pniudt4knQ"
+    },{
+        artist: "HINA",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Boomerang(HINA Bootleg)",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1kIvi1qk5U99-oilmLAp8bw"
     },{
         artist: "Andrea Bocelli",
         lyrics: null,
@@ -2802,6 +3270,14 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1w9s-YI6hRg3wAHNeAFqF9Q"
     },{
+        artist: "Illenium & Kameron Alexander",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Pray",
+        isWavPack: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1IZrYqBPBvEaVJUeqztclAA"
+    },{
         artist: "8/pLanet!!",
         lyrics: null,
         album: { cover: `${HOSTING_URL1}01 ファンタジア.jpg` },
@@ -3065,12 +3541,6 @@ export const songs = [
         album: { cover: "img/album.png" },
         title: "Häschenlied",
         filename: `${HOSTING_URL1}Schnuffel - Häschenlied`
-    },{
-        artist: "Schnuffel",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "Häschenparty",
-        filename: `${HOSTING_URL1}Schnuffel - Häschenparty`
     },{
         artist: "DJ Remo",
         lyrics: null,
