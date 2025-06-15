@@ -32,6 +32,14 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1-6gAdmitdtceOGfBNzmP1Q"
     },{
+        artist: "花玲、喵☆酱、宴宁、kinsen",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "让风告诉你",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1YXzDEA-M0w9Hje8kvPTmXQ"
+    },{
         artist: "浅野てんき（浅野天琪）",
         lyrics: null,
         album: {
