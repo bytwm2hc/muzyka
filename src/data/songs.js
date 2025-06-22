@@ -62,6 +62,86 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1PsUZbmBoPUdXWGYbdBh_Bw"
     },{
+        artist: "上原歩夢（CV.大西亜玖璃）",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "開花宣言",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1Y0rrtIEz8bcmzMImTdNJDw"
+    },{
+        artist: "中須かすみ（CV.相良茉優）",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "☆ワンダーランド☆",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/164goYcELUJtlG_s7q3s0uA"
+    },{
+        artist: "桜坂しずく（CV.前田佳織里）",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "オードリー",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/16JtyCFMY7IFzEU2-VvmGXQ"
+    },{
+        artist: "朝香果林（CV.久保田未夢）",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Wish",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1TmBgaLrouB3oMgardf0mrw"
+    },{
+        artist: "宮下愛（CV.村上奈津実）",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "友 & 愛",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/13EQDgzrOztpM_uu9x3U1xA"
+    },{
+        artist: "近江彼方（CV.鬼頭明里）",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "My Own Fairy-Tale",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1g68jPzfpFS3PcV0s4jPJ0g"
+    },{
+        artist: "優木せつ菜（CV.楠木ともり）",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "MELODY",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1mB5wlqhxQWRPszNSJWUiKg"
+    },{
+        artist: "エマ・ヴェルデ（CV.指出毬亜）",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "声繋ごうよ",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/132iWeLlGqIjtYnwmbQc-TQ"
+    },{
+        artist: "天王寺璃奈（CV.田中ちえ美）",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "テレテレパシー",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1pU1cEYCxSacvOFRL9T-5dA"
+    },{
+        artist: "虹ヶ咲学園スクールアイドル同好会",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Love U my friends",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/10AimuWqCMOk_yTW49MLDUA"
+    },{
         artist: "アルストロメリア",
         lyrics: null,
         album: {
@@ -72,6 +152,62 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1ycQID5RkhnzwyM5LJF5Hsw"
+    },{
+        artist: "CYaRon!",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "夜空はなんでも知ってるの？",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/15ZLJxRlnSAK-5_lYneG1iw"
+    },{
+        artist: "高海千歌(CV.伊波杏樹)、桜内梨子(CV.逢田梨香子)、渡辺曜(CV.斉藤朱夏)",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "決めたよHand in Hand",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1AvzQxFih7v79OI721gJJBg"
+    },{
+        artist: "高海千歌(CV.伊波杏樹)、桜内梨子(CV.逢田梨香子)、渡辺曜(CV.斉藤朱夏)",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "ダイスキだったらダイジョウブ！",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1QgfR12erH9Mdsk_PzRYlFA"
+    },{
+        artist: "高海千歌(CV.伊波杏樹)、桜内梨子(CV.逢田梨香子)、渡辺曜(CV.斉藤朱夏)、津島善子(CV.小林愛香)、国木田花丸(CV.高槻かなこ)、黒澤ルビィ(CV.降幡愛)",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "夢で夜空を照らしたい",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1CbqgNudFQVf2d1j_Pet-0Q"
+    },{
+        artist: "Aqours",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "未熟DREAMER",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1NxIdSMZUqpizWpwjH0fwOg"
+    },{
+        artist: "高海千歌、渡辺曜、松浦果南、小原鞠莉、黒澤ダイヤ、黒澤ルビィ、津島善子、国木田花丸",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "想いよひとつになれ",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1h5d7EKVvNdsIfcSaHA5Xqw"
+    },{
+        artist: "Aqours",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "MIRAI TICKET",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/18a-iTVDKL21kj4KPC6jUlg"
     },{
         artist: "中川かのん starring 東山奈央",
         lyrics: `短い髪を なびかせて<br />リボン革命 起こしちゃう<br />レボレボな 未来<br /><br />みんなの声が 聞きたいの<br />みんなに届け 愛の歌<br />メロメロな メロディ<br /><br />明日も会えるかな きっと会えるよね<br />胸のときめきを 伝えたいな<br /><br />I MY ME アイドル WA TA SHI アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />みんなのハート狙い撃ちよ もう 離さない<br /><br />スカートひらり なびかせて<br />魅惑のダンス サプライズ<br />ドキドキを あげる<br /><br />みんなが辛い 時にはね<br />夜空きらめく 星になる<br />キラキラリ 光る<br /><br />誰にも止められない 準備万端だよね？<br />ローラーコースター ついてきてね<br /><br />I MY ME アイドル I MY ME アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />みんなのハート狙い撃ちよ もう 離さない<br /><br />あなたに 伝えたい<br /><br />I MY ME アイドル WA TA SHI アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />あなたのハート狙い撃ちよ ずっと 離さない`,
@@ -113,6 +249,30 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/19JadikKO75cRq-Ai-w471w"
     },{
+        artist: "ぴちぴちピッチ",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "太陽の楽園〜Promised Land〜",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1j9TZ8ksI2aFZ0YFe7-IreA"
+    },{
+        artist: "ぴちぴちピッチ",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "大事な寶箱",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1B4T6vIKitq1RcKXayTKpgQ"
+    },{
+        artist: "ぴちぴちピッチ",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Legend of Mermaid",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1CfolReFJQzoMln38H-pt0w"
+    },{
         artist: "BIGBANG",
         lyrics: null,
         album: {
@@ -143,6 +303,16 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1AV0eeQiQeyeSl6pP-YAvgw"
     },{
+        artist: "郭富城",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "對你愛不完",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1G2RD--rbLs1VBcuRaMHX0w"
+    },{
         artist: "任賢齊",
         lyrics: null,
         album: {
@@ -152,6 +322,86 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1PId6OIjmazkP5MHVDna5UQ"
+    },{
+        artist: "齊秦",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "愛情宣言",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1-NzlsoW21Sb2bnYOqn1rgw"
+    },{
+        artist: "王菲",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "我願意",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/16Uje0jrwpAkZn2SZ5YmSOA"
+    },{
+        artist: "蘇慧倫",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "我一個人住",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1TIEa6AX2FqgLRTNVpfgk_w"
+    },{
+        artist: "楊乃文",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "祝我幸福",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1I7en7sbqej7ByL7mttDL1g"
+    },{
+        artist: "潘越雲",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "我是不是你最疼愛的人",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1OHT7NCt_-Z08ESyUWTNhBA"
+    },{
+        artist: "劉若英",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "後來",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/19dskrxDjxpwtqIwMABTDEg"
+    },{
+        artist: "辛曉琪",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "味道",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1o39ODE144Vm1wf7eEMpG5A"
+    },{
+        artist: "辛曉琪",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "領悟",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1a-Py_FjQ7d-tBhMruMlDAQ"
     },{
         artist: "飛輪海＆Hebe",
         lyrics: null,
@@ -172,6 +422,16 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/12NhiAaMA_Qgm5NGuDABbqQ"
+    },{
+        artist: "刘瑞琦",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "夏天的风",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/13lAVq87gLGZkzLU1fh3CJA"
     },{
         artist: "皮小妹",
         lyrics: null,
@@ -203,16 +463,6 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1jaTlIQnsT_cVGu0yeX-2bA"
     },{
-        artist: "乌兰图雅",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "恼人的秋风(Live)",
-        isTAK: true,
-        isTeraBox: true,
-        filename: TERABOX_API + "https://1024terabox.com/s/1JYiPJdmImDwfaJwbuoHjYw"
-    },{
         artist: "魏新雨",
         lyrics: null,
         album: {
@@ -232,6 +482,26 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1GzLUaccTEfvfvw8uvXQLtQ"
+    },{
+        artist: "一棵小葱＆李宗南",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "狂浪生",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1Pcw9qCRfQpGxwMM0x2XiIA"
+    },{
+        artist: "徐環",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "往後餘生",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1qWsWfYasOpEkOC-WoBKrRw"
     },{
         artist: "DJ小鱼儿",
         lyrics: null,
@@ -253,6 +523,16 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1oyQbHTkod2MJZv0p8sOOSg"
     },{
+        artist: "VaVa＆Ty",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "我的新衣",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1UOO1qu-PYcGV0xR1d0V7iQ"
+    },{
         artist: "Dragon Pig",
         lyrics: null,
         album: {
@@ -272,16 +552,6 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1TtVzdoPToEmN1EeYAyQ9IA"
-    },{
-        artist: "MC药材",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "几度梦回大唐",
-        isTAK: true,
-        isTeraBox: true,
-        filename: TERABOX_API + "https://1024terabox.com/s/1YEhnA7Pd9NF0U5bmaA1QBQ"
     },{
         artist: "M&K＆董子龙",
         lyrics: null,
@@ -312,6 +582,26 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1vMlJX9ZB5vVeQXZ6w72YxA"
+    },{
+        artist: "蘇小小",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "陪你環遊世界",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1c5dM8kkvFoJ1-0-x4ekyuw"
+    },{
+        artist: "Uu",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "夏天的风",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1GgR_boIm4NS81zf8Wncdtw"
     },{
         artist: "任然",
         lyrics: null,
@@ -520,6 +810,14 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1zp231WTQgCk04jYDwtsbtw"
     },{
+        artist: "Zedd＆Jon Bellion",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Beautiful Now",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1OPF8CO8n8AfzEgMxVFWLZQ"
+    },{
         artist: "Rag'N'Bone Man",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -640,6 +938,14 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1HuayLSiWFzNJHmQ-xg2hxA"
     },{
+        artist: "The Weeknd",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "In Your Eyes(Explicit)",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/11F_fnjfoaK1Y_me3cR7J7g"
+    },{
         artist: "Jin",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -728,6 +1034,14 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/12yOfxSEoxNe3uDwGWnLJpQ"
     },{
+        artist: "Tez Cadey",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Seve",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1IbQkGNXy18HOPeXAC3dcFw"
+    },{
         artist: "King Africa",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -735,6 +1049,14 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1FEbk3ihvwSau8MdLFJfQ4w"
+    },{
+        artist: "Vicetone＆Tony Igy",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Astronomia",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1g5j53EptUzfw5sZZuWjy4A"
     },{
         artist: "Stephan F",
         lyrics: null,
@@ -1516,6 +1838,30 @@ export const songs = [
         isWavPack: true,
         filename: `${HOSTING_URL2}Roys/I'll be there/03 ROYS`
     },*/{
+        artist: "Aqours",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "HAPPY PARTY TRAIN",
+        isWavPack: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1nHta7xg17uNm21PiDh8Scg"
+    },{
+        artist: "Aqours",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "SKY JOURNEY",
+        isWavPack: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1hEfZzg2G54GkIZpTGXikMg"
+    },{
+        artist: "Aqours",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "少女以上の恋がしたい",
+        isWavPack: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1HB68gA9ZkkyIbRoF4K7DXw"
+    },{
         artist: "ウィーン・マルガレーテ（CV.結那）",
         lyrics: null,
         album: { cover: "img/album.png" },
