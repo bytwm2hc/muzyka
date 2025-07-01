@@ -2818,6 +2818,7 @@ export const songs = [
         },
         title: "因為愛情",
         isWavPack: true,
+        isTeraBox: true,
         filename: TERABOX_API + "https://1024terabox.com/s/1uf1oa2zqV2Pmz1I34B4N2A"
     },{
         artist: "那英",
