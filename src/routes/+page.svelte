@@ -618,11 +618,18 @@
 			message = msg;
 			console.log(message);
 		}); */
-		await ffmpeg.load({
-			coreURL: await toBlobURL('/core-mt/dist/esm/ffmpeg-core.js', 'application/javascript'),
-			wasmURL: await toBlobURL('/core-mt/dist/esm/ffmpeg-core.wasm', 'application/wasm'),
-			workerURL: await toBlobURL('/core-mt/dist/esm/ffmpeg-core.worker.js', 'application/javascript')
-		});
+		if (params.threading == '0') {
+            await ffmpeg.load({
+			    coreURL: await toBlobURL('/core-mt/dist/esm/ffmpeg-core.js', 'application/javascript'),
+		    	wasmURL: await toBlobURL('/core-mt/dist/esm/ffmpeg-core.wasm', 'application/wasm')
+		    });
+        } else {
+		    await ffmpeg.load({
+			    coreURL: await toBlobURL('/core-mt/dist/esm/ffmpeg-core.js', 'application/javascript'),
+		    	wasmURL: await toBlobURL('/core-mt/dist/esm/ffmpeg-core.wasm', 'application/wasm'),
+		    	workerURL: await toBlobURL('/core-mt/dist/esm/ffmpeg-core.worker.js', 'application/javascript')
+		    });
+		}
 		await ffmpeg.writeFile('input' + fileFormat, new Uint8Array(takData));
 		await ffmpeg.ffprobe(['-v', 'quiet', '-show_entries', 'stream=sample_fmt,bits_per_raw_sample', 'input' + fileFormat, '-o', 'output.txt']);
 		let data = new TextDecoder().decode(await ffmpeg.readFile('output.txt'));
