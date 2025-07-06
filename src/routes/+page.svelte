@@ -620,8 +620,8 @@
 		}); */
 		if (params.threading == '0') {
             await ffmpeg.load({
-			    coreURL: await toBlobURL('/core-mt/dist/esm/ffmpeg-core.js', 'application/javascript'),
-		    	wasmURL: await toBlobURL('/core-mt/dist/esm/ffmpeg-core.wasm', 'application/wasm')
+			    coreURL: await toBlobURL('/core/dist/esm/ffmpeg-core.js', 'application/javascript'),
+		    	wasmURL: await toBlobURL('/core/dist/esm/ffmpeg-core.wasm', 'application/wasm')
 		    });
         } else {
 		    await ffmpeg.load({
