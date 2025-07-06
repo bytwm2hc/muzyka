@@ -889,7 +889,7 @@
     <div class="card">
         <h1 class="card__title">{$title}</h1>
         <p class="card__artist">{$artist}</p>
-        <img class="card__album" draggable="false" src="{$albumCover}" alt={$album} crossorigin />
+        <img class="card__album" draggable="false" src="{$albumCover}" alt="{$album}" fetchpriority="high" crossorigin />
         <button type="button" on:click={()=> isLyricsPanel = !isLyricsPanel} class="card__lyrics-playlist-btn">See {isLyricsPanel ? 'Playlist' : 'Lyrics'}</button>
         <input type="range" on:input={seek} bind:this={slider} value={ended ? 0 : time} max={duration} class="card__slider card__slider--duration" />
         <div class="card__minutes">
