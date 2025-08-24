@@ -97,7 +97,7 @@
                     panNode.connect(gainDryNode);
                 }
 
-                fetch('//terabox-app-mecx.pages.dev/api?proxy&data=https://1024terabox.com/s/1a5ewBklv_7r48QFszl7e_g').then(function (response) {
+                fetch('//terabox-app-mecx.pages.dev/api?proxy&data=https://1024terabox.com/s/1t8WRXoYZMUplk4dqwtUfuw').then(function (response) {
                     'use strict';
                     response.arrayBuffer().then(function (ab) {
                         'use strict';
@@ -150,7 +150,7 @@
                 panNode.connect(gainDryNode);
             }
 
-            fetch('https://terabox-app-mecx.pages.dev/api?proxy&data=https://1024terabox.com/s/1a5ewBklv_7r48QFszl7e_g').then(function (response) {
+            fetch('https://terabox-app-mecx.pages.dev/api?proxy&data=https://1024terabox.com/s/1t8WRXoYZMUplk4dqwtUfuw').then(function (response) {
                 'use strict';
                 response.arrayBuffer().then(function (ab) {
                     'use strict';
@@ -354,8 +354,9 @@
                     try {
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
-                            gainDryNode.gain.value = 0.75;
-                            gainWetNode.gain.value = 1.75;
+                            gainDryNode.gain.value = 0.625;
+                            //gainDryNode.disconnect();
+                            gainWetNode.gain.value = 0.875;
                             if (params.off !== null) {
                                 gainDryNode.gain.value = 1;
                                 gainWetNode.gain.value = 0;
@@ -669,7 +670,7 @@
                 sourceNode.connect(panNode);
             }
             gainDryNode.gain.value = 0.375;
-            gainWetNode.gain.value = 1.375;
+            gainWetNode.gain.value = 0.625;
             if (params.off !== null) {
                 gainDryNode.gain.value = 1;
                 gainWetNode.gain.value = 0;
