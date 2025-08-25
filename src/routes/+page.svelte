@@ -97,7 +97,7 @@
                     panNode.connect(gainDryNode);
                 }
 
-                fetch('//terabox-app-mecx.pages.dev/api?proxy&data=https://1024terabox.com/s/1t8WRXoYZMUplk4dqwtUfuw').then(function (response) {
+                fetch('//terabox-app-mecx.pages.dev/api?proxy&data=https://1024terabox.com/s/1Zl-qujHyk-NY6WI-m4Onzw').then(function (response) {
                     'use strict';
                     response.arrayBuffer().then(function (ab) {
                         'use strict';
@@ -150,7 +150,7 @@
                 panNode.connect(gainDryNode);
             }
 
-            fetch('https://terabox-app-mecx.pages.dev/api?proxy&data=https://1024terabox.com/s/1t8WRXoYZMUplk4dqwtUfuw').then(function (response) {
+            fetch('https://terabox-app-mecx.pages.dev/api?proxy&data=https://1024terabox.com/s/1Zl-qujHyk-NY6WI-m4Onzw').then(function (response) {
                 'use strict';
                 response.arrayBuffer().then(function (ab) {
                     'use strict';
@@ -215,7 +215,6 @@
                     bsn = undefined;
                 };
                 bsn.buffer = aud_buf;
-                bsn.detune.value = 432/440;
                 bsn.playbackRate.value = 432/440;
                 bsn.start(0);
                 return;
@@ -307,7 +306,6 @@
                     sourceNode.connect(panNode);
                 }
                 if (songs[$index].isTAK || songs[$index].isWavPack) {
-                    sourceNode.detune.value = 432/440;
                     sourceNode.playbackRate.value = 432/440;
                 }
                 sourceNode.onended = onended;
@@ -354,11 +352,10 @@
                     try {
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
-                            gainDryNode.gain.value = 0.625;
-                            //gainDryNode.disconnect();
-                            gainWetNode.gain.value = 0.875;
+                            gainDryNode.gain.value = 0.9375;
+                            gainWetNode.gain.value = 1.875;
                             if (params.off !== null) {
-                                gainDryNode.gain.value = 1;
+                                gainDryNode.gain.value = 1.25;
                                 gainWetNode.gain.value = 0;
                             }
                             if (panNode === undefined) {
@@ -369,8 +366,6 @@
                                 sourceNode.connect(panNode);
                             }
                             sourceNode.onended = onended;
-                            sourceNode.detune.value = 1;
-                            sourceNode.playbackRate.value = 1;
 
                             try {
                                 sourceNode.buffer = audioData;
@@ -476,7 +471,6 @@
                 sourceNode.connect(panNode);
             }
             if (songs[$index].isTAK || songs[$index].isWavPack) {
-                sourceNode.detune.value = 432/440;
                 sourceNode.playbackRate.value = 432/440;
             }
             sourceNode.onended = onended;
@@ -669,15 +663,14 @@
             } else {
                 sourceNode.connect(panNode);
             }
-            gainDryNode.gain.value = 0.375;
-            gainWetNode.gain.value = 0.625;
+            gainDryNode.gain.value = 0.5625;
+            gainWetNode.gain.value = 1.125;
             if (params.off !== null) {
-                gainDryNode.gain.value = 1;
+                gainDryNode.gain.value = 0.625;
                 gainWetNode.gain.value = 0;
             }
-            sourceNode.onended = onended;
-            sourceNode.detune.value = 432/440;
             sourceNode.playbackRate.value = 432/440;
+            sourceNode.onended = onended;
 
             try {
                 sourceNode.buffer = buffer2;
@@ -733,7 +726,6 @@
                         worker.postMessage("onended");
                     };
                     bsn.buffer = aud_buf;
-                    bsn.detune.value = 432/440;
                     bsn.playbackRate.value = 432/440;
                     bsn.start(0);
                 }
@@ -800,7 +792,6 @@
                         worker.postMessage("onended");
                     };
                     bsn.buffer = aud_buf;
-                    bsn.detune.value = 432/440;
                     bsn.playbackRate.value = 432/440;
                     bsn.start(0);
                 }
@@ -845,8 +836,8 @@
                 worker.postMessage('BYTES_PER_ELEMENT');
             }, 0);
         //}
-        gainDryNode.gain.value = 0.375;
-        gainWetNode.gain.value = 0.75;
+        gainDryNode.gain.value = 0.5625;
+        gainWetNode.gain.value = 1.125;
 
         sourceNode.buffer = audioContext.createBuffer(2, 1, audioContext.sampleRate);
         isPlay.set(true);
