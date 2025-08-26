@@ -352,10 +352,10 @@
                     try {
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
-                            gainDryNode.gain.value = 0.9375;
-                            gainWetNode.gain.value = 1.875;
+                            gainDryNode.gain.value = 0.8125;
+                            gainWetNode.gain.value = 1.75;
                             if (params.off !== null) {
-                                gainDryNode.gain.value = 1.25;
+                                gainDryNode.gain.value = 1.125;
                                 gainWetNode.gain.value = 0;
                             }
                             if (panNode === undefined) {
@@ -663,10 +663,10 @@
             } else {
                 sourceNode.connect(panNode);
             }
-            gainDryNode.gain.value = 0.5625;
-            gainWetNode.gain.value = 1.125;
+            gainDryNode.gain.value = 0.4375;
+            gainWetNode.gain.value = 1;
             if (params.off !== null) {
-                gainDryNode.gain.value = 0.625;
+                gainDryNode.gain.value = 0.5;
                 gainWetNode.gain.value = 0;
             }
             sourceNode.playbackRate.value = 432/440;
@@ -836,8 +836,8 @@
                 worker.postMessage('BYTES_PER_ELEMENT');
             }, 0);
         //}
-        gainDryNode.gain.value = 0.5625;
-        gainWetNode.gain.value = 1.125;
+        gainDryNode.gain.value = 0.4375;
+        gainWetNode.gain.value = 1;
 
         sourceNode.buffer = audioContext.createBuffer(2, 1, audioContext.sampleRate);
         isPlay.set(true);
