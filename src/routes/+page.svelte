@@ -352,8 +352,8 @@
                     try {
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
-                            gainDryNode.gain.value = 0.5;
-                            gainWetNode.gain.value = 1.125;
+                            gainDryNode.gain.value = 0.75;
+                            gainWetNode.gain.value = 1.375;
                             if (params.off !== null) {
                                 gainDryNode.gain.value = 1;
                                 gainWetNode.gain.value = 0;
