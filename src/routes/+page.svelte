@@ -666,7 +666,7 @@
             gainDryNode.gain.value = 0.4375;
             gainWetNode.gain.value = 1;
             if (params.off !== null) {
-                gainDryNode.gain.value = 0.8125;
+                gainDryNode.gain.value = 0.84375;
                 gainWetNode.gain.value = 0;
             }
             sourceNode.playbackRate.value = 432/440;
@@ -839,7 +839,7 @@
         gainDryNode.gain.value = 0.4375;
         gainWetNode.gain.value = 1;
         if (params.off !== null) {
-            gainDryNode.gain.value = 0.8125;
+            gainDryNode.gain.value = 0.84375;
             gainWetNode.gain.value = 0;
         }
 
