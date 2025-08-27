@@ -666,7 +666,7 @@
             gainDryNode.gain.value = 0.4375;
             gainWetNode.gain.value = 1;
             if (params.off !== null) {
-                gainDryNode.gain.value = 0.5;
+                gainDryNode.gain.value = 0.875;
                 gainWetNode.gain.value = 0;
             }
             sourceNode.playbackRate.value = 432/440;
@@ -838,6 +838,10 @@
         //}
         gainDryNode.gain.value = 0.4375;
         gainWetNode.gain.value = 1;
+        if (params.off !== null) {
+            gainDryNode.gain.value = 0.875;
+            gainWetNode.gain.value = 0;
+        }
 
         sourceNode.buffer = audioContext.createBuffer(2, 1, audioContext.sampleRate);
         isPlay.set(true);
