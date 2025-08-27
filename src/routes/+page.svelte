@@ -663,7 +663,7 @@
             } else {
                 sourceNode.connect(panNode);
             }
-            gainDryNode.gain.value = 0.4375;
+            gainDryNode.gain.value = 0.5;
             gainWetNode.gain.value = 1;
             if (params.off !== null) {
                 gainDryNode.gain.value = 0.84375;
@@ -836,7 +836,7 @@
                 worker.postMessage('BYTES_PER_ELEMENT');
             }, 0);
         //}
-        gainDryNode.gain.value = 0.4375;
+        gainDryNode.gain.value = 0.5;
         gainWetNode.gain.value = 1;
         if (params.off !== null) {
             gainDryNode.gain.value = 0.84375;
