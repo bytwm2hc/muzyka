@@ -352,8 +352,8 @@
                     try {
                         audioContext.decodeAudioData(arrayBuffer).then(function (audioData) {
                             'use strict';
-                            gainDryNode.gain.value = 0.75;
-                            gainWetNode.gain.value = 1.375;
+                            gainDryNode.gain.value = 0.6875;
+                            gainWetNode.gain.value = 1.3125;
                             if (params.off !== null) {
                                 gainDryNode.gain.value = 1;
                                 gainWetNode.gain.value = 0;
@@ -666,7 +666,7 @@
             gainDryNode.gain.value = 0.5;
             gainWetNode.gain.value = 1.125;
             if (params.off !== null) {
-                gainDryNode.gain.value = 0.84375;
+                gainDryNode.gain.value = 0.875;
                 gainWetNode.gain.value = 0;
             }
             sourceNode.playbackRate.value = 432/440;
@@ -839,7 +839,7 @@
         gainDryNode.gain.value = 0.5;
         gainWetNode.gain.value = 1.125;
         if (params.off !== null) {
-            gainDryNode.gain.value = 0.84375;
+            gainDryNode.gain.value = 0.875;
             gainWetNode.gain.value = 0;
         }
 
