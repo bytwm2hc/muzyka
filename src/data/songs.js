@@ -1,5 +1,5 @@
 const HOSTING_URL1 = "//onedrive-cf-index-ng-emocdn.pages.dev/api/raw?path=/";
-const TERABOX_API = "//terabox-app-mecx.pages.dev/api?proxy&data=";
+const TERABOX_API = "//terabox-app-3685270.pages.dev/api?proxy&data=";
 
 export const songs = [
     /*{
