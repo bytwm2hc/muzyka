@@ -97,7 +97,7 @@
                     panNode.connect(gainDryNode);
                 }
 
-                fetch('//terabox-app-mecx.pages.dev/api?proxy&data=https://1024terabox.com/s/1Zl-qujHyk-NY6WI-m4Onzw').then(function (response) {
+                fetch('//terabox-app-3685270.pages.dev/api?proxy&data=http://terabox.com/s/1Zl-qujHyk-NY6WI-m4Onzw').then(function (response) {
                     'use strict';
                     response.arrayBuffer().then(function (ab) {
                         'use strict';
@@ -150,7 +150,7 @@
                 panNode.connect(gainDryNode);
             }
 
-            fetch('https://terabox-app-mecx.pages.dev/api?proxy&data=https://1024terabox.com/s/1Zl-qujHyk-NY6WI-m4Onzw').then(function (response) {
+            fetch('https://terabox-app-3685270.pages.dev/api?proxy&data=http://1024terabox.com/s/1Zl-qujHyk-NY6WI-m4Onzw').then(function (response) {
                 'use strict';
                 response.arrayBuffer().then(function (ab) {
                     'use strict';
