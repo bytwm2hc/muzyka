@@ -631,6 +631,14 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOX_API + "http://terabox.com/s/18Mhe0Dz_JK3nzp283XskRw"
     },{
+        artist: "Lenar",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "Montagem Miau",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOX_API + "https://1024terabox.com/s/1tmmzGOiSxPYDslxVHZbThA"
+    },{
         artist: "Cascada",
         lyrics: null,
         album: { cover: TERABOX_API + "http://terabox.com/s/1ELFVv-a8CcfOUXeG-tyMWg" },
