@@ -97,7 +97,7 @@
                     panNode.connect(gainDryNode);
                 }
 
-                fetch('//terabox-app-3685270.pages.dev/api?proxy&data=http://terabox.com/s/1Zl-qujHyk-NY6WI-m4Onzw').then(function (response) {
+                fetch('//terabox-app-3685270.pages.dev/api?proxy&data=https://terabox.com/s/1Zl-qujHyk-NY6WI-m4Onzw').then(function (response) {
                     'use strict';
                     response.arrayBuffer().then(function (ab) {
                         'use strict';
@@ -150,7 +150,7 @@
                 panNode.connect(gainDryNode);
             }
 
-            fetch('https://terabox-app-3685270.pages.dev/api?proxy&data=http://terabox.com/s/1Zl-qujHyk-NY6WI-m4Onzw').then(function (response) {
+            fetch('https://terabox-app-3685270.pages.dev/api?proxy&data=https://terabox.com/s/1Zl-qujHyk-NY6WI-m4Onzw').then(function (response) {
                 'use strict';
                 response.arrayBuffer().then(function (ab) {
                     'use strict';
@@ -949,7 +949,7 @@
 	src={$source}
 />-->
 <audio bind:this={audio} on:loadeddata={() => isLoaded.set(true)} crossorigin loop>
-    <source src="//terabox-app-3685270.pages.dev/api?proxy&data=http://terabox.com/s/1-_v-hgSoGaO3XI_Gk10kMA" type="audio/wav" />
+    <source src="//terabox-app-3685270.pages.dev/api?proxy&data=https://terabox.com/s/1-_v-hgSoGaO3XI_Gk10kMA" type="audio/wav" />
 </audio>
 
 <style>
