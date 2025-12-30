@@ -19,7 +19,7 @@ export const songs = [
         title: "愛♡スクリ～ム！",
         isTAK: true,
         isTeraBox: true,
-        filename: TERABOX_API + "https://10241024terabox.com/s/1WxF3kN-UpKqHncloKfpB2w"
+        filename: TERABOX_API + "https://1024terabox.com/s/1WxF3kN-UpKqHncloKfpB2w"
     },{
         artist: "高嶺のなでしこ",
         lyrics: null,
@@ -30,7 +30,7 @@ export const songs = [
         title: "可愛くてごめん",
         isTAK: true,
         isTeraBox: true,
-        filename: TERABOX_API + "https://10241024terabox.com/s/1FXEzwp_k-dDanvZ4GQNXgw"
+        filename: TERABOX_API + "https://1024terabox.com/s/1FXEzwp_k-dDanvZ4GQNXgw"
     },{
         artist: "花玲、喵☆酱、宴宁、kinsen",
         lyrics: null,
@@ -49,7 +49,7 @@ export const songs = [
         title: "星の夢",
         isTAK: true,
         isTeraBox: true,
-        filename: TERABOX_API + "https://10241024terabox.com/s/1VarBg5klC5UKU5zXgjmdZg"
+        filename: TERABOX_API + "https://1024terabox.com/s/1VarBg5klC5UKU5zXgjmdZg"
     },{
         artist: "浅野てんき（浅野天琪）",
         lyrics: null,
