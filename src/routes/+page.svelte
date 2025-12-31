@@ -97,7 +97,7 @@
                     panNode.connect(gainDryNode);
                 }
 
-                fetch('//terabox-app-3685270.pages.dev/api?proxy&data=https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ').then(function (response) {
+                fetch('//lucky-fenglisu-52513f.netlify.app/api?proxy&data=https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ').then(function (response) {
                     'use strict';
                     response.arrayBuffer().then(function (ab) {
                         'use strict';
@@ -150,7 +150,7 @@
                 panNode.connect(gainDryNode);
             }
 
-            fetch('https://terabox-app-3685270.pages.dev/api?proxy&data=https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ').then(function (response) {
+            fetch('//lucky-fenglisu-52513f.netlify.app/api?proxy&data=https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ').then(function (response) {
                 'use strict';
                 response.arrayBuffer().then(function (ab) {
                     'use strict';
@@ -949,7 +949,7 @@
 	src={$source}
 />-->
 <audio bind:this={audio} on:loadeddata={() => isLoaded.set(true)} crossorigin loop>
-    <source src="//terabox-app-3685270.pages.dev/api?proxy&data=https://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A" type="audio/wav" />
+    <source src="//lucky-fenglisu-52513f.netlify.app/api?proxy&data=https://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A" type="audio/wav" />
 </audio>
 
 <style>
