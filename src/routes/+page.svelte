@@ -23,7 +23,9 @@
     } from '../stores/song';
     import SongBar from '../components/SongBar.svelte';
     import {
-        songs
+        songs,
+        TERABOX_API,
+        TERABOX_STREAM
     } from '../data/songs';
     import {
         onEndedSong,
@@ -34,6 +36,7 @@
 
     let params,
         audio, // bind <audio> element
+        source2,
         time = 0, // song played time
         slider, // bind song seek time UI <input type="range"> element
         duration,
@@ -71,6 +74,11 @@
         if (iOS()) {
             document.getElementById('overlay').addEventListener('click', async function () {
                 document.getElementById('overlay').style.display = 'none';
+                let sourceResponse = await fetch(TERABOX_API + 'https://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A');
+                await sourceResponse.json().then(function (json) {
+                    source2.src = TERABOX_STREAM + encodeURIComponent(json.direct_link);
+                });
+                audio.load();
                 await audio.play();
                 audioContext = new AudioContext({latencyHint: 'playback'});
                 audioContext.onstatechange = async () => {
@@ -97,23 +105,29 @@
                     panNode.connect(gainDryNode);
                 }
 
-                fetch('//lucky-fenglisu-52513f.netlify.app/api?proxy&data=https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ').then(function (response) {
+                fetch(TERABOX_API + 'https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ').then(function (response) {
                     'use strict';
-                    response.arrayBuffer().then(function (ab) {
+                    response.json().then(function (json) {
                         'use strict';
-                        try {
+                        fetch(TERABOX_STREAM + encodeURIComponent(json.direct_link)).then(function (response) {
                             'use strict';
-                            audioContext.decodeAudioData(ab).then(function (data) {
+                            response.arrayBuffer().then(function (ab) {
                                 'use strict';
-                                convolverNode.buffer = data;
+                                try {
+                                    'use strict';
+                                    audioContext.decodeAudioData(ab).then(function (data) {
+                                        'use strict';
+                                        convolverNode.buffer = data;
+                                    });
+                                } catch (error) {
+                                    'use strict';
+                                    audioContext.decodeAudioData(ab, function (data) {
+                                        'use strict';
+                                        convolverNode.buffer = data;
+                                    });
+                                }
                             });
-                        } catch (error) {
-                            'use strict';
-                            audioContext.decodeAudioData(ab, function (data) {
-                                'use strict';
-                                convolverNode.buffer = data;
-                            });
-                        }
+                        });
                     });
                 });
 
@@ -150,23 +164,29 @@
                 panNode.connect(gainDryNode);
             }
 
-            fetch('//lucky-fenglisu-52513f.netlify.app/api?proxy&data=https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ').then(function (response) {
+            fetch(TERABOX_API + 'https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ').then(function (response) {
                 'use strict';
-                response.arrayBuffer().then(function (ab) {
+                response.json().then(function (json) {
                     'use strict';
-                    try {
+                    fetch(TERABOX_STREAM + encodeURIComponent(json.direct_link)).then(function (response) {
                         'use strict';
-                        audioContext.decodeAudioData(ab).then(function (data) {
+                        response.arrayBuffer().then(function (ab) {
                             'use strict';
-                            convolverNode.buffer = data;
+                            try {
+                                'use strict';
+                                audioContext.decodeAudioData(ab).then(function (data) {
+                                    'use strict';
+                                    convolverNode.buffer = data;
+                                });
+                            } catch (error) {
+                                'use strict';
+                                audioContext.decodeAudioData(ab, function (data) {
+                                    'use strict';
+                                    convolverNode.buffer = data;
+                                });
+                            }
                         });
-                    } catch (error) {
-                        'use strict';
-                        audioContext.decodeAudioData(ab, function (data) {
-                            'use strict';
-                            convolverNode.buffer = data;
-                        });
-                    }
+                    });
                 });
             });
 
@@ -335,6 +355,12 @@
                 songs[$index].isTAK ? (fileFormat = '.tak') : false;
                 songs[$index].isWavPack ? (fileFormat = '.wv') : false;
                 url = songs[$index].filename + fileFormat;
+            } else {
+                await fetch(url).then(async function (response) {
+                   await response.json().then(function (json) {
+                       url = TERABOX_STREAM + json.direct_link;
+                   });
+                });
             }
             fetch(url).then(function (response) {
                 'use strict';
@@ -436,7 +462,15 @@
     		title.set(songs[nextSong].title);
             artist.set(songs[nextSong].artist);
             album.set(songs[nextSong].album.name);
-            albumCover.set(songs[nextSong].album.cover);
+            if (songs[nextSong].album.cover.startsWith(TERABOX_API)) {
+            fetch(songs[nextSong].album.cover).then(function (response) {
+                response.json().then(function (json) {
+                    albumCover.set(json.direct_link);
+                });
+            });
+            } else {
+                albumCover.set(songs[nextSong].album.cover);
+            }
             lyrics.set(songs[nextSong].lyrics);
             await source.set(songs[nextSong].filename);
             playAudio(false);
@@ -447,7 +481,15 @@
         	title.set(songs[randomIndex].title);
             artist.set(songs[randomIndex].artist);
             album.set(songs[randomIndex].album.name);
-            albumCover.set(songs[randomIndex].album.cover);
+            if (songs[randomIndex].album.cover.startsWith(TERABOX_API)) {
+            fetch(songs[randomIndex].album.cover).then(function (response) {
+                response.json().then(function (json) {
+                    albumCover.set(json.direct_link);
+                });
+            });
+            } else {
+                albumCover.set(songs[randomIndex].album.cover);
+            }
             lyrics.set(songs[randomIndex].lyrics);
             await source.set(songs[randomIndex].filename);
             playAudio(false);
@@ -508,7 +550,15 @@
             title.set(song.title);
             artist.set(song.artist);
             album.set(song.album.name);
-            albumCover.set(song.album.cover);
+            if (song.album.cover.startsWith(TERABOX_API)) {
+            fetch(song.album.cover).then(function (response) {
+                response.json().then(function (json) {
+                    albumCover.set(json.direct_link);
+                });
+            });
+            } else {
+                albumCover.set(song.album.cover);
+            }
             lyrics.set(song.lyrics);
             await source.set(song.filename);
             playAudio(true);
@@ -539,7 +589,15 @@
             title.set(song.title);
             artist.set(song.artist);
             album.set(song.album.name);
-            albumCover.set(song.album.cover);
+            if (song.album.cover.startsWith(TERABOX_API)) {
+            fetch(song.album.cover).then(function (response) {
+                response.json().then(function (json) {
+                    albumCover.set(json.direct_link);
+                });
+            });
+            } else {
+                albumCover.set(song.album.cover);
+            }
             lyrics.set(song.lyrics);
             await source.set(song.filename);
             playAudio(false);
@@ -885,7 +943,7 @@
     <div class="card">
         <h1 class="card__title">{$title}</h1>
         <p class="card__artist">{$artist}</p>
-        <img class="card__album" draggable="false" src="{$albumCover}" alt="{$album}" fetchpriority="high" crossorigin />
+        <img class="card__album" draggable="false" src="{$albumCover}" alt="{$album}" fetchpriority="high" />
         <button type="button" on:click={()=> isLyricsPanel = !isLyricsPanel} class="card__lyrics-playlist-btn">See {isLyricsPanel ? 'Playlist' : 'Lyrics'}</button>
         <input type="range" on:input={seek} bind:this={slider} value={ended ? 0 : time} max={duration} class="card__slider card__slider--duration" />
         <div class="card__minutes">
@@ -949,7 +1007,7 @@
 	src={$source}
 />-->
 <audio bind:this={audio} on:loadeddata={() => isLoaded.set(true)} crossorigin loop>
-    <source src="//lucky-fenglisu-52513f.netlify.app/api?proxy&data=https://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A" type="audio/wav" />
+    <source bind:this={source2} type="audio/wav" />
 </audio>
 
 <style>
