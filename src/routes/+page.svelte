@@ -358,7 +358,7 @@
             } else {
                 await fetch(url).then(async function (response) {
                    await response.json().then(function (json) {
-                       url = TERABOX_STREAM + json.direct_link;
+                       url = TERABOX_STREAM + encodeURIComponent(json.direct_link);
                    });
                 });
             }
