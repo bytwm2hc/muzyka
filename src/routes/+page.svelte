@@ -465,7 +465,7 @@
             if (songs[nextSong].album.cover.startsWith(TERABOX_API)) {
             fetch(songs[nextSong].album.cover).then(function (response) {
                 response.json().then(function (json) {
-                    albumCover.set(json.direct_link);
+                    albumCover.set(TERABOX_STREAM + encodeURIComponent(json.direct_link));
                 });
             });
             } else {
@@ -484,7 +484,7 @@
             if (songs[randomIndex].album.cover.startsWith(TERABOX_API)) {
             fetch(songs[randomIndex].album.cover).then(function (response) {
                 response.json().then(function (json) {
-                    albumCover.set(json.direct_link);
+                    albumCover.set(TERABOX_STREAM + encodeURIComponent(json.direct_link));
                 });
             });
             } else {
@@ -553,7 +553,7 @@
             if (song.album.cover.startsWith(TERABOX_API)) {
             fetch(song.album.cover).then(function (response) {
                 response.json().then(function (json) {
-                    albumCover.set(json.direct_link);
+                    albumCover.set(TERABOX_STREAM + encodeURIComponent(json.direct_link));
                 });
             });
             } else {
@@ -592,7 +592,7 @@
             if (song.album.cover.startsWith(TERABOX_API)) {
             fetch(song.album.cover).then(function (response) {
                 response.json().then(function (json) {
-                    albumCover.set(json.direct_link);
+                    albumCover.set(TERABOX_STREAM + encodeURIComponent(json.direct_link));
                 });
             });
             } else {
@@ -943,7 +943,7 @@
     <div class="card">
         <h1 class="card__title">{$title}</h1>
         <p class="card__artist">{$artist}</p>
-        <img class="card__album" draggable="false" src="{$albumCover}" alt="{$album}" fetchpriority="high" />
+        <img class="card__album" draggable="false" src="{$albumCover}" alt="{$album}" fetchpriority="high" crossorigin="anonymous" />
         <button type="button" on:click={()=> isLyricsPanel = !isLyricsPanel} class="card__lyrics-playlist-btn">See {isLyricsPanel ? 'Playlist' : 'Lyrics'}</button>
         <input type="range" on:input={seek} bind:this={slider} value={ended ? 0 : time} max={duration} class="card__slider card__slider--duration" />
         <div class="card__minutes">
@@ -973,7 +973,7 @@
 				step=".001"
 			/>
 		</div>
-		<p class="card__copyright">&copy; 2023 Original by <a href="https://m-adithya.my.id/" target="_blank">Mohamad Adithya</a></p>
+		<p class="card__copyright">&copy; 2023 Original by <a href="http://m-adithya.my.id/" target="_blank">Mohamad Adithya</a></p>
 	</div>
 	<!-- Playlist Panel -->
 	<div class="card-playlist" style="height: 556px;">
