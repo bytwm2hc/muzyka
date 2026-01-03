@@ -14,25 +14,6 @@ export const songs = [
         filename: "01"
     },*/
     {
-        artist: "AiScReam",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "愛♡スクリ～ム！",
-        isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + "https://1024terabox.com/s/129x06o5wvx4YQA0qdz26Zw"
-    },{
-        artist: "高嶺のなでしこ",
-        lyrics: null,
-        album: {
-            cover: TERABOXAPI + "https://1024terabox.com/s/1GR-YIeIt1VmMHpejGrYT-A",
-            name: "可愛くてごめん"
-        },
-        title: "可愛くてごめん",
-        isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + "https://1024terabox.com/s/1QRptH93ST-JwbnKMO_tKcg"
-    },{
         artist: "花玲、喵☆酱、宴宁、kinsen",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -40,6 +21,14 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + "https://1024terabox.com/s/1YXzDEA-M0w9Hje8kvPTmXQ"
+    },{
+        artist: "AiScReam",
+        lyrics: null,
+        album: { cover: "img/album.png" },
+        title: "愛♡スクリ～ム！",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOXAPI + "https://1024terabox.com/s/129x06o5wvx4YQA0qdz26Zw"
     },{
         artist: "浅野てんき（浅野天琪）",
         lyrics: null,
@@ -153,6 +142,17 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + "https://1024terabox.com/s/1ycQID5RkhnzwyM5LJF5Hsw"
+    },{
+        artist: "春奈るな",
+        lyrics: null,
+        album: {
+            cover: TERABOXAPI + "https://1024terabox.com/s/1_-qkMUQxoLzXr5bx2Rhwbw",
+            name: "君色シグナル"
+        },
+        title: "君色シグナル",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOXAPI + "https://1024terabox.com/s/18HowfAgX22MMVyBNmO7lmw"
     },{
         artist: "CYaRon!",
         lyrics: null,
@@ -273,6 +273,17 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + "https://1024terabox.com/s/1CfolReFJQzoMln38H-pt0w"
+    },{
+        artist: "高嶺のなでしこ",
+        lyrics: null,
+        album: {
+            cover: TERABOXAPI + "https://1024terabox.com/s/1GR-YIeIt1VmMHpejGrYT-A",
+            name: "可愛くてごめん"
+        },
+        title: "可愛くてごめん",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOXAPI + "https://1024terabox.com/s/1QRptH93ST-JwbnKMO_tKcg"
     },{
         artist: "BIGBANG",
         lyrics: null,
