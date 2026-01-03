@@ -1,6 +1,6 @@
 const HOSTING_URL1 = "//onedrive-cf-index-ng-emocdn.pages.dev/api/raw?path=/";
-export const TERABOX_API = "//lucky-fenglisu-52513f.netlify.app/api?data=";
-export const TERABOX_STREAM = "//terastream.3685270.workers.dev/?url=";
+export const TERABOXAPI = "//teraboxapi.3685270.workers.dev/?url=";
+export const TERASTREAM = "//terastream.3685270.workers.dev/?url=";
 
 export const songs = [
     /*{

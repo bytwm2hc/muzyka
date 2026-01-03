@@ -24,8 +24,8 @@
     import SongBar from '../components/SongBar.svelte';
     import {
         songs,
-        TERABOX_API,
-        TERABOX_STREAM
+        TERABOXAPI,
+        TERASTREAM
     } from '../data/songs';
     import {
         onEndedSong,
@@ -74,9 +74,9 @@
         if (iOS()) {
             document.getElementById('overlay').addEventListener('click', async function () {
                 document.getElementById('overlay').style.display = 'none';
-                let sourceResponse = await fetch(TERABOX_API + 'https://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A');
+                let sourceResponse = await fetch(TERABOXAPI + 'https://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A');
                 await sourceResponse.json().then(function (json) {
-                    source2.src = TERABOX_STREAM + encodeURIComponent(json.direct_link);
+                    source2.src = TERASTREAM + encodeURIComponent(json.direct_link);
                 });
                 audio.load();
                 await audio.play();
@@ -105,11 +105,11 @@
                     panNode.connect(gainDryNode);
                 }
 
-                fetch(TERABOX_API + 'https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ').then(function (response) {
+                fetch(TERABOXAPI + 'https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ').then(function (response) {
                     'use strict';
                     response.json().then(function (json) {
                         'use strict';
-                        fetch(TERABOX_STREAM + encodeURIComponent(json.direct_link)).then(function (response) {
+                        fetch(TERASTREAM + encodeURIComponent(json.direct_link)).then(function (response) {
                             'use strict';
                             response.arrayBuffer().then(function (ab) {
                                 'use strict';
@@ -164,11 +164,11 @@
                 panNode.connect(gainDryNode);
             }
 
-            fetch(TERABOX_API + 'https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ').then(function (response) {
+            fetch(TERABOXAPI + 'https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ').then(function (response) {
                 'use strict';
                 response.json().then(function (json) {
                     'use strict';
-                    fetch(TERABOX_STREAM + encodeURIComponent(json.direct_link)).then(function (response) {
+                    fetch(TERASTREAM + encodeURIComponent(json.direct_link)).then(function (response) {
                         'use strict';
                         response.arrayBuffer().then(function (ab) {
                             'use strict';
@@ -358,7 +358,7 @@
             } else {
                 await fetch(url).then(async function (response) {
                    await response.json().then(function (json) {
-                       url = TERABOX_STREAM + encodeURIComponent(json.direct_link);
+                       url = TERASTREAM + encodeURIComponent(json.direct_link);
                    });
                 });
             }
@@ -462,10 +462,10 @@
     		title.set(songs[nextSong].title);
             artist.set(songs[nextSong].artist);
             album.set(songs[nextSong].album.name);
-            if (songs[nextSong].album.cover.startsWith(TERABOX_API)) {
+            if (songs[nextSong].album.cover.startsWith(TERABOXAPI)) {
             fetch(songs[nextSong].album.cover).then(function (response) {
                 response.json().then(function (json) {
-                    albumCover.set(TERABOX_STREAM + encodeURIComponent(json.direct_link));
+                    albumCover.set(TERASTREAM + encodeURIComponent(json.direct_link));
                 });
             });
             } else {
@@ -481,10 +481,10 @@
         	title.set(songs[randomIndex].title);
             artist.set(songs[randomIndex].artist);
             album.set(songs[randomIndex].album.name);
-            if (songs[randomIndex].album.cover.startsWith(TERABOX_API)) {
+            if (songs[randomIndex].album.cover.startsWith(TERABOXAPI)) {
             fetch(songs[randomIndex].album.cover).then(function (response) {
                 response.json().then(function (json) {
-                    albumCover.set(TERABOX_STREAM + encodeURIComponent(json.direct_link));
+                    albumCover.set(TERASTREAM + encodeURIComponent(json.direct_link));
                 });
             });
             } else {
@@ -550,10 +550,10 @@
             title.set(song.title);
             artist.set(song.artist);
             album.set(song.album.name);
-            if (song.album.cover.startsWith(TERABOX_API)) {
+            if (song.album.cover.startsWith(TERABOXAPI)) {
             fetch(song.album.cover).then(function (response) {
                 response.json().then(function (json) {
-                    albumCover.set(TERABOX_STREAM + encodeURIComponent(json.direct_link));
+                    albumCover.set(TERASTREAM + encodeURIComponent(json.direct_link));
                 });
             });
             } else {
@@ -589,10 +589,10 @@
             title.set(song.title);
             artist.set(song.artist);
             album.set(song.album.name);
-            if (song.album.cover.startsWith(TERABOX_API)) {
+            if (song.album.cover.startsWith(TERABOXAPI)) {
             fetch(song.album.cover).then(function (response) {
                 response.json().then(function (json) {
-                    albumCover.set(TERABOX_STREAM + encodeURIComponent(json.direct_link));
+                    albumCover.set(TERASTREAM + encodeURIComponent(json.direct_link));
                 });
             });
             } else {
@@ -750,7 +750,7 @@
         });
     }
 
-    const WavPackPlay = async (wvData) => {
+    /*const WavPackPlay = async (wvData) => {
         'use strict';
         //audioContext.audioWorklet.addModule('bypass-processor.js').then(function () {
         //    bypasser = new AudioWorkletNode(audioContext, 'bypass-processor', {outputChannelCount: [2]});
@@ -905,7 +905,7 @@
         isPlay.set(true);
         slider.disabled = 'disabled';
         $btnDisabled = 'disabled';
-    }
+    }*/
 
     /*
      * Appends two ArrayBuffers into a new one.
