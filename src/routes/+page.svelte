@@ -34,6 +34,7 @@
     } from '../helpers/song';
     import { FFmpeg } from '../ffmpeg';
 
+    const TERABOXAPI2 = '//lucky-fenglisu-52513f.netlify.app/api?data=';
     let params,
         audio, // bind <audio> element
         source2,
@@ -73,10 +74,15 @@
         
         if (iOS()) {
             document.getElementById('overlay').addEventListener('click', async function () {
+                'use strict';
                 document.getElementById('overlay').style.display = 'none';
-                let sourceResponse = await fetch(TERABOXAPI + 'https://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A');
-                await sourceResponse.json().then(function (json) {
+                await fetch(TERABOXAPI + 'https://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A').then(r => r.json()).then(json => {
+                    if (!json || !json.direct_link) throw new Error('fallback');
                     source2.src = TERASTREAM + encodeURIComponent(json.direct_link);
+                }).catch(async () => {
+                    await fetch(TERABOXAPI2 + url).then(r => r.json()).then(json => {
+                        source2.src = TERASTREAM + encodeURIComponent(json.direct_link);
+                    });
                 });
                 audio.load();
                 await audio.play();
@@ -105,30 +111,29 @@
                     panNode.connect(gainDryNode);
                 }
 
-                fetch(TERABOXAPI + 'https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ').then(function (response) {
-                    'use strict';
-                    response.json().then(function (json) {
-                        'use strict';
-                        fetch(TERASTREAM + encodeURIComponent(json.direct_link)).then(function (response) {
-                            'use strict';
-                            response.arrayBuffer().then(function (ab) {
-                                'use strict';
-                                try {
-                                    'use strict';
-                                    audioContext.decodeAudioData(ab).then(function (data) {
-                                        'use strict';
-                                        convolverNode.buffer = data;
-                                    });
-                                } catch (error) {
-                                    'use strict';
-                                    audioContext.decodeAudioData(ab, function (data) {
-                                        'use strict';
-                                        convolverNode.buffer = data;
-                                    });
-                                }
-                            });
+                fetch(TERABOXAPI + 'https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ')
+                .then(r => r.json())
+                .then(json => {
+                    if (!json || !json.direct_link) throw new Error('fallback');
+                        return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
+                })
+                .catch(() => {
+                    // fallback API
+                    return fetch(TERABOXAPI2 + irUrl)
+                    .then(r => r.json())
+                    .then(json => fetch(TERASTREAM + encodeURIComponent(json.direct_link)));
+                })
+                .then(r => r.arrayBuffer())
+                .then(ab => {
+                    try {
+                        audioContext.decodeAudioData(ab).then(data => {
+                            convolverNode.buffer = data;
                         });
-                    });
+                    } catch (err) {
+                        audioContext.decodeAudioData(ab, data => {
+                            convolverNode.buffer = data;
+                        });
+                    }
                 });
 
                 //highShelf = audioContext.createBiquadFilter();
@@ -164,30 +169,29 @@
                 panNode.connect(gainDryNode);
             }
 
-            fetch(TERABOXAPI + 'https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ').then(function (response) {
-                'use strict';
-                response.json().then(function (json) {
-                    'use strict';
-                    fetch(TERASTREAM + encodeURIComponent(json.direct_link)).then(function (response) {
-                        'use strict';
-                        response.arrayBuffer().then(function (ab) {
-                            'use strict';
-                            try {
-                                'use strict';
-                                audioContext.decodeAudioData(ab).then(function (data) {
-                                    'use strict';
-                                    convolverNode.buffer = data;
-                                });
-                            } catch (error) {
-                                'use strict';
-                                audioContext.decodeAudioData(ab, function (data) {
-                                    'use strict';
-                                    convolverNode.buffer = data;
-                                });
-                            }
-                        });
+            fetch(TERABOXAPI + 'https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ')
+            .then(r => r.json())
+            .then(json => {
+                if (!json || !json.direct_link) throw new Error('fallback');
+                return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
+            })
+            .catch(() =>
+                fetch(TERABOXAPI2 + irUrl)
+                .then(r => r.json())
+                .then(json =>
+                    fetch(TERASTREAM + encodeURIComponent(json.direct_link))
+            ))
+            .then(r => r.arrayBuffer())
+            .then(ab => {
+                try {
+                    audioContext.decodeAudioData(ab).then(data => {
+                        convolverNode.buffer = data;
                     });
-                });
+                } catch {
+                    audioContext.decodeAudioData(ab, data => {
+                        convolverNode.buffer = data;
+                    });
+                }
             });
 
             //highShelf = audioContext.createBiquadFilter();
@@ -356,10 +360,18 @@
                 songs[$index].isWavPack ? (fileFormat = '.wv') : false;
                 url = songs[$index].filename + fileFormat;
             } else {
-                await fetch(url).then(async function (response) {
-                   await response.json().then(function (json) {
-                       url = TERASTREAM + encodeURIComponent(json.direct_link);
-                   });
+                await fetch(url)
+                .then(r => r.json())
+                .then(json => {
+                    if (!json || !json.direct_link) throw new Error();
+                    url = TERASTREAM + encodeURIComponent(json.direct_link);
+                })
+                .catch(async () => {
+                    await fetch(TERABOXAPI2 + songs[$index].filename)
+                    .then(r => r.json())
+                    .then(json => {
+                        url = TERASTREAM + encodeURIComponent(json.direct_link);
+                    });
                 });
             }
             fetch(url).then(function (response) {
