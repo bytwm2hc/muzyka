@@ -24,8 +24,7 @@
     import SongBar from '../components/SongBar.svelte';
     import {
         songs,
-        TERABOXAPI,
-        TERASTREAM
+        TERABOXAPI
     } from '../data/songs';
     import {
         onEndedSong,
@@ -34,6 +33,7 @@
     } from '../helpers/song';
     import { FFmpeg } from '../ffmpeg';
 
+    const TERASTREAM = '//terastream.3685270.workers.dev/?url=';
     const TERABOXAPI2 = '//lucky-fenglisu-52513f.netlify.app/api?data=';
     let params,
         audio, // bind <audio> element
@@ -76,7 +76,7 @@
             document.getElementById('overlay').addEventListener('click', async function () {
                 'use strict';
                 document.getElementById('overlay').style.display = 'none';
-                await fetch(TERABOXAPI + 'https://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A').then(r => r.json()).then(json => {
+                await fetch(TERABOXAPI + encodeURIComponent('https://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A')).then(r => r.json()).then(json => {
                     if (!json || !json.direct_link) throw new Error('fallback');
                     source2.src = TERASTREAM + encodeURIComponent(json.direct_link);
                 }).catch(async () => {
@@ -111,7 +111,7 @@
                     panNode.connect(gainDryNode);
                 }
 
-                fetch(TERABOXAPI + 'https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ')
+                fetch(TERABOXAPI + encodeURIComponent('https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ'))
                 .then(r => r.json())
                 .then(json => {
                     if (!json || !json.direct_link) throw new Error('fallback');
@@ -119,7 +119,7 @@
                 })
                 .catch(() => {
                     // fallback API
-                    return fetch(TERABOXAPI2 + irUrl)
+                    return fetch(TERABOXAPI2 + encodeURIComponent('https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ'))
                     .then(r => r.json())
                     .then(json => fetch(TERASTREAM + encodeURIComponent(json.direct_link)));
                 })
@@ -169,14 +169,14 @@
                 panNode.connect(gainDryNode);
             }
 
-            fetch(TERABOXAPI + 'https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ')
+            fetch(TERABOXAPI + encodeURIComponent('https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ'))
             .then(r => r.json())
             .then(json => {
                 if (!json || !json.direct_link) throw new Error('fallback');
                 return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
             })
             .catch(() =>
-                fetch(TERABOXAPI2 + irUrl)
+                fetch(TERABOXAPI2 + encodeURIComponent('https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ'))
                 .then(r => r.json())
                 .then(json =>
                     fetch(TERASTREAM + encodeURIComponent(json.direct_link))
@@ -367,7 +367,7 @@
                     url = TERASTREAM + encodeURIComponent(json.direct_link);
                 })
                 .catch(async () => {
-                    await fetch(TERABOXAPI2 + songs[$index].filename)
+                    await fetch(songs[$index].filename.replace(TERABOXAPI, TERABOXAPI2))
                     .then(r => r.json())
                     .then(json => {
                         url = TERASTREAM + encodeURIComponent(json.direct_link);
