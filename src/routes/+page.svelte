@@ -76,14 +76,27 @@
             document.getElementById('overlay').addEventListener('click', async function () {
                 'use strict';
                 document.getElementById('overlay').style.display = 'none';
-                await fetch(TERABOXAPI + encodeURIComponent('https://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A')).then(r => r.json()).then(json => {
-                    if (!json || !json.direct_link) throw new Error('fallback');
+                await fetch(TERABOXAPI + encodeURIComponent('https://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A'))
+                .then(r => {
+                    if (!r.ok) throw new Error('api1 http');
+                    return r.json();
+                })
+                .then(json => {
+                    if (!json?.direct_link) throw new Error('api1 no link');
                     source2.src = TERASTREAM + encodeURIComponent(json.direct_link);
-                }).catch(async () => {
-                    await fetch(TERABOXAPI2 + url).then(r => r.json()).then(json => {
-                        source2.src = TERASTREAM + encodeURIComponent(json.direct_link);
-                    });
+                })
+                .catch(() => {
+                    return fetch(TERABOXAPI2 + encodeURIComponent('https://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A'))
+                .then(r => {
+                    if (!r.ok) throw new Error('api2 http');
+                    return r.json();
+                })
+                .then(json => {
+                    if (!json?.direct_link) throw new Error('api2 no link');
+                    source2.src = TERASTREAM + encodeURIComponent(json.direct_link);
                 });
+                });
+
                 audio.load();
                 await audio.play();
                 audioContext = new AudioContext({latencyHint: 'playback'});
@@ -111,29 +124,31 @@
                     panNode.connect(gainDryNode);
                 }
 
-                fetch(TERABOXAPI + encodeURIComponent('https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ'))
-                .then(r => r.json())
+                fetch(TERABOXAPI + encodeURIComponent('http://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ'))
+                .then(r => {
+                    if (!r.ok) throw new Error('api1 http error');
+                    return r.json();
+                })
                 .then(json => {
-                    if (!json || !json.direct_link) throw new Error('fallback');
-                        return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
-                })
+                    if (!json?.direct_link) throw new Error('api1 no link');
+                    return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
+                    })
                 .catch(() => {
-                    // fallback API
-                    return fetch(TERABOXAPI2 + encodeURIComponent('https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ'))
-                    .then(r => r.json())
-                    .then(json => fetch(TERASTREAM + encodeURIComponent(json.direct_link)));
-                })
+                    return fetch(TERABOXAPI2 + encodeURIComponent('http://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ'))
+                        .then(r => {
+                            if (!r.ok) throw new Error('api2 http error');
+                            return r.json();
+                        })
+                        .then(json => {
+                            if (!json?.direct_link) throw new Error('api2 no link');
+                            return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
+                        });
+                    })
                 .then(r => r.arrayBuffer())
                 .then(ab => {
-                    try {
-                        audioContext.decodeAudioData(ab).then(data => {
-                            convolverNode.buffer = data;
-                        });
-                    } catch (err) {
-                        audioContext.decodeAudioData(ab, data => {
-                            convolverNode.buffer = data;
-                        });
-                    }
+                    audioContext.decodeAudioData(ab).then(data => {
+                        convolverNode.buffer = data;
+                    });
                 });
 
                 //highShelf = audioContext.createBiquadFilter();
@@ -169,29 +184,31 @@
                 panNode.connect(gainDryNode);
             }
 
-            fetch(TERABOXAPI + encodeURIComponent('https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ'))
-            .then(r => r.json())
-            .then(json => {
-                if (!json || !json.direct_link) throw new Error('fallback');
-                return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
+            fetch(TERABOXAPI + encodeURIComponent('http://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ'))
+            .then(r => {
+                if (!r.ok) throw new Error('api1 http error');
+                return r.json();
             })
-            .catch(() =>
-                fetch(TERABOXAPI2 + encodeURIComponent('https://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ'))
-                .then(r => r.json())
-                .then(json =>
-                    fetch(TERASTREAM + encodeURIComponent(json.direct_link))
-            ))
+            .then(json => {
+                if (!json?.direct_link) throw new Error('api1 no link');
+                return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
+                })
+            .catch(() => {
+                return fetch(TERABOXAPI2 + encodeURIComponent('http://1024terabox.com/s/1hu091tqiCX6zwNir6vEopQ'))
+                    .then(r => {
+                        if (!r.ok) throw new Error('api2 http error');
+                        return r.json();
+                    })
+                    .then(json => {
+                        if (!json?.direct_link) throw new Error('api2 no link');
+                        return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
+                    });
+                })
             .then(r => r.arrayBuffer())
             .then(ab => {
-                try {
-                    audioContext.decodeAudioData(ab).then(data => {
-                        convolverNode.buffer = data;
-                    });
-                } catch {
-                    audioContext.decodeAudioData(ab, data => {
-                        convolverNode.buffer = data;
-                    });
-                }
+                audioContext.decodeAudioData(ab).then(data => {
+                    convolverNode.buffer = data;
+                });
             });
 
             //highShelf = audioContext.createBiquadFilter();
