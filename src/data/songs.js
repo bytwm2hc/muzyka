@@ -634,6 +634,26 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/19Qm982sgPOuHj9m4R_JD-Q")
     },{
+        artist: "卡带森林＆回忆录音带",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "心碎的梦（对唱版）",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1yNMDqygU46Vt06FWMjg5rQ")
+    },{
+        artist: "Đinh Ứng Phi Trường",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "Xin Đừng Hỏi Tại Sao",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1BpcfKx-5UHuEGKE_k03Neg")
+    },{
         artist: "Schnuffel",
         lyrics: null,
         album: { cover: "img/album.png" },
