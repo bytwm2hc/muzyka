@@ -124,7 +124,7 @@
                     panNode.connect(gainDryNode);
                 }
 
-                fetch(TERABOXAPI + encodeURIComponent('http://1024terabox.com/s/1DavYnYwpeYE41nbaiCVrNQ'))
+                fetch(TERABOXAPI + encodeURIComponent('http://1024terabox.com/s/1wtR9IpcuhjIeKSLDtw28ZQ'))
                 .then(r => {
                     if (!r.ok) throw new Error('api1 http error');
                     return r.json();
@@ -134,7 +134,7 @@
                     return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
                     })
                 .catch(() => {
-                    return fetch(TERABOXAPI2 + encodeURIComponent('http://1024terabox.com/s/1DavYnYwpeYE41nbaiCVrNQ'))
+                    return fetch(TERABOXAPI2 + encodeURIComponent('http://1024terabox.com/s/1wtR9IpcuhjIeKSLDtw28ZQ'))
                         .then(r => {
                             if (!r.ok) throw new Error('api2 http error');
                             return r.json();
@@ -184,7 +184,7 @@
                 panNode.connect(gainDryNode);
             }
 
-            fetch(TERABOXAPI + encodeURIComponent('http://1024terabox.com/s/1DavYnYwpeYE41nbaiCVrNQ'))
+            fetch(TERABOXAPI + encodeURIComponent('http://1024terabox.com/s/1wtR9IpcuhjIeKSLDtw28ZQ'))
             .then(r => {
                 if (!r.ok) throw new Error('api1 http error');
                 return r.json();
@@ -194,7 +194,7 @@
                 return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
                 })
             .catch(() => {
-                return fetch(TERABOXAPI2 + encodeURIComponent('http://1024terabox.com/s/1DavYnYwpeYE41nbaiCVrNQ'))
+                return fetch(TERABOXAPI2 + encodeURIComponent('http://1024terabox.com/s/1wtR9IpcuhjIeKSLDtw28ZQ'))
                     .then(r => {
                         if (!r.ok) throw new Error('api2 http error');
                         return r.json();
