@@ -34,7 +34,7 @@
     import { FFmpeg } from '../ffmpeg';
 
     const TERASTREAM = '//terastream.3685270.workers.dev/?url=';
-    const TERABOXAPI2 = '//lucky-fenglisu-52513f.netlify.app/api?data=';
+    const TERABOXAPI2 = '//lucky-fenglisu-52513f.netlify.app/.netlify/functions/terabox?data=';
     let params,
         audio, // bind <audio> element
         source2,

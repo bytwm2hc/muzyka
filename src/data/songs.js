@@ -414,6 +414,16 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1a-Py_FjQ7d-tBhMruMlDAQ")
     },{
+        artist: "周傳雄",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "花香",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1tI_EDtMyFtX8M9X6XyleLA")
+    },{
         artist: "飛輪海＆Hebe",
         lyrics: null,
         album: {
@@ -1280,6 +1290,17 @@ export const songs = [
         isWavPack: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1tVFGlCC1b0YxfWN-B0-r2A")
+    },{
+        artist: "CINDERELLA GIRLS!!",
+        lyrics: null,
+        album: {
+            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1VwLzUuXhkWYHO0s5Mb4E-A"),
+            name: "お願い!シンデレラ(M@STER VERSION)"
+        },
+        title: "お願い!シンデレラ(M@STER VERSION)",
+        isWavPack: true,
+        isTeraBox: true,
+        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1bLsFUnpRDYbZDu9GMjzchg")
     },/*{
         artist: "μ's",
         lyrics: null,
