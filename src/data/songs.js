@@ -662,7 +662,7 @@ export const songs = [
         title: "Xin Đừng Hỏi Tại Sao",
         isTAK: true,
         isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1uCdbHv5WriCGCoEygHFKEA")
+        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1cHhYLTgAUiitBflwG8cXEw")
     },{
         artist: "Schnuffel",
         lyrics: null,
