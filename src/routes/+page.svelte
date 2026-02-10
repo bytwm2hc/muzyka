@@ -35,6 +35,7 @@
 
     const TERASTREAM = '//terastream.3685270.workers.dev/?url=';
     const TERABOXAPI2 = '//lucky-fenglisu-52513f.netlify.app/.netlify/functions/terabox?data=';
+    const TBDOWNLOAD = '//tbdownload.3685270.workers.dev/?fid=';
     let params,
         audio, // bind <audio> element
         source2,
@@ -76,25 +77,36 @@
             document.getElementById('overlay').addEventListener('click', async function () {
                 'use strict';
                 document.getElementById('overlay').style.display = 'none';
-                await fetch(TERABOXAPI + encodeURIComponent('http://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A'))
+                await fetch(TBDOWNLOAD + '11181318426573')
                 .then(r => {
-                    if (!r.ok) throw new Error('api1 http');
+                    if (!r.ok) throw new Error('api3 error!');
                     return r.json();
                 })
                 .then(json => {
-                    if (!json?.direct_link) throw new Error('api1 no link');
+                    if (!json?.direct_link) throw new Error('api3 no link');
                     source2.src = TERASTREAM + encodeURIComponent(json.direct_link);
                 })
                 .catch(() => {
-                    return fetch(TERABOXAPI2 + encodeURIComponent('http://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A'))
-                .then(r => {
-                    if (!r.ok) throw new Error('api2 http');
-                    return r.json();
-                })
-                .then(json => {
-                    if (!json?.direct_link) throw new Error('api2 no link');
-                    source2.src = TERASTREAM + encodeURIComponent(json.direct_link);
-                });
+                    return fetch(TERABOXAPI + encodeURIComponent('http://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A'))
+                    .then(r => {
+                        if (!r.ok) throw new Error('api1 error!');
+                        return r.json();
+                    })
+                    .then(json => {
+                        if (!json?.direct_link) throw new Error('api1 no link');
+                        source2.src = TERASTREAM + encodeURIComponent(json.direct_link);
+                    })
+                    .catch(() => {
+                        return fetch(TERABOXAPI2 + encodeURIComponent('http://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A'))
+                        .then(r => {
+                            if (!r.ok) throw new Error('api2 error!');
+                            return r.json();
+                        })
+                        .then(json => {
+                            if (!json?.direct_link) throw new Error('api2 no link');
+                            source2.src = TERASTREAM + encodeURIComponent(json.direct_link);
+                        });
+                    });
                 });
 
                 audio.load();
@@ -124,26 +136,38 @@
                     panNode.connect(gainDryNode);
                 }
 
-                fetch(TERABOXAPI + encodeURIComponent('http://1024terabox.com/s/1wtR9IpcuhjIeKSLDtw28ZQ'))
+                fetch(TBDOWNLOAD + '212672643722076')
                 .then(r => {
-                    if (!r.ok) throw new Error('api1 http error');
+                    if (!r.ok) throw new Error('api3 http error');
                     return r.json();
                 })
                 .then(json => {
-                    if (!json?.direct_link) throw new Error('api1 no link');
+                    if (!json?.direct_link) throw new Error('api3 no link');
                     return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
-                    })
+                })
                 .catch(() => {
-                    return fetch(TERABOXAPI2 + encodeURIComponent('http://1024terabox.com/s/1wtR9IpcuhjIeKSLDtw28ZQ'))
-                        .then(r => {
-                            if (!r.ok) throw new Error('api2 http error');
-                            return r.json();
-                        })
-                        .then(json => {
-                            if (!json?.direct_link) throw new Error('api2 no link');
-                            return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
-                        });
+                	return fetch(TERABOXAPI + encodeURIComponent('http://1024terabox.com/s/1wtR9IpcuhjIeKSLDtw28ZQ'))
+                    .then(r => {
+                        if (!r.ok) throw new Error('api1 http error');
+                        return r.json();
                     })
+                    .then(json => {
+                        if (!json?.direct_link) throw new Error('api1 no link');
+                        return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
+                    })
+                    .catch(() => {
+                        return fetch(TERABOXAPI2 + encodeURIComponent('http://1024terabox.com/s/1wtR9IpcuhjIeKSLDtw28ZQ'))
+                            .then(r => {
+                                if (!r.ok) throw new Error('api2 http error');
+                                return r.json();
+                            })
+                            .then(json => {
+                                if (!json?.direct_link) throw new Error('api2 no link');
+                                return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
+                            });
+                        }
+                    )
+                })
                 .then(r => r.arrayBuffer())
                 .then(ab => {
                     audioContext.decodeAudioData(ab).then(data => {
@@ -184,26 +208,38 @@
                 panNode.connect(gainDryNode);
             }
 
-            fetch(TERABOXAPI + encodeURIComponent('http://1024terabox.com/s/1wtR9IpcuhjIeKSLDtw28ZQ'))
+            fetch(TBDOWNLOAD + '212672643722076')
             .then(r => {
-                if (!r.ok) throw new Error('api1 http error');
+                if (!r.ok) throw new Error('api3 http error');
                 return r.json();
             })
             .then(json => {
-                if (!json?.direct_link) throw new Error('api1 no link');
+                if (!json?.direct_link) throw new Error('api3 no link');
                 return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
-                })
+            })
             .catch(() => {
-                return fetch(TERABOXAPI2 + encodeURIComponent('http://1024terabox.com/s/1wtR9IpcuhjIeKSLDtw28ZQ'))
-                    .then(r => {
-                        if (!r.ok) throw new Error('api2 http error');
-                        return r.json();
-                    })
-                    .then(json => {
-                        if (!json?.direct_link) throw new Error('api2 no link');
-                        return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
-                    });
+                return fetch(TERABOXAPI + encodeURIComponent('http://1024terabox.com/s/1wtR9IpcuhjIeKSLDtw28ZQ'))
+                .then(r => {
+                    if (!r.ok) throw new Error('api1 http error');
+                    return r.json();
                 })
+                .then(json => {
+                    if (!json?.direct_link) throw new Error('api1 no link');
+                    return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
+                })
+                .catch(() => {
+                    return fetch(TERABOXAPI2 + encodeURIComponent('http://1024terabox.com/s/1wtR9IpcuhjIeKSLDtw28ZQ'))
+                        .then(r => {
+                            if (!r.ok) throw new Error('api2 http error');
+                            return r.json();
+                        })
+                        .then(json => {
+                            if (!json?.direct_link) throw new Error('api2 no link');
+                            return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
+                        });
+                    }
+                )
+            })
             .then(r => r.arrayBuffer())
             .then(ab => {
                 audioContext.decodeAudioData(ab).then(data => {
@@ -377,19 +413,42 @@
                 songs[$index].isWavPack ? (fileFormat = '.wv') : false;
                 url = songs[$index].filename + fileFormat;
             } else {
-                await fetch(url)
-                .then(r => r.json())
-                .then(json => {
-                    if (!json || !json.direct_link) throw new Error();
-                    url = TERASTREAM + encodeURIComponent(json.direct_link);
-                })
-                .catch(async () => {
-                    await fetch(songs[$index].filename.replace(TERABOXAPI, TERABOXAPI2))
+                if (songs[$index].fs_id) {
+                	await fetch(TBDOWNLOAD + songs[$index].fs_id)
                     .then(r => r.json())
                     .then(json => {
+                        if (!json || !json.direct_link) throw new Error();
                         url = TERASTREAM + encodeURIComponent(json.direct_link);
+                    })
+                    .catch(async () => {
+                        await fetch(url)
+                        .then(r => r.json())
+                        .then(json => {
+                            url = TERASTREAM + encodeURIComponent(json.direct_link);
+                        })
+                        .catch(async () => {
+                            await fetch(songs[$index].filename.replace(TERABOXAPI, TERABOXAPI2))
+                            .then(r => r.json())
+                            .then(json => {
+                                url = TERASTREAM + encodeURIComponent(json.direct_link);
+                            });
+                        });
                     });
-                });
+                } else {
+                	await fetch(url)
+                    .then(r => r.json())
+                    .then(json => {
+                        if (!json || !json.direct_link) throw new Error();
+                        url = TERASTREAM + encodeURIComponent(json.direct_link);
+                    })
+                    .catch(async () => {
+                        await fetch(songs[$index].filename.replace(TERABOXAPI, TERABOXAPI2))
+                        .then(r => r.json())
+                        .then(json => {
+                            url = TERASTREAM + encodeURIComponent(json.direct_link);
+                        });
+                    });
+                }
             }
             fetch(url).then(function (response) {
                 'use strict';

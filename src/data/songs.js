@@ -151,7 +151,8 @@ export const songs = [
         title: "君色シグナル",
         isTAK: true,
         isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/18HowfAgX22MMVyBNmO7lmw")
+        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/18HowfAgX22MMVyBNmO7lmw"),
+        fs_id: 965372922154209
     },{
         artist: "CYaRon!",
         lyrics: null,
@@ -662,7 +663,8 @@ export const songs = [
         title: "Xin Đừng Hỏi Tại Sao",
         isTAK: true,
         isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1cHhYLTgAUiitBflwG8cXEw")
+        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1cHhYLTgAUiitBflwG8cXEw"),
+        fs_id: 398438993903374
     },{
         artist: "Schnuffel",
         lyrics: null,
