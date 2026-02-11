@@ -28,7 +28,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/129x06o5wvx4YQA0qdz26Zw")
-    },{
+    ,
+
+        fs_id: 129269670659529
+},{
         artist: "浅野てんき（浅野天琪）",
         lyrics: null,
         album: {
@@ -58,7 +61,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Y0rrtIEz8bcmzMImTdNJDw")
-    },{
+    ,
+
+        fs_id: 51034228678156
+},{
         artist: "中須かすみ（CV.相良茉優）",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -66,7 +72,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/164goYcELUJtlG_s7q3s0uA")
-    },{
+    ,
+
+        fs_id: 531545675656383
+},{
         artist: "桜坂しずく（CV.前田佳織里）",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -74,7 +83,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/16JtyCFMY7IFzEU2-VvmGXQ")
-    },{
+    ,
+
+        fs_id: 369443900604570
+},{
         artist: "朝香果林（CV.久保田未夢）",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -82,7 +94,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1TmBgaLrouB3oMgardf0mrw")
-    },{
+    ,
+
+        fs_id: 725694055226257
+},{
         artist: "宮下愛（CV.村上奈津実）",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -90,7 +105,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/13EQDgzrOztpM_uu9x3U1xA")
-    },{
+    ,
+
+        fs_id: 1008641371621999
+},{
         artist: "近江彼方（CV.鬼頭明里）",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -98,7 +116,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1g68jPzfpFS3PcV0s4jPJ0g")
-    },{
+    ,
+
+        fs_id: 1017729257431286
+},{
         artist: "優木せつ菜（CV.楠木ともり）",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -106,7 +127,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1mB5wlqhxQWRPszNSJWUiKg")
-    },{
+    ,
+
+        fs_id: 410754795972278
+},{
         artist: "エマ・ヴェルデ（CV.指出毬亜）",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -114,7 +138,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/132iWeLlGqIjtYnwmbQc-TQ")
-    },{
+    ,
+
+        fs_id: 926012582113295
+},{
         artist: "天王寺璃奈（CV.田中ちえ美）",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -122,7 +149,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1pU1cEYCxSacvOFRL9T-5dA")
-    },{
+    ,
+
+        fs_id: 1034168683465709
+},{
         artist: "虹ヶ咲学園スクールアイドル同好会",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -130,7 +160,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/10AimuWqCMOk_yTW49MLDUA")
-    },{
+    ,
+
+        fs_id: 218259575220850
+},{
         artist: "アルストロメリア",
         lyrics: null,
         album: {
@@ -161,7 +194,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/15ZLJxRlnSAK-5_lYneG1iw")
-    },{
+    ,
+
+        fs_id: 261712032193332
+},{
         artist: "高海千歌(CV.伊波杏樹)、桜内梨子(CV.逢田梨香子)、渡辺曜(CV.斉藤朱夏)",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -169,7 +205,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1AvzQxFih7v79OI721gJJBg")
-    },{
+    ,
+
+        fs_id: 888370053659494
+},{
         artist: "高海千歌(CV.伊波杏樹)、桜内梨子(CV.逢田梨香子)、渡辺曜(CV.斉藤朱夏)",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -177,7 +216,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1QgfR12erH9Mdsk_PzRYlFA")
-    },{
+    ,
+
+        fs_id: 691780331461912
+},{
         artist: "高海千歌(CV.伊波杏樹)、桜内梨子(CV.逢田梨香子)、渡辺曜(CV.斉藤朱夏)、津島善子(CV.小林愛香)、国木田花丸(CV.高槻かなこ)、黒澤ルビィ(CV.降幡愛)",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -185,7 +227,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1CbqgNudFQVf2d1j_Pet-0Q")
-    },{
+    ,
+
+        fs_id: 395331088111671
+},{
         artist: "Aqours",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -193,7 +238,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1NxIdSMZUqpizWpwjH0fwOg")
-    },{
+    ,
+
+        fs_id: 938444447427567
+},{
         artist: "高海千歌、渡辺曜、松浦果南、小原鞠莉、黒澤ダイヤ、黒澤ルビィ、津島善子、国木田花丸",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -201,7 +249,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1h5d7EKVvNdsIfcSaHA5Xqw")
-    },{
+    ,
+
+        fs_id: 54171355508166
+},{
         artist: "Aqours",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -209,7 +260,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/18a-iTVDKL21kj4KPC6jUlg")
-    },{
+    ,
+
+        fs_id: 206125302430925
+},{
         artist: "中川かのん starring 東山奈央",
         lyrics: `短い髪を なびかせて<br />リボン革命 起こしちゃう<br />レボレボな 未来<br /><br />みんなの声が 聞きたいの<br />みんなに届け 愛の歌<br />メロメロな メロディ<br /><br />明日も会えるかな きっと会えるよね<br />胸のときめきを 伝えたいな<br /><br />I MY ME アイドル WA TA SHI アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />みんなのハート狙い撃ちよ もう 離さない<br /><br />スカートひらり なびかせて<br />魅惑のダンス サプライズ<br />ドキドキを あげる<br /><br />みんなが辛い 時にはね<br />夜空きらめく 星になる<br />キラキラリ 光る<br /><br />誰にも止められない 準備万端だよね？<br />ローラーコースター ついてきてね<br /><br />I MY ME アイドル I MY ME アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />みんなのハート狙い撃ちよ もう 離さない<br /><br />あなたに 伝えたい<br /><br />I MY ME アイドル WA TA SHI アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />あなたのハート狙い撃ちよ ずっと 離さない`,
         album: { cover: "img/album.png" },
@@ -217,7 +271,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1ZAqc-exyC5jBq6oVMZhU3Q")
-    },{
+    ,
+
+        fs_id: 436144078081977
+},{
         artist: "中川かのん starring 東山奈央",
         lyrics: `ALL 4 YOU 白い砂に ALL 4 YOU 裸足の愛<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 触れる素肌 ALL 4 YOU 渚の愛<br />君と走りぬけたい 常夏色の恋 叶えたいよ<br /><br />太陽 スマイル 炎天下ドライブ<br />なんて 綺麗な エメラルド絨毯<br />恋の プロローグ 寄せては返す<br />この想い 伝えたい<br /><br />サンダルが青空 飛んでいく<br />鼓動をつないだ シルエット<br /><br />ALL 4 YOU 白い砂に ALL 4 YOU 裸足の恋<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 風が走る ALL 4 YOU 渚の恋<br />君と走りぬけたい 常夏色の愛 届けたいよ<br /><br />太陽 アクビで 地平線へダイブ<br />なんて 綺麗な 星空の絨毯<br />ちょっと 勇気出して 距離縮める<br />この想い 気づいてよ<br /><br />波音のシンフォニー 鳴り響く<br />二人はひとつの シルエット<br /><br />ALL 4 YOU 一人占めよ ALL 4 YOU わたしの愛<br />照れた横顔 目が離せないよ<br />ALL 4 YOU 触れた素肌 ALL 4 YOU 渚のキス<br />君と一緒にいたい 来年再来年 その先も<br /><br />ALL 4 YOU 白い砂に ALL 4 YOU 裸足の恋<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 風が走る ALL 4 YOU 渚の恋<br />君と走りぬけたい 常夏色の愛 届けたいよ`,
         album: { cover: "img/album.png" },
@@ -225,7 +282,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1pzd_4r6nRKLnvS0ev1CtoQ")
-    },{
+    ,
+
+        fs_id: 110779652516655
+},{
         artist: "中川かのん starring 東山奈央",
         lyrics: `黒板 そっちのけで チラリ 見つめる先は<br />甘い横顔 ファンタジー<br /><br />突然 校舎の裏 相談 恋愛モード<br />やっぱ私にじゃない<br /><br />だけどあなたの 為に頑張る<br />いつの日にか 振り 向かせてみせるわ<br />鈍感過ぎな ロミオさん<br /><br />ハピハピハッピークレセント<br />あなたにハッピープレゼント<br />わかって欲しいの この気持ち あなただけよ 永遠ロマンス<br />ハピハピハッピークレセント<br />あなたに全部ささげるI love you<br />いつか終わるの？ ねぇ抱きしめて欲しい 片想い<br /><br />窓辺 溜め息色 ふいに 見つめる先に<br />暗い横顔 ミステリー<br /><br />走る 渡り廊下 背中 失恋モード<br />もしかしてフラれたの？<br /><br />元気だしてよ わたしがいるよ<br />告白だよ？ でも 気付いてない顔<br />鈍感過ぎよ ロミオさん<br /><br />トキメキハッピークレセント<br />ドキドキもっとプレゼント<br />気付いて欲しいの 胸の鼓動 奏でてるよ 恋のメロディ<br />トキメキハッピークレセント<br />あなたに全部ささげるI want you<br />いつになるだろ？ ねぇ終わらせたいよ 片想い<br /><br />ハピハピハッピークレセント<br />あなたにハッピープレゼント<br />わかって欲しいの この気持ち あなただけよ 永遠ロマンス<br />ハピハピハッピークレセント<br />あなたに全部ささげるI love you<br />いつか終わるの？ ねぇ抱きしめて欲しい 片想い`,
         album: { cover: "img/album.png" },
@@ -233,7 +293,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/10_bJfAW9gA-egQnxB5t0YA")
-    },{
+    ,
+
+        fs_id: 574413480437957
+},{
         artist: "中川かのん starring 東山奈央",
         lyrics: `何もみえない<br />暗闇のなかで<br />見つけたんだ 小さな光を<br /><br />私は歩いてく<br />もう迷わない<br />まっすぐに届け<br /><br />何も聞こえない<br />喧騒のなかで<br />見つけたんだ 小さな声を<br /><br />私は歌う<br />メロディが空へ一杯に<br />広がれ<br /><br />心は あなたに続いてる<br />いますぐ会いたい<br />感じたい ぬくもりを<br />世界が満たされる 光で<br />どこにいても 感じるよ 声を<br /><br />わたしの<br />らぶこーる<br /><br />あなたに<br /><br />涙があふれる<br />孤独な心に<br />見つけたんだ 小さな愛を<br /><br />私は想う<br />歌声が どこまでも響く<br />I love you<br /><br />たとえ つまずいて 疲れ切っても<br />地図のない道に<br />ゴールは見えなくても<br />進むよ 目の前を見つめて<br /><br />たどりつくよ<br />あなたの<br />ところへ<br /><br />心は あなたに続いてる<br />いつでも会いたい<br />感じたい ぬくもりを<br />世界が満たされる 光で<br />どこにいても 感じるよ 愛を<br /><br />わたしの<br />らぶこーる<br /><br />あなたに`,
         album: { cover: "img/album.png" },
@@ -241,7 +304,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1hyipghDIc7z4mjuRLtpukg")
-    },{
+    ,
+
+        fs_id: 433724155505135
+},{
         artist: "キュアダイヤモンド(CV.寿美菜子)",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -249,7 +315,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/19JadikKO75cRq-Ai-w471w")
-    },{
+    ,
+
+        fs_id: 689901785113690
+},{
         artist: "ぴちぴちピッチ",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -265,7 +334,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1B4T6vIKitq1RcKXayTKpgQ")
-    },{
+    ,
+
+        fs_id: 975907106882886
+},{
         artist: "ぴちぴちピッチ",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -273,7 +345,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1CfolReFJQzoMln38H-pt0w")
-    },{
+    ,
+
+        fs_id: 564707227435505
+},{
         artist: "高嶺のなでしこ",
         lyrics: null,
         album: {
@@ -284,7 +359,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1QRptH93ST-JwbnKMO_tKcg")
-    },{
+    ,
+
+        fs_id: 1097136435943416
+},{
         artist: "BIGBANG",
         lyrics: null,
         album: {
@@ -294,7 +372,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1BFPJEHR0X7YTVDtylYDyTg")
-    },{
+    ,
+
+        fs_id: 380864672172663
+},{
         artist: "G-DRAGON (feat. 태양, 대성)",
         lyrics: null,
         album: {
@@ -304,7 +385,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1lITaUy6jOPg5qIOgYJzI6g")
-    },{
+    ,
+
+        fs_id: 919870742798001
+},{
         artist: "Rosé x Bruno Mars",
         lyrics: null,
         album: {
@@ -324,7 +408,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1G2RD--rbLs1VBcuRaMHX0w")
-    },{
+    ,
+
+        fs_id: 1124659907277824
+},{
         artist: "任賢齊",
         lyrics: null,
         album: {
@@ -334,7 +421,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1PId6OIjmazkP5MHVDna5UQ")
-    },{
+    ,
+
+        fs_id: 834440277998557
+},{
         artist: "齊秦",
         lyrics: null,
         album: {
@@ -344,7 +434,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1-NzlsoW21Sb2bnYOqn1rgw")
-    },{
+    ,
+
+        fs_id: 350370462990177
+},{
         artist: "王菲",
         lyrics: null,
         album: {
@@ -354,7 +447,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/16Uje0jrwpAkZn2SZ5YmSOA")
-    },{
+    ,
+
+        fs_id: 626589550394813
+},{
         artist: "蘇慧倫",
         lyrics: null,
         album: {
@@ -364,7 +460,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1TIEa6AX2FqgLRTNVpfgk_w")
-    },{
+    ,
+
+        fs_id: 856567238153573
+},{
         artist: "楊乃文",
         lyrics: null,
         album: {
@@ -374,7 +473,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1I7en7sbqej7ByL7mttDL1g")
-    },{
+    ,
+
+        fs_id: 449734518476790
+},{
         artist: "潘越雲",
         lyrics: null,
         album: {
@@ -384,7 +486,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1OHT7NCt_-Z08ESyUWTNhBA")
-    },{
+    ,
+
+        fs_id: 34094734472491
+},{
         artist: "劉若英",
         lyrics: null,
         album: {
@@ -394,7 +499,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/19dskrxDjxpwtqIwMABTDEg")
-    },{
+    ,
+
+        fs_id: 702255354445122
+},{
         artist: "辛曉琪",
         lyrics: null,
         album: {
@@ -404,7 +512,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1o39ODE144Vm1wf7eEMpG5A")
-    },{
+    ,
+
+        fs_id: 712403606513920
+},{
         artist: "辛曉琪",
         lyrics: null,
         album: {
@@ -414,7 +525,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1a-Py_FjQ7d-tBhMruMlDAQ")
-    },{
+    ,
+
+        fs_id: 603057000863525
+},{
         artist: "周傳雄",
         lyrics: null,
         album: {
@@ -424,7 +538,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1tI_EDtMyFtX8M9X6XyleLA")
-    },{
+    ,
+
+        fs_id: 315487839474608
+},{
         artist: "飛輪海＆Hebe",
         lyrics: null,
         album: {
@@ -434,7 +551,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1esysk-kpq8v1rzaXthedmA")
-    },{
+    ,
+
+        fs_id: 991451641461938
+},{
         artist: "蔡依林",
         lyrics: null,
         album: {
@@ -444,7 +564,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/12NhiAaMA_Qgm5NGuDABbqQ")
-    },{
+    ,
+
+        fs_id: 667510933386160
+},{
         artist: "刘瑞琦",
         lyrics: null,
         album: {
@@ -454,7 +577,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/13lAVq87gLGZkzLU1fh3CJA")
-    },{
+    ,
+
+        fs_id: 1012738130228650
+},{
         artist: "皮小妹",
         lyrics: null,
         album: {
@@ -464,7 +590,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1bzZBorB1Mb71t6BmZRkshw")
-    },{
+    ,
+
+        fs_id: 498706499594684
+},{
         artist: "烏蘭圖雅",
         lyrics: null,
         album: {
@@ -474,7 +603,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1EY61KQJNGpbapS6YBMzChQ")
-    },{
+    ,
+
+        fs_id: 640411459799639
+},{
         artist: "烏蘭圖雅",
         lyrics: null,
         album: {
@@ -484,7 +616,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1jaTlIQnsT_cVGu0yeX-2bA")
-    },{
+    ,
+
+        fs_id: 754864501179150
+},{
         artist: "魏新雨",
         lyrics: null,
         album: {
@@ -494,7 +629,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1GQMk8bXPprL9hvSR3J1caA")
-    },{
+    ,
+
+        fs_id: 141139501110685
+},{
         artist: "69",
         lyrics: null,
         album: {
@@ -504,7 +642,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1GzLUaccTEfvfvw8uvXQLtQ")
-    },{
+    ,
+
+        fs_id: 663289745707643
+},{
         artist: "一棵小葱＆李宗南",
         lyrics: null,
         album: {
@@ -514,7 +655,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Pcw9qCRfQpGxwMM0x2XiIA")
-    },{
+    ,
+
+        fs_id: 700481475935579
+},{
         artist: "徐環",
         lyrics: null,
         album: {
@@ -524,7 +668,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1qWsWfYasOpEkOC-WoBKrRw")
-    },{
+    ,
+
+        fs_id: 759175422303413
+},{
         artist: "DJ小鱼儿",
         lyrics: null,
         album: {
@@ -534,7 +681,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1v-V_nDS75nF4biTMIxdK7Q")
-    },{
+    ,
+
+        fs_id: 1113370253139445
+},{
         artist: "DJ馬哥",
         lyrics: null,
         album: {
@@ -544,7 +694,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1oyQbHTkod2MJZv0p8sOOSg")
-    },{
+    ,
+
+        fs_id: 441327525055579
+},{
         artist: "VaVa＆Ty",
         lyrics: null,
         album: {
@@ -564,7 +717,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1glH0VEN019-M3Oq9Hmbw0g")
-    },{
+    ,
+
+        fs_id: 31750306949362
+},{
         artist: "MC名决",
         lyrics: null,
         album: {
@@ -574,7 +730,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1TtVzdoPToEmN1EeYAyQ9IA")
-    },{
+    ,
+
+        fs_id: 102656743020931
+},{
         artist: "M&K＆董子龙",
         lyrics: null,
         album: {
@@ -584,7 +743,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1PpXbAjtj5PKX5UiPDvHeyw")
-    },{
+    ,
+
+        fs_id: 108130188525113
+},{
         artist: "Hoop圈圈",
         lyrics: null,
         album: {
@@ -594,7 +756,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1m4xtPRO60FswBhuOvhyvow")
-    },{
+    ,
+
+        fs_id: 323013358281198
+},{
         artist: "Ryan.B",
         lyrics: null,
         album: {
@@ -604,7 +769,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1vMlJX9ZB5vVeQXZ6w72YxA")
-    },{
+    ,
+
+        fs_id: 724468416233425
+},{
         artist: "蘇小小",
         lyrics: null,
         album: {
@@ -614,7 +782,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1c5dM8kkvFoJ1-0-x4ekyuw")
-    },{
+    ,
+
+        fs_id: 782519541472109
+},{
         artist: "Uu",
         lyrics: null,
         album: {
@@ -624,7 +795,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1GgR_boIm4NS81zf8Wncdtw")
-    },{
+    ,
+
+        fs_id: 972266972409134
+},{
         artist: "任然",
         lyrics: null,
         album: {
@@ -634,7 +808,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Xvi6XWvcr1dLZsd4Dgw-7Q")
-    },{
+    ,
+
+        fs_id: 616996067425484
+},{
         artist: "李行亮",
         lyrics: null,
         album: {
@@ -644,7 +821,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/19Qm982sgPOuHj9m4R_JD-Q")
-    },{
+    ,
+
+        fs_id: 384983799463597
+},{
         artist: "卡带森林＆回忆录音带",
         lyrics: null,
         album: {
@@ -654,7 +834,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1yNMDqygU46Vt06FWMjg5rQ")
-    },{
+    ,
+
+        fs_id: 653280074519202
+},{
         artist: "Đinh Ứng Phi Trường",
         lyrics: null,
         album: {
@@ -673,7 +856,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/18Mhe0Dz_JK3nzp283XskRw")
-    },{
+    ,
+
+        fs_id: 369734911652285
+},{
         artist: "Lenar",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -681,7 +867,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1tmmzGOiSxPYDslxVHZbThA")
-    },{
+    ,
+
+        fs_id: 838883849644793
+},{
         artist: "Cascada",
         lyrics: null,
         album: { cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1ELFVv-a8CcfOUXeG-tyMWg") },
@@ -689,7 +878,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1hebh6t-U2KJwHSm5CjDz_w")
-    },{
+    ,
+
+        fs_id: 516752559216195
+},{
         artist: "Michael Jackson",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -697,7 +889,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/15WIVABAzuEchRn90-RVdXw")
-    },{
+    ,
+
+        fs_id: 892955921891647
+},{
         artist: "Adele",
         lyrics: null,
         album: {
@@ -708,7 +903,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1KmLeJto2XMGOGjggyISTYg")
-    },{
+    ,
+
+        fs_id: 922732461177650
+},{
         artist: "The Weeknd",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -716,7 +914,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1vzCMR6ubmKhsNdZnvLyFpQ")
-    },{
+    ,
+
+        fs_id: 1093982771266112
+},{
         artist: "Illenium & Georgia Ku",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -724,7 +925,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1D0-I6iQsOfQ9g-gdpcKZqQ")
-    },{
+    ,
+
+        fs_id: 404033370972191
+},{
         artist: "Connie Talbot",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -732,7 +936,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1XcoXCTP2LaoC4RAnPADmvQ")
-    },{
+    ,
+
+        fs_id: 100049408087485
+},{
         artist: "Colbie Caillat",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -740,7 +947,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1LKzXEOVBS7ab0I3m3BEmqQ")
-    },{
+    ,
+
+        fs_id: 557402514893859
+},{
         artist: "Dripice",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -748,7 +958,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1CdBu7OU8DUsQO_MrLnXCuA")
-    },{
+    ,
+
+        fs_id: 150637812284294
+},{
         artist: "Daddy Yankee",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -756,7 +969,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Kp8anUQjA24YO2YQUr6ugQ")
-    },{
+    ,
+
+        fs_id: 174586144308047
+},{
         artist: "Disco Fries & Raquel Castro",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -764,7 +980,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1k-Qikl92XP1siONivoiJ7g")
-    },{
+    ,
+
+        fs_id: 205565347356678
+},{
         artist: "DAISHI DANCE",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -772,7 +991,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1QbDFPzaGBWBZsQFJwTVh_g")
-    },{
+    ,
+
+        fs_id: 416309836610958
+},{
         artist: "DJ Maxwell",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -788,7 +1010,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1po-L0A8xl6gYWOwgKMWYrQ")
-    },{
+    ,
+
+        fs_id: 711463376475755
+},{
         artist: "Ed Sheeran",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -796,7 +1021,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1l4uBS6puBw-OcVNA3QVpNA")
-    },{
+    ,
+
+        fs_id: 830670738925425
+},{
         artist: "Alan Walker",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -804,7 +1032,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d1q5n2qY9dqHtQQAgnSEIw")
-    },{
+    ,
+
+        fs_id: 918249508831662
+},{
         artist: "Ampyx",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -812,7 +1043,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1GCuHPzWGdX4kjvUz-jkT1w")
-    },{
+    ,
+
+        fs_id: 225891134422352
+},{
         artist: "Feint＆Laura Brehm",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -828,7 +1062,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1yo0Gex0YyevJ_DoCjoWxcA")
-    },{
+    ,
+
+        fs_id: 1062845564442595
+},{
         artist: "Sia",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -836,7 +1073,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1gUMdqUoy6PO2WXD5vLCXow")
-    },{
+    ,
+
+        fs_id: 53790536834375
+},{
         artist: "Hayley Westenra",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -844,7 +1084,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/10KmnzyPYp-3ODZ2FnK-gYw")
-    },{
+    ,
+
+        fs_id: 55642776314195
+},{
         artist: "Feint＆Veela＆Boyinaband",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -852,7 +1095,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1JR-STpIxoVeHWXZYejpXAg")
-    },{
+    ,
+
+        fs_id: 82869272057958
+},{
         artist: "Mesto＆Brielle Von Hugel",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -860,7 +1106,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/165Ocjnel5dlyGh7ObZofrA")
-    },{
+    ,
+
+        fs_id: 133786561723854
+},{
         artist: "That Girl",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -876,7 +1125,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1OPF8CO8n8AfzEgMxVFWLZQ")
-    },{
+    ,
+
+        fs_id: 767576634963818
+},{
         artist: "Rag'N'Bone Man",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -884,7 +1136,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/14KNDWHeH_QyVNhoUqIKGOA")
-    },{
+    ,
+
+        fs_id: 273542400312353
+},{
         artist: "Hawk Nelson",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -892,7 +1147,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1CMq1fyc6ofVSSP41uhrz7A")
-    },{
+    ,
+
+        fs_id: 276160045027530
+},{
         artist: "Fitz & The Tantrums",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -900,7 +1158,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1E_fVkz07dGUdL6THb1AmJA")
-    },{
+    ,
+
+        fs_id: 278242438864446
+},{
         artist: "Fifth Harmony",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -908,7 +1169,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1LENmmvxLQl85J4CtpMdQqQ")
-    },{
+    ,
+
+        fs_id: 361334123448226
+},{
         artist: "Gavin DeGraw",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -916,7 +1180,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1LCyYLuyPcGpspM45oOzl0w")
-    },{
+    ,
+
+        fs_id: 448070111963206
+},{
         artist: "iKON",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -924,7 +1191,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d4aHSUTksIKkh6hvA7nrew")
-    },{
+    ,
+
+        fs_id: 362560991607139
+},{
         artist: "Monogem",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -932,7 +1202,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1If0qDhFFIoOLlRe9L8K4AA")
-    },{
+    ,
+
+        fs_id: 533479611964214
+},{
         artist: "Pay Phone",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -940,7 +1213,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1LECudLMf2V3gta_1gVVvxQ")
-    },{
+    ,
+
+        fs_id: 648441216249296
+},{
         artist: "Ellie Goulding＆Calvin Harris",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -948,7 +1224,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/11sFtI_ouxpx7F1wRCa1cwA")
-    },{
+    ,
+
+        fs_id: 691685977911498
+},{
         artist: "Meizong",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -956,7 +1235,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1BlB468FqYM4_9Ggnh9OnGg")
-    },{
+    ,
+
+        fs_id: 839752926363346
+},{
         artist: "Inna",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -964,7 +1246,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1rPRkl8SMuC3kA0K5o9lH4A")
-    },{
+    ,
+
+        fs_id: 857232323087583
+},{
         artist: "Martin Tungevaag",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -972,7 +1257,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/13VKG_-8Gqn4mO5_ooMbPXw")
-    },{
+    ,
+
+        fs_id: 866489850767314
+},{
         artist: "Rony Rex＆LCMDF",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -980,7 +1268,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/11oH8RShGNn1-pOFytQDiOA")
-    },{
+    ,
+
+        fs_id: 905915333590195
+},{
         artist: "Kadebostany",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -988,7 +1279,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/16cKeo3S16X7H7UwbUVSvag")
-    },{
+    ,
+
+        fs_id: 912626494257332
+},{
         artist: "KemimikE",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -996,7 +1290,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1HuayLSiWFzNJHmQ-xg2hxA")
-    },{
+    ,
+
+        fs_id: 934147005248559
+},{
         artist: "The Weeknd",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1004,7 +1301,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/11F_fnjfoaK1Y_me3cR7J7g")
-    },{
+    ,
+
+        fs_id: 907780843968006
+},{
         artist: "Jin",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1012,7 +1312,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1r_0ersaDL4ixukw-i_M9OQ")
-    },{
+    ,
+
+        fs_id: 944289180765265
+},{
         artist: "IU",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1020,7 +1323,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1JNMy5YmXy2C4qjsd4qk8ig")
-    },{
+    ,
+
+        fs_id: 999791100305512
+},{
         artist: "Imagine Dragons＆Broiler",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1028,7 +1334,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1lahE-bj799QCuskRzAAbiQ")
-    },{
+    ,
+
+        fs_id: 1029200150051180
+},{
         artist: "Rachel Platten",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1036,7 +1345,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1bW0mPCPn9ys8kztQKXMUDA")
-    },{
+    ,
+
+        fs_id: 1076509693715222
+},{
         artist: "The Chainsmokers",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1044,7 +1356,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1myCZc6_Bf5psaazuWYzJZA")
-    },{
+    ,
+
+        fs_id: 64216311951011
+},{
         artist: "Sweetbox",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1052,7 +1367,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1pAfRBwWAeEXO47X-g66RUA")
-    },{
+    ,
+
+        fs_id: 91504037859895
+},{
         artist: "Yael Naim",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1060,7 +1378,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1ynv60NN4gibfzhOn7gr3Ng")
-    },{
+    ,
+
+        fs_id: 101361562525963
+},{
         artist: "Two Steps From Hell＆Thomas Bergersen",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1068,7 +1389,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1cSZHXtsifkKCPHoN3H7ZMQ")
-    },{
+    ,
+
+        fs_id: 369748715738376
+},{
         artist: "Vicetone＆Meron Ryan",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1076,7 +1400,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Ra613RVZIleYR04g81IeMg")
-    },{
+    ,
+
+        fs_id: 494842579773614
+},{
         artist: "The Weeknd＆Daft Punk",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1084,7 +1411,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1AUDwtw-3vFJWcekGtkZoTw")
-    },{
+    ,
+
+        fs_id: 562225073102151
+},{
         artist: "Hoaprox",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1092,7 +1422,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/12yOfxSEoxNe3uDwGWnLJpQ")
-    },{
+    ,
+
+        fs_id: 926853384698379
+},{
         artist: "Tez Cadey",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1100,7 +1433,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1IbQkGNXy18HOPeXAC3dcFw")
-    },{
+    ,
+
+        fs_id: 668745910814056
+},{
         artist: "King Africa",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1108,7 +1444,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1FEbk3ihvwSau8MdLFJfQ4w")
-    },{
+    ,
+
+        fs_id: 571337504928693
+},{
         artist: "Vicetone＆Tony Igy",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1116,7 +1455,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1g5j53EptUzfw5sZZuWjy4A")
-    },{
+    ,
+
+        fs_id: 849003520859350
+},{
         artist: "Stephan F",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1124,7 +1466,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1y--cppdk3696JETEV1C6EQ")
-    },{
+    ,
+
+        fs_id: 293111293725606
+},{
         artist: "Brooks＆GRX",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1132,7 +1477,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1uknJsYNzwb82Pniudt4knQ")
-    },{
+    ,
+
+        fs_id: 614853992778475
+},{
         artist: "HINA",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -1140,7 +1488,10 @@ export const songs = [
         isTAK: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1kIvi1qk5U99-oilmLAp8bw")
-    },{
+    ,
+
+        fs_id: 1030824038643988
+},{
         artist: "Andrea Bocelli",
         lyrics: null,
         album: {
@@ -1150,7 +1501,10 @@ export const songs = [
         isWavPack: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1TtHOIdIsxNzWzXFl6xdCYQ")
-    },{
+    ,
+
+        fs_id: 248007927563063
+},{
         artist: "Andrea Bocelli & Giorgia Todrani",
         lyrics: null,
         album: {
@@ -1180,7 +1534,10 @@ export const songs = [
         isWavPack: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/13ceamEjBDv692x5ZMn9XfA")
-    },{
+    ,
+
+        fs_id: 329223543532839
+},{
         artist: "ヒロシ＆キーボー",
         lyrics: null,
         album: {
@@ -1190,7 +1547,10 @@ export const songs = [
         isWavPack: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1wDNHZ92PWhWYHB8EMxEeag")
-    },{
+    ,
+
+        fs_id: 203603617805660
+},{
         artist: "細川たかし",
         lyrics: null,
         album: {
@@ -1200,7 +1560,10 @@ export const songs = [
         isWavPack: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1E2dNRLUcdCcRBkBp_enO9Q")
-    },{
+    ,
+
+        fs_id: 522961416331845
+},{
         artist: "細川たかし",
         lyrics: null,
         album: {
@@ -1210,7 +1573,10 @@ export const songs = [
         isWavPack: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1BO9sCHICNqqYkzIL63UWJg")
-    },{
+    ,
+
+        fs_id: 469663827624739
+},{
         artist: "いきものがかり",
         lyrics: null,
         album: {
@@ -1221,7 +1587,10 @@ export const songs = [
         isWavPack: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Kl7s2BdpjQxpL7ID57wyfA")
-    },{
+    ,
+
+        fs_id: 444902456842973
+},{
         artist: "Alstroemeria Records",
         lyrics: `流れてく 時の中ででも 気だるさが ほらグルグル廻って<br />私から 離れる心も 見えないわ そう知らない？<br />自分から 動くこともなく 時の隙間に 流され続けて<br />知らないわ 周りのことなど 私は私 それだけ<br />夢見てる？ なにも見てない？ 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />こんな自分に 未来はあるの？ こんな世界に 私はいるの？<br />今切ないの？ 今悲しいの？ 自分の事も わからないまま<br />歩むことさえ 疲れるだけよ 人のことなど 知りもしないわ<br />こんな私も 変われるのなら もし変われるのなら 白になる？<br />流れてく 時の中ででも 気だるさがほら グルグル廻って<br />私から 離れる心も 見えないわそう 知らない？<br />自分から 動くこともなく 時の隙間に 流され続けて<br />知らないわ 周りのことなど 私は私 それだけ？<br />夢見てる？ なにも見てない 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />無駄な時間に 未来はあるの？ こんな所に 私は居るの？<br />私のことを 言いたいならば 言葉にするのなら 「ろくでなし」<br />こんな所に 私はいるの？ こんな時間に 私はいるの？<br />こんな私も 変われるのなら もし変われるのなら 白になる？<br />今夢見てる？ なにも見てない？ 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />動くのならば 動くのならば すべて壊すわ すべて壊すわ<br />悲しむならば 悲しむならば 私の心 白く変われる？<br />貴方の事も 私のことも 全ての事も まだ知らないの<br />重い目蓋を 開けたのならば すべて壊すのなら 黒になれ!!!`,
         album: {
@@ -1232,7 +1601,10 @@ export const songs = [
         isWavPack: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1eh9n6u6JL8WuInMSiP17cg")
-    },{
+    ,
+
+        fs_id: 231434020076086
+},{
         artist: "Alstroemeria Records",
         lyrics: null,
         album: {
@@ -1243,7 +1615,10 @@ export const songs = [
         isWavPack: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1o0dDfzF1B-aiXNcTO5BHRw")
-    },{
+    ,
+
+        fs_id: 202464808350733
+},{
         artist: "AKINO",
         lyrics: null,
         album: {
@@ -1254,7 +1629,10 @@ export const songs = [
         isWavPack: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1bJDzZxtG97wWJ8fLgpcVmg")
-    },{
+    ,
+
+        fs_id: 847263740913154
+},{
         artist: "AKINO",
         lyrics: null,
         album: {
@@ -1265,7 +1643,10 @@ export const songs = [
         isWavPack: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1-tqvgArxyT3Mgwzuh3aYOw")
-    },{
+    ,
+
+        fs_id: 72955299513815
+},{
         artist: "飛鳥空 starring 櫻井智",
         lyrics: `えんぴつの先 指で確かめ<br />どんな絵になるの? まだ見えないけど<br /><br />目を閉じると浮かび上がるから<br />心の奥にある想い カタチにしてみて<br /><br />綺麗な絵の具たちを並べてみていると<br />心ときめいてくるの<br /><br />そう 初めての色<br /><br />ふたりで選んだパステルたち<br />あと少しだから お願い気付いて<br /><br />そわそわしてるの バレちゃうかな?<br />目逸らしてるの わざとだよ<br />素直になれない<br /><br />あなたのこと想うと胸が高鳴るから<br />伝えたい この気持ちを<br />そう 風にのせて<br /><br />広い空のキャンパスに筆を走らせて<br />どこまでも自由だから<br />届けたい笑顔を<br /><br />未来描いて`,
         album: { cover: "img/album.png" },
@@ -1273,7 +1654,10 @@ export const songs = [
         isWavPack: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1NYeLvf4fhudlEKvjjxkLeg")
-    },{
+    ,
+
+        fs_id: 819139916110490
+},{
         artist: "飛鳥空 starring 櫻井智",
         lyrics: `煌く星を見上げて 想う あの日の事<br />届けたい 胸の奥にある この気持ち きっと<br /><br />あなたの笑顔を 見つけたい<br />たった一度の奇跡 そう 夢見ている<br /><br />広い荒野に立ちすくんでも<br />勇気持てれば そう 歩き出せるわ<br /><br />出会えたことは 偶然じゃない<br />お願い 明日伝えて<br /><br />小さな あの約束を 忘れはしないから<br />腕の中残る 暖かい優しさが ずっと<br /><br />あなたの言葉を聴きたくて<br />何度も繰り返す そう 魔法みたい<br /><br />ひとりぼっちのせつない夜を<br />終わらせたいの そう 涙拭って<br /><br />ふたつの心 ひとつ重ねて<br />見つめ合えれば そう 願い叶えて<br /><br />白く輝く翼広げて<br />舞い上がれ永遠の空へ`,
         album: { cover: "img/album.png" },
@@ -1281,7 +1665,10 @@ export const songs = [
         isWavPack: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/19XiGl6cUIf5hMxlo4TcwzA")
-    },{
+    ,
+
+        fs_id: 876199334451372
+},{
         artist: "野水いおり",
         lyrics: null,
         album: {
@@ -1292,7 +1679,10 @@ export const songs = [
         isWavPack: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1tVFGlCC1b0YxfWN-B0-r2A")
-    },{
+    ,
+
+        fs_id: 287640139646985
+},{
         artist: "CINDERELLA GIRLS!!",
         lyrics: null,
         album: {
@@ -1303,7 +1693,10 @@ export const songs = [
         isWavPack: true,
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1bLsFUnpRDYbZDu9GMjzchg")
-    },/*{
+    ,
+
+        fs_id: 338158908012927
+},/*{
         artist: "μ's",
         lyrics: null,
         album: {
