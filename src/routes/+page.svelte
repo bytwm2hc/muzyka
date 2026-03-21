@@ -77,37 +77,36 @@
             document.getElementById('overlay').addEventListener('click', async function () {
                 'use strict';
                 document.getElementById('overlay').style.display = 'none';
-                await fetch(TBDOWNLOAD + '11181318426573')
-                .then(r => {
-                    if (!r.ok) throw new Error('api3 error!');
-                    return r.json();
-                })
-                .then(json => {
-                    if (!json?.direct_link) throw new Error('api3 no link');
-                    source2.src = TERASTREAM + encodeURIComponent(json.direct_link);
-                })
-                .catch(() => {
-                    return fetch(TERABOXAPI + encodeURIComponent('http://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A'))
+                try {
+                    'use strict';
+                    source2.src = await api1WithRetry(11181318426573);
+                    source2.src = TERASTREAM + encodeURIComponent(source2.src);
+                } catch(ignored) {
+                    'use strict';
+                    await fetch(TERABOXAPI + encodeURIComponent('http://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A'))
                     .then(r => {
-                        if (!r.ok) throw new Error('api1 error!');
+                        'use strict';
+                        if (!r.ok) throw new Error('API TERABOXAPI got an error!');
                         return r.json();
                     })
                     .then(json => {
-                        if (!json?.direct_link) throw new Error('api1 no link');
+                        'use strict';
+                        if (!json?.direct_link) throw new Error('API TERABOXAPI had no link');
                         source2.src = TERASTREAM + encodeURIComponent(json.direct_link);
                     })
-                    .catch(() => {
-                        return fetch(TERABOXAPI2 + encodeURIComponent('http://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A'))
+                    .catch(async () => {
+                        'use strict';
+                        return await fetch(TERABOXAPI2 + encodeURIComponent('http://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A'))
                         .then(r => {
-                            if (!r.ok) throw new Error('api2 error!');
+                            if (!r.ok) throw new Error('API 3 got an error!');
                             return r.json();
                         })
                         .then(json => {
-                            if (!json?.direct_link) throw new Error('api2 no link');
+                            if (!json?.direct_link) throw new Error('API 3 had no link');
                             source2.src = TERASTREAM + encodeURIComponent(json.direct_link);
                         });
                     });
-                });
+                }
 
                 audio.load();
                 await audio.play();
@@ -136,13 +135,8 @@
                     panNode.connect(gainDryNode);
                 }
 
-                fetch(TBDOWNLOAD + '212672643722076')
-                .then(r => {
-                    if (!r.ok) throw new Error('api3 http error');
-                    return r.json();
-                })
-                .then(json => {
-                    if (!json?.direct_link) throw new Error('api3 no link');
+                await api1WithRetry(212672643722076).then(json => {
+                    if (!json?.direct_link) throw new Error('API TBDOWNLOAD had no link');
                     return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
                 })
                 .catch(() => {
@@ -208,13 +202,8 @@
                 panNode.connect(gainDryNode);
             }
 
-            fetch(TBDOWNLOAD + '212672643722076')
-            .then(r => {
-                if (!r.ok) throw new Error('api3 http error');
-                return r.json();
-            })
-            .then(json => {
-                if (!json?.direct_link) throw new Error('api3 no link');
+            api1WithRetry(212672643722076).then(json => {
+                if (!json?.direct_link) throw new Error('API TBDOWNLOAD had no link');
                 return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
             })
             .catch(() => {
@@ -414,26 +403,27 @@
                 url = songs[$index].filename + fileFormat;
             } else {
                 if (songs[$index].fs_id) {
-                	await fetch(TBDOWNLOAD + songs[$index].fs_id)
-                    .then(r => r.json())
-                    .then(json => {
-                        if (!json || !json.direct_link) throw new Error();
-                        url = TERASTREAM + encodeURIComponent(json.direct_link);
-                    })
-                    .catch(async () => {
+                    try {
+                        'use strict';
+                        url = await api1WithRetry(songs[$index].fs_id);
+                        url = TERASTREAM + encodeURIComponent(url);
+                    }
+                    catch (ignored) {
+                        'use strict';
                         await fetch(url)
                         .then(r => r.json())
                         .then(json => {
                             url = TERASTREAM + encodeURIComponent(json.direct_link);
                         })
                         .catch(async () => {
+                            'use strict';
                             await fetch(songs[$index].filename.replace(TERABOXAPI, TERABOXAPI2))
                             .then(r => r.json())
                             .then(json => {
                                 url = TERASTREAM + encodeURIComponent(json.direct_link);
                             });
                         });
-                    });
+                    }
                 } else {
                 	await fetch(url)
                     .then(r => r.json())
@@ -1017,6 +1007,26 @@
         'use strict';
         return ['iPad Simulator', 'iPhone Simulator', 'iPod Simulator', 'iPad', 'iPhone', 'iPod'].includes(navigator.platform) || (navigator.userAgent.includes('Mac') && 'ontouchend' in document);
     };
+
+    const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+    
+    async function api1WithRetry(id, { maxRetries = 10, delay = 2000 } = {}) {
+        const url = TBDOWNLOAD + id;
+        for (let attempt = 1; attempt <= maxRetries; attempt++) {
+            try {
+                'use strict';
+                const r = await fetch(url);
+                if (!r.ok) throw new Error(`API tbdownload got an error! (HTTP ${r.status})`);
+                const json = await r.json();
+                if (!json?.direct_link) throw new Error('API tbdownload had no link');
+                return json.direct_link;
+            } catch (err) {
+                'use strict';
+                if (attempt === maxRetries) throw err;
+                await sleep(delay);
+            }
+        }
+    }
 </script>
 
 <svelte:head>
