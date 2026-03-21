@@ -31,7 +31,7 @@
         PLAY_MODE,
         showError
     } from '../helpers/song';
-    import { FFmpeg } from '../ffmpeg';
+    import { FFmpeg } from '@ffmpeg/ffmpeg';
 
     const TERASTREAM = '//terastream.3685270.workers.dev/?url=';
     const TERABOXAPI2 = '//lucky-fenglisu-52513f.netlify.app/.netlify/functions/terabox?data=';
