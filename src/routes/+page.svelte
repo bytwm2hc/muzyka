@@ -135,9 +135,9 @@
                     panNode.connect(gainDryNode);
                 }
 
-                await api1WithRetry(212672643722076).then(json => {
-                    if (!json?.direct_link) throw new Error('API TBDOWNLOAD had no link');
-                    return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
+                await api1WithRetry(212672643722076).then(direct_link => {
+                    if (!direct_link) throw new Error('API TBDOWNLOAD had no link');
+                    return fetch(TERASTREAM + encodeURIComponent(direct_link));
                 })
                 .catch(() => {
                 	return fetch(TERABOXAPI + encodeURIComponent('http://1024terabox.com/s/1wtR9IpcuhjIeKSLDtw28ZQ'))
@@ -202,9 +202,9 @@
                 panNode.connect(gainDryNode);
             }
 
-            api1WithRetry(212672643722076).then(json => {
-                if (!json?.direct_link) throw new Error('API TBDOWNLOAD had no link');
-                return fetch(TERASTREAM + encodeURIComponent(json.direct_link));
+            api1WithRetry(212672643722076).then(direct_link => {
+                if (!direct_link) throw new Error('API TBDOWNLOAD had no link');
+                return fetch(TERASTREAM + encodeURIComponent(direct_link));
             })
             .catch(() => {
                 return fetch(TERABOXAPI + encodeURIComponent('http://1024terabox.com/s/1wtR9IpcuhjIeKSLDtw28ZQ'))
