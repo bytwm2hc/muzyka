@@ -13,7 +13,8 @@
 	},
 	"devDependencies": {
 		"@ffmpeg/ffmpeg": "^0.12.15",
-		"@sveltejs/adapter-auto": "^6.0.0",
+		"@ffmpeg/util": "^0.12.2",
+		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/kit": "^2.20.8",
 		"@tsconfig/svelte": "^5.0.6",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
@@ -32,7 +33,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@ffmpeg/util": "^0.12.2",
 		"notyf": "^3.10.0"
 	}
 }
