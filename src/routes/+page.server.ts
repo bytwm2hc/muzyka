@@ -1,7 +1,7 @@
 export function load({ setHeaders }) {
 	setHeaders({
-		'Cross-Origin-Opener-Policy': 'same-origin',
-		'Cross-Origin-Embedder-Policy': 'require-corp',
+		'Cross-Origin-Opener-Policy': 'same-origin-allow-popups',
+		'Cross-Origin-Embedder-Policy': 'credentialless',
 		'Referrer-Policy': 'same-origin'
 	});
 }

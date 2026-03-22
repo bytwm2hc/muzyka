@@ -33,6 +33,7 @@
 	"type": "module",
 	"dependencies": {
 		"@ffmpeg/util": "^0.12.2",
-		"notyf": "^3.10.0"
+		"notyf": "^3.10.0",
+		"vite-plugin-static-copy": "^3.4.0"
 	}
 }
