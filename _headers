@@ -1,10 +1,4 @@
-/
+/*
   Cross-Origin-Opener-Policy: same-origin-allow-popups
   Cross-Origin-Embedder-Policy: credentialless
   Referrer-Policy: same-origin
-/_app/immutable/workers/*
-  Cross-Origin-Opener-Policy: same-origin-allow-popups
-  Cross-Origin-Embedder-Policy: credentialless
-/wavpack-worker.js
-  Cross-Origin-Opener-Policy: same-origin-allow-popups
-  Cross-Origin-Embedder-Policy: credentialless
