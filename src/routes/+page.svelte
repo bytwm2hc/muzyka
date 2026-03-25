@@ -405,7 +405,7 @@
                 if (songs[$index].fs_id) {
                     try {
                         'use strict';
-                        url = await api1WithRetry(songs[$index].fs_id);
+                        url = await api1WithRetry(songs[$index].fs_id, 15);
                         url = TERASTREAM + encodeURIComponent(url);
                     }
                     catch (ignored) {
