@@ -177,7 +177,7 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/15ZLJxRlnSAK-5_lYneG1iw"),
         fs_id: 261712032193332
-},{
+    },{
         artist: "高海千歌(CV.伊波杏樹)、桜内梨子(CV.逢田梨香子)、渡辺曜(CV.斉藤朱夏)",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -186,7 +186,7 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1AvzQxFih7v79OI721gJJBg"),
         fs_id: 888370053659494
-},{
+    },{
         artist: "高海千歌(CV.伊波杏樹)、桜内梨子(CV.逢田梨香子)、渡辺曜(CV.斉藤朱夏)",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -195,7 +195,7 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1QgfR12erH9Mdsk_PzRYlFA"),
         fs_id: 691780331461912
-},{
+    },{
         artist: "高海千歌(CV.伊波杏樹)、桜内梨子(CV.逢田梨香子)、渡辺曜(CV.斉藤朱夏)、津島善子(CV.小林愛香)、国木田花丸(CV.高槻かなこ)、黒澤ルビィ(CV.降幡愛)",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -204,7 +204,7 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1CbqgNudFQVf2d1j_Pet-0Q"),
         fs_id: 395331088111671
-},{
+    },{
         artist: "Aqours",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -213,7 +213,7 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1NxIdSMZUqpizWpwjH0fwOg"),
         fs_id: 938444447427567
-},{
+    },{
         artist: "高海千歌、渡辺曜、松浦果南、小原鞠莉、黒澤ダイヤ、黒澤ルビィ、津島善子、国木田花丸",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -222,7 +222,7 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1h5d7EKVvNdsIfcSaHA5Xqw"),
         fs_id: 54171355508166
-},{
+    },{
         artist: "Aqours",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -231,7 +231,7 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/18a-iTVDKL21kj4KPC6jUlg"),
         fs_id: 206125302430925
-},{
+    },{
         artist: "中川かのん starring 東山奈央",
         lyrics: `短い髪を なびかせて<br />リボン革命 起こしちゃう<br />レボレボな 未来<br /><br />みんなの声が 聞きたいの<br />みんなに届け 愛の歌<br />メロメロな メロディ<br /><br />明日も会えるかな きっと会えるよね<br />胸のときめきを 伝えたいな<br /><br />I MY ME アイドル WA TA SHI アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />みんなのハート狙い撃ちよ もう 離さない<br /><br />スカートひらり なびかせて<br />魅惑のダンス サプライズ<br />ドキドキを あげる<br /><br />みんなが辛い 時にはね<br />夜空きらめく 星になる<br />キラキラリ 光る<br /><br />誰にも止められない 準備万端だよね？<br />ローラーコースター ついてきてね<br /><br />I MY ME アイドル I MY ME アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />みんなのハート狙い撃ちよ もう 離さない<br /><br />あなたに 伝えたい<br /><br />I MY ME アイドル WA TA SHI アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />あなたのハート狙い撃ちよ ずっと 離さない`,
         album: { cover: "img/album.png" },
@@ -240,7 +240,7 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1ZAqc-exyC5jBq6oVMZhU3Q"),
         fs_id: 436144078081977
-},{
+    },{
         artist: "中川かのん starring 東山奈央",
         lyrics: `ALL 4 YOU 白い砂に ALL 4 YOU 裸足の愛<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 触れる素肌 ALL 4 YOU 渚の愛<br />君と走りぬけたい 常夏色の恋 叶えたいよ<br /><br />太陽 スマイル 炎天下ドライブ<br />なんて 綺麗な エメラルド絨毯<br />恋の プロローグ 寄せては返す<br />この想い 伝えたい<br /><br />サンダルが青空 飛んでいく<br />鼓動をつないだ シルエット<br /><br />ALL 4 YOU 白い砂に ALL 4 YOU 裸足の恋<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 風が走る ALL 4 YOU 渚の恋<br />君と走りぬけたい 常夏色の愛 届けたいよ<br /><br />太陽 アクビで 地平線へダイブ<br />なんて 綺麗な 星空の絨毯<br />ちょっと 勇気出して 距離縮める<br />この想い 気づいてよ<br /><br />波音のシンフォニー 鳴り響く<br />二人はひとつの シルエット<br /><br />ALL 4 YOU 一人占めよ ALL 4 YOU わたしの愛<br />照れた横顔 目が離せないよ<br />ALL 4 YOU 触れた素肌 ALL 4 YOU 渚のキス<br />君と一緒にいたい 来年再来年 その先も<br /><br />ALL 4 YOU 白い砂に ALL 4 YOU 裸足の恋<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 風が走る ALL 4 YOU 渚の恋<br />君と走りぬけたい 常夏色の愛 届けたいよ`,
         album: { cover: "img/album.png" },
@@ -249,7 +249,7 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1pzd_4r6nRKLnvS0ev1CtoQ"),
         fs_id: 110779652516655
-},{
+    },{
         artist: "中川かのん starring 東山奈央",
         lyrics: `黒板 そっちのけで チラリ 見つめる先は<br />甘い横顔 ファンタジー<br /><br />突然 校舎の裏 相談 恋愛モード<br />やっぱ私にじゃない<br /><br />だけどあなたの 為に頑張る<br />いつの日にか 振り 向かせてみせるわ<br />鈍感過ぎな ロミオさん<br /><br />ハピハピハッピークレセント<br />あなたにハッピープレゼント<br />わかって欲しいの この気持ち あなただけよ 永遠ロマンス<br />ハピハピハッピークレセント<br />あなたに全部ささげるI love you<br />いつか終わるの？ ねぇ抱きしめて欲しい 片想い<br /><br />窓辺 溜め息色 ふいに 見つめる先に<br />暗い横顔 ミステリー<br /><br />走る 渡り廊下 背中 失恋モード<br />もしかしてフラれたの？<br /><br />元気だしてよ わたしがいるよ<br />告白だよ？ でも 気付いてない顔<br />鈍感過ぎよ ロミオさん<br /><br />トキメキハッピークレセント<br />ドキドキもっとプレゼント<br />気付いて欲しいの 胸の鼓動 奏でてるよ 恋のメロディ<br />トキメキハッピークレセント<br />あなたに全部ささげるI want you<br />いつになるだろ？ ねぇ終わらせたいよ 片想い<br /><br />ハピハピハッピークレセント<br />あなたにハッピープレゼント<br />わかって欲しいの この気持ち あなただけよ 永遠ロマンス<br />ハピハピハッピークレセント<br />あなたに全部ささげるI love you<br />いつか終わるの？ ねぇ抱きしめて欲しい 片想い`,
         album: { cover: "img/album.png" },
@@ -258,7 +258,7 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/10_bJfAW9gA-egQnxB5t0YA"),
         fs_id: 574413480437957
-},{
+    },{
         artist: "中川かのん starring 東山奈央",
         lyrics: `何もみえない<br />暗闇のなかで<br />見つけたんだ 小さな光を<br /><br />私は歩いてく<br />もう迷わない<br />まっすぐに届け<br /><br />何も聞こえない<br />喧騒のなかで<br />見つけたんだ 小さな声を<br /><br />私は歌う<br />メロディが空へ一杯に<br />広がれ<br /><br />心は あなたに続いてる<br />いますぐ会いたい<br />感じたい ぬくもりを<br />世界が満たされる 光で<br />どこにいても 感じるよ 声を<br /><br />わたしの<br />らぶこーる<br /><br />あなたに<br /><br />涙があふれる<br />孤独な心に<br />見つけたんだ 小さな愛を<br /><br />私は想う<br />歌声が どこまでも響く<br />I love you<br /><br />たとえ つまずいて 疲れ切っても<br />地図のない道に<br />ゴールは見えなくても<br />進むよ 目の前を見つめて<br /><br />たどりつくよ<br />あなたの<br />ところへ<br /><br />心は あなたに続いてる<br />いつでも会いたい<br />感じたい ぬくもりを<br />世界が満たされる 光で<br />どこにいても 感じるよ 愛を<br /><br />わたしの<br />らぶこーる<br /><br />あなたに`,
         album: { cover: "img/album.png" },
@@ -267,7 +267,7 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1hyipghDIc7z4mjuRLtpukg"),
         fs_id: 433724155505135
-},{
+    },{
         artist: "キュアダイヤモンド(CV.寿美菜子)",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -276,7 +276,7 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/19JadikKO75cRq-Ai-w471w"),
         fs_id: 689901785113690
-},{
+    },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -294,7 +294,7 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1B4T6vIKitq1RcKXayTKpgQ"),
         fs_id: 975907106882886
-},{
+    },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -303,7 +303,7 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1CfolReFJQzoMln38H-pt0w"),
         fs_id: 564707227435505
-},{
+    },{
         artist: "高嶺のなでしこ",
         lyrics: null,
         album: {
@@ -315,7 +315,7 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1QRptH93ST-JwbnKMO_tKcg"),
         fs_id: 1097136435943416
-},{
+    },{
         artist: "BIGBANG",
         lyrics: null,
         album: {
@@ -326,7 +326,7 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1BFPJEHR0X7YTVDtylYDyTg"),
         fs_id: 380864672172663
-},{
+    },{
         artist: "G-DRAGON (feat. 태양, 대성)",
         lyrics: null,
         album: {
@@ -337,7 +337,7 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1lITaUy6jOPg5qIOgYJzI6g"),
         fs_id: 919870742798001
-},{
+    },{
         artist: "Rosé x Bruno Mars",
         lyrics: null,
         album: {
@@ -348,6 +348,28 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1AV0eeQiQeyeSl6pP-YAvgw"),
         fs_id: 304302672917721,
+    },{
+        artist: "EXO",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "12월의 기적",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1F4I4oG1Q9o0h2GnfcZ1R9Q"),
+        fs_id: 121764656183767
+    },{
+        artist: "EXO",
+        lyrics: null,
+        album: {
+            cover: "img/album.png"
+        },
+        title: "十二月的奇蹟",
+        isTAK: true,
+        isTeraBox: true,
+        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1qU6EI6sUe204w5OOUNYmkA"),
+        fs_id: 180030179227184
     },{
         artist: "郭富城",
         lyrics: null,
