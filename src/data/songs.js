@@ -2155,9 +2155,8 @@ export const songs = [
         },
         title: "ハッピーシンセサイザ",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1e3LLhAUw7B-dmext2t1xUQ"),
-        fs_id: 1087244748365777
+        isTeraBox: false,
+        filename: "//terastream.3685270.workers.dev/?url=http://drfs.ctcontents.com/file/66432831/17569893097637/94242f/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/01%20%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%BB%E3%82%B5%E3%82%A4%E3%82%B6"
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,

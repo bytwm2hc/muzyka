@@ -79,8 +79,9 @@
                 document.getElementById('overlay').style.display = 'none';
                 try {
                     'use strict';
-                    source2.src = await api1WithRetry(11181318426573);
-                    source2.src = TERASTREAM + encodeURIComponent(source2.src);
+                    // source2.src = await api1WithRetry(11181318426573);
+                    // source2.src = TERASTREAM + encodeURIComponent(source2.src);
+                    source2.src = TERASTREAM + encodeURIComponent('http://drfs.ctcontents.com/file/66432831/17569892526538/d0237e/silence.wav');
                 } catch(ignored) {
                     'use strict';
                     await fetch(TERABOXAPI + encodeURIComponent('http://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A'))
@@ -135,7 +136,7 @@
                     panNode.connect(gainDryNode);
                 }
 
-                await api1WithRetry(212672643722076).then(direct_link => {
+                /*await api1WithRetry(212672643722076).then(direct_link => {
                     if (!direct_link) throw new Error('API TBDOWNLOAD had no link');
                     return fetch(TERASTREAM + encodeURIComponent(direct_link));
                 })
@@ -161,7 +162,8 @@
                             });
                         }
                     )
-                })
+                })*/
+                await fetch(TERASTREAM + encodeURIComponent('https://drfs.ctcontents.com/file/66432831/17569892528963/c3beee/WireGrind_96x24x2-80dB_3.0s_24w_16m_5120Hz_050p_0100Hz_001p_00R.wav'))
                 .then(r => r.arrayBuffer())
                 .then(ab => {
                     audioContext.decodeAudioData(ab).then(data => {
@@ -202,7 +204,7 @@
                 panNode.connect(gainDryNode);
             }
 
-            api1WithRetry(212672643722076).then(direct_link => {
+            /*api1WithRetry(212672643722076).then(direct_link => {
                 if (!direct_link) throw new Error('API TBDOWNLOAD had no link');
                 return fetch(TERASTREAM + encodeURIComponent(direct_link));
             })
@@ -228,7 +230,8 @@
                         });
                     }
                 )
-            })
+            })*/
+             fetch(TERASTREAM + encodeURIComponent('https://drfs.ctcontents.com/file/66432831/17569892528963/c3beee/WireGrind_96x24x2-80dB_3.0s_24w_16m_5120Hz_050p_0100Hz_001p_00R.wav'))
             .then(r => r.arrayBuffer())
             .then(ab => {
                 audioContext.decodeAudioData(ab).then(data => {
