@@ -33,9 +33,10 @@
     } from '../helpers/song';
     import { FFmpeg } from '@ffmpeg/ffmpeg';
 
-    const TERASTREAM = '//terastream.3685270.workers.dev/?url=';
-    const TERABOXAPI2 = '//lucky-fenglisu-52513f.netlify.app/.netlify/functions/terabox?data=';
-    const TBDOWNLOAD = '//tbdownload.3685270.workers.dev/?fid=';
+    //const TERASTREAM = '//terastream.3685270.workers.dev/?url=';
+    //const TERABOXAPI2 = '//lucky-fenglisu-52513f.netlify.app/.netlify/functions/terabox?data=';
+    //const TBDOWNLOAD = '//tbdownload.3685270.workers.dev/?fid=';
+    const CORS = '//cors.3685270.workers.dev/?url=';
     let params,
         audio, // bind <audio> element
         source2,
@@ -61,10 +62,10 @@
         seekTime,
         playModeIcon = 'repeat',
         isLyricsPanel = false;
-    let bsn,
-        sr,
+    //let bsn,
+        //sr,
         //wavpackWrapper,
-        worker;
+        //worker;
 
     onMount(() => {
         'use strict';
@@ -77,11 +78,11 @@
             document.getElementById('overlay').addEventListener('click', async function () {
                 'use strict';
                 document.getElementById('overlay').style.display = 'none';
-                try {
+                source2.src = CORS + encodeURIComponent('http://drfs.ctcontents.com/file/66432831/17569892526538/d0237e/silence.wav');
+                /*try {
                     'use strict';
-                    // source2.src = await api1WithRetry(11181318426573);
-                    // source2.src = TERASTREAM + encodeURIComponent(source2.src);
-                    source2.src = TERASTREAM + encodeURIComponent('http://drfs.ctcontents.com/file/66432831/17569892526538/d0237e/silence.wav');
+                     source2.src = await api1WithRetry(11181318426573);
+                     source2.src = TERASTREAM + encodeURIComponent(source2.src);
                 } catch(ignored) {
                     'use strict';
                     await fetch(TERABOXAPI + encodeURIComponent('http://1024terabox.com/s/1ekkiTe_PE_oDxfWcwEwe2A'))
@@ -107,7 +108,7 @@
                             source2.src = TERASTREAM + encodeURIComponent(json.direct_link);
                         });
                     });
-                }
+                }*/
 
                 audio.load();
                 await audio.play();
@@ -163,7 +164,7 @@
                         }
                     )
                 })*/
-                await fetch(TERASTREAM + encodeURIComponent('https://drfs.ctcontents.com/file/66432831/17569892528963/c3beee/WireGrind_96x24x2-80dB_3.0s_24w_16m_5120Hz_050p_0100Hz_001p_00R.wav'))
+                await fetch(CORS + encodeURIComponent('http://drfs.ctcontents.com/file/66432831/17569892528963/c3beee/WireGrind_96x24x2-80dB_3.0s_24w_16m_5120Hz_050p_0100Hz_001p_00R.wav'))
                 .then(r => r.arrayBuffer())
                 .then(ab => {
                     audioContext.decodeAudioData(ab).then(data => {
@@ -231,7 +232,7 @@
                     }
                 )
             })*/
-             fetch(TERASTREAM + encodeURIComponent('https://drfs.ctcontents.com/file/66432831/17569892528963/c3beee/WireGrind_96x24x2-80dB_3.0s_24w_16m_5120Hz_050p_0100Hz_001p_00R.wav'))
+            fetch(CORS + encodeURIComponent('http://drfs.ctcontents.com/file/66432831/17569892528963/c3beee/WireGrind_96x24x2-80dB_3.0s_24w_16m_5120Hz_050p_0100Hz_001p_00R.wav'))
             .then(r => r.arrayBuffer())
             .then(ab => {
                 audioContext.decodeAudioData(ab).then(data => {
@@ -374,7 +375,7 @@
                 } else {
                     sourceNode.connect(panNode);
                 }
-                if (songs[$index].isTAK || songs[$index].isWavPack) {
+                if (songs[$index].isLossless || songs[$index].isTAK || songs[$index].isWavPack) {
                     sourceNode.playbackRate.value = 432/440;
                 }
                 sourceNode.onended = onended;
@@ -400,59 +401,16 @@
             const isOGGSupported = new Audio().canPlayType('audio/ogg; codecs=opus') === 'probably';
             isCAFSupported ? (fileFormat = '.caf') : (isOGGSupported ? (fileFormat = '.opus') : true);
             let url = songs[$index].filename;
-            if (!songs[$index].isTeraBox) {
-                songs[$index].isTAK ? (fileFormat = '.tak') : false;
-                songs[$index].isWavPack ? (fileFormat = '.wv') : false;
-                url = songs[$index].filename + fileFormat;
+            if (songs[$index].isLossless) {
+                url = CORS + encodeURIComponent(songs[$index].filename);
             } else {
-                if (songs[$index].fs_id) {
-                    try {
-                        'use strict';
-                        url = await api1WithRetry(songs[$index].fs_id, 15);
-                        url = TERASTREAM + encodeURIComponent(url);
-                    }
-                    catch (ignored) {
-                        'use strict';
-                        await fetch(url)
-                        .then(r => r.json())
-                        .then(json => {
-                            url = TERASTREAM + encodeURIComponent(json.direct_link);
-                        })
-                        .catch(async () => {
-                            'use strict';
-                            await fetch(songs[$index].filename.replace(TERABOXAPI, TERABOXAPI2))
-                            .then(r => r.json())
-                            .then(json => {
-                                url = TERASTREAM + encodeURIComponent(json.direct_link);
-                            });
-                        });
-                    }
-                } else {
-                	await fetch(url)
-                    .then(r => r.json())
-                    .then(json => {
-                        if (!json || !json.direct_link) throw new Error();
-                        url = TERASTREAM + encodeURIComponent(json.direct_link);
-                    })
-                    .catch(async () => {
-                        await fetch(songs[$index].filename.replace(TERABOXAPI, TERABOXAPI2))
-                        .then(r => r.json())
-                        .then(json => {
-                            url = TERASTREAM + encodeURIComponent(json.direct_link);
-                        });
-                    });
-                }
+                url = songs[$index].filename + fileFormat;
             }
             fetch(url).then(function (response) {
                 'use strict';
                 response.arrayBuffer().then(function (arrayBuffer) {
                     'use strict';
-                    if (songs[$index].isTAK) {
-                        TakPlay(arrayBuffer, fileFormat);
-                        return;
-                    }
-                    if (songs[$index].isWavPack) {
-                        //WavPackPlay(arrayBuffer);
+                    if (songs[$index].isLossless || songs[$index].isTAK || songs[$index].isWavPack) {
                         TakPlay(arrayBuffer, fileFormat);
                         return;
                     }
@@ -520,7 +478,7 @@
         }
         catch (ignored) {}
         sourceNode = undefined;
-        try {
+        /*try {
             bsn.onended = null;
             bsn.buffer = null;
             bsn.stop();
@@ -530,7 +488,7 @@
         bsn = undefined;
         if (typeof worker !== 'undefined') {
             worker.postMessage('free');
-        }
+        }*/
         //wavpackWrapper.src = 'about:blank';
 
         if ($playMode === PLAY_MODE[0]) {
@@ -593,7 +551,7 @@
             } else {
                 sourceNode.connect(panNode);
             }
-            if (songs[$index].isTAK || songs[$index].isWavPack) {
+            if (songs[$index].isLossless || songs[$index].isTAK || songs[$index].isWavPack) {
                 sourceNode.playbackRate.value = 432/440;
             }
             sourceNode.onended = onended;
@@ -631,15 +589,7 @@
             title.set(song.title);
             artist.set(song.artist);
             album.set(song.album.name);
-            if (song.album.cover.startsWith(TERABOXAPI)) {
-            fetch(song.album.cover).then(function (response) {
-                response.json().then(function (json) {
-                    albumCover.set(TERASTREAM + encodeURIComponent(json.direct_link));
-                });
-            });
-            } else {
-                albumCover.set(song.album.cover);
-            }
+            albumCover.set(song.album.cover);
             lyrics.set(song.lyrics);
             await source.set(song.filename);
             playAudio(true);
@@ -653,7 +603,7 @@
             }
             catch (ignored) {}
             sourceNode = undefined;
-            try {
+            /*try {
                 bsn.onended = null;
                 bsn.buffer = null;
                 bsn.stop();
@@ -663,22 +613,14 @@
             bsn = undefined;
             if (typeof worker !== 'undefined') {
                 worker.postMessage('free');
-            }
+            }*/
             //wavpackWrapper.src = 'about:blank';
 
             index.set(i);
             title.set(song.title);
             artist.set(song.artist);
             album.set(song.album.name);
-            if (song.album.cover.startsWith(TERABOXAPI)) {
-            fetch(song.album.cover).then(function (response) {
-                response.json().then(function (json) {
-                    albumCover.set(TERASTREAM + encodeURIComponent(json.direct_link));
-                });
-            });
-            } else {
-                albumCover.set(song.album.cover);
-            }
+            albumCover.set(song.album.cover);
             lyrics.set(song.lyrics);
             await source.set(song.filename);
             playAudio(false);
@@ -740,7 +682,7 @@
         if (audioContext.currentTime - startTime <= duration) {
             time = audioContext.currentTime - startTime;
             // next run
-            setTimeout(updateTime.bind(null, false), 500);
+            setTimeout(updateTime.bind(null, false), 400);
         }
     };
 
@@ -1011,9 +953,9 @@
         return ['iPad Simulator', 'iPhone Simulator', 'iPod Simulator', 'iPad', 'iPhone', 'iPod'].includes(navigator.platform) || (navigator.userAgent.includes('Mac') && 'ontouchend' in document);
     };
 
-    const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+    /*const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));*/
     
-    async function api1WithRetry(id, { maxRetries = 10, delay = 2000 } = {}) {
+    /*async function api1WithRetry(id, { maxRetries = 10, delay = 2000 } = {}) {
         const url = TBDOWNLOAD + id;
         for (let attempt = 1; attempt <= maxRetries; attempt++) {
             try {
@@ -1029,7 +971,7 @@
                 await sleep(delay);
             }
         }
-    }
+    }*/
 </script>
 
 <svelte:head>

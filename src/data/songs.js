@@ -1,5 +1,6 @@
-const HOSTING_URL1 = "//onedrive-cf-index-ng-emocdn.pages.dev/api/raw?path=/";
 export const TERABOXAPI = "//teraboxapi.3685270.workers.dev/?url=";
+const HOSTING_URL1 = "//onedrive-cf-index-ng-emocdn.pages.dev/api/raw?path=/";
+const CORS = '//cors.3685270.workers.dev/?url=';
 
 export const songs = [
     /*{
@@ -2150,73 +2151,68 @@ export const songs = [
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1MQMD3xZeCOpZo6xY3kXckg"),
+            cover: CORS + encodeURIComponent('http://drfs.ctcontents.com/file/66432831/17569893097882/c19238/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/Cover02.jpg'),
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "ハッピーシンセサイザ",
         isWavPack: true,
-        isTeraBox: false,
-        filename: "//terastream.3685270.workers.dev/?url=http://drfs.ctcontents.com/file/66432831/17569893097637/94242f/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/01%20%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%BB%E3%82%B5%E3%82%A4%E3%82%B6"
+        isLossless: true,
+        filename: 'http://drfs.ctcontents.com/file/66432831/17569893097637/94242f/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/01%20%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%BB%E3%82%B5%E3%82%A4%E3%82%B6.wv'
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1MQMD3xZeCOpZo6xY3kXckg"),
+            cover: CORS + encodeURIComponent('http://drfs.ctcontents.com/file/66432831/17569893097882/c19238/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/Cover02.jpg'),
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "ツギハギスタッカート",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1QtdBC1H_QK1v7EQKbezqxw"),
-        fs_id: 887791059210416
+        isLossless: true,
+        filename: 'http://drfs.ctcontents.com/file/66432831/17569893097698/1007bf/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/02%20%E3%83%84%E3%82%AE%E3%83%8F%E3%82%AE%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%88.wv'
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1MQMD3xZeCOpZo6xY3kXckg"),
+            cover: CORS + encodeURIComponent('http://drfs.ctcontents.com/file/66432831/17569893097882/c19238/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/Cover02.jpg'),
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "ニア",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1gzzA8aFKFocmLC_wvibH1Q"),
-        fs_id: 471116795566147
+        isLossless: true,
+        filename: 'http://drfs.ctcontents.com/file/66432831/17569893097729/a8dd29/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/04%20%E3%83%8B%E3%82%A2.wv'
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1MQMD3xZeCOpZo6xY3kXckg"),
+            cover: CORS + encodeURIComponent('http://drfs.ctcontents.com/file/66432831/17569893097882/c19238/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/Cover02.jpg'),
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "恋愛裁判",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1iNy5BCw0Unzeku8J7fE4jQ"),
-        fs_id: 826673554104815
+        isLossless: true,
+        filename: 'http://drfs.ctcontents.com/file/66432831/17569893097804/653fd2/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/07%20%E6%81%8B%E6%84%9B%E8%A3%81%E5%88%A4.wv'
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1MQMD3xZeCOpZo6xY3kXckg"),
+            cover: CORS + encodeURIComponent('http://drfs.ctcontents.com/file/66432831/17569893097882/c19238/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/Cover02.jpg'),
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "どりーみんチュチュ",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1QUExX4tknKcc7c9QjPlKTg"),
-        fs_id: 171087985984485
+        isLossless: true,
+        filename: 'http://drfs.ctcontents.com/file/66432831/17569893097776/c3dd06/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/09%20%E3%81%A9%E3%82%8A%E3%83%BC%E3%81%BF%E3%82%93%E3%83%81%E3%83%A5%E3%83%81%E3%83%A5.wv'
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1MQMD3xZeCOpZo6xY3kXckg"),
+            cover: CORS + encodeURIComponent('http://drfs.ctcontents.com/file/66432831/17569893097882/c19238/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/Cover02.jpg'),
             name: "MORE MORE JUMP! SEKAI ALBUM vol.1"
         },
         title: "マシュマリー",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1olneOwLah56piblFguZQuQ"),
-        fs_id: 1033061991348218
+        isLossless: true,
+        filename: 'http://drfs.ctcontents.com/file/66432831/17569893097797/513fef/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/12%20%E3%83%9E%E3%82%B7%E3%83%A5%E3%83%9E%E3%83%AA%E3%83%BC.wv'
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
