@@ -1,6 +1,6 @@
-export const TERABOXAPI = "//teraboxapi.3685270.workers.dev/?url=";
+const TERABOXAPI = "//teraboxapi.3685270.workers.dev/?url=";
 const HOSTING_URL1 = "//onedrive-cf-index-ng-emocdn.pages.dev/api/raw?path=/";
-const CORS = '//cors.3685270.workers.dev/?url=';
+export const CORS = '//cors.3685270.workers.dev/?url=';
 
 export const songs = [
     /*{
@@ -12,7 +12,7 @@ export const songs = [
         title: "TEST",
         isWavPack: true,
         filename: "01"
-    },*/
+    },
     {
         artist: "花玲、喵☆酱、宴宁、kinsen",
         lyrics: null,
@@ -22,39 +22,36 @@ export const songs = [
         isTeraBox: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1YXzDEA-M0w9Hje8kvPTmXQ"),
         fs_id: 1039523847429570
-    },{
+    },*/{
         artist: "AiScReam",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "愛♡スクリ～ム！",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/129x06o5wvx4YQA0qdz26Zw"),
-        fs_id: 129269670659529
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892517887/4d7e8d/AiScReam%20-%20%E6%84%9B%E2%99%A1%E3%82%B9%E3%82%AF%E3%83%AA%EF%BD%9E%E3%83%A0%EF%BC%81.tak")
 },{
         artist: "浅野てんき（浅野天琪）",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1r5xsL5xnpvTs6xWDiXeZLg"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892694177/0b44f8/%E6%B5%85%E9%87%8E%E3%81%A6%E3%82%93%E3%81%8D%EF%BC%88%E6%B5%85%E9%87%8E%E5%A4%A9%E7%90%AA%EF%BC%89-%20%E6%98%9F%E3%81%AE%E5%A4%A2.jpg"),
             name: "星の夢"
         },
         title: "星の夢",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1j3CEBisTm7vcFBmgg2hmNQ"),
-        fs_id: 411754856350217
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892694710/186c03/%E6%B5%85%E9%87%8E%E3%81%A6%E3%82%93%E3%81%8D%EF%BC%88%E6%B5%85%E9%87%8E%E5%A4%A9%E7%90%AA%EF%BC%89-%20%E6%98%9F%E3%81%AE%E5%A4%A2.wv")
     },{
         artist: "浅野てんき（浅野天琪）",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1r5xsL5xnpvTs6xWDiXeZLg"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892694177/0b44f8/%E6%B5%85%E9%87%8E%E3%81%A6%E3%82%93%E3%81%8D%EF%BC%88%E6%B5%85%E9%87%8E%E5%A4%A9%E7%90%AA%EF%BC%89-%20%E6%98%9F%E3%81%AE%E5%A4%A2.jpg"),
             name: "星の夢"
         },
         title: "星の夢（Piano Ver.）",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1PsUZbmBoPUdXWGYbdBh_Bw"),
-        fs_id: 158841538572831
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892693278/c8bdf9/%E6%B5%85%E9%87%8E%E3%81%A6%E3%82%93%E3%81%8D%EF%BC%88%E6%B5%85%E9%87%8E%E5%A4%A9%E7%90%AA%EF%BC%89-%20%E6%98%9F%E3%81%AE%E5%A4%A2%EF%BC%88Piano%20Ver.%EF%BC%89.wv")
     },{
         artist: "上原歩夢（CV.大西亜玖璃）",
         lyrics: null,
@@ -161,14 +158,13 @@ export const songs = [
         artist: "春奈るな",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1_-qkMUQxoLzXr5bx2Rhwbw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892691918/186056/%E6%98%A5%E5%A5%88%E3%82%8B%E3%81%AA%20-%20%E5%90%9B%E8%89%B2%E3%82%B7%E3%82%B0%E3%83%8A%E3%83%AB.jpg"),
             name: "君色シグナル"
         },
         title: "君色シグナル",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/18HowfAgX22MMVyBNmO7lmw"),
-        fs_id: 965372922154209
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892692622/46fa19/%E6%98%A5%E5%A5%88%E3%82%8B%E3%81%AA%20-%20%E5%90%9B%E8%89%B2%E3%82%B7%E3%82%B0%E3%83%8A%E3%83%AB.tak")
     },{
         artist: "CYaRon!",
         lyrics: null,
@@ -184,54 +180,48 @@ export const songs = [
         album: { cover: "img/album.png" },
         title: "決めたよHand in Hand",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1AvzQxFih7v79OI721gJJBg"),
-        fs_id: 888370053659494
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893095726/d7ef24/Aqours/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%EF%BC%81%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%21%21%E3%80%8F%E6%8C%BF%E5%85%A5%E6%AD%8C%20%E6%B1%BA%E3%82%81%E3%81%9F%E3%82%88Hand%20in%20Hand%EF%BC%8F%E3%83%80%E3%82%A4%E3%82%B9%E3%82%AD%E3%81%A0%E3%81%A3%E3%81%9F%E3%82%89%E3%83%80%E3%82%A4%E3%82%B8%E3%83%A7%E3%82%A6%E3%83%96%EF%BC%81/01%20%E6%B1%BA%E3%82%81%E3%81%9F%E3%82%88Hand%20in%20Hand.tak")
     },{
         artist: "高海千歌(CV.伊波杏樹)、桜内梨子(CV.逢田梨香子)、渡辺曜(CV.斉藤朱夏)",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "ダイスキだったらダイジョウブ！",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1QgfR12erH9Mdsk_PzRYlFA"),
-        fs_id: 691780331461912
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893095864/6905a0/Aqours/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%EF%BC%81%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%21%21%E3%80%8F%E6%8C%BF%E5%85%A5%E6%AD%8C%20%E6%B1%BA%E3%82%81%E3%81%9F%E3%82%88Hand%20in%20Hand%EF%BC%8F%E3%83%80%E3%82%A4%E3%82%B9%E3%82%AD%E3%81%A0%E3%81%A3%E3%81%9F%E3%82%89%E3%83%80%E3%82%A4%E3%82%B8%E3%83%A7%E3%82%A6%E3%83%96%EF%BC%81/02%20%E3%82%BF%E3%82%99%E3%82%A4%E3%82%B9%E3%82%AD%E3%81%9F%E3%82%99%E3%81%A3%E3%81%9F%E3%82%89%E3%82%BF%E3%82%99%E3%82%A4%E3%82%B7%E3%82%99%E3%83%A7%E3%82%A6%E3%83%95%E3%82%99%EF%BC%81.tak")
     },{
         artist: "高海千歌(CV.伊波杏樹)、桜内梨子(CV.逢田梨香子)、渡辺曜(CV.斉藤朱夏)、津島善子(CV.小林愛香)、国木田花丸(CV.高槻かなこ)、黒澤ルビィ(CV.降幡愛)",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "夢で夜空を照らしたい",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1CbqgNudFQVf2d1j_Pet-0Q"),
-        fs_id: 395331088111671
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893096633/356687/Aqours/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%EF%BC%81%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%21%21%E3%80%8F%E6%8C%BF%E5%85%A5%E6%AD%8C%20%E5%A4%A2%E3%81%A7%E5%A4%9C%E7%A9%BA%E3%82%92%E7%85%A7%E3%82%89%E3%81%97%E3%81%9F%E3%81%84%EF%BC%8F%E6%9C%AA%E7%86%9FDREAMER/01%20%E5%A4%A2%E3%81%A7%E5%A4%9C%E7%A9%BA%E3%82%92%E7%85%A7%E3%82%89%E3%81%97%E3%81%9F%E3%81%84.tak")
     },{
         artist: "Aqours",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "未熟DREAMER",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1NxIdSMZUqpizWpwjH0fwOg"),
-        fs_id: 938444447427567
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893096597/3fdf6a/Aqours/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%EF%BC%81%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%21%21%E3%80%8F%E6%8C%BF%E5%85%A5%E6%AD%8C%20%E5%A4%A2%E3%81%A7%E5%A4%9C%E7%A9%BA%E3%82%92%E7%85%A7%E3%82%89%E3%81%97%E3%81%9F%E3%81%84%EF%BC%8F%E6%9C%AA%E7%86%9FDREAMER/02%20%E6%9C%AA%E7%86%9FDREAMER.tak")
     },{
         artist: "高海千歌、渡辺曜、松浦果南、小原鞠莉、黒澤ダイヤ、黒澤ルビィ、津島善子、国木田花丸",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "想いよひとつになれ",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1h5d7EKVvNdsIfcSaHA5Xqw"),
-        fs_id: 54171355508166
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893096689/2b7ef2/Aqours/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%EF%BC%81%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%21%21%E3%80%8F%E6%8C%BF%E5%85%A5%E6%AD%8C%20%E6%83%B3%E3%81%84%E3%82%88%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%AB%E3%81%AA%E3%82%8C%EF%BC%8FMIRAI%20TICKET/01%20%E6%83%B3%E3%81%84%E3%82%88%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%AB%E3%81%AA%E3%82%8C.tak")
     },{
         artist: "Aqours",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "MIRAI TICKET",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/18a-iTVDKL21kj4KPC6jUlg"),
-        fs_id: 206125302430925
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893096658/ffb4fd/Aqours/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%EF%BC%81%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%21%21%E3%80%8F%E6%8C%BF%E5%85%A5%E6%AD%8C%20%E6%83%B3%E3%81%84%E3%82%88%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%AB%E3%81%AA%E3%82%8C%EF%BC%8FMIRAI%20TICKET/02%20MIRAI%20TICKET.tak")
     },{
         artist: "中川かのん starring 東山奈央",
         lyrics: `短い髪を なびかせて<br />リボン革命 起こしちゃう<br />レボレボな 未来<br /><br />みんなの声が 聞きたいの<br />みんなに届け 愛の歌<br />メロメロな メロディ<br /><br />明日も会えるかな きっと会えるよね<br />胸のときめきを 伝えたいな<br /><br />I MY ME アイドル WA TA SHI アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />みんなのハート狙い撃ちよ もう 離さない<br /><br />スカートひらり なびかせて<br />魅惑のダンス サプライズ<br />ドキドキを あげる<br /><br />みんなが辛い 時にはね<br />夜空きらめく 星になる<br />キラキラリ 光る<br /><br />誰にも止められない 準備万端だよね？<br />ローラーコースター ついてきてね<br /><br />I MY ME アイドル I MY ME アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />みんなのハート狙い撃ちよ もう 離さない<br /><br />あなたに 伝えたい<br /><br />I MY ME アイドル WA TA SHI アイドル<br />みんなを 撃っちゃうぞ ラブカノンで BANG BANG<br />I MY ME アイドル わたしを見てね<br />あなたのハート狙い撃ちよ ずっと 離さない`,
@@ -283,27 +273,24 @@ export const songs = [
         album: { cover: "img/album.png" },
         title: "太陽の楽園〜Promised Land〜",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1j9TZ8ksI2aFZ0YFe7-IreA"),
-        fs_id: 362219932563071,
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892529681/85b5a5/%E3%81%B2%E3%82%9A%E3%81%A1%E3%81%B2%E3%82%9A%E3%81%A1%E3%83%92%E3%82%9A%E3%83%83%E3%83%81%20-%20%E5%A4%AA%E9%99%BD%E3%81%AE%E6%A5%BD%E5%9C%92%E3%80%9CPromised%20Land%E3%80%9C%C2%9E.tak")
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "大事な寶箱",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1B4T6vIKitq1RcKXayTKpgQ"),
-        fs_id: 975907106882886
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892529515/0a53f1/%E3%81%B2%E3%82%9A%E3%81%A1%E3%81%B2%E3%82%9A%E3%81%A1%E3%83%92%E3%82%9A%E3%83%83%E3%83%81%20-%20%E5%A4%A7%E4%BA%8B%E3%81%AA%E5%AF%B6%E7%AE%B1.tak")
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Legend of Mermaid",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1CfolReFJQzoMln38H-pt0w"),
-        fs_id: 564707227435505
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892529391/c58cf7/%E3%81%B2%E3%82%9A%E3%81%A1%E3%81%B2%E3%82%9A%E3%81%A1%E3%83%92%E3%82%9A%E3%83%83%E3%83%81%20-%20Legend%20of%20Mermaid.tak")
     },{
         artist: "高嶺のなでしこ",
         lyrics: null,
@@ -324,9 +311,8 @@ export const songs = [
         },
         title: "Fantastic Baby",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1BFPJEHR0X7YTVDtylYDyTg"),
-        fs_id: 380864672172663
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892518213/872749/BIGBANG%20-%20Fantastic%20Baby.tak")
     },{
         artist: "G-DRAGON (feat. 태양, 대성)",
         lyrics: null,

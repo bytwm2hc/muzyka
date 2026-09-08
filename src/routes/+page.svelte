@@ -24,7 +24,7 @@
     import SongBar from '../components/SongBar.svelte';
     import {
         songs,
-        TERABOXAPI
+        CORS
     } from '../data/songs';
     import {
         onEndedSong,
@@ -36,7 +36,6 @@
     //const TERASTREAM = '//terastream.3685270.workers.dev/?url=';
     //const TERABOXAPI2 = '//lucky-fenglisu-52513f.netlify.app/.netlify/functions/terabox?data=';
     //const TBDOWNLOAD = '//tbdownload.3685270.workers.dev/?fid=';
-    const CORS = '//cors.3685270.workers.dev/?url=';
     let params,
         audio, // bind <audio> element
         source2,
@@ -401,9 +400,7 @@
             const isOGGSupported = new Audio().canPlayType('audio/ogg; codecs=opus') === 'probably';
             isCAFSupported ? (fileFormat = '.caf') : (isOGGSupported ? (fileFormat = '.opus') : true);
             let url = songs[$index].filename;
-            if (songs[$index].isLossless) {
-                url = CORS + encodeURIComponent(songs[$index].filename);
-            } else {
+            if (!songs[$index].isLossless) {
                 url = songs[$index].filename + fileFormat;
             }
             fetch(url).then(function (response) {
@@ -501,15 +498,15 @@
     		title.set(songs[nextSong].title);
             artist.set(songs[nextSong].artist);
             album.set(songs[nextSong].album.name);
-            if (songs[nextSong].album.cover.startsWith(TERABOXAPI)) {
-            fetch(songs[nextSong].album.cover).then(function (response) {
-                response.json().then(function (json) {
-                    albumCover.set(TERASTREAM + encodeURIComponent(json.direct_link));
-                });
-            });
-            } else {
+            //if (songs[nextSong].album.cover.startsWith(TERABOXAPI)) {
+            //fetch(songs[nextSong].album.cover).then(function (response) {
+            //    response.json().then(function (json) {
+            //        albumCover.set(TERASTREAM + encodeURIComponent(json.direct_link));
+            //    });
+            //});
+            //} else {
                 albumCover.set(songs[nextSong].album.cover);
-            }
+            //}
             lyrics.set(songs[nextSong].lyrics);
             await source.set(songs[nextSong].filename);
             playAudio(false);
@@ -520,15 +517,15 @@
         	title.set(songs[randomIndex].title);
             artist.set(songs[randomIndex].artist);
             album.set(songs[randomIndex].album.name);
-            if (songs[randomIndex].album.cover.startsWith(TERABOXAPI)) {
-            fetch(songs[randomIndex].album.cover).then(function (response) {
-                response.json().then(function (json) {
-                    albumCover.set(TERASTREAM + encodeURIComponent(json.direct_link));
-                });
-            });
-            } else {
+            //if (songs[randomIndex].album.cover.startsWith(TERABOXAPI)) {
+            //fetch(songs[randomIndex].album.cover).then(function (response) {
+            //    response.json().then(function (json) {
+            //        albumCover.set(TERASTREAM + encodeURIComponent(json.direct_link));
+            //    });
+            //});
+            //} else {
                 albumCover.set(songs[randomIndex].album.cover);
-            }
+            //}
             lyrics.set(songs[randomIndex].lyrics);
             await source.set(songs[randomIndex].filename);
             playAudio(false);
