@@ -12,17 +12,18 @@ export const songs = [
         title: "TEST",
         isWavPack: true,
         filename: "01"
-    },
+    },*/
     {
         artist: "花玲、喵☆酱、宴宁、kinsen",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "让风告诉你",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1YXzDEA-M0w9Hje8kvPTmXQ"),
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892690861/4be4b0/%E8%8A%B1%E7%8E%B2%2C%E5%96%B5%E2%98%86%E9%85%B1%2C%E5%AE%B4%E5%AE%81%2Ckinsen%20-%20%E8%AE%A9%E9%A3%8E%E5%91%8A%E8%AF%89%E4%BD%A0.tak
+"),
         fs_id: 1039523847429570
-    },*/{
+    },{
         artist: "AiScReam",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -58,90 +59,80 @@ export const songs = [
         album: { cover: "img/album.png" },
         title: "開花宣言",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Y0rrtIEz8bcmzMImTdNJDw"),
-        fs_id: 51034228678156
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530308/f779fa/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/01%20%E9%96%8B%E8%8A%B1%E5%AE%A3%E8%A8%80.tak")
 },{
         artist: "中須かすみ（CV.相良茉優）",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "☆ワンダーランド☆",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/164goYcELUJtlG_s7q3s0uA"),
-        fs_id: 531545675656383
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530312/1985a0/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/02%20%E2%98%86%E3%83%AF%E3%83%B3%E3%82%BF%E3%82%99%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%88%E3%82%99%E2%98%86.tak")
 },{
         artist: "桜坂しずく（CV.前田佳織里）",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "オードリー",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/16JtyCFMY7IFzEU2-VvmGXQ"),
-        fs_id: 369443900604570
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530325/175009/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/03%20%E3%82%AA%E3%83%BC%E3%83%88%E3%82%99%E3%83%AA%E3%83%BC.tak")
 },{
         artist: "朝香果林（CV.久保田未夢）",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Wish",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1TmBgaLrouB3oMgardf0mrw"),
-        fs_id: 725694055226257
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530327/65257d/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/04%20Wish.tak")
 },{
         artist: "宮下愛（CV.村上奈津実）",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "友 & 愛",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/13EQDgzrOztpM_uu9x3U1xA"),
-        fs_id: 1008641371621999
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530333/e97659/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/05%20%E5%8F%8B%20%26%20%E6%84%9B.tak")
 },{
         artist: "近江彼方（CV.鬼頭明里）",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "My Own Fairy-Tale",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1g68jPzfpFS3PcV0s4jPJ0g"),
-        fs_id: 1017729257431286
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530340/912324/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/06%20My%20Own%20Fairy-Tale.tak")
 },{
         artist: "優木せつ菜（CV.楠木ともり）",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "MELODY",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1mB5wlqhxQWRPszNSJWUiKg"),
-        fs_id: 410754795972278
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530351/52836c/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/07%20MELODY.tak")
 },{
         artist: "エマ・ヴェルデ（CV.指出毬亜）",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "声繋ごうよ",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/132iWeLlGqIjtYnwmbQc-TQ"),
-        fs_id: 926012582113295
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530359/fd2d22/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/08%20%E5%A3%B0%E7%B9%8B%E3%81%93%E3%82%99%E3%81%86%E3%82%88.tak")
 },{
         artist: "天王寺璃奈（CV.田中ちえ美）",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "テレテレパシー",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1pU1cEYCxSacvOFRL9T-5dA"),
-        fs_id: 1034168683465709
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530374/cf058a/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/09%20%E3%83%86%E3%83%AC%E3%83%86%E3%83%AC%E3%83%8F%E3%82%9A%E3%82%B7%E3%83%BC.tak")
 },{
         artist: "虹ヶ咲学園スクールアイドル同好会",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Love U my friends",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/10AimuWqCMOk_yTW49MLDUA"),
-        fs_id: 218259575220850
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530384/edac88/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/10%20Love%20U%20my%20friends.tak")
 },{
         artist: "アルストロメリア",
         lyrics: null,
