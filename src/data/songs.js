@@ -20,9 +20,7 @@ export const songs = [
         title: "让风告诉你",
         isTAK: true,
         isLossless: true,
-        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892690861/4be4b0/%E8%8A%B1%E7%8E%B2%2C%E5%96%B5%E2%98%86%E9%85%B1%2C%E5%AE%B4%E5%AE%81%2Ckinsen%20-%20%E8%AE%A9%E9%A3%8E%E5%91%8A%E8%AF%89%E4%BD%A0.tak
-"),
-        fs_id: 1039523847429570
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892690861/4be4b0/%E8%8A%B1%E7%8E%B2%2C%E5%96%B5%E2%98%86%E9%85%B1%2C%E5%AE%B4%E5%AE%81%2Ckinsen%20-%20%E8%AE%A9%E9%A3%8E%E5%91%8A%E8%AF%89%E4%BD%A0.tak")
     },{
         artist: "AiScReam",
         lyrics: null,
@@ -31,7 +29,7 @@ export const songs = [
         isTAK: true,
         isLossless: true,
         filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892517887/4d7e8d/AiScReam%20-%20%E6%84%9B%E2%99%A1%E3%82%B9%E3%82%AF%E3%83%AA%EF%BD%9E%E3%83%A0%EF%BC%81.tak")
-},{
+    },{
         artist: "浅野てんき（浅野天琪）",
         lyrics: null,
         album: {
@@ -61,7 +59,7 @@ export const songs = [
         isTAK: true,
         isLossless: true,
         filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530308/f779fa/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/01%20%E9%96%8B%E8%8A%B1%E5%AE%A3%E8%A8%80.tak")
-},{
+    },{
         artist: "中須かすみ（CV.相良茉優）",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -69,7 +67,7 @@ export const songs = [
         isTAK: true,
         isLossless: true,
         filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530312/1985a0/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/02%20%E2%98%86%E3%83%AF%E3%83%B3%E3%82%BF%E3%82%99%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%88%E3%82%99%E2%98%86.tak")
-},{
+    },{
         artist: "桜坂しずく（CV.前田佳織里）",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -77,7 +75,7 @@ export const songs = [
         isTAK: true,
         isLossless: true,
         filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530325/175009/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/03%20%E3%82%AA%E3%83%BC%E3%83%88%E3%82%99%E3%83%AA%E3%83%BC.tak")
-},{
+    },{
         artist: "朝香果林（CV.久保田未夢）",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -85,7 +83,7 @@ export const songs = [
         isTAK: true,
         isLossless: true,
         filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530327/65257d/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/04%20Wish.tak")
-},{
+    },{
         artist: "宮下愛（CV.村上奈津実）",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -93,7 +91,7 @@ export const songs = [
         isTAK: true,
         isLossless: true,
         filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530333/e97659/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/05%20%E5%8F%8B%20%26%20%E6%84%9B.tak")
-},{
+    },{
         artist: "近江彼方（CV.鬼頭明里）",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -101,7 +99,7 @@ export const songs = [
         isTAK: true,
         isLossless: true,
         filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530340/912324/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/06%20My%20Own%20Fairy-Tale.tak")
-},{
+    },{
         artist: "優木せつ菜（CV.楠木ともり）",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -109,7 +107,7 @@ export const songs = [
         isTAK: true,
         isLossless: true,
         filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530351/52836c/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/07%20MELODY.tak")
-},{
+    },{
         artist: "エマ・ヴェルデ（CV.指出毬亜）",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -117,7 +115,7 @@ export const songs = [
         isTAK: true,
         isLossless: true,
         filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530359/fd2d22/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/08%20%E5%A3%B0%E7%B9%8B%E3%81%93%E3%82%99%E3%81%86%E3%82%88.tak")
-},{
+    },{
         artist: "天王寺璃奈（CV.田中ちえ美）",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -125,7 +123,7 @@ export const songs = [
         isTAK: true,
         isLossless: true,
         filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530374/cf058a/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/09%20%E3%83%86%E3%83%AC%E3%83%86%E3%83%AC%E3%83%8F%E3%82%9A%E3%82%B7%E3%83%BC.tak")
-},{
+    },{
         artist: "虹ヶ咲学園スクールアイドル同好会",
         lyrics: null,
         album: { cover: "img/album.png" },
@@ -133,18 +131,17 @@ export const songs = [
         isTAK: true,
         isLossless: true,
         filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895530384/edac88/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A/Love%20U%20my%20friends/10%20Love%20U%20my%20friends.tak")
-},{
+    },{
         artist: "アルストロメリア",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Rxu4ASK7KYUDqumangXwFA"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895775496/cad820/%E3%82%A2%E3%83%AB%E3%82%B9%E3%83%88%E3%83%AD%E3%83%A1%E3%83%AA%E3%82%A2/BRILLI%40NT%20WING%2005/Cover.jpg"),
             name: "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 05"
         },
         title: "アルストロメリア",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1ycQID5RkhnzwyM5LJF5Hsw"),
-        fs_id: 196731595318620
+        isLossless: true,
+        filename: CORS + encodeURIComponent("https://1024terabox.com/s/1ycQID5RkhnzwyM5LJF5Hsw")
     },{
         artist: "春奈るな",
         lyrics: null,
@@ -162,9 +159,8 @@ export const songs = [
         album: { cover: "img/album.png" },
         title: "夜空はなんでも知ってるの？",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/15ZLJxRlnSAK-5_lYneG1iw"),
-        fs_id: 261712032193332
+        isLossless: true,
+        filename: CORS + encodeURIComponent("https://drfs.ctcontents.com/file/66432831/17569895688505/6f5d91/CYaRon%21%20-%20%E5%A4%9C%E7%A9%BA%E3%81%AF%E3%81%AA%E3%82%93%E3%81%A6%E3%82%99%E3%82%82%E7%9F%A5%E3%81%A3%E3%81%A6%E3%82%8B%E3%81%AE%EF%BC%9F.tak")
     },{
         artist: "高海千歌(CV.伊波杏樹)、桜内梨子(CV.逢田梨香子)、渡辺曜(CV.斉藤朱夏)",
         lyrics: null,
@@ -219,45 +215,40 @@ export const songs = [
         album: { cover: "img/album.png" },
         title: "LOVE KANON",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1ZAqc-exyC5jBq6oVMZhU3Q"),
-        fs_id: 436144078081977
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895800636/21be33/%E4%B8%AD%E5%B7%9D%E3%81%8B%E3%81%AE%E3%82%93%201st%E3%82%A2%E3%83%AB%E3%83%8F%E3%82%99%E3%83%A0%E3%80%8CBirth%E3%80%8D%EF%BC%8F%E4%B8%AD%E5%B7%9D%E3%81%8B%E3%81%AE%E3%82%93%20starring%20%E6%9D%B1%E5%B1%B1%E5%A5%88%E5%A4%AE/02%20LOVE%20KANON.tak")
     },{
         artist: "中川かのん starring 東山奈央",
         lyrics: `ALL 4 YOU 白い砂に ALL 4 YOU 裸足の愛<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 触れる素肌 ALL 4 YOU 渚の愛<br />君と走りぬけたい 常夏色の恋 叶えたいよ<br /><br />太陽 スマイル 炎天下ドライブ<br />なんて 綺麗な エメラルド絨毯<br />恋の プロローグ 寄せては返す<br />この想い 伝えたい<br /><br />サンダルが青空 飛んでいく<br />鼓動をつないだ シルエット<br /><br />ALL 4 YOU 白い砂に ALL 4 YOU 裸足の恋<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 風が走る ALL 4 YOU 渚の恋<br />君と走りぬけたい 常夏色の愛 届けたいよ<br /><br />太陽 アクビで 地平線へダイブ<br />なんて 綺麗な 星空の絨毯<br />ちょっと 勇気出して 距離縮める<br />この想い 気づいてよ<br /><br />波音のシンフォニー 鳴り響く<br />二人はひとつの シルエット<br /><br />ALL 4 YOU 一人占めよ ALL 4 YOU わたしの愛<br />照れた横顔 目が離せないよ<br />ALL 4 YOU 触れた素肌 ALL 4 YOU 渚のキス<br />君と一緒にいたい 来年再来年 その先も<br /><br />ALL 4 YOU 白い砂に ALL 4 YOU 裸足の恋<br />照れた笑顔 ねぇ 手を離さないで<br />ALL 4 YOU 風が走る ALL 4 YOU 渚の恋<br />君と走りぬけたい 常夏色の愛 届けたいよ`,
         album: { cover: "img/album.png" },
         title: "ALL 4 YOU",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1pzd_4r6nRKLnvS0ev1CtoQ"),
-        fs_id: 110779652516655
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895800611/d32f34/%E4%B8%AD%E5%B7%9D%E3%81%8B%E3%81%AE%E3%82%93%201st%E3%82%A2%E3%83%AB%E3%83%8F%E3%82%99%E3%83%A0%E3%80%8CBirth%E3%80%8D%EF%BC%8F%E4%B8%AD%E5%B7%9D%E3%81%8B%E3%81%AE%E3%82%93%20starring%20%E6%9D%B1%E5%B1%B1%E5%A5%88%E5%A4%AE/04%20ALL%204%20YOU.tak")
     },{
         artist: "中川かのん starring 東山奈央",
         lyrics: `黒板 そっちのけで チラリ 見つめる先は<br />甘い横顔 ファンタジー<br /><br />突然 校舎の裏 相談 恋愛モード<br />やっぱ私にじゃない<br /><br />だけどあなたの 為に頑張る<br />いつの日にか 振り 向かせてみせるわ<br />鈍感過ぎな ロミオさん<br /><br />ハピハピハッピークレセント<br />あなたにハッピープレゼント<br />わかって欲しいの この気持ち あなただけよ 永遠ロマンス<br />ハピハピハッピークレセント<br />あなたに全部ささげるI love you<br />いつか終わるの？ ねぇ抱きしめて欲しい 片想い<br /><br />窓辺 溜め息色 ふいに 見つめる先に<br />暗い横顔 ミステリー<br /><br />走る 渡り廊下 背中 失恋モード<br />もしかしてフラれたの？<br /><br />元気だしてよ わたしがいるよ<br />告白だよ？ でも 気付いてない顔<br />鈍感過ぎよ ロミオさん<br /><br />トキメキハッピークレセント<br />ドキドキもっとプレゼント<br />気付いて欲しいの 胸の鼓動 奏でてるよ 恋のメロディ<br />トキメキハッピークレセント<br />あなたに全部ささげるI want you<br />いつになるだろ？ ねぇ終わらせたいよ 片想い<br /><br />ハピハピハッピークレセント<br />あなたにハッピープレゼント<br />わかって欲しいの この気持ち あなただけよ 永遠ロマンス<br />ハピハピハッピークレセント<br />あなたに全部ささげるI love you<br />いつか終わるの？ ねぇ抱きしめて欲しい 片想い`,
         album: { cover: "img/album.png" },
         title: "ハッピークレセント",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/10_bJfAW9gA-egQnxB5t0YA"),
-        fs_id: 574413480437957
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895800653/6e3eea/%E4%B8%AD%E5%B7%9D%E3%81%8B%E3%81%AE%E3%82%93%201st%E3%82%A2%E3%83%AB%E3%83%8F%E3%82%99%E3%83%A0%E3%80%8CBirth%E3%80%8D%EF%BC%8F%E4%B8%AD%E5%B7%9D%E3%81%8B%E3%81%AE%E3%82%93%20starring%20%E6%9D%B1%E5%B1%B1%E5%A5%88%E5%A4%AE/06%20%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E3%82%AF%E3%83%AC%E3%82%BB%E3%83%B3%E3%83%88.tak")
     },{
         artist: "中川かのん starring 東山奈央",
         lyrics: `何もみえない<br />暗闇のなかで<br />見つけたんだ 小さな光を<br /><br />私は歩いてく<br />もう迷わない<br />まっすぐに届け<br /><br />何も聞こえない<br />喧騒のなかで<br />見つけたんだ 小さな声を<br /><br />私は歌う<br />メロディが空へ一杯に<br />広がれ<br /><br />心は あなたに続いてる<br />いますぐ会いたい<br />感じたい ぬくもりを<br />世界が満たされる 光で<br />どこにいても 感じるよ 声を<br /><br />わたしの<br />らぶこーる<br /><br />あなたに<br /><br />涙があふれる<br />孤独な心に<br />見つけたんだ 小さな愛を<br /><br />私は想う<br />歌声が どこまでも響く<br />I love you<br /><br />たとえ つまずいて 疲れ切っても<br />地図のない道に<br />ゴールは見えなくても<br />進むよ 目の前を見つめて<br /><br />たどりつくよ<br />あなたの<br />ところへ<br /><br />心は あなたに続いてる<br />いつでも会いたい<br />感じたい ぬくもりを<br />世界が満たされる 光で<br />どこにいても 感じるよ 愛を<br /><br />わたしの<br />らぶこーる<br /><br />あなたに`,
         album: { cover: "img/album.png" },
         title: "らぶこーる",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1hyipghDIc7z4mjuRLtpukg"),
-        fs_id: 433724155505135
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895800345/a36b24/%E4%B8%AD%E5%B7%9D%E3%81%8B%E3%81%AE%E3%82%93%201st%E3%82%A2%E3%83%AB%E3%83%8F%E3%82%99%E3%83%A0%E3%80%8CBirth%E3%80%8D%EF%BC%8F%E4%B8%AD%E5%B7%9D%E3%81%8B%E3%81%AE%E3%82%93%20starring%20%E6%9D%B1%E5%B1%B1%E5%A5%88%E5%A4%AE/08%20%E3%82%89%E3%81%B6%E3%81%93%E3%83%BC%E3%82%8B.tak")
     },{
         artist: "キュアダイヤモンド(CV.寿美菜子)",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "COCORO♦Diamond",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/19JadikKO75cRq-Ai-w471w"),
-        fs_id: 689901785113690
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895775768/9a4a43/04%20COCORO%E2%99%A6Diamond.tak")
     },{
         artist: "ぴちぴちピッチ",
         lyrics: null,
@@ -286,13 +277,13 @@ export const songs = [
         artist: "高嶺のなでしこ",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1GR-YIeIt1VmMHpejGrYT-A"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892697878/320b53/%E9%AB%98%E5%B6%BA%E3%81%AE%E3%81%AA%E3%81%A6%E3%82%99%E3%81%97%E3%81%93%20-%20%E5%8F%AF%E6%84%9B%E3%81%8F%E3%81%A6%E3%81%93%E3%82%99%E3%82%81%E3%82%93.jpg"),
             name: "可愛くてごめん"
         },
         title: "可愛くてごめん",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1QRptH93ST-JwbnKMO_tKcg"),
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892698426/3af6f3/%E9%AB%98%E5%B6%BA%E3%81%AE%E3%81%AA%E3%81%A6%E3%82%99%E3%81%97%E3%81%93%20-%20%E5%8F%AF%E6%84%9B%E3%81%8F%E3%81%A6%E3%81%93%E3%82%99%E3%82%81%E3%82%93.tak"),
         fs_id: 1097136435943416
     },{
         artist: "BIGBANG",
@@ -312,9 +303,8 @@ export const songs = [
         },
         title: "HOME SWEET HOME",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1lITaUy6jOPg5qIOgYJzI6g"),
-        fs_id: 919870742798001
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895775774/6f78aa/G-DRAGON%20%28feat.%20%E1%84%90%E1%85%A2%E1%84%8B%E1%85%A3%E1%86%BC%2C%20%E1%84%83%E1%85%A2%E1%84%89%E1%85%A5%E1%86%BC%29%20-%20HOME%20SWEET%20HOME.tak")
     },{
         artist: "Rosé x Bruno Mars",
         lyrics: null,
@@ -323,9 +313,8 @@ export const songs = [
         },
         title: "APT.",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1AV0eeQiQeyeSl6pP-YAvgw"),
-        fs_id: 304302672917721,
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895775771/ad7b31/Rose%CC%81%20x%20Bruno%20Mars%20-%20APT.tak")
     },{
         artist: "EXO",
         lyrics: null,
@@ -334,9 +323,8 @@ export const songs = [
         },
         title: "12월의 기적",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1F4I4oG1Q9o0h2GnfcZ1R9Q"),
-        fs_id: 121764656183767
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895801217/c35781/EXO%20-%2012%E1%84%8B%E1%85%AF%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%B5%E1%84%8C%E1%85%A5%E1%86%A8.tak")
     },{
         artist: "EXO",
         lyrics: null,
@@ -345,9 +333,8 @@ export const songs = [
         },
         title: "十二月的奇蹟",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1qU6EI6sUe204w5OOUNYmkA"),
-        fs_id: 180030179227184
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892521823/4d2598/EXO%20-%20%E5%8D%81%E4%BA%8C%E6%9C%88%E7%9A%84%E5%A5%87%E8%B9%9F.tak")
     },{
         artist: "郭富城",
         lyrics: null,
