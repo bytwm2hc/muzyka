@@ -283,8 +283,7 @@ export const songs = [
         title: "可愛くてごめん",
         isTAK: true,
         isLossless: true,
-        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892698426/3af6f3/%E9%AB%98%E5%B6%BA%E3%81%AE%E3%81%AA%E3%81%A6%E3%82%99%E3%81%97%E3%81%93%20-%20%E5%8F%AF%E6%84%9B%E3%81%8F%E3%81%A6%E3%81%93%E3%82%99%E3%82%81%E3%82%93.tak"),
-        fs_id: 1097136435943416
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892698426/3af6f3/%E9%AB%98%E5%B6%BA%E3%81%AE%E3%81%AA%E3%81%A6%E3%82%99%E3%81%97%E3%81%93%20-%20%E5%8F%AF%E6%84%9B%E3%81%8F%E3%81%A6%E3%81%93%E3%82%99%E3%82%81%E3%82%93.tak")
     },{
         artist: "BIGBANG",
         lyrics: null,
@@ -343,9 +342,8 @@ export const songs = [
         },
         title: "對你愛不完",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1G2RD--rbLs1VBcuRaMHX0w"),
-        fs_id: 1124659907277824
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892851262/c9b80b/%E9%83%AD%E5%AF%8C%E5%9F%8E%20-%20%E5%B0%8D%E4%BD%A0%E6%84%9B%E4%B8%8D%E5%AE%8C.tak")
     },{
         artist: "任賢齊",
         lyrics: null,
@@ -354,9 +352,8 @@ export const songs = [
         },
         title: "心太軟",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1PId6OIjmazkP5MHVDna5UQ"),
-        fs_id: 834440277998557
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892531404/ac24f8/%E4%BB%BB%E8%B3%A2%E9%BD%8A%20-%20%E5%BF%83%E5%A4%AA%E8%BB%9F.tak")
     },{
         artist: "齊秦",
         lyrics: null,
@@ -365,9 +362,8 @@ export const songs = [
         },
         title: "愛情宣言",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1-NzlsoW21Sb2bnYOqn1rgw"),
-        fs_id: 350370462990177
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892852789/2020b6/%E9%BD%8A%E7%A7%A6%20-%20%E6%84%9B%E6%83%85%E5%AE%A3%E8%A8%80.tak")
     },{
         artist: "蘇慧倫",
         lyrics: null,
@@ -376,9 +372,8 @@ export const songs = [
         },
         title: "我一個人住",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1TIEa6AX2FqgLRTNVpfgk_w"),
-        fs_id: 856567238153573
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892853646/2d0831/%E8%98%87%E6%85%A7%E5%80%AB%20-%20%E6%88%91%E4%B8%80%E5%80%8B%E4%BA%BA%E4%BD%8F.tak")
     },{
         artist: "楊乃文",
         lyrics: null,
@@ -387,9 +382,8 @@ export const songs = [
         },
         title: "祝我幸福",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1I7en7sbqej7ByL7mttDL1g"),
-        fs_id: 449734518476790
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892852318/0d5301/%E6%A5%8A%E4%B9%83%E6%96%87%20-%20%E7%A5%9D%E6%88%91%E5%B9%B8%E7%A6%8F.tak")
     },{
         artist: "潘越雲",
         lyrics: null,
@@ -398,9 +392,8 @@ export const songs = [
         },
         title: "我是不是你最疼愛的人",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1OHT7NCt_-Z08ESyUWTNhBA"),
-        fs_id: 34094734472491
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892853122/ddb083/%E6%BD%98%E8%B6%8A%E9%9B%B2%20-%20%E6%88%91%E6%98%AF%E4%B8%8D%E6%98%AF%E4%BD%A0%E6%9C%80%E7%96%BC%E6%84%9B%E7%9A%84%E4%BA%BA.tak")
     },{
         artist: "劉若英",
         lyrics: null,
@@ -409,9 +402,8 @@ export const songs = [
         },
         title: "後來",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/19dskrxDjxpwtqIwMABTDEg"),
-        fs_id: 702255354445122
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892852988/031d79/%E5%8A%89%E8%8B%A5%E8%8B%B1%20-%20%E5%BE%8C%E4%BE%86.tak")
     },{
         artist: "辛曉琪",
         lyrics: null,
@@ -420,9 +412,8 @@ export const songs = [
         },
         title: "味道",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1o39ODE144Vm1wf7eEMpG5A"),
-        fs_id: 712403606513920
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892533192/5d2d1a/%E8%BE%9B%E6%9B%89%E7%90%AA%20-%20%E5%91%B3%E9%81%93.tak")
     },{
         artist: "辛曉琪",
         lyrics: null,
@@ -431,9 +422,8 @@ export const songs = [
         },
         title: "領悟",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1a-Py_FjQ7d-tBhMruMlDAQ"),
-        fs_id: 603057000863525
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892533445/33f80a/%E8%BE%9B%E6%9B%89%E7%90%AA%20-%20%E9%A0%98%E6%82%9F.tak")
     },{
         artist: "周傳雄",
         lyrics: null,
@@ -442,9 +432,8 @@ export const songs = [
         },
         title: "花香",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1tI_EDtMyFtX8M9X6XyleLA"),
-        fs_id: 315487839474608
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892534562/1f8c52/%E5%91%A8%E5%82%B3%E9%9B%84%20-%20%E8%8A%B1%E9%A6%99.tak")
     },{
         artist: "飛輪海＆Hebe",
         lyrics: null,
@@ -453,9 +442,8 @@ export const songs = [
         },
         title: "只對你有感覺",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1esysk-kpq8v1rzaXthedmA"),
-        fs_id: 991451641461938
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892695834/74fad6/%E9%A3%9B%E8%BC%AA%E6%B5%B7%EF%BC%86Hebe%20-%20%E5%8F%AA%E5%B0%8D%E4%BD%A0%E6%9C%89%E6%84%9F%E8%A6%BA.tak")
     },{
         artist: "蔡依林",
         lyrics: null,
@@ -464,9 +452,8 @@ export const songs = [
         },
         title: "舞孃",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/12NhiAaMA_Qgm5NGuDABbqQ"),
-        fs_id: 667510933386160
+        isLossless: true,
+        filename: TERABOXAPI + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892853250/97cd48/%E8%94%A1%E4%BE%9D%E6%9E%97%20-%20%E8%88%9E%E5%AD%83.tak")
     },{
         artist: "刘瑞琦",
         lyrics: null,
