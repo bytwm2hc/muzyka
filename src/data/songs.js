@@ -141,7 +141,7 @@ export const songs = [
         title: "アルストロメリア",
         isTAK: true,
         isLossless: true,
-        filename: CORS + encodeURIComponent("https://1024terabox.com/s/1ycQID5RkhnzwyM5LJF5Hsw")
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569895775523/dc9d53/%E3%82%A2%E3%83%AB%E3%82%B9%E3%83%88%E3%83%AD%E3%83%A1%E3%83%AA%E3%82%A2/BRILLI%40NT%20WING%2005/01%20%E3%82%A2%E3%83%AB%E3%82%B9%E3%83%88%E3%83%AD%E3%83%A1%E3%83%AA%E3%82%A2.wv")
     },{
         artist: "春奈るな",
         lyrics: null,
@@ -453,7 +453,7 @@ export const songs = [
         title: "舞孃",
         isTAK: true,
         isLossless: true,
-        filename: TERABOXAPI + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892853250/97cd48/%E8%94%A1%E4%BE%9D%E6%9E%97%20-%20%E8%88%9E%E5%AD%83.tak")
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892853250/97cd48/%E8%94%A1%E4%BE%9D%E6%9E%97%20-%20%E8%88%9E%E5%AD%83.tak")
     },{
         artist: "刘瑞琦",
         lyrics: null,
@@ -462,9 +462,8 @@ export const songs = [
         },
         title: "夏天的风",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/13lAVq87gLGZkzLU1fh3CJA"),
-        fs_id: 1012738130228650
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892531637/ef9391/%E5%88%98%E7%91%9E%E7%90%A6%20-%20%E5%A4%8F%E5%A4%A9%E7%9A%84%E9%A3%8E.tak")
     },{
         artist: "皮小妹",
         lyrics: null,
@@ -473,9 +472,8 @@ export const songs = [
         },
         title: "遺憾（抖音DJ版）",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1bzZBorB1Mb71t6BmZRkshw"),
-        fs_id: 498706499594684
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892531186/944ae5/%E7%9A%AE%E5%B0%8F%E5%A6%B9%20-%20%E9%81%BA%E6%86%BE%EF%BC%88%E6%8A%96%E9%9F%B3DJ%E7%89%88%EF%BC%89.tak")
     },{
         artist: "烏蘭圖雅",
         lyrics: null,
@@ -484,9 +482,8 @@ export const songs = [
         },
         title: "站在草原望北京（抖音DJ版）",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1EY61KQJNGpbapS6YBMzChQ"),
-        fs_id: 640411459799639
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892697415/fbdf6d/%E7%83%8F%E8%98%AD%E5%9C%96%E9%9B%85%20-%20%E7%AB%99%E5%9C%A8%E8%8D%89%E5%8E%9F%E6%9C%9B%E5%8C%97%E4%BA%AC%EF%BC%88%E6%8A%96%E9%9F%B3DJ%E7%89%88%EF%BC%89.tak")
     },{
         artist: "烏蘭圖雅",
         lyrics: null,
@@ -495,9 +492,8 @@ export const songs = [
         },
         title: "阿爾山的姑娘（抖音DJ版）",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1jaTlIQnsT_cVGu0yeX-2bA"),
-        fs_id: 754864501179150
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892697132/0e0f6d/%E7%83%8F%E8%98%AD%E5%9C%96%E9%9B%85%20-%20%E9%98%BF%E7%88%BE%E5%B1%B1%E7%9A%84%E5%A7%91%E5%A8%98%EF%BC%88%E6%8A%96%E9%9F%B3DJ%E7%89%88%EF%BC%89.tak")
     },{
         artist: "魏新雨",
         lyrics: null,
@@ -506,9 +502,8 @@ export const songs = [
         },
         title: "情花幾時開（抖音DJ版）",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1GQMk8bXPprL9hvSR3J1caA"),
-        fs_id: 141139501110685
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892853377/83af9b/%E9%AD%8F%E6%96%B0%E9%9B%A8%20-%20%E6%83%85%E8%8A%B1%E5%B9%BE%E6%99%82%E9%96%8B%EF%BC%88%E6%8A%96%E9%9F%B3DJ%E7%89%88%EF%BC%89.tak")
     },{
         artist: "69",
         lyrics: null,
@@ -517,9 +512,8 @@ export const songs = [
         },
         title: "最美的傷口（抖音DJ版）",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1GzLUaccTEfvfvw8uvXQLtQ"),
-        fs_id: 663289745707643
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892517840/ac2f41/69%20-%20%E6%9C%80%E7%BE%8E%E7%9A%84%E5%82%B7%E5%8F%A3%EF%BC%88%E6%8A%96%E9%9F%B3DJ%E7%89%88%EF%BC%89.tak")
     },{
         artist: "一棵小葱＆李宗南",
         lyrics: null,
@@ -528,9 +522,8 @@ export const songs = [
         },
         title: "狂浪生",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Pcw9qCRfQpGxwMM0x2XiIA"),
-        fs_id: 700481475935579
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892529932/0aa4e4/%E4%B8%80%E6%A3%B5%E5%B0%8F%E8%91%B1%EF%BC%86%E6%9D%8E%E5%AE%97%E5%8D%97%20-%20%E7%8B%82%E6%B5%AA%E7%94%9F.tak")
     },{
         artist: "徐環",
         lyrics: null,
@@ -539,9 +532,8 @@ export const songs = [
         },
         title: "往後餘生",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1qWsWfYasOpEkOC-WoBKrRw"),
-        fs_id: 759175422303413
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892696819/611369/%E5%BE%90%E7%92%B0%20-%20%E5%BE%80%E5%BE%8C%E9%A4%98%E7%94%9F.tak")
     },{
         artist: "DJ小鱼儿",
         lyrics: null,
@@ -550,9 +542,8 @@ export const songs = [
         },
         title: "一生回味一面",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1v-V_nDS75nF4biTMIxdK7Q"),
-        fs_id: 1113370253139445
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892521681/5a62c5/DJ%E5%B0%8F%E9%B1%BC%E5%84%BF%20-%20%E4%B8%80%E7%94%9F%E5%9B%9E%E5%91%B3%E4%B8%80%E9%9D%A2.tak")
     },{
         artist: "DJ馬哥",
         lyrics: null,
@@ -561,9 +552,8 @@ export const songs = [
         },
         title: "I love Poland",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1oyQbHTkod2MJZv0p8sOOSg"),
-        fs_id: 441327525055579
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892521725/cf2350/DJ%E9%A6%AC%E5%93%A5%20-%20I%20love%20Poland.tak")
     },{
         artist: "VaVa＆Ty",
         lyrics: null,
@@ -572,9 +562,8 @@ export const songs = [
         },
         title: "我的新衣",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1UOO1qu-PYcGV0xR1d0V7iQ"),
-        fs_id: 651756844363114,
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892528435/2a1745/VaVa%EF%BC%86Ty.%20-%20%E6%88%91%E7%9A%84%E6%96%B0%E8%A1%A3.tak")
     },{
         artist: "Dragon Pig",
         lyrics: null,
@@ -583,9 +572,8 @@ export const songs = [
         },
         title: "全部都是你",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1glH0VEN019-M3Oq9Hmbw0g"),
-        fs_id: 31750306949362
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892521751/73f99f/Dragon%20Pig%20-%20%E5%85%A8%E9%83%A8%E9%83%BD%E6%98%AF%E4%BD%A0.tak")
     },{
         artist: "MC名决",
         lyrics: null,
@@ -594,9 +582,8 @@ export const songs = [
         },
         title: "时间的过客",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1TtVzdoPToEmN1EeYAyQ9IA"),
-        fs_id: 102656743020931
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892522661/972480/MC%E5%90%8D%E5%86%B3%20-%20%E6%97%B6%E9%97%B4%E7%9A%84%E8%BF%87%E5%AE%A2.tak")
     },{
         artist: "M&K＆董子龙",
         lyrics: null,
@@ -605,20 +592,8 @@ export const songs = [
         },
         title: "猴子说 (M&K Remix)",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1PpXbAjtj5PKX5UiPDvHeyw"),
-        fs_id: 108130188525113
-    },{
-        artist: "Hoop圈圈",
-        lyrics: null,
-        album: {
-            cover: "img/album.png"
-        },
-        title: "洗澡歌",
-        isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1m4xtPRO60FswBhuOvhyvow"),
-        fs_id: 323013358281198
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892522604/97caf9/M%26K%EF%BC%86%E8%91%A3%E5%AD%90%E9%BE%99%20-%20%E7%8C%B4%E5%AD%90%E8%AF%B4%20%28M%26K%20Remix%29.tak")
     },{
         artist: "Ryan.B",
         lyrics: null,
@@ -627,9 +602,8 @@ export const songs = [
         },
         title: "再也沒有",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1vMlJX9ZB5vVeQXZ6w72YxA"),
-        fs_id: 724468416233425
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892525115/f03085/Ryan.B%20-%20%E5%86%8D%E4%B9%9F%E6%B2%92%E6%9C%89.tak")
     },{
         artist: "蘇小小",
         lyrics: null,
@@ -638,9 +612,8 @@ export const songs = [
         },
         title: "陪你環遊世界",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1c5dM8kkvFoJ1-0-x4ekyuw"),
-        fs_id: 782519541472109
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892853507/c92445/%E8%98%87%E5%B0%8F%E5%B0%8F%20-%20%E9%99%AA%E4%BD%A0%E7%92%B0%E9%81%8A%E4%B8%96%E7%95%8C.tak")
     },{
         artist: "Uu",
         lyrics: null,
@@ -649,9 +622,8 @@ export const songs = [
         },
         title: "夏天的风",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1GgR_boIm4NS81zf8Wncdtw"),
-        fs_id: 972266972409134
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892528162/bbaa3d/Uu%20-%20%E5%A4%8F%E5%A4%A9%E7%9A%84%E9%A3%8E.tak")
     },{
         artist: "任然",
         lyrics: null,
@@ -660,9 +632,8 @@ export const songs = [
         },
         title: "无人之岛",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Xvi6XWvcr1dLZsd4Dgw-7Q"),
-        fs_id: 616996067425484
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892531277/932c1e/%E4%BB%BB%E7%84%B6%20-%20%E6%97%A0%E4%BA%BA%E4%B9%8B%E5%B2%9B.tak")
     },{
         artist: "李行亮",
         lyrics: null,
@@ -671,9 +642,8 @@ export const songs = [
         },
         title: "愿得一人心",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/19Qm982sgPOuHj9m4R_JD-Q"),
-        fs_id: 384983799463597
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892532037/dac56a/%E6%9D%8E%E8%A1%8C%E4%BA%AE%20-%20%E6%84%BF%E5%BE%97%E4%B8%80%E4%BA%BA%E5%BF%83.tak")
     },{
         artist: "卡带森林＆回忆录音带",
         lyrics: null,
@@ -682,543 +652,467 @@ export const songs = [
         },
         title: "心碎的梦（对唱版）",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1yNMDqygU46Vt06FWMjg5rQ"),
-        fs_id: 653280074519202
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892531074/d02440/%E5%8D%A1%E5%B8%A6%E6%A3%AE%E6%9E%97%EF%BC%86%E5%9B%9E%E5%BF%86%E5%BD%95%E9%9F%B3%E5%B8%A6%20-%20%E5%BF%83%E7%A2%8E%E7%9A%84%E6%A2%A6%EF%BC%88%E5%AF%B9%E5%94%B1%E7%89%88%EF%BC%89.tak")
     },{
         artist: "Schnuffel",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Häschenparty",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/18Mhe0Dz_JK3nzp283XskRw"),
-        fs_id: 369734911652285
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892526286/19ab2e/Schnuffel%20-%20H%C3%A4schenparty.tak")
     },{
         artist: "Lenar",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Montagem Miau",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1tmmzGOiSxPYDslxVHZbThA"),
-        fs_id: 838883849644793
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892522532/4cf640/Lenar%20-%20Montagem%20Miau.tak")
     },{
         artist: "Cascada",
         lyrics: null,
-        album: { cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1ELFVv-a8CcfOUXeG-tyMWg") },
+        album: { cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892518240/5fd3b9/Cascada%20-%20Everytime%20We%20Touch%20%28Yanou%27s%20Candlelight%20mix%29.jpg") },
         title: "Everytime We Touch (Yanou's Candlelight mix)",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1hebh6t-U2KJwHSm5CjDz_w"),
-        fs_id: 516752559216195
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892518252/87aac6/Cascada%20-%20Everytime%20We%20Touch%20%28Yanou%27s%20Candlelight%20mix%29.tak")
     },{
         artist: "Michael Jackson",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Beat It",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/15WIVABAzuEchRn90-RVdXw"),
-        fs_id: 892955921891647
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892523061/4aa6f7/Michael%20Jackson%20-%20Beat%20It.tak")
     },{
         artist: "Adele",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1ztgSMZCjCqGgzhrRnDducA"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892517846/410115/Adele%20-%20Rolling%20in%20the%20Deep.jpg"),
             name: "Rolling in the Deep"
         },
         title: "Rolling in the Deep",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1KmLeJto2XMGOGjggyISTYg"),
-        fs_id: 922732461177650
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892517868/295e79/Adele%20-%20Rolling%20in%20the%20Deep.tak")
     },{
         artist: "The Weeknd",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Blinding Lights",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1vzCMR6ubmKhsNdZnvLyFpQ"),
-        fs_id: 1093982771266112
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892527384/d93fca/The%20Weeknd%20-%20Blinding%20Lights.tak")
     },{
         artist: "Illenium & Georgia Ku",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Hold On",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1D0-I6iQsOfQ9g-gdpcKZqQ"),
-        fs_id: 404033370972191
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892522231/8e3484/Illenium%20%26%20Georgia%20Ku%20-%20Hold%20On.tak")
     },{
         artist: "Connie Talbot",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Count on Me",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1XcoXCTP2LaoC4RAnPADmvQ"),
-        fs_id: 100049408087485
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892518290/c0ef96/Connie%20Talbot%20-%20Count%20on%20Me.tak")
     },{
         artist: "Colbie Caillat",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Bubbly",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1LKzXEOVBS7ab0I3m3BEmqQ"),
-        fs_id: 557402514893859
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892518271/73793b/Colbie%20Caillat%20-%20Bubbly.tak")
     },{
         artist: "Dripice",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Escape",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1CdBu7OU8DUsQO_MrLnXCuA"),
-        fs_id: 150637812284294
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892521783/8e1f40/Dripice%20-%20Escape.tak")
     },{
         artist: "Daddy Yankee",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Dura",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Kp8anUQjA24YO2YQUr6ugQ"),
-        fs_id: 174586144308047
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892521160/765b21/Daddy%20Yankee%20-%20Dura.tak")
     },{
         artist: "Disco Fries & Raquel Castro",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "U Make Me (Natan Chaim & Asketa Remix)",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1k-Qikl92XP1siONivoiJ7g"),
-        fs_id: 205565347356678
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892521436/45f3e8/Disco%20Fries%20%26%20Raquel%20Castro%20-%20U%20Make%20Me%20%28Natan%20Chaim%20%26%20Asketa%20Remix%29.tak")
     },{
         artist: "DAISHI DANCE",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Take Me Hand",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1QbDFPzaGBWBZsQFJwTVh_g"),
-        fs_id: 416309836610958
-    },{
-        artist: "DJ Maxwell",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "Vivi Nell'Aria",
-        isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1oRcruA4uKuOIoYMDlsDueA"),
-        fs_id: 631699627627586
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892521174/b5d8ef/DAISHI%20DANCE%20-%20Take%20Me%20Hand.tak")
     },{
         artist: "Deep Chills",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Run Free",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1po-L0A8xl6gYWOwgKMWYrQ"),
-        fs_id: 711463376475755
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892521182/0664e8/Deep%20Chills%20-%20Run%20Free.tak")
     },{
         artist: "Ed Sheeran",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Shape of You",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1l4uBS6puBw-OcVNA3QVpNA"),
-        fs_id: 830670738925425
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892521792/85efb4/Ed%20Sheeran%20-%20Shape%20of%20You.tak")
     },{
         artist: "Alan Walker",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Faded",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d1q5n2qY9dqHtQQAgnSEIw"),
-        fs_id: 918249508831662
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892517906/d77af2/Alan%20Walker%20-%20Faded.tak")
     },{
         artist: "Ampyx",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Holo",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1GCuHPzWGdX4kjvUz-jkT1w"),
-        fs_id: 225891134422352
-    },{
-        artist: "Feint＆Laura Brehm",
-        lyrics: null,
-        album: { cover: "img/album.png" },
-        title: "We Won't Be Alone",
-        isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/12twCTwy7h6E2xRzVxYVgcQ"),
-        fs_id: 1007400378161646,
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892517921/6bf814/Ampyx%20-%20Holo.tak")
     },{
         artist: "Approaching Nirvana",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "September",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1yo0Gex0YyevJ_DoCjoWxcA"),
-        fs_id: 1062845564442595
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892518195/7d93c3/Approaching%20Nirvana%20-%20September.tak")
     },{
         artist: "Sia",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Move Your Body",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1gUMdqUoy6PO2WXD5vLCXow"),
-        fs_id: 53790536834375
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892526531/d9a287/Sia%20-%20Move%20Your%20Body.tak")
     },{
         artist: "Hayley Westenra",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Blooming Flower",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/10KmnzyPYp-3ODZ2FnK-gYw"),
-        fs_id: 55642776314195
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892521997/ff14e2/Hayley%20Westenra%20-%20Blooming%20Flower.tak")
     },{
         artist: "Feint＆Veela＆Boyinaband",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Time Bomb",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1JR-STpIxoVeHWXZYejpXAg"),
-        fs_id: 82869272057958
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892521857/afeb15/Feint%EF%BC%86Veela%EF%BC%86Boyinaband%20-%20Time%20Bomb.tak")
     },{
         artist: "Mesto＆Brielle Von Hugel",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Chances",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/165Ocjnel5dlyGh7ObZofrA"),
-        fs_id: 133786561723854
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892522919/b5bd6e/Mesto%26Brielle%20Von%20Hugel%20-%20Chances.tak")
     },{
         artist: "That Girl",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Olly Murs",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1zp231WTQgCk04jYDwtsbtw"),
-        fs_id: 196514027418822,
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892523406/407cc2/Olly%20Murs%20-%20That%20Girl.tak")
     },{
         artist: "Zedd＆Jon Bellion",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Beautiful Now",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1OPF8CO8n8AfzEgMxVFWLZQ"),
-        fs_id: 767576634963818
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892529209/f72782/Zedd%EF%BC%86Jon%20Bellion%20-%20Beautiful%20Now.tak")
     },{
         artist: "Rag'N'Bone Man",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Skin",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/14KNDWHeH_QyVNhoUqIKGOA"),
-        fs_id: 273542400312353
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892524256/83f19b/Rag%27N%27Bone%20Man%20-%20Skin.tak")
     },{
         artist: "Hawk Nelson",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Sold Out",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1CMq1fyc6ofVSSP41uhrz7A"),
-        fs_id: 276160045027530
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892521983/d9e985/Hawk%20Nelson%20-%20Sold%20Out.tak")
     },{
         artist: "Fitz & The Tantrums",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "HandClap",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1E_fVkz07dGUdL6THb1AmJA"),
-        fs_id: 278242438864446
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892521886/75f065/Fitz%20%26%20The%20Tantrums%20-%20HandClap.tak")
     },{
         artist: "Fifth Harmony",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Worth It",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1LENmmvxLQl85J4CtpMdQqQ"),
-        fs_id: 361334123448226
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892521875/f9704a/Fifth%20Harmony%20-%20Worth%20It.tak")
     },{
         artist: "Gavin DeGraw",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Fire",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1LCyYLuyPcGpspM45oOzl0w"),
-        fs_id: 448070111963206
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892521926/57b5fd/Gavin%20DeGraw%20-%20Fire.tak")
     },{
         artist: "iKON",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "LOVE SCENARIO",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d4aHSUTksIKkh6hvA7nrew"),
-        fs_id: 362560991607139
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892522047/cdcbd6/iKON%20-%20LOVE%20SCENARIO.tak")
     },{
         artist: "Monogem",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Wild",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1If0qDhFFIoOLlRe9L8K4AA"),
-        fs_id: 533479611964214
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892523250/710489/Monogem%20-%20Wild.tak")
     },{
         artist: "Pay Phone",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Payphone",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1LECudLMf2V3gta_1gVVvxQ"),
-        fs_id: 648441216249296
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892523669/9acbf8/Pay%20Phone%20-%20Payphone.tak")
     },{
         artist: "Ellie Goulding＆Calvin Harris",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Outside",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/11sFtI_ouxpx7F1wRCa1cwA"),
-        fs_id: 691685977911498
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892521799/95967c/Ellie%20Goulding%EF%BC%86Calvin%20Harris%20-%20Outside.tak")
     },{
         artist: "Meizong",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Melood",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1BlB468FqYM4_9Ggnh9OnGg"),
-        fs_id: 839752926363346
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892522725/38bb6d/Meizong%20-%20Melood.tak")
     },{
         artist: "Inna",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "In Your Eyes",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1rPRkl8SMuC3kA0K5o9lH4A"),
-        fs_id: 857232323087583
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892522287/78828e/Inna%20-%20In%20Your%20Eyes.tak")
     },{
         artist: "Martin Tungevaag",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Wicked Wonderland",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/13VKG_-8Gqn4mO5_ooMbPXw"),
-        fs_id: 866489850767314
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892522649/8d8e0f/Martin%20Tungevaag%20-%20Wicked%20Wonderland.tak")
     },{
         artist: "Rony Rex＆LCMDF",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Fucked It Up (Gas Gas Remix) (Explicit)",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/11oH8RShGNn1-pOFytQDiOA"),
-        fs_id: 905915333590195
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892524488/611bf4/Rony%20Rex%EF%BC%86LCMDF%20-%20Fucked%20It%20Up%20%28Gas%20Gas%20Remix%29%20%28Explicit%29.tak")
     },{
         artist: "Kadebostany",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Early Morning Dreams (Kled Mone Remix)",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/16cKeo3S16X7H7UwbUVSvag"),
-        fs_id: 912626494257332
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892522365/24b3f8/Kadebostany%20-%20Early%20Morning%20Dreams%20%28Kled%20Mone%20Remix%29.tak")
     },{
         artist: "KemimikE",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Adventure (KemimikE 2017 Rework)",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1HuayLSiWFzNJHmQ-xg2hxA"),
-        fs_id: 934147005248559
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892522382/781fd0/KemimikE%20-%20Adventure%20%28KemimikE%202017%20Rework%29.tak")
     },{
         artist: "The Weeknd",
         lyrics: null,
         album: { cover: "img/album.png" },
-        title: "In Your Eyes(Explicit)",
+        title: "In Your Eyes (Explicit)",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/11F_fnjfoaK1Y_me3cR7J7g"),
-        fs_id: 907780843968006
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892527533/b5634a/The%20Weeknd%20-%20In%20Your%20Eyes%20%28Explicit%29.tak")
     },{
         artist: "Jin",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Last Summer (K.TOBI Remix)",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1r_0ersaDL4ixukw-i_M9OQ"),
-        fs_id: 944289180765265
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892522334/54c2fb/Jin%20-%20Last%20Summer%20%28K.TOBI%20Remix%29.tak")
     },{
         artist: "IU",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Jam Jam",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1JNMy5YmXy2C4qjsd4qk8ig"),
-        fs_id: 999791100305512
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892522298/4cb957/IU%20-%20Jam%20Jam.tak")
     },{
         artist: "Imagine Dragons＆Broiler",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Shots (Broiler Remix)",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1lahE-bj799QCuskRzAAbiQ"),
-        fs_id: 1029200150051180
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892522258/a7b01d/Imagine%20Dragons%EF%BC%86Broiler%20-%20Shots%20%28Broiler%20Remix%29.tak")
     },{
         artist: "Rachel Platten",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Lone Ranger",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1bW0mPCPn9ys8kztQKXMUDA"),
-        fs_id: 1076509693715222
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892523948/c07929/Rachel%20Platten%20-%20Lone%20Ranger.tak")
     },{
         artist: "The Chainsmokers",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Something Just Like This",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1myCZc6_Bf5psaazuWYzJZA"),
-        fs_id: 64216311951011
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892527186/b71b32/The%20Chainsmokers%20-%20Something%20Just%20Like%20This.tak")
     },{
         artist: "Sweetbox",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Don't Push Me",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1pAfRBwWAeEXO47X-g66RUA"),
-        fs_id: 91504037859895
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892526803/d9f5cf/Sweetbox%20-%20Don%27t%20Push%20Me.tak")
     },{
         artist: "Yael Naim",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "New Soul",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1ynv60NN4gibfzhOn7gr3Ng"),
-        fs_id: 101361562525963
+        isLossless: true,
+        filename: CORS + encodeURIComponent("https://drfs.ctcontents.com/file/66432831/17569892529059/2c9056/Yael%20Naim%20-%20New%20Soul.tak")
     },{
         artist: "Two Steps From Hell＆Thomas Bergersen",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Victory",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1cSZHXtsifkKCPHoN3H7ZMQ"),
-        fs_id: 369748715738376
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892527937/2020d0/Two%20Steps%20From%20Hell%EF%BC%86Thomas%20Bergersen%20-%20Victory.tak")
     },{
         artist: "Vicetone＆Meron Ryan",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Walk Thru Fire",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Ra613RVZIleYR04g81IeMg"),
-        fs_id: 494842579773614
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892528731/7636b0/Vicetone%EF%BC%86Meron%20Ryan%20-%20Walk%20Thru%20Fire.tak")
     },{
         artist: "The Weeknd＆Daft Punk",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Starboy (Explicit)",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1AUDwtw-3vFJWcekGtkZoTw"),
-        fs_id: 562225073102151
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892527732/655020/The%20Weeknd%EF%BC%86Daft%20Punk%20-%20Starboy%20%28Explicit%29.tak")
     },{
         artist: "Hoaprox",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "#Lov3 #Ngẫu Hứng",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/12yOfxSEoxNe3uDwGWnLJpQ"),
-        fs_id: 926853384698379
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892522016/1f61c1/Hoaprox%20-%20%23Lov3%20%23Ng%E1%BA%ABu%20H%E1%BB%A9ng.tak")
     },{
         artist: "Tez Cadey",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Seve",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1IbQkGNXy18HOPeXAC3dcFw"),
-        fs_id: 668745910814056
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892526896/3d5519/Tez%20Cadey%20-%20Seve.tak")
     },{
         artist: "King Africa",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Salta",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1FEbk3ihvwSau8MdLFJfQ4w"),
-        fs_id: 571337504928693
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892522476/156c42/King%20Africa%20-%20Salta.tak")
     },{
         artist: "Vicetone＆Tony Igy",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Astronomia",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1g5j53EptUzfw5sZZuWjy4A"),
-        fs_id: 849003520859350
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892528867/78d102/Vicetone%EF%BC%86Tony%20Igy%20-%20Astronomia.tak")
     },{
         artist: "Stephan F",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Astronomia 2K19",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1y--cppdk3696JETEV1C6EQ"),
-        fs_id: 293111293725606
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892526672/09b8f5/Stephan%20F%20-%20Astronomia%202K19.tak")
     },{
         artist: "Brooks＆GRX",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Boomerang",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1uknJsYNzwb82Pniudt4knQ"),
-        fs_id: 614853992778475
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892518234/00bc33/Brooks%EF%BC%86GRX%20-%20Boomerang.tak")
     },{
         artist: "HINA",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Boomerang(HINA Bootleg)",
         isTAK: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1kIvi1qk5U99-oilmLAp8bw"),
-        fs_id: 1030824038643988
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892522003/a854f7/HINA%20-%20Boomerang%28HINA%20Bootleg%29.tak")
     },{
         artist: "Andrea Bocelli",
         lyrics: null,
@@ -1227,9 +1121,8 @@ export const songs = [
         },
         title: "Canto Della Terra",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1TtHOIdIsxNzWzXFl6xdCYQ"),
-        fs_id: 248007927563063
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892517961/101b0e/Andrea%20Bocelli%20-%20Canto%20Della%20Terra.wv")
     },{
         artist: "Andrea Bocelli & Giorgia Todrani",
         lyrics: null,
@@ -1238,9 +1131,8 @@ export const songs = [
         },
         title: "Vivo per lei",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/18VHLbTO6pok3N-8xmOktjg"),
-        fs_id: 552609049648706,
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892518054/729e00/Andrea%20Bocelli%20-%20Vivo%20per%20lei%20%28feat.%20Giorgia%20Todrani%29.wv")
     },{
         artist: "Andrea Bocelli & Sarah Brightman",
         lyrics: null,
@@ -1249,9 +1141,8 @@ export const songs = [
         },
         title: "Time To Say Goodbye",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1oqOaBOwCAbbHyU64Gsu2FA"),
-        fs_id: 329223543532839,
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892518160/ec2181/Andrea%20Bocelli%20%26%20Sarah%20Brightman%20-%20Time%20to%20Say%20Goodbye%20%28Con%20te%20partir%C3%B2%29.wv")
     },{
         artist: "張惠妹",
         lyrics: null,
@@ -1260,9 +1151,8 @@ export const songs = [
         },
         title: "Time To Say Goodbye",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/13ceamEjBDv692x5ZMn9XfA"),
-        fs_id: 329223543532839
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892699875/cefda4/%E5%BC%B5%E6%83%A0%E5%A6%B9%20-%20Time%20To%20Say%20Goodbye.wv")
     },{
         artist: "ヒロシ＆キーボー",
         lyrics: null,
@@ -1271,9 +1161,8 @@ export const songs = [
         },
         title: "3年目の浮気",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1wDNHZ92PWhWYHB8EMxEeag"),
-        fs_id: 203603617805660
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892529813/92bb91/%E3%83%92%E3%83%AD%E3%82%B7%EF%BC%86%E3%82%AD%E3%83%BC%E3%83%9B%E3%82%99%E3%83%BC%20-%203%E5%B9%B4%E7%9B%AE%E3%81%AE%E6%B5%AE%E6%B0%97.wv")
     },{
         artist: "細川たかし",
         lyrics: null,
@@ -1282,9 +1171,8 @@ export const songs = [
         },
         title: "北酒場",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1E2dNRLUcdCcRBkBp_enO9Q"),
-        fs_id: 522961416331845
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892850745/9bb9f0/%E7%B4%B0%E5%B7%9D%E3%81%9F%E3%81%8B%E3%81%97%20-%20%E5%8C%97%E9%85%92%E5%A0%B4.wv")
     },{
         artist: "細川たかし",
         lyrics: null,
@@ -1293,111 +1181,101 @@ export const songs = [
         },
         title: "浪花節だよ人生は",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1BO9sCHICNqqYkzIL63UWJg"),
-        fs_id: 469663827624739
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892850994/b19a04/%E7%B4%B0%E5%B7%9D%E3%81%9F%E3%81%8B%E3%81%97%20-%20%E6%B5%AA%E8%8A%B1%E7%AF%80%E3%81%9F%E3%82%99%E3%82%88%E4%BA%BA%E7%94%9F%E3%81%AF.wv")
     },{
         artist: "いきものがかり",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1N9pnrmxgwML9HbwMCiLd4w"),
+            cover: TERABOXAPI + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892529217/0efc12/%E3%81%84%E3%81%8D%E3%82%82%E3%81%AE%E3%81%8B%E3%82%99%E3%81%8B%E3%82%8A%20-%20%E3%83%95%E3%82%99%E3%83%AB%E3%83%BC%E3%83%8F%E3%82%99%E3%83%BC%E3%83%88%E3%82%99.jpg"),
             name: "ブルーバード"
         },
         title: "ブルーバード",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Kl7s2BdpjQxpL7ID57wyfA"),
-        fs_id: 444902456842973
+        isLossless: true,
+        filename: TERABOXAPI + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892529263/76b330/%E3%81%84%E3%81%8D%E3%82%82%E3%81%AE%E3%81%8B%E3%82%99%E3%81%8B%E3%82%8A%20-%20%E3%83%95%E3%82%99%E3%83%AB%E3%83%BC%E3%83%8F%E3%82%99%E3%83%BC%E3%83%88%E3%82%99.wv")
     },{
         artist: "Alstroemeria Records",
         lyrics: `流れてく 時の中ででも 気だるさが ほらグルグル廻って<br />私から 離れる心も 見えないわ そう知らない？<br />自分から 動くこともなく 時の隙間に 流され続けて<br />知らないわ 周りのことなど 私は私 それだけ<br />夢見てる？ なにも見てない？ 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />こんな自分に 未来はあるの？ こんな世界に 私はいるの？<br />今切ないの？ 今悲しいの？ 自分の事も わからないまま<br />歩むことさえ 疲れるだけよ 人のことなど 知りもしないわ<br />こんな私も 変われるのなら もし変われるのなら 白になる？<br />流れてく 時の中ででも 気だるさがほら グルグル廻って<br />私から 離れる心も 見えないわそう 知らない？<br />自分から 動くこともなく 時の隙間に 流され続けて<br />知らないわ 周りのことなど 私は私 それだけ？<br />夢見てる？ なにも見てない 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />無駄な時間に 未来はあるの？ こんな所に 私は居るの？<br />私のことを 言いたいならば 言葉にするのなら 「ろくでなし」<br />こんな所に 私はいるの？ こんな時間に 私はいるの？<br />こんな私も 変われるのなら もし変われるのなら 白になる？<br />今夢見てる？ なにも見てない？ 語るも無駄な 自分の言葉？<br />悲しむなんて 疲れるだけよ 何も感じず 過ごせばいいの<br />戸惑う言葉 与えられても 自分の心 ただ上の空<br />もし私から 動くのならば すべて変えるのなら 黒にする<br />動くのならば 動くのならば すべて壊すわ すべて壊すわ<br />悲しむならば 悲しむならば 私の心 白く変われる？<br />貴方の事も 私のことも 全ての事も まだ知らないの<br />重い目蓋を 開けたのならば すべて壊すのなら 黒になれ!!!`,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1qbUAV9UUfdKtb5dY3_oolg"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893095560/33266c/Alstroemeria%20Records/10th%20Anniversary%20Bad%20Apple%21%21/Cover.jpg"),
             name: "Bad Apple!! feat.nomico 10th Anniversary"
         },
         title: "Bad Apple!!",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1eh9n6u6JL8WuInMSiP17cg"),
-        fs_id: 231434020076086
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893095701/d092b1/Alstroemeria%20Records/10th%20Anniversary%20Bad%20Apple%21%21/01%20Bad%20Apple%21%21.wv")
     },{
         artist: "Alstroemeria Records",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1qbUAV9UUfdKtb5dY3_oolg"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893095560/33266c/Alstroemeria%20Records/10th%20Anniversary%20Bad%20Apple%21%21/Cover.jpg"),
             name: "Bad Apple!! feat.nomico 10th Anniversary"
         },
         title: "Bad Apple!! (Instrumental)",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1o0dDfzF1B-aiXNcTO5BHRw"),
-        fs_id: 202464808350733
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893095644/9e0d28/Alstroemeria%20Records/10th%20Anniversary%20Bad%20Apple%21%21/05%20Bad%20Apple%21%21%20%5BInstrumental%5D.wv")
     },{
         artist: "AKINO",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1oCaoHGobAgx17Q3AnWl_bg"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893095557/7daa8a/AKINO/AKINO%20from%20bless4%20%E3%83%99%E3%82%B9%E3%83%88%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%80%8Cyour%20ears%2C%20our%20years%E3%80%8D%5BPretty%20Edition%5D/Cover_01.jpg"),
             name: "AKINO from bless4 ベストアルバム「your ears, our years」[Pretty Edition]"
         },
         title: "創聖のアクエリオン",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1bJDzZxtG97wWJ8fLgpcVmg"),
-        fs_id: 847263740913154
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094735/2a7d84/AKINO/AKINO%20from%20bless4%20%E3%83%99%E3%82%B9%E3%83%88%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%80%8Cyour%20ears%2C%20our%20years%E3%80%8D%5BPretty%20Edition%5D/01%20%E5%89%B5%E8%81%96%E3%81%AE%E3%82%A2%E3%82%AF%E3%82%A8%E3%83%AA%E3%82%AA%E3%83%B3.wv")
     },{
         artist: "AKINO",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1oCaoHGobAgx17Q3AnWl_bg"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893095557/7daa8a/AKINO/AKINO%20from%20bless4%20%E3%83%99%E3%82%B9%E3%83%88%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%80%8Cyour%20ears%2C%20our%20years%E3%80%8D%5BPretty%20Edition%5D/Cover_01.jpg"),
             name: "AKINO from bless4 ベストアルバム「your ears, our years」[Pretty Edition]"
         },
         title: "Genesis of Aquarion",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1-tqvgArxyT3Mgwzuh3aYOw"),
-        fs_id: 72955299513815
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094792/4e043b/AKINO/AKINO%20from%20bless4%20%E3%83%99%E3%82%B9%E3%83%88%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%80%8Cyour%20ears%2C%20our%20years%E3%80%8D%5BPretty%20Edition%5D/06%20Genesis%20of%20Aquarion.wv")
     },{
         artist: "飛鳥空 starring 櫻井智",
         lyrics: `えんぴつの先 指で確かめ<br />どんな絵になるの? まだ見えないけど<br /><br />目を閉じると浮かび上がるから<br />心の奥にある想い カタチにしてみて<br /><br />綺麗な絵の具たちを並べてみていると<br />心ときめいてくるの<br /><br />そう 初めての色<br /><br />ふたりで選んだパステルたち<br />あと少しだから お願い気付いて<br /><br />そわそわしてるの バレちゃうかな?<br />目逸らしてるの わざとだよ<br />素直になれない<br /><br />あなたのこと想うと胸が高鳴るから<br />伝えたい この気持ちを<br />そう 風にのせて<br /><br />広い空のキャンパスに筆を走らせて<br />どこまでも自由だから<br />届けたい笑顔を<br /><br />未来描いて`,
         album: { cover: "img/album.png" },
         title: "初めての色",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1NYeLvf4fhudlEKvjjxkLeg"),
-        fs_id: 819139916110490
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893100979/a23083/%E7%A5%9E%E3%81%AE%E3%81%BF%E3%82%AD%E3%83%A3%E3%83%A9CD%20.%E3%81%8F%E3%82%8C%E3%82%88%E3%82%93%EF%BC%8F%E9%A3%9B%E9%B3%A5%E7%A9%BA%20starring%20%E6%A1%9C%E4%BA%95%E6%99%BA/01%20%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E8%89%B2.wv")
     },{
         artist: "飛鳥空 starring 櫻井智",
         lyrics: `煌く星を見上げて 想う あの日の事<br />届けたい 胸の奥にある この気持ち きっと<br /><br />あなたの笑顔を 見つけたい<br />たった一度の奇跡 そう 夢見ている<br /><br />広い荒野に立ちすくんでも<br />勇気持てれば そう 歩き出せるわ<br /><br />出会えたことは 偶然じゃない<br />お願い 明日伝えて<br /><br />小さな あの約束を 忘れはしないから<br />腕の中残る 暖かい優しさが ずっと<br /><br />あなたの言葉を聴きたくて<br />何度も繰り返す そう 魔法みたい<br /><br />ひとりぼっちのせつない夜を<br />終わらせたいの そう 涙拭って<br /><br />ふたつの心 ひとつ重ねて<br />見つめ合えれば そう 願い叶えて<br /><br />白く輝く翼広げて<br />舞い上がれ永遠の空へ`,
         album: { cover: "img/album.png" },
         title: "たった一度の奇跡",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/19XiGl6cUIf5hMxlo4TcwzA"),
-        fs_id: 876199334451372
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893101003/9e8a40/%E7%A5%9E%E3%81%AE%E3%81%BF%E3%82%AD%E3%83%A3%E3%83%A9CD%20.%E3%81%8F%E3%82%8C%E3%82%88%E3%82%93%EF%BC%8F%E9%A3%9B%E9%B3%A5%E7%A9%BA%20starring%20%E6%A1%9C%E4%BA%95%E6%99%BA/02%20%E3%81%9F%E3%81%A3%E3%81%9F%E4%B8%80%E5%BA%A6%E3%81%AE%E5%A5%87%E8%B7%A1.wv")
     },{
         artist: "野水いおり",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1YNLT6piwLPhRHjj2rmUZ8Q"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892851547/af0976/%E9%87%8E%E6%B0%B4%E3%81%84%E3%81%8A%E3%82%8A%20-%20%E3%82%B9%E3%83%88%E3%83%AD%E3%83%98%E3%82%99%E3%83%AA%E3%83%BC%E3%83%AC%E3%82%A4%E3%83%B3.jpg"),
             name: "TVアニメーション「デート・ア・ライブ」エンディングテーマ『SAVE THE WORLD』"
         },
         title: "ストロベリーレイン",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1tVFGlCC1b0YxfWN-B0-r2A"),
-        fs_id: 287640139646985
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892851724/b6ac30/%E9%87%8E%E6%B0%B4%E3%81%84%E3%81%8A%E3%82%8A%20-%20%E3%82%B9%E3%83%88%E3%83%AD%E3%83%98%E3%82%99%E3%83%AA%E3%83%BC%E3%83%AC%E3%82%A4%E3%83%B3.wv")
     },{
         artist: "CINDERELLA GIRLS!!",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1VwLzUuXhkWYHO0s5Mb4E-A"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892529268/30fc60/%E3%81%8A%E9%A1%98%E3%81%84%21%E3%82%B7%E3%83%B3%E3%83%87%E3%83%AC%E3%83%A9%28M%40STER%20VERSION%29.jpg"),
             name: "お願い!シンデレラ(M@STER VERSION)"
         },
         title: "お願い!シンデレラ(M@STER VERSION)",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1bLsFUnpRDYbZDu9GMjzchg"),
-        fs_id: 338158908012927
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892529311/89290b/%E3%81%8A%E9%A1%98%E3%81%84%21%E3%82%B7%E3%83%B3%E3%83%87%E3%83%AC%E3%83%A9%28M%40STER%20VERSION%29.wv")
     },/*{
         artist: "μ's",
         lyrics: null,
@@ -2010,55 +1888,49 @@ export const songs = [
         album: { cover: "img/album.png" },
         title: "HAPPY PARTY TRAIN",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1nHta7xg17uNm21PiDh8Scg"),
-        fs_id: 443639505232769
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893096372/9840f9/Aqours/HAPPY%20PARTY%20TRAIN/01%20HAPPY%20PARTY%20TRAIN.wv")
     },{
         artist: "Aqours",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "SKY JOURNEY",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1hEfZzg2G54GkIZpTGXikMg"),
-        fs_id: 74999507098756
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893096422/2b3091/Aqours/HAPPY%20PARTY%20TRAIN/02%20SKY%20JOURNEY.wv")
     },{
         artist: "Aqours",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "少女以上の恋がしたい",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1HB68gA9ZkkyIbRoF4K7DXw"),
-        fs_id: 725247776383156
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893096422/2b3091/Aqours/HAPPY%20PARTY%20TRAIN/02%20SKY%20JOURNEY.wv")
     },{
         artist: "ウィーン・マルガレーテ（CV.結那）",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "Butterfly Wing",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1B2mFRW4mWXqrH8Jd0v6jrg"),
-        fs_id: 672904072442173
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893096855/ecc5c9/Butterfly%20Wing/0022698080.wv")
     },{
         artist: "ウィーン・マルガレーテ（CV.結那）",
         lyrics: null,
         album: { cover: "img/album.png" },
         title: "エーデルシュタイン",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1iY5YaTWaVt9tHfOXPaxXlg"),
-        fs_id: 666682723334596
-    },/*{
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893096725/597885/Butterfly%20Wing/0022698081.wv")
+    },{
         artist: "ワルキューレ",
         lyrics: `見つめ合って恋をして 無我夢中で追いかけて<br />だけどもっと知りたくて メラメラしてる<br />願うほど謎が増え 思うほど熱になる<br />だからもっと飛び込むの 未開の世界 ah<br />恋とか夢とか誰でも信じるけど<br />ソコソコ攻めなきゃつまんないよ<br />ギリギリ愛 いけないボーダーライン<br />難易度Gでも すべて壊してみせる<br />キリキリ舞い さらなるGへと<br />意識が溶ける 体は制御不能<br />いっちゃうかもね<br />ふざけ合った友達と 求め合ったあの人と<br />また会える日のためにギラギラしてる<br />光るほど影はでき 燃えるほど灰になる<br />走るほど見えてくる 危ないライン ah<br />自由も平和も望めば生まれるけど<br />モタモタしてたら腐っちゃうよ<br />ギリギリ愛 あぶないボーダーレス<br />非常識だね まだ加速しているよ<br /キリキリ舞い<br />限界点なら塗り替えていい<br />破壊と再生から私が出来る<br />ギリギリ愛 いけないボーダーライン<br />難易度Gでも すべて壊してみせる<br />キリキリ舞い さらなるGへと<br />意識が溶ける 体は制御不能<br />いっちゃうかもね<br />ギリギリ愛 いけないボーダーライン<br />燃え尽きながらまだ輝いてみせる<br />キリキリ舞 あなたのために<br />未来のために何度砕け散っても<br />愛することで生まれ変わる<br />愛されたくて生きて帰る`,
-        album: {
-            cover: `${HOSTING_URL2}ワルキューレ - いけないボーダーライン.jpg`,
-        },
+        album: { cover: "img/album.png" },
         title: "いけないボーダーライン",
-        isWavPack: true,
-        filename: `${HOSTING_URL2}ワルキューレ - いけないボーダーライン`
-    },{
+        isTAK: true,
+        isLossless: true,
+        filename: CORS + encodeURIComponent("https://drfs.ctcontents.com/file/66432831/17569896389414/59e1fe/%E3%83%9E%E3%82%AF%E3%83%AD%E3%82%B9%CE%94%20-%20%E3%81%84%E3%81%91%E3%81%AA%E3%81%84%E3%83%9B%E3%82%99%E3%83%BC%E3%82%BF%E3%82%99%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%B3.tak")
+    },/*{
         artist: "MORE MORE JUMP!",
         lyrics: null,
         album: {
@@ -2108,7 +1980,7 @@ export const songs = [
         title: "ハッピーシンセサイザ",
         isWavPack: true,
         isLossless: true,
-        filename: 'http://drfs.ctcontents.com/file/66432831/17569893097637/94242f/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/01%20%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%BB%E3%82%B5%E3%82%A4%E3%82%B6.wv'
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097637/94242f/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/01%20%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%BB%E3%82%B5%E3%82%A4%E3%82%B6.wv")
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
@@ -2119,7 +1991,7 @@ export const songs = [
         title: "ツギハギスタッカート",
         isWavPack: true,
         isLossless: true,
-        filename: 'http://drfs.ctcontents.com/file/66432831/17569893097698/1007bf/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/02%20%E3%83%84%E3%82%AE%E3%83%8F%E3%82%AE%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%88.wv'
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097698/1007bf/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/02%20%E3%83%84%E3%82%AE%E3%83%8F%E3%82%AE%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%88.wv")
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
@@ -2130,7 +2002,7 @@ export const songs = [
         title: "ニア",
         isWavPack: true,
         isLossless: true,
-        filename: 'http://drfs.ctcontents.com/file/66432831/17569893097729/a8dd29/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/04%20%E3%83%8B%E3%82%A2.wv'
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097729/a8dd29/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/04%20%E3%83%8B%E3%82%A2.wv")
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
@@ -2141,7 +2013,7 @@ export const songs = [
         title: "恋愛裁判",
         isWavPack: true,
         isLossless: true,
-        filename: 'http://drfs.ctcontents.com/file/66432831/17569893097804/653fd2/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/07%20%E6%81%8B%E6%84%9B%E8%A3%81%E5%88%A4.wv'
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097804/653fd2/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/07%20%E6%81%8B%E6%84%9B%E8%A3%81%E5%88%A4.wv")
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
@@ -2152,7 +2024,7 @@ export const songs = [
         title: "どりーみんチュチュ",
         isWavPack: true,
         isLossless: true,
-        filename: 'http://drfs.ctcontents.com/file/66432831/17569893097776/c3dd06/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/09%20%E3%81%A9%E3%82%8A%E3%83%BC%E3%81%BF%E3%82%93%E3%83%81%E3%83%A5%E3%83%81%E3%83%A5.wv'
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097776/c3dd06/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/09%20%E3%81%A9%E3%82%8A%E3%83%BC%E3%81%BF%E3%82%93%E3%83%81%E3%83%A5%E3%83%81%E3%83%A5.wv")
     },{
         artist: "MORE MORE JUMP!",
         lyrics: null,
@@ -2163,211 +2035,194 @@ export const songs = [
         title: "マシュマリー",
         isWavPack: true,
         isLossless: true,
-        filename: 'http://drfs.ctcontents.com/file/66432831/17569893097797/513fef/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/12%20%E3%83%9E%E3%82%B7%E3%83%A5%E3%83%9E%E3%83%AA%E3%83%BC.wv'
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097797/513fef/MORE%20MORE%20JUMP%21/MORE%20MORE%20JUMP%21%20SEKAI%20ALBUM%20vol.1/12%20%E3%83%9E%E3%82%B7%E3%83%A5%E3%83%9E%E3%83%AA%E3%83%BC.wv")
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1vb6XRJ2OilWl1DhUC7ERag"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893093825/63f0e1/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/1st%20Single%E3%80%8C%E6%82%94%E3%82%84%E3%82%80%E3%81%A8%E6%9B%B8%E3%81%84%E3%81%A6%E3%83%9F%E3%83%A9%E3%82%A4%EF%BC%8F%E6%90%BA%E5%B8%AF%E6%81%8B%E8%A9%B1%EF%BC%8F%E3%82%B7%E3%82%99%E3%83%A3%E3%83%83%E3%82%AF%E3%83%9B%E3%82%9A%E3%83%83%E3%83%88%E3%82%B5%E3%83%83%E3%83%88%E3%82%99%E3%82%AB%E3%82%99%E3%83%BC%E3%83%AB%E3%80%8D/Cover.jpg"),
             name: "1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」"
         },
         title: "悔やむと書いてミライ",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/19c1KNjGfgu13EevScNy8zw"),
-        fs_id: 388072781045069
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893093904/faab68/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/1st%20Single%E3%80%8C%E6%82%94%E3%82%84%E3%82%80%E3%81%A8%E6%9B%B8%E3%81%84%E3%81%A6%E3%83%9F%E3%83%A9%E3%82%A4%EF%BC%8F%E6%90%BA%E5%B8%AF%E6%81%8B%E8%A9%B1%EF%BC%8F%E3%82%B7%E3%82%99%E3%83%A3%E3%83%83%E3%82%AF%E3%83%9B%E3%82%9A%E3%83%83%E3%83%88%E3%82%B5%E3%83%83%E3%83%88%E3%82%99%E3%82%AB%E3%82%99%E3%83%BC%E3%83%AB%E3%80%8D/01%20%E6%82%94%E3%82%84%E3%82%80%E3%81%A8%E6%9B%B8%E3%81%84%E3%81%A6%E3%83%9F%E3%83%A9%E3%82%A4.wv")
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1vb6XRJ2OilWl1DhUC7ERag"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893093825/63f0e1/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/1st%20Single%E3%80%8C%E6%82%94%E3%82%84%E3%82%80%E3%81%A8%E6%9B%B8%E3%81%84%E3%81%A6%E3%83%9F%E3%83%A9%E3%82%A4%EF%BC%8F%E6%90%BA%E5%B8%AF%E6%81%8B%E8%A9%B1%EF%BC%8F%E3%82%B7%E3%82%99%E3%83%A3%E3%83%83%E3%82%AF%E3%83%9B%E3%82%9A%E3%83%83%E3%83%88%E3%82%B5%E3%83%83%E3%83%88%E3%82%99%E3%82%AB%E3%82%99%E3%83%BC%E3%83%AB%E3%80%8D/Cover.jpg"),
             name: "1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」"
         },
         title: "携帯恋話",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1babXPLUF4jeLcBBQaHTwAg"),
-        fs_id: 952812358741958
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094001/6dc618/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/1st%20Single%E3%80%8C%E6%82%94%E3%82%84%E3%82%80%E3%81%A8%E6%9B%B8%E3%81%84%E3%81%A6%E3%83%9F%E3%83%A9%E3%82%A4%EF%BC%8F%E6%90%BA%E5%B8%AF%E6%81%8B%E8%A9%B1%EF%BC%8F%E3%82%B7%E3%82%99%E3%83%A3%E3%83%83%E3%82%AF%E3%83%9B%E3%82%9A%E3%83%83%E3%83%88%E3%82%B5%E3%83%83%E3%83%88%E3%82%99%E3%82%AB%E3%82%99%E3%83%BC%E3%83%AB%E3%80%8D/02%20%E6%90%BA%E5%B8%AF%E6%81%8B%E8%A9%B1.wv")
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1vb6XRJ2OilWl1DhUC7ERag"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893093825/63f0e1/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/1st%20Single%E3%80%8C%E6%82%94%E3%82%84%E3%82%80%E3%81%A8%E6%9B%B8%E3%81%84%E3%81%A6%E3%83%9F%E3%83%A9%E3%82%A4%EF%BC%8F%E6%90%BA%E5%B8%AF%E6%81%8B%E8%A9%B1%EF%BC%8F%E3%82%B7%E3%82%99%E3%83%A3%E3%83%83%E3%82%AF%E3%83%9B%E3%82%9A%E3%83%83%E3%83%88%E3%82%B5%E3%83%83%E3%83%88%E3%82%99%E3%82%AB%E3%82%99%E3%83%BC%E3%83%AB%E3%80%8D/Cover.jpg"),
             name: "1st Single「悔やむと書いてミライ／携帯恋話／ジャックポットサッドガール」"
         },
         title: "ジャックポットサッドガール",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1RkLS063rsMMhr_s0yHOphw"),
-        fs_id: 407726704111691
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893093810/2d0899/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/1st%20Single%E3%80%8C%E6%82%94%E3%82%84%E3%82%80%E3%81%A8%E6%9B%B8%E3%81%84%E3%81%A6%E3%83%9F%E3%83%A9%E3%82%A4%EF%BC%8F%E6%90%BA%E5%B8%AF%E6%81%8B%E8%A9%B1%EF%BC%8F%E3%82%B7%E3%82%99%E3%83%A3%E3%83%83%E3%82%AF%E3%83%9B%E3%82%9A%E3%83%83%E3%83%88%E3%82%B5%E3%83%83%E3%83%88%E3%82%99%E3%82%AB%E3%82%99%E3%83%BC%E3%83%AB%E3%80%8D/03%20%E3%82%B7%E3%82%99%E3%83%A3%E3%83%83%E3%82%AF%E3%83%9B%E3%82%9A%E3%83%83%E3%83%88%E3%82%B5%E3%83%83%E3%83%88%E3%82%99%E3%82%AB%E3%82%99%E3%83%BC%E3%83%AB.wv")
     },{
         artist: "25時、ナイトコードで。",
         lyrics: `才能なんてないからここで一生泣いているんだろ<br />目に映った景色の青さが羨ましく思っていた<br />路肩に転がる人生アスファルトの温度下がってる<br />真夜中を照らす灯りを求めつなぐ電波セカイへと<br />Rainy, rainy 求めるものだけ描いた<br />心閉まって待って！本当は叫びたいのよ<br />Rainy, rainy 強くありたいと願った<br />声は無情に散って孤独を奏る<br />指先から伝わっていく虚しさの色<br />認めてはくれないの？<br />燻んでしまったの灰色に<br />こんな才能なんて借り物<br />まだ人生終わっていないから<br />諦めんなって誰かの声<br />見失ってしまったのアイロニー<br />気付けなくて今も抗ってる<br />この感情奪って去ってよ<br />ドロドロになってしまう前に<br />私だけみて愛を伝えて<br />(Wow wow) こんなセカイとバイバイバイバイ<br />(Wow wow) 滲む想いなぞって描いた<br />(Wow wow) 夢の形に泣いちゃった<br />(Hey!)<br />いつかはできると思ってただけど現実は残酷だろ<br />焦りと不安の渦の間に黒くなって浮かんでいる<br />退廃的なセンスと曖昧な表現なんかじゃ<br />奇を衒った奴らの芸術アルスに<br />飲み込まれて消えていく<br />Rainy, rainy 雨と流れていく徒労感<br />肩を濡らして残った冷たい記憶の体温<br />Rainy, rainy 雲の隙間から覗いた<br />光当たって届いて身体を軽くしたんだ<br />美学とかプライドとか語る前に<br />やれることやっていけ<br />閉ざしてしまったの退路に<br />焼けた才能を一つ置いてけ<br />ただやったもん勝ちなんでしょ？<br />固唾飲んでる場合じゃないでしょ！<br />目を開いても変わらぬアイロニー<br />気付いたってどーしようもないから<br />それを虎視眈々と狙ってる<br />ペルソナになんて越されんなよ<br />私だけみて愛を伝えて<br />(Wow wow) こんなセカイとバイバイバイバイ<br />(Wow wow) 滲む想いなぞって描いた<br />(Wow wow) 言の葉の意味飲み込んで<br />(Hey!)<br />燻んでしまったの灰色に<br />こんな才能なんて借り物<br />まだ人生終わっていないから<br />諦めんなって誰かの声<br />見失ってしまったのアイロニー<br />気付けなくて今も抗ってる<br />この感情奪って去ってよ<br />ドロドロになってしまう前に<br />私だけみて愛を伝えて<br />(Wow wow) こんなセカイとバイバイバイバイ<br />(Wow wow) 滲む想いなぞって描いた<br />(Wow wow) 夢の形笑っていた`,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1NoFrHot-9_qMxwup1ZjYzA"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094639/9190f7/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/2nd%20Single%E3%80%8C%E9%99%90%E3%82%8A%E3%81%AA%E3%81%8F%E7%81%B0%E8%89%B2%E3%81%B8%EF%BC%8F%E3%82%A2%E3%82%A4%E3%83%86%E3%82%99%E3%82%A3%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%80%8D/Cover.jpg"),
             name: "2nd Single「限りなく灰色へ／アイディスマイル」"
         },
         title: "限りなく灰色へ",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Sb5BamntOAaoAbHAORnXPw"),
-        fs_id: 766406583610868
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094684/792213/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/2nd%20Single%E3%80%8C%E9%99%90%E3%82%8A%E3%81%AA%E3%81%8F%E7%81%B0%E8%89%B2%E3%81%B8%EF%BC%8F%E3%82%A2%E3%82%A4%E3%83%86%E3%82%99%E3%82%A3%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%80%8D/01%20%E9%99%90%E3%82%8A%E3%81%AA%E3%81%8F%E7%81%B0%E8%89%B2%E3%81%B8.wv")
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1NoFrHot-9_qMxwup1ZjYzA"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094639/9190f7/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/2nd%20Single%E3%80%8C%E9%99%90%E3%82%8A%E3%81%AA%E3%81%8F%E7%81%B0%E8%89%B2%E3%81%B8%EF%BC%8F%E3%82%A2%E3%82%A4%E3%83%86%E3%82%99%E3%82%A3%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%80%8D/Cover.jpg"),
             name: "2nd Single「限りなく灰色へ／アイディスマイル」"
         },
         title: "アイディスマイル",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1zmllo1zksvRBoVVaLjoh0g"),
-        fs_id: 963822878062663
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094702/395b5d/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/2nd%20Single%E3%80%8C%E9%99%90%E3%82%8A%E3%81%AA%E3%81%8F%E7%81%B0%E8%89%B2%E3%81%B8%EF%BC%8F%E3%82%A2%E3%82%A4%E3%83%86%E3%82%99%E3%82%A3%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%80%8D/02%20%E3%82%A2%E3%82%A4%E3%83%86%E3%82%99%E3%82%A3%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB.wv")
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094465/0407be/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/Cover01.jpg"),
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "自傷無色",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/16VObxym4jl0M_75_sHtFpg"),
-        fs_id: 242789552247769
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094067/d7c0f8/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/01%20%E8%87%AA%E5%82%B7%E7%84%A1%E8%89%B2.wv")
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094465/0407be/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/Cover01.jpg"),
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "シャルル",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1lALUi6rL5xpoVY9zLsKkVQ"),
-        fs_id: 550285428054563
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094113/0974e8/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/02%20%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB.wv")
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094465/0407be/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/Cover01.jpg"),
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "ハロ／ハワユ",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/16aKwkVKUdNr6CSsFTJUdEw"),
-        fs_id: 148021359047050
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094163/4375fa/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/03%20%E3%83%8F%E3%83%AD%EF%BC%8F%E3%83%8F%E3%83%AF%E3%83%A6.wv")
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094465/0407be/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/Cover01.jpg"),
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "命に嫌われている",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1FbxjbY27BDv5cdbvFveKlQ"),
-        fs_id: 903506947940519
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094246/e75ac8/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/04%20%E5%91%BD%E3%81%AB%E5%AB%8C%E3%82%8F%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B.wv")
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094465/0407be/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/Cover01.jpg"),
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "乙女解剖",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Jccz8vBvzV5A3gAgL8GYAA"),
-        fs_id: 799568081063814
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094265/6ba2f3/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/05%20%E4%B9%99%E5%A5%B3%E8%A7%A3%E5%89%96.wv")
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094465/0407be/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/Cover01.jpg"),
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "独りんぼエンヴィー",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1AE_1yDiBB0_qm8-jz6srfw"),
-        fs_id: 503652188118436
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094282/93af0e/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/06%20%E7%8B%AC%E3%82%8A%E3%82%93%E3%81%BB%E3%82%99%E3%82%A8%E3%83%B3%E3%82%A6%E3%82%99%E3%82%A3%E3%83%BC.wv")
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094465/0407be/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/Cover01.jpg"),
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "とても痛い痛がりたい",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1i1BIiJ41vcvjVlwXxeiprQ"),
-        fs_id: 409376377111241
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094462/a872ad/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/07%20%E3%81%A8%E3%81%A6%E3%82%82%E7%97%9B%E3%81%84%E7%97%9B%E3%81%8B%E3%82%99%E3%82%8A%E3%81%9F%E3%81%84.wv")
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094465/0407be/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/Cover01.jpg"),
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "ボッカデラベリタ",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1uRdtnAO0zOukN4icKBb19w"),
-        fs_id: 55162271003746
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094550/de6249/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/08%20%E3%83%9B%E3%82%99%E3%83%83%E3%82%AB%E3%83%86%E3%82%99%E3%83%A9%E3%83%98%E3%82%99%E3%83%AA%E3%82%BF.wv")
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094465/0407be/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/Cover01.jpg"),
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "夜に駆ける",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1jJfu-BrqARjQWOiWerL-ZQ"),
-        fs_id: 112412142263577
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094503/91bef4/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/09%20%E5%A4%9C%E3%81%AB%E9%A7%86%E3%81%91%E3%82%8B.wv")
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094465/0407be/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/Cover01.jpg"),
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "ビターチョコデコレーション",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/14MnZkGFdi4G431hUI-iOaQ"),
-        fs_id: 1123247767916419
+        isLossless: true,
+        filename: CORS + encodeURIComponent("https://drfs.ctcontents.com/file/66432831/17569893094605/3790d6/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/10%20%E3%83%92%E3%82%99%E3%82%BF%E3%83%BC%E3%83%81%E3%83%A7%E3%82%B3%E3%83%86%E3%82%99%E3%82%B3%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.wv")
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094465/0407be/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/Cover01.jpg"),
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "カトラリー",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Ha2mSu-wXJKCYoFeCueCgg"),
-        fs_id: 1075868339725345
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094528/a99493/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/11%20%E3%82%AB%E3%83%88%E3%83%A9%E3%83%AA%E3%83%BC.wv")
     },{
         artist: "25時、ナイトコードで。",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1v_fQkfFrsSj3LjbFRslKUw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094465/0407be/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/Cover01.jpg"),
             name: "25時、ナイトコードで。 SEKAI ALBUM vol.1"
         },
         title: "ベノム",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1ghD5A0uF7UXKjtwrPR4rjw"),
-        fs_id: 126865175341431
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893094636/a1661d/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82/25%E6%99%82%E3%80%81%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B3%E3%83%BC%E3%83%88%E3%82%99%E3%81%A6%E3%82%99%E3%80%82%20SEKAI%20ALBUM%20vol.1/12%20%E3%83%98%E3%82%99%E3%83%8E%E3%83%A0.wv")
     },/*{
         artist: "ワンダーランズ×ショウタイム",
         lyrics: null,
@@ -2410,9 +2265,8 @@ export const songs = [
         },
         title: "an evening calm",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1HZqdsBy6vtVbnPMBtDuVkg"),
-        fs_id: 451769314352724
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892521913/9db163/fripSide%20-%20an%20evening%20calm.wv")
     },/*{
         artist: "YOASOBI",
         lyrics: null,
@@ -2451,9 +2305,8 @@ export const songs = [
         },
         title: "Best Friend",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1t88aED-wEyJ1vmCPfpWy_g"),
-        fs_id: 659497816580540,
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892517732/1d6927/01%20Best%20Friend.wv")
     },{
         artist: "西野カナ",
         lyrics: null,
@@ -2462,595 +2315,577 @@ export const songs = [
         },
         title: "トリセツ",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/12LXgUR4hfjjRkuE7urKSyg"),
-        fs_id: 349919683156926
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892517823/54100c/01%20%E3%83%88%E3%83%AA%E3%82%BB%E3%83%84.wv")
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "It's OK",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1e89LMRXReddTFfm57MVNjQ"),
-        fs_id: 842187605089768
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893100719/456b61/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Disc%201/01%20It%27s%20OK.wv")
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "LIFE",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/101TACUhoXLAwCEbMFzL1fg"),
-        fs_id: 136629423989982
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893100713/d9685b/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Disc%201/02%20LIFE.wv")
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Cry day...",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Q3rrVvCyueKOjJDjWJLYbA"),
-        fs_id: 600024924123137
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893100696/ceaf2e/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Disc%201/03%20Cry%20day....wv")
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "ジレンマ～I’m your side～",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/14ohBCmSx058DGSLxIOLk8g"),
-        fs_id: 1074943929471001
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893100703/8edeb9/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Disc%201/04%20%E3%82%B7%E3%82%99%E3%83%AC%E3%83%B3%E3%83%9E%EF%BD%9EI%E2%80%99m%20your%20side%EF%BD%9E.wv")
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Be．．．",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/13gIow-jly8fcAOLLGWg4_Q"),
-        fs_id: 1056246761959269
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893100309/1707da/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Disc%201/05%20Be%EF%BC%8E%EF%BC%8E%EF%BC%8E.wv")
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "My Way",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1ssUcvkJdwD369-fdVTqfqg"),
-        fs_id: 443951440612384
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893100471/83fbd4/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Disc%201/06%20My%20Way.wv")
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "30",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1xsBoflH8d3BecNCBIK00KQ"),
-        fs_id: 512129260294219
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893100344/79e087/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Disc%201/07%2030.wv")
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "ANSWER",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1NYFN7n8uIjMDV49uJZKNOw"),
-        fs_id: 791616126828822
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893100411/ca15dd/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Disc%201/08%20ANSWER.wv")
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "また恋をすることなど",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1kSjb3zo1riq4Ek-8KnWX-w"),
-        fs_id: 843366696161764
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893100488/41540d/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Disc%201/09%20%E3%81%BE%E3%81%9F%E6%81%8B%E3%82%92%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AA%E3%81%A8%E3%82%99.wv")
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "翼",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1l1bbYWs5xuNzgUEKeyEaYw"),
-        fs_id: 413203264104020
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893100440/54cf5c/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Disc%201/10%20%E7%BF%BC.wv")
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "あなたに会えなくなる日まで",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1QJrylmh79ZTPgCouymVAlw"),
-        fs_id: 23870316082291
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893100460/3f75b8/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Disc%201/11%20%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AB%E4%BC%9A%E3%81%88%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B%E6%97%A5%E3%81%BE%E3%81%A6%E3%82%99.wv")
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "You are Beautiful",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1zp2WThaV1OAvWgFY8eD-iA"),
-        fs_id: 349173613082037
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893100504/23b9f1/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Disc%201/12%20You%20are%20Beautiful.wv")
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "WAY YOU ARE",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1V-hiofMHEMdzsN13qcMD9A"),
-        fs_id: 433580118776662
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893100514/505ce6/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Disc%201/13%20WAY%20YOU%20ARE.wv")
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "I Remember You [feat. AK-69]",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1z6flL90A-3Ii2v6wdyXf6w"),
-        fs_id: 510461416626713
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893100319/3f07dc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Disc%201/14%20I%20Remember%20You%20%5Bfeat.%20AK-69%5D.wv")
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "鐘が鳴る",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1N3OgBxtstErU3JXuP0SyHg"),
-        fs_id: 1107831328276033
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893100367/6ba888/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Disc%201/15%20%E9%90%98%E3%81%8B%E3%82%99%E9%B3%B4%E3%82%8B.wv")
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Who Are You",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1pmWFh_PdD44xAnRhPKRkKg"),
-        fs_id: 1111305141757417
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893100539/69e438/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Disc%201/16%20Who%20Are%20You.wv")
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Open door",
         isWavPack: true,
-        isTeraBox: true,
-        filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1lTAdGxKTWh87CJ-1UcM3nA"),
-        fs_id: 348487515554495
+        isLossless: true,
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893100522/15ef6e/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Disc%201/17%20Open%20door.wv")
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "baby don't know why",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1ChJ1esv6wiyT-w5PyUx_Ww"),
         fs_id: 233062716199738
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Dear",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1lDCDdW5fPZRYxsYPsI_VZw"),
         fs_id: 478277455416208
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "I can change",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1P69dvO3BKtW7ObX61nrKog"),
         fs_id: 464434287508480
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Letter",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1faBep-P7NcCer9QRsvFYgQ"),
         fs_id: 86305293779953
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "優しい雨",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1v58y6u-5b7UJ7v0XOqwHVQ"),
         fs_id: 714076051256596
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "I WILL",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1HmBFhisRNBP2FsHX_TQvrQ"),
         fs_id: 1010675009919943
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "ORANGE",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1fbamMj1h_BnJczilXqrqqg"),
         fs_id: 410715678350062
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "I'm ALIVE",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1OFanXZRWBzwXyARptzYgQg"),
         fs_id: 483366184604861
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Footprint",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1nf4Ra4PvofZHCML23yw7dg"),
         fs_id: 810391687964194
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "花",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1lwetg-b_A8urTY6atPVbRQ"),
         fs_id: 95328545235459
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "White Letter",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1HCySbCMfmOJG15AGENtowQ"),
         fs_id: 588266756148987
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Be myself",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1loZ8u8_nUSZjcjdw8NBp7A"),
         fs_id: 524767043370656
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "WITH",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1_gDJ5PQaQN7VkbTMFGq_VQ"),
         fs_id: 499442870335559
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "星をこえて",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1EpwPb3dnqbAUOmyZs-r23Q"),
         fs_id: 717886926314288
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "海を見てる",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Ggvp5z81T3i16koV1ytQvw"),
         fs_id: 388616236449479
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "はじまりの時",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/11y-kA4fZsLpc0Eozn0hD9w"),
         fs_id: 695216445301087
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "let go",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1FlroS5ZRlOweIPvy4V7Rmw"),
         fs_id: 768898787865790
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "First Love",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1V3pNZoqdcCgUwr8AddztQA"),
         fs_id: 539587965034127
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Ti Amo",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1F_ZZGtUjzQJ9LjeMBwiM8g"),
         fs_id: 315581696770072
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "最後の雨 (ALBUM VERSION)",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1aGygbkn2FFiGUa2ARWqQLQ"),
         fs_id: 306937845833208
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "このまま君だけを奪い去りたい",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1vqG8hkoirTt6X7cZaYiBXQ"),
         fs_id: 896186615151294
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "Time goes by",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Zj2sZE7BsgYi6bKvO-j3eg"),
         fs_id: 993368509183414
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "ら・ら・ら",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1Lqm_0U1eKFOWtr5idTKxQA"),
         fs_id: 38769430761644
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "空と君のあいだに",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1IqLJ9Oqz_iV62QxzlDrpow"),
         fs_id: 16662998898657
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "慟哭",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1hKLp8mzx6__ubJ_NGDcMgA"),
         fs_id: 721765535774344
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "未来予想図II",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/14Uykjp1ytTR8fE4Zij0YAg"),
         fs_id: 302551060750668
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "三日月",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1pW9rjdK8CwgyHzidRc1tGw"),
         fs_id: 852356177892520
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "フライディ・チャイナタウン",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/16-h9KIS8aOCNVU8AdcyUTw"),
         fs_id: 115177126205268
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "真夜中のドア～Stay With Me～",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1poXL9HEonQJPvdgC4ml7yQ"),
         fs_id: 106003598154647
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "また君と [feat. Ms.OOJA]",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1C7gMVHr83u76MkAh81QoFg"),
         fs_id: 1063029295278731
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "愛とは・・・",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1HBr9l7jjYak7lWyLKLrmLA"),
         fs_id: 90552458953460
     },{
         artist: "Ms.OOJA",
         lyrics: null,
         album: {
-            cover: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1d8ce1LtlR2o5bMa83j7Znw"),
+            cover: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569893097885/169efc/Ms.OOJA/10th%20Anniversary%20Best%20%E3%80%9C%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%9C/Cover.jpg"),
             name: "10th Anniversary Best 〜私たちの主題歌〜"
         },
         title: "しあわせ [feat. Ms.OOJA & SALU]",
         isWavPack: true,
-        isTeraBox: true,
+        isLossless: true,
         filename: TERABOXAPI + encodeURIComponent("https://1024terabox.com/s/1F40-zCMT_-w3uVV_rOUg5w"),
         fs_id: 613498294753000
     },{
