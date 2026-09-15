@@ -3580,8 +3580,7 @@ export const songs = [
         title: "拯救",
         isWavPack: true,
         isLossless: true,
-        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892696336/864acc/%E5%AD%AB%E6%A5%A0%20-%20%E6%8B%AF%E6%95%91.wv
-")
+        filename: CORS + encodeURIComponent("http://drfs.ctcontents.com/file/66432831/17569892696336/864acc/%E5%AD%AB%E6%A5%A0%20-%20%E6%8B%AF%E6%95%91.wv")
     },{
         artist: "黄绮珊",
         lyrics: null,
